@@ -14,7 +14,7 @@ import SearchResultsPage from './pages/SearchResultsPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Online-Store">
       <BudgetProvider>
         <div className="flex flex-col min-h-screen">
           <Header />
@@ -27,6 +27,8 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/search" element={<SearchResultsPage />} />
+            {/* Fallback route for unknown paths */}
+            <Route path="*" element={<HomePage />} />
           </Routes>
           <Footer />
         </div>
