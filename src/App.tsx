@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { BudgetProvider } from './context/BudgetContext';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
@@ -27,7 +27,9 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/search" element={<SearchResultsPage />} />
-            {/* Fallback route for unknown paths */}
+            {/* Redirect root to HomePage if needed */}
+            <Route path="/Online-Store" element={<Navigate to="/" replace />} />
+            {/* Fallback route */}
             <Route path="*" element={<HomePage />} />
           </Routes>
           <Footer />
