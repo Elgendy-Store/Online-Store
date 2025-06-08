@@ -29,7 +29,7 @@ const ContactPage: React.FC = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
@@ -56,8 +56,8 @@ const ContactPage: React.FC = () => {
       return;
     }
 
-    // Explicitly set base URL
-    const baseUrl = 'https://elgendy-store.github.io/Online-Store';
+    // Use the correct base URL with /Online-Store/
+    const baseUrl = `${window.location.origin}/Online-Store`;
     const budgetDetails = budgetItems.length > 0
       ? `${t('budgetItems')}:\n${budgetItems
           .map((item) => `- ${item.product.name} (${item.quantity}x): ${baseUrl}/products/${item.product.id}`)
@@ -68,8 +68,6 @@ const ContactPage: React.FC = () => {
       ...formData,
       budget_items: budgetDetails,
     };
-
-    console.log('Sending budget details:', budgetDetails); // Debug log
 
     emailjs
       .send('service_zjtg9u5', 'template_1nlffsq', formDataWithBudget, 'bcjVTCGADnPxg5Op7')
