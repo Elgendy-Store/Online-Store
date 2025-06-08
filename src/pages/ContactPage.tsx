@@ -29,7 +29,7 @@ const ContactPage: React.FC = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setError(null);
@@ -56,8 +56,8 @@ const ContactPage: React.FC = () => {
       return;
     }
 
-    // Format budget items
-    const baseUrl = window.location.origin;
+    // Use the correct base URL with /Online-Store/
+    const baseUrl = `${window.location.origin}/Online-Store`;
     const budgetDetails = budgetItems.length > 0
       ? `${t('budgetItems')}:\n${budgetItems
           .map((item) => `- ${item.product.name} (${item.quantity}x): ${baseUrl}/products/${item.product.id}`)
