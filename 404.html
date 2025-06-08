@@ -3,13 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Redirecting...</title>
-    <script>
-      // Redirect to index.html with the current path
-      window.location.href = '/Online-Store/index.html' + window.location.pathname;
-    </script>
+    <title>متجر الجندي - Elgendy Store</title>
+    <link rel="icon" type="image/svg+xml" href="/Online-Store/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Online-Store/assets/index-D0Wu7BNY.css">
   </head>
   <body>
-    <p>If you are not redirected, <a href="/Online-Store/">click here</a>.</p>
+    <div id="root"></div>
+    <script type="module" src="/Online-Store/assets/index--DKSk7y1.js"></script>
+    <script>
+      // Handle client-side routing
+      window.history.replaceState(
+        {},
+        document.title,
+        window.location.pathname
+      );
+    </script>
   </body>
 </html>
