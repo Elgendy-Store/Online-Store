@@ -56,8 +56,8 @@ const ContactPage: React.FC = () => {
       return;
     }
 
-    // Use the correct base URL with /Online-Store/
-    const baseUrl = `${window.location.origin}/Online-Store`;
+  // Explicitly set base URL with /Online-Store/
+    const baseUrl = 'https://elgendy-store.github.io/Online-Store';
     const budgetDetails = budgetItems.length > 0
       ? `${t('budgetItems')}:\n${budgetItems
           .map((item) => `- ${item.product.name} (${item.quantity}x): ${baseUrl}/products/${item.product.id}`)
