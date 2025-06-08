@@ -56,7 +56,7 @@ const ContactPage: React.FC = () => {
       return;
     }
 
-  // Explicitly set base URL with /Online-Store/
+    // Explicitly set base URL
     const baseUrl = 'https://elgendy-store.github.io/Online-Store';
     const budgetDetails = budgetItems.length > 0
       ? `${t('budgetItems')}:\n${budgetItems
@@ -68,6 +68,8 @@ const ContactPage: React.FC = () => {
       ...formData,
       budget_items: budgetDetails,
     };
+
+    console.log('Sending budget details:', budgetDetails); // Debug log
 
     emailjs
       .send('service_zjtg9u5', 'template_1nlffsq', formDataWithBudget, 'bcjVTCGADnPxg5Op7')
