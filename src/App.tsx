@@ -11,12 +11,14 @@ import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import FAQPage from './pages/FAQPage';
 import SearchResultsPage from './pages/SearchResultsPage';
+import ScrollToTop from './components/ScrollToTop'; //asharmota!!
 
 function App() {
   return (
     <Router basename="/Online-Store">
       <BudgetProvider>
         <div className="flex flex-col min-h-screen">
+          <ScrollToTop /> {}
           <Header />
           <Routes>
             <Route path="/" element={<HomePage />} />
@@ -27,9 +29,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/search" element={<SearchResultsPage />} />
-            {/* Redirect root to HomePage if needed */}
             <Route path="/Online-Store" element={<Navigate to="/" replace />} />
-            {/* Fallback route */}
             <Route path="*" element={<HomePage />} />
           </Routes>
           <Footer />

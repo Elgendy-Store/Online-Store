@@ -69,7 +69,12 @@ const ContactPage: React.FC = () => {
     };
 
     emailjs
-      .send('service_zjtg9u5', 'template_1nlffsq', formDataWithBudget, 'bcjVTCGADnPxg5Op7')
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        formDataWithBudget,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
       .then(
         () => {
           setIsSubmitting(false);
