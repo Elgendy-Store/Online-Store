@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom'; // Already includes useNavigate from previous fix
 import { useTranslation } from 'react-i18next';
 import { Search, ShoppingBag, Menu, X, User, Globe } from 'lucide-react';
 import { useBudget } from '../../context/BudgetContext';
@@ -8,6 +8,7 @@ import { categories } from '../../data/categories';
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
   const location = useLocation();
+  const navigate = useNavigate();
   const { budgetItems } = useBudget();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -37,7 +38,7 @@ const Header: React.FC = () => {
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      window.location.href = `/search?q=${encodeURIComponent(searchQuery)}`;
+      navigate(`/search?q=${encodeURIComponent(searchQuery)}`);
     }
   };
 
@@ -58,8 +59,8 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <Link to="/" className="flex items-center">
+          {/* Logo - Updated to absolute path */}
+          <Link to="/Store" className="flex items-center"> {/* Change from to="/" to to="/Store" */}
             <h1 className="text-2xl font-bold text-primary-700">Elgendy Store</h1>
           </Link>
 
@@ -213,7 +214,7 @@ const Header: React.FC = () => {
 
             <nav className="flex flex-col space-y-2">
               <Link
-                to="/"
+                to="/Store" // Update mobile home link to absolute path
                 className={`px-4 py-2 rounded-md hover:bg-primary-50 transition-colors ${
                   location.pathname === '/' ? 'bg-primary-50 text-primary-700 font-medium' : 'text-neutral-700'
                 }`}

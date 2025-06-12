@@ -34,7 +34,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <img
           src={product.images[0]}
           alt={product.name}
-          className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+          className="w-[250px] h-[250px] object-cover transition-transform duration-300 hover:scale-105"
         />
         {product.isNew && (
           <span className="absolute top-2 right-2 bg-accent-500 text-white text-xs px-2 py-1 rounded-full">

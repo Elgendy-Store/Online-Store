@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
             <h3 className="text-xl font-bold mb-4">{t('quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-neutral-300 hover:text-primary-400 transition-colors">
+                <Link to="/Store" className="text-neutral-300 hover:text-primary-400 transition-colors">
                   {t('home')}
                 </Link>
               </li>
