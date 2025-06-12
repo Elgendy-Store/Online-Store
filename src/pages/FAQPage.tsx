@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 import { getAllFAQs } from '../data/faqs';
+import { Link } from 'react-router-dom';
 
 const FAQPage: React.FC = () => {
   const { t } = useTranslation();
@@ -90,12 +91,9 @@ const FAQPage: React.FC = () => {
             <p className="text-neutral-600 mb-4">
               لم تجد إجابة لسؤالك؟ لا تتردد في التواصل معنا مباشرة
             </p>
-            <a
-              href="/contact"
-              className="btn btn-primary px-6 py-3 rounded-lg inline-block"
-            >
-              {t('contactUs')}
-            </a>
+              <Link to="/contact" className="btn btn-primary px-6 py-3 rounded-lg inline-block">
+                {t('contactUs')}
+              </Link>
           </div>
         </div>
       </div>

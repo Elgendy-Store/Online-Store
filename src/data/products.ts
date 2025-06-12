@@ -60,9 +60,1158 @@ import mini_fanw from '../assets/mini fanw.jpeg';
 import bdt_an2304 from '../assets/btd an 2304.jpg';
 import bdt_an2304mini from '../assets/btd an 2304mini.jpg';
 import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
+import infinixpower from '../assets/Infinix Xpower 20.png';
+import hocopower from '../assets/Hoco magnetic wireless charger ultra slim.png';
+import SamsungAKG from '../assets/Samsung AKG.png';
+import Hummer from '../assets/Hummer.png';
+import Hummer_2 from '../assets/Hummer_2.png';
+import Hummer_3 from '../assets/Hummer_3.png';
+import AITNT_XS from '../assets/AI TNT XSeries.png';
+import AITNT_XS_2 from '../assets/AI TNT XSeries_2.png';
+import AN99 from '../assets/AN99.png';
+import AN99_3 from '../assets/AN99_3.png';
+import AN99_2 from '../assets/AN99_2.png';
+import N191 from '../assets/AN191_2.png';
+import N191_2 from '../assets/N191.png';
+import AITNT_OEIM from '../assets/AI TNT OIEM.png';
+import AITNT_OEIM_2 from '../assets/AI TNT OIEM_2.png';
+import crashoffice from '../assets/Crash office mouse w500.png';
+import crashoffice_2 from '../assets/Crash office mouse w500_2.png';
+import commouse from '../assets/competetive cool game mouse.png';
+import commouse_2 from '../assets/competetive cool game mouse_2.png';
+import bdtan4200 from '../assets/BDT an-4200.png';
+import bdtan4200_2 from '../assets/BDT an-4200_2.png';
+import gnobign04 from '../assets/JNUOBI AN-04.png';
+import gnobign04_2 from '../assets/JNUOBI AN-04_2.png';
+import point_pt09 from '../assets/point pt-09.png';
+import point_pt09_2 from '../assets/point pt-09_2.png';
+import point_pt09_3 from '../assets/point pt-09_3.png';
+import AITNTx200 from '../assets/AI TNT x200.png';
+import AITNTx200_2 from '../assets/AI TNT x200_2.png';
+import AITNTx200_3 from '../assets/AI TNT x200_3.png';
+import AITNTx200_4 from '../assets/AI TNT x200_4.png';
+import pointpt950 from '../assets/point pt-950.png';
+import pointpt950_2 from '../assets/point pt-950_2.png';
+import hp210 from '../assets/HP mouse w10.png';
+import hp210_2 from '../assets/HP mouse w10_2.png';
+import MJK from '../assets/MJK K1gaming.png';
+import MJK2 from '../assets/MJK K1gaming_2.png';
+import lavaadaptor from '../assets/lava wifi adaptor.png';
+import jbltune760 from '../assets/JBL tune 760.png';
+import jbltune760_2 from '../assets/JBL tune 760_2.png';
+import jbltune760_3 from '../assets/JBL tune 760_3.png';
+import ramko from '../assets/Ramko RH-112.png';
+import ramko2 from '../assets/Ramko RH-112_2.png';
+import crashx50 from '../assets/crashx50.png';
+import crashx50_2 from '../assets/crashx50_2.png';
+import laverockhp from '../assets/HP Laverock 2.4G wireless optical mouse.png';
+import laverockhp2 from '../assets/HP Laverock 2.4G wireless optical mouse_2.png';
+import Ptechp11 from '../assets/p tech p11.png';
+import Ptechp11_2 from '../assets/p tech p11_2.png';
+import gigamax from '../assets/GIGAMAX G-1600 WIRELESS MOUSE.png';
+import gigamax2 from '../assets/GIGAMAX G-1600 WIRELESS MOUSE_2.png';
+import goldeng10 from '../assets/Goldenking G10 wireless mouse.png';
+import goldeng10_2 from '../assets/Goldenking G10 wireless mouse_2.png';
+import havit from '../assets/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE.png';
+import havit2 from '../assets/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE_2.png';
+import havit3 from '../assets/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE_3.png';
+import margo from '../assets/MARGO MR-302 2.4GHZ WIRELESS MOUSE.jpg';
+import margo2 from '../assets/MARGO MR-302 2.4GHZ WIRELESS MOUSE_2.png';
+import bandak from '../assets/banda k100.png';
+import bandak2 from '../assets/banda k100_2.png';
+import pointpt800 from '../assets/point pt800.png';
+import pointpt800_2 from '../assets/point pt800_2.png';
+import pointpt200 from '../assets/point wireless dual mode mini keyboard.png';
+import pointpt200_2 from '../assets/point wireless dual mode mini keyboard_2.png';
+import pointpt200_3 from '../assets/point wireless dual mode mini keyboard_3.png';
+import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
+import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
+import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
+import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
+import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
 
 // Sample products data (will be expanded in a real implementation)
 export const products: Product[] = [
+
+
+
+
+{
+  id: '73',
+  name: 'لوحة مفاتيح Point PT-200 اللاسلكية ذات الوضع المزدوج (Mini)',
+  englishName: 'Point PT-200 Wireless Dual-Mode Mini Keyboard',
+  description: 'لوحة مفاتيح Point PT-200 هي لوحة مفاتيح صغيرة لاسلكية ومتعددة الاستخدامات، تتميز بوضع اتصال مزدوج (2.4 جيجاهرتز وبلوتوث) لمرونة الاتصال مع مجموعة واسعة من الأجهزة. تحتوي على 92 مفتاحًا ولوحة لمس مدمجة مع إمكانية تعديل الحساسية. تتميز بإضاءة خلفية بثلاثة ألوان قابلة للتغيير أو الإيقاف. تصميمها المحمول والبطارية القابلة لإعادة الشحن يجعلها مثالية للاستخدام مع أجهزة التلفزيون الذكية، أجهزة الألعاب، صناديق التلفزيون، أجهزة الكمبيوتر الشخصية، الأجهزة اللوحية، وأجهزة الكمبيوتر المحمولة. كما أنها تشتمل على وظيفة توفير الطاقة مع وضع السكون التلقائي.',
+  price: 325, // Price in EGP
+  images: [
+    pointpt200_2,
+    pointpt200_3,
+    pointpt200 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "طريقتي اتصال لاسلكي: 2.4 جيجاهرتز وبلوتوث",
+    "92 مفتاحًا مع لوحة لمس مدمجة",
+    "إضاءة خلفية بثلاثة ألوان قابلة للتغيير أو الإيقاف (FN + F2)",
+    "تعديل حساسية لوحة اللمس باستخدام مفاتيح الأسهم",
+    "مفاتيح تحكم في الوسائط المتعددة",
+    "وظيفة توفير الطاقة مع وضع السكون التلقائي",
+    "تصميم محمول ومبتكر",
+    "بطارية ليثيوم قابلة لإعادة الشحن (مع كابل شحن متضمن)",
+    "مناسبة لأجهزة التلفزيون الذكية، أجهزة الألعاب، صناديق التلفزيون، أجهزة الكمبيوتر الشخصية، الأجهزة اللوحية، وأجهزة الكمبيوتر المحمولة"
+  ],
+  specifications: {
+    'الموديل': 'PT-200',
+    'طرق الاتصال': 'لاسلكي 2.4 جيجاهرتز، بلوتوث',
+    'عدد المفاتيح': '92',
+    'لوحة اللمس': 'مدمجة مع تعديل حساسية',
+    'الإضاءة الخلفية': '3 ألوان (قابلة للتغيير/الإيقاف)',
+    'البطارية': 'ليثيوم قابلة لإعادة الشحن',
+    'الشحن': 'كابل شحن متضمن',
+    'ميزات إضافية': 'مفاتيح وسائط متعددة، وضع سكون تلقائي',
+    'التوافق': 'أجهزة التلفزيون الذكية، أجهزة الألعاب، صناديق التلفزيون، أجهزة الكمبيوتر الشخصية، الأجهزة اللوحية، أجهزة الكمبيوتر المحمولة'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // Estimated based on features and dual connectivity
+  reviewCount: 80, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '72',
+  name: 'لوحة مفاتيح Point PT-800 Mini Notebook',
+  englishName: 'Point PT-800 Mini Notebook Keyboard',
+  description: 'لوحة مفاتيح Point PT-800 Mini Notebook هي لوحة مفاتيح صغيرة الحجم وخفيفة الوزن، مصممة خصيصًا لتوفير سهولة الحمل والراحة في الاستخدام. تتميز بأحرف مقاومة للتآكل تظل واضحة حتى بعد الاستخدام المتكرر. توفر المفاتيح مدى طويلاً لتجربة كتابة مريحة تقلل الإجهاد. تتصل عبر البلوتوث، مما يوفر مرونة في الاستخدام مع مجموعة واسعة من الأجهزة.',
+  price: 580, // Price in EGP
+  images: [
+    pointpt800,
+    pointpt800_2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم خفيف الوزن وصغير الحجم لسهولة الحمل",
+    "أحرف عالية الجودة ومقاومة للتآكل",
+    "مدى مفاتيح طويل لتجربة كتابة مريحة وتقليل الإجهاد",
+    "عمر ضغطة مفتاح يصل إلى 5 ملايين مرة",
+    "اتصال بلوتوث لمرونة الاستخدام"
+  ],
+  specifications: {
+    'الموديل': 'PT-800',
+    'الأبعاد': '285 × 122 × 22 مم',
+    'المادة': 'بلاستيك ABS',
+    'عمر ضغطة المفتاح': '5 مليون مرة',
+    'واجهة المستخدم': 'بلوتوث',
+    'جهد التشغيل': '3.0 فولت',
+    'تيار التشغيل': '4 مللي أمبير',
+    'التطبيق': 'كمبيوتر مكتبي، كمبيوتر محمول',
+    'النظام المدعوم': 'ويندوز XP/2000/Vista 7/8/10/11, Mac OS'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated based on features
+  reviewCount: 30, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '71',
+  name: 'لوحة مفاتيح Banda K1000 Mini',
+  englishName: 'Banda K1000 Mini Keyboard',
+  description: 'لوحة مفاتيح Banda K1000 Mini الأنيقة ورفيعة للغاية هي الرفيق المثالي لأجهزة الكمبيوتر المحمولة والأجهزة المكتبية التي تتطلب توفير المساحة. تتميز بتصميم مدمج ذو 95 مفتاحًا وتوفر اتصالاً سلكيًا موثوقًا عبر USB 2.0. متوفرة باللونين الأسود والأبيض، وهي متوافقة مع أجهزة الكمبيوتر الشخصية وأجهزة Mac. تصميمها المريح والأنيق يجعلها خيارًا ممتازًا للاستخدام اليومي والمهني.',
+  price: 230, // Price in EGP
+  images: [
+    bandak,
+    bandak2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم أنيق ورفيع للغاية",
+    "تخطيط لوحة مفاتيح صغير بـ 95 مفتاحًا أمريكيًا",
+    "اتصال سلكي موثوق عبر USB 2.0",
+    "خفيف الوزن ومريح للحمل",
+    "متوافق مع أجهزة الكمبيوتر الشخصية وأجهزة Mac"
+  ],
+  specifications: {
+    'الموديل': 'K1000',
+    'الأبعاد': '6.7 × 12.8 × 0.6 بوصة',
+    'وزن المنتج': '1.35 رطل',
+    'الحجم': 'صغير',
+    'تخطيط لوحة المفاتيح': '95 مفتاحًا أمريكيًا',
+    'تقنية الاتصال': 'سلكي',
+    'اتصال الأجهزة': 'USB 2.0',
+    'اللون': 'أسود/أبيض',
+    'الأجهزة المتوافقة': 'كمبيوتر شخصي، ماك'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated based on typical mini keyboard features
+  reviewCount: 40, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '70',
+  name: 'ماوس MARGO MR-302 اللاسلكي 2.4 جيجاهرتز',
+  englishName: 'MARGO MR-302 2.4GHZ Wireless Office Mouse',
+  description: 'صُمم ماوس MARGO MR-302 اللاسلكي 2.4 جيجاهرتز خصيصًا للمحترفين وبيئات المكاتب. يتميز بتصميم مريح وملمس ناعم، مما يجعله مريحًا للاستخدام لفترات طويلة ومقاومًا للانزلاق والعرق. يوفر الماوس دقة 1000 نقطة في البوصة (DPI) لحركة مؤشر سلسة ودقيقة، ويتصل لاسلكيًا عبر تقنية 2.4 جيجاهرتز لتوصيل موثوق به. مع عمر مفتاح يصل إلى 3 ملايين نقرة، يضمن هذا الماوس جودة عالية ومتانة للاستخدام المتكرر. يعمل ببطاريتي AAA لسهولة التشغيل.',
+  price: 150, // Price in EGP
+  images: [
+    margo,
+    margo2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "مصمم خصيصًا للاستخدام المكتبي",
+    "اتصال لاسلكي 2.4 جيجاهرتز",
+    "تصميم مريح مع ملمس ناعم ومقاوم للانزلاق والعرق",
+    "جودة عالية وحروف مقاومة للتآكل",
+    "دقة 1000 نقطة في البوصة (DPI)",
+    "عمر مفتاح يصل إلى 3 مليون مرة"
+  ],
+  specifications: {
+    'الموديل': 'MR-302',
+    'نوع الاتصال': 'لاسلكي (2.4 جيجاهرتز)',
+    'الغرض': 'للمكاتب فقط',
+    'الدقة (DPI)': '1000 نقطة في البوصة',
+    'عدد المفاتيح': '3 مفاتيح',
+    'عمر المفتاح': '3,000,000 مرة',
+    'مصدر الطاقة': 'بطاريتان AAA'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Estimated based on office use and wireless features
+  reviewCount: 50, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '69',
+  name: 'ماوس HAVIT HM-MS753 البصري بتصميم صغير وأنيق',
+  englishName: 'HAVIT HM-MS753 Small and Exquisite Design Optical Mouse',
+  description: 'يجمع ماوس HAVIT HM-MS753 البصري بين التصميم الصغير والأنيق والأداء المريح، مما يجعله مثاليًا للاستخدام اليومي وأثناء التنقل. بفضل تصميمه المريح الذي يناسب كلتا اليدين، يوفر هذا الماوس راحة فائقة حتى مع الاستخدام المطول. تتميز الأزرار وعجلة التمرير بالمرونة والمتانة، مع عمر افتراضي يزيد عن 3 ملايين نقرة. متوافق على نطاق واسع مع أنظمة تشغيل Windows و Linux و Mac، مما يضمن حرية العمل على أي جهاز كمبيوتر.',
+  price: 200, // Price in EGP
+  images: [
+    havit3,
+    havit2,
+    havit // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم مريح يناسب الاستخدام باليد اليسرى أو اليمنى",
+    "تصميم صغير ورائع ومريح للحمل",
+    "أزرار وعجلة تمرير مريحة ومرنة",
+    "عمر افتراضي للمفاتيح يتجاوز 3 ملايين نقرة، مما يجعله أكثر متانة",
+    "يساعد على تجنب الانزعاج الناتج عن الاستخدام لفترة طويلة"
+  ],
+  specifications: {
+    'الموديل': 'HV-MS753',
+    'نوع المستشعر': 'بصري',
+    'عمر المفاتيح': 'أكثر من 3 مليون مرة',
+    'التوافق': 'Windows 2000/XP/Vista/7/8/10, Linux, Mac',
+    'النوع': 'سلكي (مفترض من عدم ذكر اللاسلكي ومن حجم الكابلات في المنتجات المشابهة)',
+    'المنشأ': 'قوانغتشو، قوانغدونغ، الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated based on features and common mouse ratings
+  reviewCount: 60, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '68',
+  name: 'ماوس Goldenking G10 اللاسلكي',
+  englishName: 'Goldenking G10 Wireless Mouse',
+  description: 'استمتع بالحرية والدقة مع ماوس Goldenking G10 اللاسلكي. يتميز هذا الماوس بتصميم مريح لقبضة مريحة ودقيقة، ويعمل بتقنية لاسلكية متقدمة 2.4 جيجاهرتز لتوفير مسافة استقبال طويلة تصل إلى 10 أمتار (تقديري بناءً على التقنية). يوفر دقة عالية تبلغ 1200 نقطة في البوصة (DPI) لحركة مؤشر سلسة وسريعة. كما يتميز بوضع الاستعداد الموفر للطاقة لعمر بطارية طويل، وجهاز استقبال صغير للغاية. متوافق على نطاق واسع مع أنظمة تشغيل Windows و Mac OS و Linux، وهو جاهز للعمل بمجرد توصيله.',
+  price: 180, // Price in EGP
+  images: [
+    goldeng10_2,
+    goldeng10 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم موفر للطاقة لوضع الاستعداد الطويل",
+    "قبضة مريحة وحركة مؤشر دقيقة وسريعة",
+    "تقنية لاسلكية متقدمة 2.4 جيجاهرتز بمسافة استقبال طويلة",
+    "دقة عالية 1200 نقطة في البوصة (DPI)",
+    "جهاز استقبال صغير للغاية (Mini Receiver)",
+    "التوصيل والتشغيل (Plug and Play) لسهولة الاستخدام",
+    "قفز ترددي تلقائي لتعزيز قدرة مقاومة التداخل"
+  ],
+  specifications: {
+    'الموديل': 'G10',
+    'نوع الاتصال': 'لاسلكي (2.4 جيجاهرتز)',
+    'التردد اللاسلكي': '2405-2476 ميجاهرتز',
+    'تردد التشغيل': '16 قناة، قفز ترددي تلقائي',
+    'الجهد المقدر': '1.5 فولت',
+    'تيار العمل المقدر': '5 مللي أمبير',
+    'نظام التتبع': 'بصري',
+    'أقصى تسارع': '14 بوصة في الثانية',
+    'الدقة (DPI)': '1200 نقطة في البوصة',
+    'متطلبات النظام': 'Windows 98/XP/7/8/10, Mac OS X10.5 أو أحدث, Linux kemel 2.6 أو أحدث'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated based on features and wireless nature
+  reviewCount: 55, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '67',
+  name: 'ماوس GIGAMAX G-1600 اللاسلكي',
+  englishName: 'GIGAMAX G-1600 Rechargeable Wireless Mouse',
+  description: 'احصل على دقة ومرونة في عملك اليومي مع ماوس GIGAMAX G-1600 اللاسلكي القابل لإعادة الشحن. يتميز هذا الماوس بالاتصال المزدوج عبر تقنية 2.4 جيجاهرتز والبلوتوث 5.1، مما يضمن توافقًا واسعًا مع مختلف الأجهزة. يوفر دقة قابلة للتعديل تصل إلى 1600 نقطة في البوصة (DPI) لتلبية احتياجاتك، وتصميمًا مريحًا وخفيف الوزن لتقليل إجهاد اليد. مع 4 أزرار، ومسافة لاسلكية تصل إلى 10 أمتار، وبطارية مدمجة قابلة لإعادة الشحن عبر منفذ USB-C، يعد هذا الماوس خيارًا عمليًا ومناسبًا للاستخدام اليومي.',
+  price: 340, // Price in EGP
+  images: [
+    gigamax,
+    gigamax2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "اتصال لاسلكي مزدوج الوضع (2.4 جيجاهرتز وبلوتوث 5.1)",
+    "دقة عالية قابلة للتعديل (800-1200-1600 DPI)",
+    "تصميم مريح وخفيف الوزن للاستخدام الطويل",
+    "بطارية مدمجة قابلة لإعادة الشحن عبر كابل USB من النوع C",
+    "مسافة لاسلكية فعالة تصل إلى 10 أمتار",
+    "خاصية التوصيل والتشغيل (Plug and Play) لسهولة الاستخدام"
+  ],
+  specifications: {
+    'الموديل': 'G-1600',
+    'الدقة (DPI)': '800-1200-1600 DPI',
+    'نوع الاتصال': 'لاسلكي (2.4 جيجاهرتز + بلوتوث 5.1)',
+    'عدد الأزرار': '4',
+    'المسافة اللاسلكية': '10 أمتار',
+    'الأبعاد': '116 × 78 × 39 مم',
+    'الوزن': '80 جرام',
+    'الجهد المقدر': '3.7 فولت تيار مستمر',
+    'التيار المقدر': '20 مللي أمبير',
+    'دعم الطاقة': 'بطارية قابلة لإعادة الشحن',
+    'منفذ الشحن': 'USB من النوع C'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4, // Estimated based on features and dual connectivity
+  reviewCount: 75, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '66',
+  name: 'ماوس P-tec P-11 البصري للمكتب',
+  englishName: 'P-tec P-11 Optical Office Mouse',
+  description: 'احصل على دقة وراحة في عملك المكتبي مع ماوس P-tec P-11 البصري. يتميز هذا الماوس بتصميم مريح وأنيق يناسب الاستخدام باليد اليمنى، مما يقلل من التعب حتى بعد الاستخدام لفترات طويلة. يوفر الماوس دقة قابلة للتعديل في الوقت الفعلي تصل إلى 1600 نقطة في البوصة (DPI)، مما يجعله مناسبًا لمهام متنوعة. كما يتميز بعمر افتراضي طويل للأزرار والأسطوانة، ويدعم زرين إضافيين (للأمام/للخلف) لزيادة الإنتاجية. بفضل توافقه الواسع مع أنظمة تشغيل Windows وكابل USB بطول 1.5 متر، يعد هذا الماوس خيارًا عمليًا وموثوقًا به للمكتب.',
+  price: 60, // Price in EGP
+  images: [
+    Ptechp11,
+    Ptechp11_2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم مريح وأنيق يناسب الاستخدام باليد اليمنى",
+    "دقة DPI قابلة للتعديل في الوقت الفعلي (800/1200/1600 DPI)",
+    "عمر افتراضي طويل للأزرار (يصل إلى 300 مليون ضغطة) وعجلة التمرير (500,000 لفة)",
+    "زرين إضافيين للتقدم والرجوع (Forward/Back)",
+    "كابل USB ناعم ورفيع بطول 1.5 متر",
+    "متوافق مع أنظمة تشغيل Windows 98/2000ME/XP/NT",
+    "مستشعر بصري عالي الجودة لتحديد المواقع بدقة"
+  ],
+  specifications: {
+    'الموديل': 'P-11',
+    'نوع المستشعر': 'بصري',
+    'DPI': '800/1200/1600 DPI (قابل للتعديل)',
+    'عمر الأزرار': 'يصل إلى 300 مليون نقرة',
+    'عمر الأسطوانة (Scroll Wheel)': 'يصل إلى 500,000 لفة',
+    'طول الكابل': '1.5 متر ± 10 مم',
+    'جهد التشغيل المقدر': '5 فولت',
+    'تيار التشغيل المقدر': '100 مللي أمبير',
+    'التوافق': 'Windows 98/2000ME/XP/NT',
+    'عدد الأزرار': '3 أزرار + عجلة تمرير (مع وظيفة زر أمامي/خلفي مدمجة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated based on typical office mouse features
+  reviewCount: 45, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '65',
+  name: 'ماوس HP Laverock 2.4G اللاسلكي البصري',
+  englishName: 'HP Laverock 2.4G Wireless Optical Mouse',
+  description: 'استمتع بالتحكم الدقيق والمريح مع ماوس HP Laverock 2.4G اللاسلكي البصري. يتميز هذا الماوس بتصميم مريح يناسب اليد اليمنى، مع مكان مخصص للإبهام لراحة إضافية. يضم 5 أزرار، بما في ذلك أزرار التقدم/الرجوع، وعجلة مطاطية ناعمة لسهولة التمرير. يمكنك التبديل بين دقات 800 و1000 DPI لتناسب تفضيلاتك. يتميز الماوس بجهاز استقبال لاسلكي صغير يمكن تخزينه مغناطيسيًا في الجزء السفلي، ويعمل بتقنية 2.4 جيجاهرتز لتوصيل موثوق به مع 16 قناة وقفز تلقائي للتردد لمقاومة التداخل. كما أنه موفر للطاقة، حيث يدخل تلقائيًا في وضع الخمول.',
+  price: 200, // Price in EGP
+  images: [
+    laverockhp,
+    laverockhp2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم مريح لليد اليمنى مع دعم للإبهام",
+    "5 أزرار وظيفية، بما في ذلك أزرار التنقل (للأمام/للخلف)",
+    "عجلة تمرير مطاطية ناعمة",
+    "دقة DPI قابلة للتعديل (800/1000 DPI)",
+    "جهاز استقبال صغير (Mini Receiver) بتصميم مغناطيسي لسهولة التخزين",
+    "تقنية لاسلكية 2.4Ghz مع نقل ثنائي الاتجاه",
+    "قفز تردد تلقائي لتعزيز مقاومة التداخل",
+    "موفر للطاقة مع وضع الخمول التلقائي"
+  ],
+  specifications: {
+    'الموديل': 'Laverock',
+    'نوع الاتصال': 'لاسلكي (2.4Ghz)',
+    'نوع المستشعر': 'بصري',
+    'عدد الأزرار': '5',
+    'DPI': '800 / 1000 DPI (قابل للتعديل)',
+    'ميزة خاصة': 'تصميم مريح لليد اليمنى',
+    'استهلاك الطاقة': '10 مللي أمبير (تيار العمل في وضع الخمول)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Estimated based on features
+  reviewCount: 90, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '64',
+  name: 'سماعات رأس Crash X50',
+  englishName: 'Crash X50 Stereo On-Ear Headphones',
+  description: 'استمتع بتجربة صوتية واضحة وقوية مع سماعات الرأس Crash X50. تتميز هذه السماعات بتصميم فوق الأذن يوفر راحة جيدة، بالإضافة إلى صوت جهير ديناميكي. مع استجابة تردد واسعة وكابل بطول 2.0 متر، تعد هذه السماعات خيارًا عمليًا للاستخدام اليومي للاستمتاع بالموسيقى أو مقاطع الفيديو.',
+  price: 180, // Price in EGP
+  images: [
+    crashx50_2,
+    crashx50 // Placeholder for actual image variable
+  ],
+  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  features: [
+    "صوت ستريو عالي الجودة مع جهير ديناميكي",
+    "تصميم مريح فوق الأذن (On-Ear)",
+    "كابل طويل بطول 2.0 متر لتجربة استخدام مرنة",
+    "سهولة التوصيل عبر موصل 3.5 مم"
+  ],
+  specifications: {
+    'الموديل': 'X50',
+    'نوع السماعة': 'فوق الأذن (On-Ear Headphone)',
+    'استجابة التردد': '20-20000 هرتز',
+    'المقاومة': '32 أوم',
+    'الحساسية': '106 ديسيبل',
+    'طول الكابل': '2.0 متر',
+    'الموصلات': '3.5 مم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.8, // Estimated for a basic stereo headphone
+  reviewCount: 35, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '63',
+  name: 'سماعة رأس للألعاب RAMKO GAMING RH-112',
+  englishName: 'RAMKO GAMING RH-112 Computer Headset',
+  description: 'استمتع بتجربة صوتية غامرة في ألعابك مع سماعة الرأس RAMKO GAMING RH-112. تتميز بمكبرات صوت كبيرة بحجم 40 مم لتوفير صوت واضح وقوي، وميكروفون مدمج عالي الحساسية لضمان تواصل فعال مع فريقك. يوفر التصميم المريح راحة طويلة الأمد أثناء جلسات اللعب الممتدة، وتضمن استجابة التردد الواسعة نطاقاً كاملاً من الأصوات، من الجهير العميق إلى النغمات العالية الواضحة. مع كابل طويل ومتين، تعد هذه السماعة خياراً ممتازاً للاعبين.',
+  price: 450, // Price in EGP
+  images: [
+    ramko,
+    ramko2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر', 'إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  features: [
+    "مكبرات صوت كبيرة بحجم 40 مم لتجربة صوتية قوية",
+    "تصميم مريح للاستخدام لفترات طويلة",
+    "ميكروفون مدمج للتواصل الواضح",
+    "استجابة تردد واسعة لجميع الأصوات",
+    "كابل طويل (1.7 متر) يوفر مرونة في الحركة"
+  ],
+  specifications: {
+    'الموديل': 'RH-112',
+    'حجم مكبر الصوت': '40 مم',
+    'المقاومة': '32 أوم',
+    'أقصى طاقة': '0.45 ميلي واط',
+    'الحساسية': '108 ديسيبل/ملي واط',
+    'استجابة التردد': '20-20000 هرتز',
+    'طول الكابل': '1.7 متر',
+    'نوع الاتصال': 'سلكي (3.5mm، مفترض من كونه سماعة كمبيوتر)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Estimated based on typical gaming headset features at this price point
+  reviewCount: 70, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '62',
+  name: 'سماعات رأس JBL Tune 760BT اللاسلكية',
+  englishName: 'JBL Tune 760BT Pure Bass Wireless Headphones',
+  description: 'انغمس في عالم من الصوت القوي مع سماعات الرأس اللاسلكية JBL Tune 760BT Pure Bass. تتميز هذه السماعات بتصميم خفيف الوزن وقابل للطي، مما يجعلها الرفيق المثالي للاستماع أثناء التنقل. استمتع بصوت جهير نقي وقوي يميز تجربة الاستماع من JBL. بفضل اتصالها اللاسلكي عبر البلوتوث وتصميمها المريح، توفر هذه السماعات حرية الحركة وراحة لا مثيل لها للاستخدام اليومي.',
+  price: 450, // Price in EGP
+  images: [
+    jbltune760,
+    jbltune760_2,
+    jbltune760_3 // Placeholder for actual image variable
+  ],
+  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  features: [
+    "صوت JBL Pure Bass القوي",
+    "تصميم خفيف الوزن وقابل للطي لسهولة الحمل والتخزين",
+    "اتصال لاسلكي بتقنية البلوتوث",
+    "راحة فائقة للاستخدام لفترات طويلة"
+  ],
+  specifications: {
+    'الموديل': 'Tune 760BT',
+    'نوع الاتصال': 'لاسلكي (بلوتوث)',
+    'ميزة الصوت': 'JBL Pure Bass',
+    'التصميم': 'خفيف الوزن وقابل للطي',
+    'حجم المشغل (Driver Size)': '40 مم (تقديري، بناءً على معلومات شائعة للموديل)',
+    'الميكروفون': 'نعم (مفترض لوجود اتصال بلوتوث للمكالمات)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // Estimated based on brand reputation and features
+  reviewCount: 120, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '61',
+  name: 'محول Wi-Fi لافا MTK7601 CHIPSET',
+  englishName: 'Lava Wi-Fi Adapter MTK7601 Chipset',
+  description: 'احصل على اتصال إنترنت لاسلكي سريع وموثوق لجهاز الكمبيوتر الخاص بك أو جهاز استقبال الأقمار الصناعية مع محول Wi-Fi Lava MTK7601. يتميز هذا المحول بسرعات تصل إلى 300 ميجابت في الثانية بمعيار 802.11n، مما يجعله مثالياً للتصفح، البث، والألعاب الخفيفة. يدعم المحول نطاقاً واسعاً من أنظمة التشغيل بما في ذلك Windows و Mac OS X و Linux. كما أنه متوافق بشكل خاص مع أجهزة استقبال الأقمار الصناعية التي تدعم شريحة MTK. بفضل الهوائي القابل للدوران وواجهة USB 2.0، يوفر هذا المحول اتصالاً سهلاً ومرونة في الاستخدام.',
+  price: 250, // Price in EGP
+  images: [
+    lavaadaptor, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "سرعة لاسلكية عالية تصل إلى 300 ميجابت في الثانية (802.11n)",
+    "متوافق مع أجهزة استقبال الأقمار الصناعية التي تدعم MTK",
+    "دعم واسع لأنظمة التشغيل: Windows, Mac OS X, Linux",
+    "يدعم أوضاع تشغيل متعددة: Infrastructure, Ad-hoc, Soft AP",
+    "خيارات تشفير قوية لضمان الأمان: WEP, WPA, WPA2",
+    "هوائي قابل للدوران لتحسين استقبال الإشارة",
+    "واجهة USB 2.0 لسهولة التوصيل"
+  ],
+  specifications: {
+    'الموديل': 'MTK7601 CHIPSET',
+    'سرعة الواي فاي': 'حتى 300 ميجابت في الثانية',
+    'معيار الواي فاي': '802.11b/g/n',
+    'الواجهة': 'USB 2.0',
+    'الشريحة': 'MTK7601',
+    'دعم النظام': 'Windows/XP/Vista, Mac OS X, Linux',
+    'أوضاع التشغيل': 'Infrastructure, Ad-hoc, Soft AP',
+    'أوضاع التشفير': 'WEP, WPA, WPA2',
+    'الهوائي': 'قابل للدوران'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.8, // Estimated based on typical product quality for this type
+  reviewCount: 20, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '60',
+  name: 'لوحة مفاتيح ألعاب MJK K1 بإضاءة خلفية',
+  englishName: 'MJK K1 Gaming Backlighting Keyboard',
+  description: 'ارتقِ بتجربة الألعاب الخاصة بك مع لوحة مفاتيح الألعاب MJK K1 Backlighting. تتميز هذه اللوحة بإضاءة قوس قزح ديناميكية على المفاتيح وإضاءة جانبية تضيف أجواءً رائعة إلى إعداداتك. بتصميمها المدمج وأبعادها العملية (409.35 × 148.3 × 35.45 مم)، توفر مساحة على مكتبك مع الحفاظ على جميع الوظائف الأساسية. تضمن أحرف المفاتيح المطبوعة بالشاشة وضوحًا يدوم طويلاً، بينما توفر وظائف الوسائط المتعددة التي يمكن الوصول إليها عبر مفتاح Fn تحكماً سهلاً. متوافقة مع مجموعة واسعة من أنظمة التشغيل بما في ذلك Windows و Android، مما يجعلها خيارًا متعدد الاستخدامات للاعبين.',
+  price: 810, // Price in EGP
+  images: [
+    MJK2, 
+    MJK// Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "إضاءة خلفية Rainbow جذابة مع إضاءة جانبية",
+    "تصميم مدمج وموفر للمساحة",
+    "وظائف وسائط متعددة مريحة (Fn+F1~F12)",
+    "طباعة مفاتيح متينة وواضحة (طباعة الشاشة)",
+    "متوافق مع أنظمة تشغيل Windows و Android",
+    "كابل متين بطول 1.5 متر",
+    "تصميم مخصص للألعاب"
+  ],
+  specifications: {
+    'الموديل': 'K1',
+    'نوع لوحة المفاتيح': 'ألعاب بإضاءة خلفية',
+    'نوع الاتصال': 'سلكي (USB)', // Assumed from common practice and image hint
+    'الأبعاد': '409.35 × 148.3 × 35.45 مم',
+    'الوزن': '560 جرام',
+    'الإضاءة': 'قوس قزح (Rainbow) وجانبية',
+    'طول الكابل': '1.5 متر',
+    'وظائف الوسائط المتعددة': 'Fn+F1~F12',
+    'طباعة الحروف': 'طباعة الشاشة',
+    'التوافق': 'Windows 7/8/10/XP, Android'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated based on features and target audience
+  reviewCount: 40, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '59',
+  name: 'ماوس HP بلوتوث ولاسلكي مزدوج الوضع W10',
+  englishName: 'HP W10 Bluetooth & Wireless Dual Mode Mouse',
+  description: 'استمتع بالحرية والمرونة مع ماوس HP W10 اللاسلكي مزدوج الوضع (بلوتوث ولاسلكي 2.4GHz). يتميز هذا الماوس بدقة عالية تصل إلى 1600 DPI وتقنية BlueTrack® المتقدمة التي تضمن تتبعًا دقيقًا على أسطح متنوعة. بفضل عمر البطارية الطويل الذي يصل إلى 6 أشهر ووضع السكون التلقائي، يمكنك العمل لفترات طويلة دون قلق. توفر الأزرار المتينة المصنفة لـ 3 ملايين نقرة أداءً موثوقًا، بينما يضمن التصميم المريح والمتماثل راحة الاستخدام لكلتا اليدين. أضف لمسة من الأناقة مع إضاءة RGB المدمجة، واستمتع بمدى لاسلكي يصل إلى 10 أمتار لتجربة سلسة وفعالة.',
+  price: 230, // Price in EGP
+  images: [
+    hp210,
+    hp210_2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر', 'إكسسوارات الموبايل'],
+  features: [
+    "اتصال مزدوج الوضع (بلوتوث ولاسلكي 2.4GHz)",
+    "دقة عالية 1600 DPI لتتبع دقيق",
+    "تقنية BlueTrack® للتتبع على أسطح متنوعة",
+    "عمر بطارية طويل يصل إلى 6 أشهر مع وضع السكون التلقائي",
+    "عمر افتراضي للأزرار يصل إلى 3 ملايين نقرة",
+    "نطاق لاسلكي فعال يصل إلى 10 أمتار",
+    "تصميم مريح ومتماثل يناسب اليد اليمنى واليسرى",
+    "إضاءة RGB مدمجة جذابة"
+  ],
+  specifications: {
+    'الموديل': 'W10',
+    'نوع الاتصال': 'لاسلكي (بلوتوث و 2.4GHz)',
+    'DPI': '1600',
+    'تقنية التتبع': 'BlueTrack®',
+    'عمر الأزرار': '3 مليون نقرة',
+    'مسافة الإرسال': '10 أمتار',
+    'عمر البطارية': 'يصل إلى 6 أشهر',
+    'التصميم': 'مريح ومتماثل',
+    'الإضاءة': 'RGB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4, // Estimated based on advanced features and versatility
+  reviewCount: 80, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '58',
+  name: 'لوحة مفاتيح ألعاب Point PT-950',
+  englishName: 'Point PT-950 Gaming Keyboard',
+  description: 'عزز إعدادات الألعاب الخاصة بك مع لوحة المفاتيح Point PT-950 Gaming Keyboard. تتميز هذه اللوحة بإضاءة خلفية Rainbow ساحرة تضيف لمسة جمالية إلى مكتبك. بفضل مفاتيحها الغشائية (Membrane) التي توفر استجابة هادئة ومريحة وعمر افتراضي يصل إلى 80 مليون ضغطة، تضمن الأداء الموثوق به لجلسات اللعب الطويلة أو المهام اليومية. مع تصميمها القياسي الذي يضم 104-107 مفتاحاً وتوصيل USB سلكي، توفر لوحة المفاتيح PT-950 تجربة كتابة ولعب سلسة وممتعة.',
+  price: 550, // Price in EGP
+  images: [
+    pointpt950_2,
+    pointpt950 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "إضاءة خلفية Rainbow جذابة",
+    "مفاتيح غشائية (Membrane) لتجربة كتابة هادئة ومريحة",
+    "عمر افتراضي طويل للمفاتيح (يصل إلى 80 مليون ضغطة)",
+    "تصميم قياسي يضم 104-107 مفتاحاً",
+    "توصيل سلكي موثوق عبر منفذ USB",
+    "تصميم مخصص للألعاب"
+  ],
+  specifications: {
+    'الموديل': 'PT-950',
+    'نوع المفاتيح': 'غشائي (Membrane Switch)',
+    'عمر المفاتيح': 'يصل إلى 80 مليون ضغطة',
+    'عدد المفاتيح': 'قياسي (104-107)',
+    'الإضاءة الخلفية': 'Rainbow',
+    'نوع الاتصال': 'سلكي (USB)',
+    'موقع الويب': 'www.point4co.com'
+    // 'نوع المستشعر': 'بصري' // This specification is typically for mice; omitting it for clarity unless explicitly confirmed to apply to keyboard.
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated based on features and typical quality for a membrane gaming keyboard
+  reviewCount: 50, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '57',
+  name: 'طقم لوحة مفاتيح وماوس AI TNT X200 بتصميم Rainbow',
+  englishName: 'AI TNT X200 Rainbow Design Wired Keyboard & Mouse Combo',
+  description: 'ارتقِ بإعداداتك المكتبية أو لألعابك مع طقم لوحة المفاتيح والماوس AI TNT X200 بتصميم Rainbow. تتميز لوحة المفاتيح بتصميم مريح مع سطح مجمد لتجربة كتابة مريحة، كما أن مفاتيحها مطبوعة بتقنية متينة لضمان وضوح الكتابة على المدى الطويل. لا داعي للقلق بشأن الانسكابات بفضل فتحات التصريف المدمجة. أما الماوس، فيأتي بتصميم متماثل ومريح يناسب كلا اليدين، ويستخدم شريحة Agilent المخصصة للألعاب لتقديم استجابة سريعة وعمر أزرار يصل إلى 5 ملايين نقرة. يضيء كلا الجهازين بإضاءة Rainbow LED جذابة، مما يضيف لمسة جمالية لإعداداتك. هذا الطقم سهل التوصيل والتشغيل، ولا يتطلب أي برامج إضافية، مما يوفر لك الوقت والطاقة.',
+  price: 580, // Price in EGP
+  images: [
+    AITNTx200_3,
+    AITNTx200_4,
+    AITNTx200_2,
+    AITNTx200 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "طقم متكامل (لوحة مفاتيح وماوس)",
+    "إضاءة خلفية Rainbow LED جذابة للوحة المفاتيح والماوس",
+    "لوحة مفاتيح بتصميم مريح ومقاومة للانسكابات",
+    "مفاتيح لوحة المفاتيح بطباعة متينة وواضحة",
+    "ماوس بتصميم مريح ومتماثل يناسب كلا اليدين",
+    "ماوس مزود بشريحة Agilent للألعاب لاستجابة سريعة",
+    "عمر افتراضي طويل لأزرار الماوس (يصل إلى 5 مليون نقرة)",
+    "سهولة التوصيل والتشغيل (Plug & Play)"
+  ],
+  specifications: {
+    'الموديل': 'X200',
+    'نوع الاتصال': 'سلكي (USB)',
+    'إضاءة لوحة المفاتيح': 'Rainbow Backlight',
+    'تصميم لوحة المفاتيح': 'مريح، مقاوم للانسكابات',
+    'تقنية طباعة المفاتيح': 'طباعة شاشة حريرية + UV',
+    'شريحة الماوس': 'Agilent (مخصصة للألعاب)',
+    'عمر أزرار الماوس': '5 مليون نقرة',
+    'تصميم الماوس': 'مريح ومتماثل',
+    'متطلبات النظام': 'كمبيوتر متوافق مع منافذ USB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: true,
+  rating: 4.0, // Estimated based on features and price for a combo set
+  reviewCount: 65, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '56',
+  name: 'سماعة ألعاب Point PT-09',
+  englishName: 'Point PT-09 Gaming Headphones',
+  description: 'استمتع بتجربة لعب غامرة وتواصل واضح مع سماعة الألعاب Point PT-09. تتميز هذه السماعة بتصميم خفيف الوزن ومريح، مما يجعلها مثالية لجلسات اللعب الطويلة. توفر صوتاً واضحاً بفضل حساسيتها العالية واستجابة التردد الواسعة، ويضمن الميكروفون المدمج التواصل الواضح مع زملائك في الفريق. تضفي إضاءة RGB الملونة على سماعات الأذن لمسة جمالية عصرية، بينما يضمن كابلها الطويل والمتين المتصل بمنفذ 3.5 مم توافقاً واسعاً مع معظم أجهزة الألعاب وأجهزة الكمبيوتر والموبايل.',
+  price: 980, // Price in EGP
+  images: [
+    point_pt09_3,
+    point_pt09_2,
+    point_pt09 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر', 'إكسسوارات الموبايل'],
+  features: [
+    "تصميم خفيف الوزن ومريح للاستخدام لفترات طويلة",
+    "صوت واضح وعالي الجودة لتجربة لعب غامرة",
+    "ميكروفون مدمج عالي الحساسية لاتصال صوتي واضح",
+    "إضاءة RGB ملونة على سماعات الأذن",
+    "استجابة تردد واسعة (20 هرتز - 20 كيلوهرتز)",
+    "كابل طويل (2.1 متر) لتوفير حرية الحركة",
+    "توصيل بمنفذ 3.5 مم لتوافق واسع"
+  ],
+  specifications: {
+    'الموديل': 'PT-09',
+    'نوع الاتصال': 'سلكي',
+    'القابس': '3.5 مم',
+    'قطر السماعة (Driver)': '50 مم (تقديري، بناءً على "0.50 مم" المذكورة كخطأ طباعي شائع)',
+    'الحساسية': '113 ديسيبل ± 3 ديسيبل',
+    'استجابة التردد': '20 هرتز - 20 كيلوهرتز',
+    'المقاومة': '20 أوم ± 15%',
+    'الميكروفون': 'Ø6.0 × 2.7 مم',
+    'حساسية الميكروفون': '-38 ديسيبل ± 3 ديسيبل',
+    'طول السلك': '2.1 متر ± 10%',
+    'الإضاءة': 'RGB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Estimated based on features and typical quality for this price range
+  reviewCount: 55, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '55',
+  name: 'سماعة بلوتوث JNUOBI GN-04',
+  englishName: 'JNUOBI GN-04 Portable Bluetooth Speaker',
+  description: 'استمتع بتجربة صوتية وبصرية لا مثيل لها مع سماعة بلوتوث JNUOBI GN-04 المحمولة. تتميز هذه السماعة بتصميم أنيق ومكبر صوت كبير بحجم 8 بوصات يوفر طاقة خرج قوية تبلغ 10 واط، لضمان صوت غني وواضح. انغمس في عالم من الألوان مع عرض إضاءة RGB كامل الشاشة، والذي يضيف أجواءً احتفالية إلى أي مكان. بفضل بطارية الليثيوم عالية السعة ووظائف USB/TF، يمكنك تشغيل موسيقاك المفضلة من مصادر متعددة، مع سهولة الحمل بفضل تصميمها المدروس. إنها الاندماج المثالي للصوت والإضاءة.',
+  price: 1100, // Price in EGP
+  images: [
+    gnobign04_2,
+    gnobign04 // Placeholder for actual image variable
+  ],
+  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  features: [
+    "مكبر صوت كبير بحجم 8 بوصات لتجربة صوت قوية",
+    "طاقة خرج 10 واط لضمان صوت واضح وعميق",
+    "إضاءة RGB ملونة كاملة الشاشة لخلق أجواء احتفالية",
+    "بطارية ليثيوم عالية السعة لتشغيل طويل الأمد",
+    "دعم تشغيل الموسيقى من USB و TF (Micro SD)",
+    "تصميم أنيق ومحمول لسهولة النقل"
+  ],
+  specifications: {
+    'الموديل': 'GN-04',
+    'وحدة مكبر الصوت': '8 بوصة',
+    'طاقة الخرج': '10 واط',
+    'مصدر الطاقة': 'بطارية ليثيوم',
+    'الإضاءة': 'RGB (كامل الشاشة)',
+    'الوسائط المدعومة': 'بلوتوث (مفترض), USB, TF (Micro SD)',
+    'الوزن': 'غير محدد',
+    'الأبعاد': 'غير محدد'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // Estimated based on large speaker size, RGB, and features
+  reviewCount: 70, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '54',
+  name: 'سماعة بلوتوث BTD AN 4200',
+  englishName: 'BDT AN-4200 Bluetooth Speaker',
+  description: 'استمتع بتجربة صوتية غامرة ومبهرة مع سماعة بلوتوث BDT AN-4200 المحمولة. تتميز هذه السماعة بقوة 10 واط RMS وتصميم يضم سماعتين بحجم 4 بوصات، مما يوفر صوتاً قوياً وواضحاً. تضفي الإضاءة LED الملونة الساطعة لمسة جمالية رائعة وتجعلها مثالية للحفلات أو التجمعات. توفر السماعة خيارات مرنة لمصدر الطاقة عبر USB أو تيار مستمر 12 فولت، وتدعم الاتصال اللاسلكي عبر البلوتوث لتوصيل سهل بالهواتف الذكية والأجهزة اللوحية، مما يجعلها رفيقك المثالي في أي مكان.',
+  price: 650, // Price in EGP
+  images: [
+    bdtan4200_2,
+    bdtan4200 // Placeholder for actual image variable
+  ],
+  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  features: [
+    "صوت قوي وواضح بقوة 10 واط RMS",
+    "تصميم مزدوج السماعات (4 بوصة × 2) لتغطية صوتية أوسع",
+    "إضاءة LED ملونة مدمجة لتجربة بصرية رائعة",
+    "اتصال بلوتوث لاسلكي لتوصيل سهل بالأجهزة الذكية",
+    "خيارات متعددة لمصدر الطاقة: USB و DC 12V",
+    "تصميم محمول ومناسب للاستخدام في الأماكن المختلفة"
+  ],
+  specifications: {
+    'الموديل': 'AN-4200',
+    'قوة الخرج (RMS)': '10 واط',
+    'المقاومة': '4 أوم',
+    'حجم السماعة': '4 بوصة × 2',
+    'مصدر الطاقة': 'USB / DC 12V',
+    'نوع الاتصال': 'بلوتوث، USB (لتشغيل الوسائط، مفترض)',
+    'الميزات الإضافية': 'إضاءة LED ملونة'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated based on typical product quality for this price range and features
+  reviewCount: 35, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '53',
+  name: 'ماوس ألعاب تنافسي Cool Game Mouse',
+  englishName: 'Competitive Cool Game Mouse',
+  description: 'ارتقِ بتجربتك في الألعاب والعمل مع ماوس الألعاب التنافسي Cool Game Mouse. يتميز هذا الماوس بتصميم 6D متعدد الأزرار وزر DPI مخصص يتيح لك التبديل بين مستويات دقة 800/1200/1600/2400 لتناسب مختلف المهام. يوفر إضاءة LED رائعة بتأثير التنفس تضفي سحراً خاصاً على مساحة عملك أو لعبك، خاصة في الليل. مع بكرة ذكية مضادة للانزلاق تضمن التقاطاً دقيقاً واستجابة سريعة، وتصميم مريح يناسب كلا اليدين، يعد هذا الماوس خياراً مثالياً للاعبين المبتدئين وكذلك للاستخدام المكتبي العصري.',
+  price: 250, // Estimated price in EGP for a wired gaming mouse with these features
+  images: [
+    commouse,
+    commouse_2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "زر DPI مخصص لضبط الحساسية",
+    "تصميم 6D متعدد الأزرار لمرونة أكبر",
+    "دقة قابلة للتعديل: 800/1200/1600/2400 DPI",
+    "إضاءة LED رائعة بتأثير التنفس",
+    "بكرة ذكية مضادة للانزلاق لالتقاط دقيق واستجابة سريعة",
+    "تصميم مريح لقبضة مريحة، مناسب لليد اليمنى واليسرى",
+    "مناسب للاعبين المبتدئين والاستخدام المكتبي"
+  ],
+  specifications: {
+    'الموديل': 'Cool Game Mouse (Competitive)',
+    'نوع الاتصال': 'سلكي (USB)',
+    'عدد الأزرار': '6 (6D)',
+    'DPI': '800/1200/1600/2400',
+    'الإضاءة': 'LED (تأثير التنفس)',
+    'بكرة': 'مضادة للانزلاق',
+    'التصميم': 'مريح (لليمين واليسار)',
+    'متطلبات النظام': 'Windows 98/2000/ME/XP/10, Mac OS X+, منفذ USB متاح'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Estimated based on features and target audience
+  reviewCount: 60, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+}, 
+{
+  id: '52',
+  name: 'ماوس مكتب كراش W500',
+  englishName: 'Crash Office Mouse W500',
+  description: 'ماوس كراش W500 اللاسلكي يوفر تجربة استخدام هادئة ومريحة بفضل أزراره الصامتة. يتميز بتقنية بصرية دقيقة للضوء الأحمر لتحديد المواقع بدقة، وتصميم مريح يناسب كلا اليدين. يمكنك تعديل حساسية الماوس بسهولة مع مستويات DPI قابلة للتعديل (800، 1200، 1600). يأتي مع مستقبل نانو مدمج لسهولة التوصيل والحمل، مما يجعله الخيار الأمثل للاستخدام المكتبي واليومي.',
+  price: 190, // Price in EGP
+  images: [
+    crashoffice_2,
+    crashoffice // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "أزرار صامتة لتجربة هادئة ومريحة",
+    "تقنية بصرية للضوء الأحمر لتحديد المواقع بدقة",
+    "تصميم مريح يناسب الاستخدام بكلتا اليدين",
+    "دقة DPI قابلة للتعديل (800-1200-1600)",
+    "مستقبل نانو مدمج لسهولة التوصيل والحمل",
+    "اتصال لاسلكي موثوق"
+  ],
+  specifications: {
+    'الموديل': 'W500',
+    'نوع الاتصال': 'لاسلكي (مستقبل USB Nano)',
+    'DPI': '800/1200/1600',
+    'تقنية التتبع': 'بصري (ضوء أحمر)',
+    'عدد الأزرار': '4 (بما في ذلك زر DPI)',
+    'نوع الزر': 'صامت',
+    'التصميم': 'مريح (لليمين واليسار)',
+    'البطارية': 'غير محدد (يفترض بطارية AA/AAA واحدة)',
+    'الأبعاد': 'غير محددة',
+    'الوزن': 'غير محدد'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated based on typical product quality and features
+  reviewCount: 45, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '51',
+  name: 'ماوس مكتب فاشون AI TNT OIEM',
+  englishName: 'AI TNT OIEM Fashion Office Mouse',
+  description: 'استمتع بتجربة عمل سلسة ودقيقة مع ماوس AI TNT Fashion Office Mouse. يتميز هذا الماوس بتصميم هندسي دقيق وحرفية رائدة، مما يضمن أداءً موثوقًا ومتانة فائقة. تم اختبار الأزرار لأكثر من 10 ملايين نقرة، مما يجعله رفيقًا مثاليًا للاستخدام اليومي والمكثف في المكتب. كما يوفر خيارات إضاءة قابلة للتخصيص من لوحة ألوان تضم 16.8 مليون لون لتناسب ذوقك وبيئة عملك. سهل الاستخدام ومتوافق مع أنظمة تشغيل متعددة.',
+  price: 100, // Price in EGP
+  images: [
+    AITNT_OEIM,
+    AITNT_OEIM_2 // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم هندسي دقيق وحرفية رائدة في الصناعة",
+    "عمر افتراضي طويل للأزرار (أكثر من 10 مليون نقرة)",
+    "إضاءة RGB قابلة للتخصيص (16.8 مليون لون)",
+    "دقة عالية 1600DPI",
+    "سرعة استجابة عالية",
+    "متوافق مع أنظمة تشغيل متعددة"
+  ],
+  specifications: {
+    'الموديل': 'OIEM Fashion Office Mouse',
+    'نوع الاتصال': 'سلكي',
+    'DPI': '1600',
+    'عمر الأزرار': 'أكثر من 10 مليون نقرة',
+    'الإضاءة': 'RGB (16.8 مليون لون)',
+    'متطلبات النظام': 'Windows 10, Windows 8, Windows 7, macOS, Smart TV, Linux'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated based on typical product quality for this price range
+  reviewCount: 50, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '50',
+  name: 'قاعدة تبريد لابتوب N191',
+  englishName: 'N191 Notebook Cooling Pad',
+  description: 'قاعدة تبريد N191 بتصميم أنيق وفريد يوفر شعورًا مريحًا ويحافظ على جهاز الكمبيوتر المحمول الخاص بك في وضع آمن ومريح. يتميز بتصميم خاص لمنفذ تدفق الهواء الذي يحافظ على برودة دفتر ملاحظاتك أثناء الاستخدام، ويمكن وضعه على حجرك أو على السرير. السطح الشبكي الكبير المزود بمروحة واحدة صامتة بقطر 140 مم يضمن تبديدًا مثاليًا للحرارة. كما أن الأقدام القابلة للتعديل توفر تعديلًا متعدد الزوايا للارتفاع، مما يتيح لك الحصول على زاوية كتابة وعرض مثالية. متوافق مع معظم أجهزة الكمبيوتر المحمولة ويأتي مع مصابيح LED.',
+  price: 360, // Price provided in the prompt
+  images: [
+    N191,
+    N191_2 // Placeholder for the image of the cooling pad
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم أنيق ومريح",
+    "تصميم خاص لمنفذ تدفق الهواء للحفاظ على برودة الجهاز",
+    "مروحة صامتة واحدة بقطر 140 مم لتبديد حرارة مثالي",
+    "أقدام قابلة للتعديل لتوفير زوايا كتابة وعرض مثالية",
+    "متوافق مع معظم أجهزة الكمبيوتر المحمولة",
+    "مزود بمصابيح LED"
+  ],
+  specifications: {
+    'الموديل': 'N191',
+    'أبعاد المنتج': '350 × 250 × 30 مم',
+    'أبعاد المروحة': '140 × 140 × 15 مم',
+    'سرعة المروحة': '750-1500 دورة في الدقيقة',
+    'تدفق الهواء': '23-44 قدم مكعب في الدقيقة',
+    'ضغط الهواء': '0.45-1.35 ممH2O',
+    'ضوضاء المروحة': '11 ديسيبل (حد أدنى)',
+    'التيار': '0.4 أمبير (كحد أقصى)',
+    'الجهد': '5 فولت تيار مستمر',
+    'مدخل الطاقة': '1.5 واط',
+    'الوزن الصافي': '0.5 كجم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated rating
+  reviewCount: 25, // Estimated review count
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '45',
+  name: 'قاعدة تبريد لابتوب N99',
+  englishName: 'N99 Notebook Cooling Pad',
+  description: 'حافظ على برودة جهاز الكمبيوتر المحمول الخاص بك مع قاعدة التبريد N99. تتميز بتصميم أنيق وفريد يوفر وضعًا آمنًا ومريحًا لجهازك. تحتوي على مروحتين كبيرتين بحجم 140 مم لتبديد الحرارة بكفاءة وصوت هادئ، مما يجعلها مثالية للاستخدام على الأرجل أو السرير. توفر الأقدام القابلة للتعديل زوايا رؤية وكتابة مثالية، ومصابيح LED تضفي لمسة جمالية. متوافقة مع معظم أجهزة الكمبيوتر المحمولة حتى 17 بوصة.',
+  price: 620, // Price provided in the prompt
+  images: [
+    AN99_2,
+    AN99,
+    AN99_3 // Placeholder for the image of the cooling pad
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "تصميم أنيق ومريح",
+    "مروحتان صامتتان كبيرتان بقطر 140 مم لتبديد الحرارة الأمثل",
+    "سطح شبكي كبير لتدفق هواء ممتاز",
+    "أقدام قابلة للتعديل لزوايا عرض وكتابة متعددة",
+    "متوافق مع معظم أجهزة الكمبيوتر المحمولة حتى 17 بوصة",
+    "مزودة بمصابيح LED"
+  ],
+  specifications: {
+    'الموديل': 'N99',
+    'أبعاد المنتج': '360 × 260 × 30 مم',
+    'أبعاد المروحة': '140 × 140 × 15 مم',
+    'سرعة المروحة': '750-1500 دورة في الدقيقة',
+    'تدفق الهواء': '23-44 قدم مكعب في الدقيقة',
+    'ضغط الهواء': '0.45-1.35 ممH2O',
+    'ضوضاء المروحة': '11 ديسيبل (حد أدنى)',
+    'التيار': '0.3 أمبير (كحد أقصى)',
+    'الجهد': '5 فولت تيار مستمر',
+    'مدخل الطاقة': '3.0 واط',
+    'الوزن الصافي': '0.9 كجم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated rating
+  reviewCount: 40, // Estimated review count
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '44',
+  name: 'سماعة ألعاب AI TNT X Series بإضاءة RGB',
+  englishName: 'AI TNT X Series Gaming Headset with RGB Light',
+  description: 'انغمس في عالم الألعاب مع سماعة الألعاب AI TNT X Series. مصممة خصيصًا لتجربة لعب غامرة، تتميز هذه السماعة بإضاءة RGB جذابة وميكروفون متعدد الاتجاهات يوفر وضوحًا فائقًا في الصوت. توفر وسادات الأذن المريحة وصوت الستريو جودة صوت ممتازة للعب والموسيقى. مع تصميم متين وكابل طويل، تعد هذه السماعة خيارًا رائعًا للاعبين الذين يبحثون عن أداء موثوق به.',
+  price: 350, // Price provided in the prompt
+  images: [
+    AITNT_XS_2, // Placeholder for the image of the headset
+    AITNT_XS // Placeholder for the image of the box
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "إضاءة RGB جذابة",
+    "صوت ستريو عالي الجودة للألعاب والموسيقى",
+    "ميكروفون متعدد الاتجاهات لإلغاء الضوضاء",
+    "تصميم مريح للاستخدام لفترات طويلة",
+    "كابل طويل لمرونة الحركة",
+    "متوافق مع أجهزة الكمبيوتر والمحمول"
+  ],
+  specifications: {
+    'الموديل': 'X Series',
+    'الأبعاد الميكروفون': '6.0 × 5.0 مم',
+    'حساسية الميكروفون': '-54 ديسيبل ± 3 ديسيبل',
+    'اتجاهية الميكروفون': 'متعدد الاتجاهات',
+    'مقاومة الميكروفون': '2.2 كيلو أوم',
+    'قطر السائق (السماعة)': '40.00 مم',
+    'مقاومة السماعة': '32 أوم ± 15%',
+    'استجابة التردد': '20 هرتز - 20 كيلو هرتز',
+    'قابس الإدخال': 'Ø 3.5 مم',
+    'ضغط الصوت الناتج/الحساسية (S.P.L)': '118 ديسيبل ± 3 ديسيبل',
+    'طول الكابل': '≥ 1.8 متر'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated rating
+  reviewCount: 30, // Estimated review count
+  createdAt: new Date('2025-06-12'), // Current date
+},
+{
+  id: '43',
+  name: 'سماعة Hummer HM6000 ساوند سيستم لاسلكية',
+  englishName: 'Hummer HM6000 Wireless Audio Subwoofer',
+  description: 'استمتع بصوت قوي وواضح مع سماعة Hummer HM6000 اللاسلكية. تأتي هذه السماعة بتصميم أسطواني مميز، وتدعم الاتصال اللاسلكي عبر البلوتوث لتوفير تجربة صوتية غامرة في المنزل أو السيارة. بفضل استجابتها الواسعة للتردد وحساسيتها العالية، تقدم جودة صوت ممتازة. كما تتميز بهيكل متين وخفيف نسبياً مما يجعلها سهلة النقل والاستخدام اليومي.',
+  price: 595,
+  images: [
+    Hummer_2,
+Hummer,
+Hummer_3 // Placeholder image variable
+  ],
+  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الكمبيوتر', 'إكسسوارات الموبايل'],
+  features: [
+    'تصميم أسطواني مميز مع شعار Hummer',
+    'اتصال بلوتوث لاسلكي',
+    'جودة صوت عالية بفضل استجابة تردد 20Hz - 20KHz',
+    'خرج صوتي 2 واط RMS',
+    'مقاومة 4 أوم لتوازن جيد في الصوت',
+    'حساسية عالية (>85 ديسيبل)',
+    'وزن خفيف نسبياً وسهل الحمل',
+    'يدعم تشغيل الصوت من مصادر متعددة مثل كارت SD وUSB (حسب التصميم)',
+    'مناسب للاستخدام في السيارات أو المنزل أو مع الموبايل'
+  ],
+  specifications: {
+    'الموديل': 'HM6000',
+    'نوع الاتصال': 'لاسلكي (بلوتوث)',
+    'استجابة التردد': '20 هرتز - 20 كيلو هرتز',
+    'الحساسية': '>85 ديسيبل',
+    'المقاومة الاسمية': '4 أوم',
+    'قوة الخرج': '2 واط RMS',
+    'الأبعاد': '30.5 × 15.5 × 15.5 سم',
+    'الوزن الصافي': '1 كجم',
+    'الوزن الإجمالي': '1.2 كجم',
+    'عدد القطع': '1',
+    'المادة': 'بلاستيك ومعدن (غير محددة بدقة)',
+    'الوسائط المدعومة': 'بلوتوث، SD، USB (حسب التصميم الظاهر)',
+    'منفذ الشحن': 'غالبًا Micro USB أو DC (غير محدد بدقة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 45,
+  createdAt: new Date('2025-06-12')
+},
+
+{
+  id: '42',
+  name: 'سماعات أذن Samsung AKG Type-C',
+  englishName: 'Samsung AKG Type-C Earphones',
+  description: 'استمتع بتجربة صوتية غامرة مع سماعات أذن Samsung AKG Type-C. تم ضبط هذه السماعات بواسطة AKG لتقديم جودة صوت استثنائية، مع صوت واضح وجهير غني. تتميز بتصميم داخل الأذن مريح وتأتي مع سدادات أذن بثلاثة أحجام مختلفة لضمان ملاءمة مثالية. تتصل عبر منفذ Type-C، مما يجعلها متوافقة مع أحدث أجهزة سامسونج والأجهزة الأخرى المزودة بمنفذ Type-C للصوت. مثالية للاستماع إلى الموسيقى وإجراء المكالمات بوضوح.',
+  price: 270, // Price provided in the prompt
+  images: [
+    SamsungAKG, // Placeholder for the image of the product box
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "صوت مضبوط بواسطة AKG",
+    "تصميم داخل الأذن مريح",
+    "سدادات أذن بثلاثة أحجام (صغيرة، متوسطة، كبيرة) لراحة مثالية",
+    "اتصال عبر منفذ Type-C",
+    "جودة صوت واضحة وغنية",
+    "مناسبة للاستماع للموسيقى والمكالمات"
+  ],
+  specifications: {
+    'الموديل': 'AKG Type-C Earphones',
+    'العلامة التجارية': 'Samsung AKG',
+    'نوع الاتصال': 'سلكي (Type-C)',
+    'محتويات العبوة': 'سماعات أذن داخلية إصدار AKG، سدادات أذن محمولة (صغيرة، متوسطة، كبيرة)',
+    'اللون': 'أسود (كما يظهر في الصورة)',
+    'الضمان': 'هذا المنتج غير مشمول بالضمان (الأضرار المصنوعة يدويًا ضارة).',
+    'تحذير خاص': 'قد تتأثر الأجهزة الطبية (مثل أجهزة تنظيم ضربات القلب) بالعناصر المغناطيسية ضمن نطاق 15 سم. يُنصح بعدم استخدام هذا المنتج قبل استشارة الطبيب في حال استخدام مثل هذه الأجهزة الطبية.'
+  },
+  isAvailable: true,
+  isNew: false,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Estimated rating
+  reviewCount: 90, // Estimated review count
+  createdAt: new Date('2025-06-12'), // Current date
+},
 {
   id: '1',
   name: 'لوحة مفاتيح Sirwa',
@@ -987,7 +2136,7 @@ export const products: Product[] = [
   name: 'مكبرات صوت Crash X9 للوسائط المتعددة 2.0 بمنفذ USB',
   englishName: 'Crash X9 Multimedia 2.0 USB Speakers',
   description: 'مكبرات صوت Crash X9 هي نظام صوتي مدمج وأنيق 2.0، مثالي لتحسين تجربتك الصوتية على الكمبيوتر المكتبي أو المحمول. تعمل هذه السماعات بالطاقة عبر منفذ USB 5 فولت وتتصل بمنفذ الصوت القياسي 3.5 ملم. على الرغم من حجمها الصغير، توفر هذه المكبرات صوتًا واضحًا بقوة إجمالية 0.6 واط (RMS)، مع استجابة تردد واسعة ونسبة إشارة إلى ضوضاء تبلغ 65 ديسيبل، مما يضمن تجربة استماع مرضية للموسيقى والأفلام والألعاب. يبرز التصميم الأنيق وجودة التصنيع من البلاستيك المتين.',
-  price: 450, // Estimated average price in EGP
+  price: 380, // Estimated average price in EGP
   images: [
     crashx9 // Placeholder for actual image variable (speakers out of box)
   ],
@@ -1758,8 +2907,85 @@ export const products: Product[] = [
   rating: 3.7, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
   createdAt: new Date('2025-06-04'), // Current date
+},
+
+{
+  id: '41',
+  name: 'Infinix Xpower 20',
+  englishName: 'Infinix Xpower 20 Power Bank',
+  description: 'بنك طاقة Infinix Xpower 20 يوفر حلاً قويًا وموثوقًا لشحن أجهزتك أثناء التنقل. بسعة بطارية ضخمة تبلغ 20000 مللي أمبير/ساعة، يضمن لك شحنًا متعددًا لهاتفك الذكي والأجهزة الأخرى. يتميز بمنافذ إدخال وإخراج متعددة بما في ذلك Type-C و USB A و USB B، مما يوفر مرونة عالية في الشحن. تصميم مدمج ومحمول، مثالي للحفاظ على أجهزتك مشحونة في أي وقت وفي أي مكان.',
+  price: 900, // Price provided in the prompt
+  images: [
+    infinixpower, // Placeholder for the image of the product box
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "سعة بطارية كبيرة 20000 مللي أمبير/ساعة",
+    "منافذ إدخال وإخراج متعددة (Type-C, USB A, USB B)",
+    "بطارية ليثيوم أيون عالية الأداء",
+    "تصميم مدمج ومحمول",
+    "مثالي للشحن أثناء التنقل"
+  ],
+  specifications: {
+    'الموديل': 'XP20',
+    'الطاقة القصوى': '15 واط',
+    'سعة البطارية': '20000 مللي أمبير/ساعة',
+    'مدخل Type-C': '5 فولت 2 أمبير / 5 فولت 3 أمبير',
+    'مخرج Type-C': '5 فولت 2 أمبير / 5 فولت 3 أمبير',
+    'مخرج USB A': '5 فولت 2.4 أمبير',
+    'مخرج USB B': '5 فولت 2.4 أمبير',
+    'نوع البطارية': 'بطارية ليثيوم أيون عالية الأداء',
+    'دورات الشحن والتفريغ': '300 دورة'
+  },
+  isAvailable: true,
+  isNew: false,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // Estimated rating
+  reviewCount: 75, // Estimated review count
+  createdAt: new Date('2025-06-12'), // Current date
+},
+ 
+{
+  id: '42',
+  name: 'شاحن لاسلكي مغناطيسي فائق النحافة Hoco Q26A',
+  englishName: 'Hoco Q26A Magnetic Wireless Charger Ultra-Slim Power Bank',
+  description: 'باور بانك Hoco Q26A فائق النحافة مع شحن لاسلكي مغناطيسي يوفر حلاً متعدد الاستخدامات ومريحًا لشحن أجهزتك أثناء التنقل. يتميز بسعة 10000 مللي أمبير/ساعة مع دعم الشحن السريع PD بقوة 20 واط و QC3.0 عبر منفذ Type-C. بالإضافة إلى ذلك، يوفر شحنًا لاسلكيًا مغناطيسيًا يصل إلى 15 واط. مصنوع من سبائك الألومنيوم لمتانة فائقة، ويأتي بتصميم أنيق ونحيف يسهل حمله في أي مكان. مثالي لمستخدمي الهواتف الذكية التي تدعم الشحن اللاسلكي المغناطيسي.',
+  price: 1850, // Price provided in the prompt
+  images: [
+    hocopower, // Placeholder for the image of the product box
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن لاسلكي مغناطيسي (MagSafe compatible)",
+    "تصميم فائق النحافة وخفيف الوزن",
+    "سعة بطارية 10000 مللي أمبير/ساعة",
+    "دعم الشحن السريع PD 20W و QC3.0",
+    "مصنوع من سبائك الألومنيوم المتينة",
+    "منافذ USB-C للإدخال والإخراج",
+    "مؤشر LED لمستوى البطارية (متوقع)"
+  ],
+  specifications: {
+    'الموديل': 'Q26A',
+    'العلامة التجارية': 'Hoco',
+    'نوع البطارية': 'بطارية ليثيوم أيون بوليمر',
+    'السعة الاسمية (rated capacity)': '6000 مللي أمبير/ساعة (5 فولت نوع 2 أمبير)',
+    'السعة الفعلية': '10000 مللي أمبير/ساعة 38.7 واط/ساعة',
+    'مدخل USB-C': '5 فولت - 2 أمبير، 9 فولت - 2 أمبير (18 واط)',
+    'مخرج USB-C (PD)': '5 فولت - 3 أمبير، 9 فولت - 2.22 أمبير، 12 فولت - 1.67 أمبير',
+    'مخرج لاسلكي': '5 واط/7.5 واط/10 واط/15 واط',
+    'إجمالي الخرج': '5 فولت - 2 أمبير كحد أقصى',
+    'المادة': 'سبائك الألومنيوم',
+    'الضمان': '18 شهر',
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6, // Estimated rating
+  reviewCount: 55, // Estimated review count
+  createdAt: new Date('2025-06-12'), // Current date
 }
-  // ... other products with similar structure
 ];
 
 // Filter helper functions
