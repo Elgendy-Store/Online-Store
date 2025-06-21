@@ -53,13 +53,13 @@ import p9 from '../assets/p39.png';
 import p9_2 from '../assets/p39.2.png';
 import p9_3 from '../assets/p9.3.png';
 import mic_B from '../assets/mic bluetooth.png';
-import mini_fan from '../assets/fan.jpg';
+import mini_fan from '../assets/fan.png';
 import mini_fanr from '../assets/mini fanr.jpeg';
 import mini_fang from '../assets/minin fang.jpeg';
 import mini_fanw from '../assets/mini fanw.jpeg';
-import bdt_an2304 from '../assets/btd an 2304.jpg';
-import bdt_an2304mini from '../assets/btd an 2304mini.jpg';
-import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
+import bdt_an2304 from '../assets/btd an 2304.png';
+import bdt_an2304mini from '../assets/btd an 2304mini.png';
+import jpl_m3_mini from '../assets/jpl m3 mini.png';
 import infinixpower from '../assets/Infinix Xpower 20.png';
 import hocopower from '../assets/Hoco magnetic wireless charger ultra slim.png';
 import SamsungAKG from '../assets/Samsung AKG.png';
@@ -124,11 +124,56 @@ import pointpt800_2 from '../assets/point pt800_2.png';
 import pointpt200 from '../assets/point wireless dual mode mini keyboard.png';
 import pointpt200_2 from '../assets/point wireless dual mode mini keyboard_2.png';
 import pointpt200_3 from '../assets/point wireless dual mode mini keyboard_3.png';
-import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
-import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
-import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
-import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
-import jpl_m3_mini from '../assets/jpl m3 mini.jpg';
+import _4splus_cable from '../assets/4s pluse cable.png';
+import ldnio_ls from '../assets/LDNIO LC651i.png';
+import chrome_cast from '../assets/chrome cast.png';
+import kingston_8G from '../assets/kingston 8G.png';
+import microphone from '../assets/microphone.png';
+import mobile_stand from '../assets/mobile stand.png';
+import earpods_lighting from '../assets/earpods lighting.png';
+import samsung_usp_c_adaptor from '../assets/samsung usp-c adaptor.png';
+import lenyes_lc_502_tc_1_ from '../assets/lenyes lc 502 tc-1`.png';
+import ldnio_32w from '../assets/ldnio 32w.png';
+import Jnuobi_jc_120a from '../assets/Jnuobi jc 120a.png';
+import LdnioLS881 from '../assets/Ldnio.png';
+import heatz from '../assets/heatz.png';
+import masa_ma_15_cable from '../assets/masa ma 15 cable.png';
+import ldnio_tpe_cable from '../assets/ldnio tpe cable.png';
+import joyroom_3_in_1_cable from '../assets/joyroom 3 in 1 cable.png';
+import MIC_cable from '../assets/MIC cable.png';
+import masa_ma_60_cable from '../assets/masa ma 60 cable.png';
+import masa_ma_70_cable from '../assets/masa ma 70 cable.png';
+import jnuobi_s_1_lightning_cable from '../assets/jnuobi s-1 lightning cable.png';
+import gx_cable from '../assets/gx cable.png';
+import jnuobi_3_in_1_cable from '../assets/jnuobi 3 in 1 cable.png';
+import ehp_c_20_cable from '../assets/ehp c-20 cable.jpg';
+import ldnio_pvc_ls_841_cable from '../assets/ldnio pvc ls-841 cable.png';
+import jnuobi_yp_171_aux_cable from '../assets/jnuobi yp-171 aux  cable.png';
+import biboshi_c_06 from '../assets/biboshi c-06.png';
+import biboshi_c78 from '../assets/biboshi c78.png';
+import biboshi_b03_175 from '../assets/biboshi b03-175.png';
+import masa_ma_555 from '../assets/masa ma 555.jpg';
+import temax_0122 from '../assets/temax 0122.png';
+import oppo_gan from '../assets/oppo gan.png';
+import biboshi_a02 from '../assets/biboshi a02.png';
+import gerlax_a10l from '../assets/gerlax a10l.jpg';
+import energizer_cable from '../assets/energizer cable.png';
+import samsung_25w_pd_adaptor from '../assets/samsung 25w pd adaptor.png';
+import biboshi_b03_119 from '../assets/biboshi b03-119.jpg';
+import HZ_h38a from '../assets/HZ h38a.png';
+import usp_c_25w_power_adaptor from '../assets/usp-c 25w power adaptor.png';
+import JH_002 from '../assets/JH-002.png';
+import li_ion_battery from '../assets/li-ion battery.png';
+import jnuobi_cc_03 from '../assets/jnuobi cc-03.png';
+import jnuobi_cc_04 from '../assets/jnuobi cc-04.png';
+import jnuobi_bycicle____ from '../assets/jnuobi bycicle,,,,.png';
+import card_reader from '../assets/card reader.png';
+import pubg_fingers from '../assets/pubg fingers.png';
+import joyroom_miro_male_to_usp from '../assets/joyroom miro male to usp.png';
+import vidive_usp_car from '../assets/vidive usp car.jpg';
+import spieder_power_adaptor from '../assets/spieder power adaptor.png';
+import vidive_hs_660 from '../assets/vidive hs 660.png';
+import blue_spectrum_d42 from '../assets/blue spectrum d42.png';
 
 // Sample products data (will be expanded in a real implementation)
 export const products: Product[] = [
@@ -136,6 +181,1566 @@ export const products: Product[] = [
 
 
 
+
+
+
+
+
+{
+  id: '123',
+  name: 'سماعات أذن Blue Spectrum D42',
+  englishName: 'Blue Spectrum D42 Earphones',
+  description: 'سماعات أذن Blue Spectrum D42 توفر صوتًا ستريو ديناميكيًا ومناسبة للهواتف الذكية ذات واجهة 3.5 ملم. تتميز بميكروفون مدمج لإجراء المكالمات بدون استخدام اليدين. تأتي السماعات بسلك بطول 135 سم وتوفر جودة صوت واضحة مع نطاق تردد واسع.',
+  price: 65, // Price in EGP
+  images: [
+    blue_spectrum_d42, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "مناسب لواجهة 3.5 قدم للهاتف المحمول الذكي",
+    "مزيج ديناميكي لمخرج الاستريو",
+    "ميكروفون مدمج بدون استخدام اليدين"
+  ],
+  specifications: {
+    'قطر مكبر الصوت': '14.2 مم',
+    'نطاق التردد': '20 هرتز - 20 كيلو هرتز',
+    'الحساسية': '92 ديسيبل ± 3',
+    'المعاوقة': '320 أوم',
+    'طول السلك': '135 سم',
+    'مكان الصنع': 'الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.5, // Estimated for basic earphones
+  reviewCount: 5, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '122',
+  name: 'سماعات أذن VIDVIE HS660',
+  englishName: 'VIDVIE HS660 Earphones',
+  description: 'سماعات أذن VIDVIE HS660 عالية الجودة مصممة لتقليل الضوضاء في الأذن، مما يوفر تجربة صوتية غامرة. تتميز بتصميم مريح يجعلها سهلة الحمل ومناسبة لمختلف المناسبات، سواء للعب الألعاب أو الاستماع إلى الموسيقى.',
+  price: 75, // Price in EGP
+  images: [
+    vidive_hs_660, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "جودة صوت عالية",
+    "تقليل الضوضاء في الأذن (Noise isolation)",
+    "مريحة وسهلة الحمل (Wearing comfortable, Easy to carry)",
+    "مناسبة للعب الألعاب والاستماع إلى الموسيقى"
+  ],
+  specifications: {
+    'الموديل': 'HS660',
+    'النوع': 'سماعات أذن (Earphone)',
+    'التصميم': 'Angled fit'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for good quality earphones with noise isolation
+  reviewCount: 10, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '121',
+  name: 'محول طاقة SPIDER عالي الجودة',
+  englishName: 'SPIDER High Quality Adapter',
+  description: 'محول طاقة SPIDER عالي الجودة بتصميم جديد وخفيف الوزن، يوفر شحنًا سريعًا ومستقرًا. يعمل بتيار متردد 220 فولت ويوفر خرج تيار مستمر 5.3 فولت و2200 مللي أمبير كحد أقصى. مناسب لشحن الهواتف المحمولة والألعاب وأجهزة iPod و MP3/MP4/MP5 وبعض الأجهزة الإلكترونية الأخرى. يتميز بجودة النواة الداخلية للسلك لتحسين استقرار الشحن.',
+  price: 90, // Price in EGP
+  images: [
+    spieder_power_adaptor, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "تصميم جديد وخفيف الوزن",
+    "عملية شحن سريعة",
+    "جودة النواة الداخلية للسلك لتحسين استقرار الشحن",
+    "مناسب للهواتف المحمولة والألعاب وأجهزة iPod و MP3/MP4/MP5 وبعض الأجهزة الإلكترونية"
+  ],
+  specifications: {
+    'الإدخال': 'تيار متردد 220 فولت 50/60 هرتز 0.15 أمبير',
+    'الإخراج': 'تيار مستمر 5.3 فولت 2200 مللي أمبير كحد أقصى'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.8, // Estimated for a basic charger with good compatibility
+  reviewCount: 7, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '120',
+  name: 'شاحن سيارة VIDIVE بمنفذي USB',
+  englishName: 'VIDIVE Dual USB Car Charger',
+  description: 'شاحن سيارة ذكي وقوي من VIDIVE، يتميز بمنفذي USB ويوفر شحنًا فائق السرعة. مصمم ليكون آمنًا وموثوقًا، ويدعم مدخلات تيار مستمر 12-24 فولت. يوفر خرجًا يبلغ 5 فولت - 2.1 أمبير (كحد أقصى) لكل منفذ، مما يجعله مثاليًا لشحن الأجهزة أثناء القيادة. يأتي مع كابلات توصيل USB المقابلة.',
+  price: 250, // Price in EGP
+  images: [
+    vidive_usp_car, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شاحن سيارة ذكي بمنفذ USB",
+    "شحن USB فائق السرعة",
+    "كفاءة عالية",
+    "آمن وموثوق",
+    "مع كابلات توصيل USB المقابلة"
+  ],
+  specifications: {
+    'الإدخال': 'تيار مستمر 12-24 فولت',
+    'الإخراج': '5 فولت - 2.1 أمبير (كحد أقصى)',
+    'منافذ USB': '2',
+    'درجة حرارة التشغيل': '-10 درجات مئوية - 50 درجة مئوية'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a dual-port car charger with good specs
+  reviewCount: 12, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '119',
+  name: 'محول Joyroom Micro USB ذكر إلى USB أنثى (OTG)',
+  englishName: 'Joyroom Micro Male to USB Female Adapter (OTG)',
+  description: 'محول Joyroom S-H153 Micro USB ذكر إلى USB أنثى يسمح لك بتوصيل مجموعة متنوعة من أجهزة USB بمنفذ Micro USB الموجود على هاتفك أو جهازك اللوحي. يمكن استخدامه لتوصيل قارئ USB، لوحة مفاتيح، ماوس، وحدات تحكم ألعاب، أو كابلات أخرى. يدعم هذا المحول وظائف الشحن ونقل البيانات بسرعات USB 3.0، وهو مصنوع من سبيكة الزنك المتينة.',
+  price: 50, // Price in EGP
+  images: [
+    joyroom_miro_male_to_usp, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "منفذ USB",
+    "يدعم قارئ USB/لوحة مفاتيح/ماوس/وحدات تحكم ألعاب/كابل",
+    "وظيفة الشحن والإرسال",
+    "مصنوع من سبيكة الزنك"
+  ],
+  specifications: {
+    'الموديل': 'S-H153',
+    'الاسم': 'محول مايكرو ذكر إلى أنثى USB',
+    'نوع المنفذ': 'USB 3.0',
+    'المادة': 'سبيكة زنك',
+    'اللون': 'كستنائي'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Good rating for OTG functionality and material
+  reviewCount: 9, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '118',
+  name: 'أغطية أصابع WASP Feelers للألعاب المحمولة',
+  englishName: 'WASP Feelers Mobile Gaming Finger Sleeve',
+  description: 'أغطية أصابع WASP Feelers مصممة خصيصًا للاعبي الألعاب المحمولة. تساعد هذه الأكمام على التخلص من التعرق والانزلاق، مما يوفر قبضة أفضل وتحكمًا أدق أثناء اللعب. كما أنها تحمي أطراف أصابعك من الاحتكاك والتآكل أثناء جلسات اللعب الطويلة.',
+  price: 10, // Price in EGP
+  images: [
+    pubg_fingers, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "تمنع التعرق والانزلاق أثناء اللعب",
+    "تحمي أطراف الأصابع"
+  ],
+  specifications: {
+    'النوع': 'أغطية أصابع للألعاب'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // High rating for a useful gaming accessory
+  reviewCount: 30, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '117',
+  name: 'قارئ بطاقات متعدد الوظائف 32G',
+  englishName: 'Multi-functional Card Reader 32G',
+  description: 'قارئ بطاقات متعدد الوظائف يدعم ما يصل إلى 32 جيجابايت، متوافق مع مواصفات USB 2.0. يدعم هذا القارئ مجموعة واسعة من بطاقات الذاكرة بما في ذلك SD/MMC و Micro SD و MiniSD و MMC Plus و SDHC وغيرها. لا يتطلب طاقة خارجية حيث يسحب الطاقة مباشرة من منفذ USB. يتميز بمؤشر LED لمراقبة نشاط الناقل ويسمح بعرض وتحرير البيانات مباشرة على القارئ، بالإضافة إلى سحب وإفلات الملفات بين البطاقات. متوافق مع أنظمة التشغيل Windows 98/Win7/2000/XP/Vista.',
+  price: 30, // Price in EGP
+  images: [
+    card_reader, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "يدعم بطاقات SD/MMC و Micro SD و MiniSD و MMC Plus و SDHC و MMC Turbo و RS-MMC",
+    "قارئ TF Micro",
+    "يسحب الطاقة مباشرة من منفذ USB",
+    "مؤشر LED لمراقبة نشاط الناقل",
+    "عرض البيانات وتحريرها مباشرة على القارئ",
+    "سحب وإفلات الملفات بين البطاقات"
+  ],
+  specifications: {
+    'السعة المدعومة': 'حتى 32 جيجابايت',
+    'مواصفات USB': 'USB 2.0',
+    'أنظمة التشغيل المدعومة': 'Windows 98/Win7/2000/XP/Vista'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.7, // Estimated for a basic card reader
+  reviewCount: 5, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '116',
+  name: 'حامل دراجة نارية/دراجة هوائية JNUOBI C-02',
+  englishName: 'JNUOBI Motorcycle/Bicycle Bracket C-02',
+  description: 'حامل JNUOBI C-02 هو حامل متعدد الاستخدامات مصمم لتثبيت الهواتف الذكية على الدراجات النارية والدراجات الهوائية. يتميز بدوران 360 درجة، مما يتيح لك ضبط زاوية الرؤية بسهولة. يوفر تثبيتًا آمنًا لهاتفك أثناء القيادة.',
+  price: 270, // Price in EGP
+  images: [
+    jnuobi_bycicle____, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "دوران 360 درجة",
+    "مناسب للدراجات النارية والدراجات الهوائية"
+  ],
+  specifications: {
+    'الموديل': 'C-02 (تقديري من السياق والصورة)',
+    'النوع': 'حامل للدراجات'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Estimated for a functional bike/motorcycle holder
+  reviewCount: 6, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '115',
+  name: 'حامل JNUOBI CC-04 بقفل أوتوماتيكي ومشبك تلقائي',
+  englishName: 'JNUOBI HOLDER AUTOMATIC LOCK CC-04',
+  description: 'حامل JNUOBI CC-04 هو حامل للهواتف الذكية يتميز بآلية قفل أوتوماتيكية ومشبك تلقائي (Auto Clamp) لتثبيت الهاتف بإحكام. يتميز بتصميم ثابت بفضل الحامل السفلي وذراع المشبك المثلثين المصنوعين من السيليكون غير القابل للانزلاق، مما يضمن ثبات الهاتف حتى على الطرق الوعرة. مناسب للاستخدام مع الهواتف الذكية.',
+  price: 200, // Price in EGP
+  images: [
+    jnuobi_cc_04, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "قفل أوتوماتيكي",
+    "مشبك تلقائي (Auto Clamp)",
+    "الحامل السفلي وذراع المشبك مثلثان",
+    "سطح التلامس الداخلي مصنوع من السيليكون غير القابل للانزلاق",
+    "كأس الشفط قوي ومقاوم للانزلاق حتى على الطرق الوعرة، والهاتف المحمول مستقر للغاية"
+  ],
+  specifications: {
+    'الموديل': 'CC-04',
+    'التوافق': 'الهواتف الذكية',
+    'المادة': 'بلاستيك + سيليكون',
+    'النوع': 'حامل مصاصة للفأرة التلسكوبية (Telescopic Mouse Sucker Holder)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Good rating for stability and auto-clamp feature
+  reviewCount: 8, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '114',
+  name: 'حامل JNUOBI CC-03 بقفل أوتوماتيكي',
+  englishName: 'JNUOBI HOLDER AUTOMATIC LOCK CC-03',
+  description: 'حامل JNUOBI CC-03 هو حامل للهاتف يتميز بآلية قفل أوتوماتيكية لتثبيت هاتفك بأمان. مناسب للاستخدام في السيارة أو على المكتب، ويوفر سهولة في وضع الهاتف وإزالته.',
+  price: 170, // Price in EGP
+  images: [
+    jnuobi_cc_03, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "قفل أوتوماتيكي"
+  ],
+  specifications: {
+    'الموديل': 'CC-03',
+    'النوع': 'حامل (Holder)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a functional phone holder
+  reviewCount: 5, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '113',
+  name: 'بطارية ليثيوم أيون 3.7 فولت',
+  englishName: '3.7V Li-ion Battery',
+  description: 'بطارية ليثيوم أيون 3.7 فولت، مناسبة لمجموعة متنوعة من الأجهزة الإلكترونية. توفر طاقة موثوقة ويمكن إعادة شحنها. تتضمن تحذيرات أمان مهمة لضمان الاستخدام الصحيح والآمن.',
+  price: 85, // Price in EGP
+  images: [
+    li_ion_battery, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "بطارية ليثيوم أيون (Li-ion)",
+    "3.7 فولت"
+  ],
+  specifications: {
+    'الجهد': '3.7 فولت',
+    'النوع': 'ليثيوم أيون (Li-ion)'
+  },
+  isAvailable: true,
+  isNew: false,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.5, // Estimated for a generic battery, emphasizing the warnings
+  reviewCount: 5, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '112',
+  name: 'محول JH-002 POP-UP WINDOW 8 PIN لسماعة الرأس',
+  englishName: 'JH-002 POP-UP WINDOW 8 PIN TO HEADPHONE JACK ADAPTER',
+  description: 'محول JH-002 هو محول من 8 سنون (Lightning) إلى مقبس سماعة رأس، مصمم خصيصًا لأجهزة iPhone 7/8/X/Xs/Xr/11/11 Pro Max/12/12 Pro Max. يتميز بخاصية "نافذة منبثقة" لسهولة الاتصال والاستخدام، مما يتيح لك توصيل سماعات الرأس التقليدية بأجهزة iPhone التي لا تحتوي على مقبس سماعة رأس 3.5 ملم.',
+  price: 50, // Price in EGP
+  images: [
+    JH_002, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "مقبس سماعة رأس 8 سنون (Lightning)",
+    "متوافق مع أجهزة iPhone 7/8/X/Xs/Xr/11/11 Pro Max/12/12 Pro Max",
+    "خاصية النافذة المنبثقة"
+  ],
+  specifications: {
+    'الموديل': 'JH-002',
+    'النوع': 'محول Lightning إلى مقبس سماعة رأس',
+    'التوافق': 'iPhone 7/8/X/Xs/Xr/11/11 Pro Max/12/12 Pro Max'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.5, // Estimated for a basic adapter
+  reviewCount: 7, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '111',
+  name: 'محول طاقة USB-C بقوة 25 واط',
+  englishName: 'USB-C 25W Power Adapter',
+  description: 'محول طاقة USB-C بقوة 25 واط، يوفر شحنًا سريعًا وفعالًا للأجهزة المتوافقة مع منفذ USB-C. يتميز بتصميم مدمج ومناسب للسفر، وهو مثالي لشحن الهواتف الذكية والأجهزة اللوحية وغيرها من الأجهزة التي تدعم الشحن عبر USB-C.',
+  price: 150, // Price in EGP
+  images: [
+    usp_c_25w_power_adaptor, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "منفذ USB-C",
+    "قوة 25 واط"
+  ],
+  specifications: {
+    'القدرة': '25 واط',
+    'المنفذ': 'USB-C'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a standard 25W USB-C adapter
+  reviewCount: 8, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '110',
+  name: 'مشغل MP3 للسيارة متعدد الوظائف HZ H38A',
+  englishName: 'HZ H38A MULTIFUNCTION CAR MP3 PLAYER',
+  description: 'مشغل MP3 للسيارة HZ H38A هو جهاز متعدد الوظائف يتيح لك الاستماع إلى الموسيقى وإجراء المكالمات بسهولة في السيارة. يتميز بمنفذين USB بقدرة إخراج 2.1 أمبير، مما يتيح لك شحن جهازين في وقت واحد. يأتي مع جهاز تحكم عن بعد لسهولة التشغيل ويدعم مدخلات 12-24 فولت، مما يجعله متوافقًا مع معظم السيارات.',
+  price: 300, // Price in EGP
+  images: [
+    HZ_h38a, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "منفذين USB",
+    "تيار إخراج 2.1 أمبير",
+    "تشغيل الموسيقى والتحدث في السيارة بسهولة",
+    "جهاز تحكم عن بعد",
+    "يدعم مدخل 12-24 فولت"
+  ],
+  specifications: {
+    'الموديل': 'H38A',
+    'عدد منافذ USB': '2',
+    'التيار الأقصى لمنفذ USB': '2.1 أمبير',
+    'جهد الإدخال': '12-24 فولت',
+    'الوظائف': 'مشغل MP3، شاحن سيارة، جهاز إرسال FM لاسلكي'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.8, // Estimated based on typical car MP3 player functionality
+  reviewCount: 10, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '109',
+  name: 'شاحن سيارة BIBOSHI B03-119',
+  englishName: 'BIBOSHI B03-119 Car Charger',
+  description: 'شاحن سيارة BIBOSHI B03-119 هو شاحن سيارة بمنفذي USB يوفر شحنًا آمنًا وفعالًا أثناء التنقل. يتميز بمخرج طاقة تكيفي مخصص يبلغ 3.1 أمبير لكل منفذ USB، مما يسمح بشحن جهازين في وقت واحد بأقصى سرعة. يتضمن الشاحن حماية متعددة مثل الحماية من الطاقة الزائدة، حماية من درجة الحرارة الزائدة (OVM)، وحماية من الدائرة القصيرة لضمان سلامة أجهزتك.',
+  price: 150, // Price in EGP
+  images: [
+    biboshi_b03_119, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "حماية من الطاقة الزائدة",
+    "حماية كبيرة علوية (Over-voltage protection)",
+    "حماية من درجة حرارة OVM (Over-temperature protection)",
+    "حماية من الدائرة القصيرة (Short-circuit protection)",
+    "شحن في وقت واحد بأقصى سرعة مع 3.1 أمبير",
+    "3.1 أمبير من خرج الطاقة التكيفي المخصص لكل منفذ USB"
+  ],
+  specifications: {
+    'الموديل': 'B03-119',
+    'التيار الأقصى': '3.1 أمبير (لكل منفذ USB)',
+    'عدد المنافذ': '2 USB',
+    'النوع': 'شاحن سيارة'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Good rating for safety features and dual port
+  reviewCount: 18, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '108',
+  name: 'محول طاقة SAMSUNG USB-C 25W PD',
+  englishName: 'SAMSUNG USB-C 25W PD ADAPTOR',
+  description: 'محول طاقة SAMSUNG USB-C 25W PD هو شاحن سفر يدعم الشحن فائق السرعة بتقنية PD 3.0 PPS وبحد أقصى 25 واط. متوافق مع أجهزة Android و iPhone، مما يجعله حلاً متعدد الاستخدامات لاحتياجات الشحن الخاصة بك. تشمل محتويات العبوة محول السفر وكتيبًا، مع ملاحظة أن الكابل غير متضمن.',
+  price: 195, // Price in EGP
+  images: [
+    samsung_25w_pd_adaptor, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن فائق السرعة (PD 3.0 PPS Max 25W)",
+    "متوافق مع أجهزة أندرويد وآيفون"
+  ],
+  specifications: {
+    'القدرة': '25 واط',
+    'النوع': 'محول طاقة USB-C PD',
+    'المحتويات': 'محول سفر، كتيب (الكابل غير متضمن)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // High rating for a genuine Samsung fast charger
+  reviewCount: 50, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '107',
+  name: 'كابل Energizer Micro USB معدني مقوى',
+  englishName: 'Energizer Resistant Metallic Micro USB Cable',
+  description: 'كابل Energizer Micro USB هو كابل شحن ومزامنة بيانات متين وعالي القوة، مصمم للاستخدام مع الهواتف المحمولة المزودة بمنفذ Micro USB. يبلغ طوله 1.2 متر (4 أقدام)، وهو مصنوع من مادة معدنية مقاومة للتشابك لضمان المتانة وطول العمر. يوفر الكابل نقل بيانات سريع وشحن فعال.',
+  price: 250, // Price in EGP
+  images: [
+    energizer_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "قوة عالية",
+    "مصنوع من مادة معدنية مقاومة للتشابك",
+    "كابل USB للشحن ومزامنة البيانات",
+    "ملائم ومتوافق مع الهواتف النقالة بمخرج Micro USB"
+  ],
+  specifications: {
+    'النوع': 'Micro USB',
+    'الطول': '1.2 متر / 4 أقدام',
+    'المادة': 'معدنية'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a durable cable
+  reviewCount: 15, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '106',
+  name: 'محول طاقة GERLAX A10L',
+  englishName: 'GERLAX POWER ADAPTER A10L',
+  description: 'محول طاقة GERLAX A10L هو شاحن سفر يدعم الشحن السريع بقدرة 15 واط وتيار 3 أمبير. يتميز بتقنية AUTO-ID التي تتعرف تلقائيًا على الجهاز المتصل لتوفير الشحن الأمثل. هذا الشاحن مصمم خصيصًا لأجهزة iOS/5G، ويوفر دعمًا آمنًا وفعالًا لشحن الهواتف المحمولة.',
+  price: 120, // Price in EGP
+  images: [
+    gerlax_a10l, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن سريع 15 واط",
+    "تيار 3 أمبير",
+    "تقنية AUTO-ID",
+    "مصمم لأجهزة iOS/5G",
+    "يدعم الهواتف المحمولة Android/iOS"
+  ],
+  specifications: {
+    'الموديل': 'A10L',
+    'القدرة': '15 واط',
+    'التيار': '3 أمبير',
+    'التوافق': 'iOS/5G (يدعم Android/iOS)',
+    'النوع': 'شاحن سفر (Travel Adapter)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated for a 15W charger with AUTO-ID
+  reviewCount: 15, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '105',
+  name: 'كابل شحن BIBOSHI A02',
+  englishName: 'BIBOSHI A02 Charging Cable',
+  description: 'كابل شحن BIBOSHI A02 هو كابل شحن سريع ومتين، يدعم تيارًا يصل إلى 6 أمبير. يتميز هذا الكابل بأنه مصنوع من مادة TPE عالية الجودة، مما يجعله أكثر متانة وقوة من كابلات الشحن العادية. كما أنه مرن وخالي من التشابك لسهولة الاستخدام والتخزين.',
+  price: 85, // Price in EGP
+  images: [
+    biboshi_a02, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "مصنوع من مادة TPE عالية الجودة",
+    "أكثر متانة وقوة من الكابلات العادية",
+    "مرن وخالي من التشابك",
+    "يدعم شحن 6 أمبير"
+  ],
+  specifications: {
+    'الموديل': 'A02',
+    'التيار الأقصى': '6 أمبير',
+    'المادة': 'TPE',
+    'النوع': 'Micro USB (وفقًا للصورة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Good rating for durability and high current
+  reviewCount: 10, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '104',
+  name: 'محول طاقة OPPO GAN',
+  englishName: 'OPPO GAN POWER ADAPTER',
+  description: 'محول طاقة OPPO GAN هو شاحن قوي وعالي الأداء يدعم الشحن السريع للغاية، بحد أقصى 65 واط. يتميز هذا المحول بتقنية GaN لتوفير كفاءة عالية وتصميم مدمج. يوفر مخارج متعددة للشحن السريع بمستويات جهد وتيار مختلفة، مما يجعله متوافقًا مع مجموعة واسعة من الأجهزة.',
+  price: 400, // Price in EGP
+  images: [
+    oppo_gan, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "تقنية GaN",
+    "شحن فائق السرعة يصل إلى 65 واط",
+    "دعم PDO و PPS"
+  ],
+  specifications: {
+    'الموديل': 'VOATJCCH',
+    'الإدخال': '100-240 فولت - 50/60 هرتز 1.8 أمبير',
+    'الإخراج': '5 فولت-5 أمبير أو 10 فولت-6.5 أمبير (65 واط كحد أقصى)',
+    'مخرج PDO': '5 فولت-3 أمبير أو 9 فولت-3 أمبير أو 12 فولت-3 أمبير أو 15 فولت-3 أمبير',
+    'مخرج PPS': '5-11 فولت-5 أمبير (65 واط كحد أقصى) أو 5-16 فولت-2.8 أمبير'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6, // High rating for a GaN fast charger
+  reviewCount: 50, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '1033',
+  name: 'شاحن TEMAX 0112 المحمول مع كابل Micro',
+  englishName: 'TEMAX 0112 Portable Charger & Micro Cable',
+  description: 'شاحن TEMAX 0112 هو شاحن محمول يجمع بين الشحن السريع وحماية متقدمة. يتميز بتقنية Power IQ لتعزيز الجهد وضمان أسرع شحن ممكن. يوفر مخرجًا بقوة 5 فولت - 2.4 أمبير، مما يجعله مناسبًا لأجهزة iPhone وiPad وأجهزة Android والأجهزة الأخرى المشحونة عبر USB. يأتي الشاحن مع كابل Micro USB بالداخل، ويوفر حماية متقدمة لضمان سلامتك وسلامة أجهزتك. كما يتميز بضمان لمدة 18 شهرًا.',
+  price: 150, // Price in EGP
+  images: [
+    temax_0122, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "باور آي كيو (Power IQ)",
+    "تعزيز الجهد",
+    "سرعة فائقة: أسرع شحن جربته على الإطلاق",
+    "حماية متقدمة: يضمن السلامة الكاملة لك ولأجهزتك",
+    "يعمل مع أجهزة iPhone وiPad وAndroid والأجهزة الأخرى المشحونة عبر USB",
+    "كابل Micro USB بالداخل"
+  ],
+  specifications: {
+    'الموديل': '0112',
+    'الإدخال': 'تيار متردد 100-240 فولت 50/600 هرتز',
+    'الإخراج': '5 فولت - 2.4 أمبير',
+    'نوع الكابل المرفق': 'Micro USB',
+    'الضمان': '18 شهرًا'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Good rating for a charger with fast charging and safety features
+  reviewCount: 25, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '103',
+  name: 'شاحن حائط MASA MA-555 USP-micro',
+  englishName: 'MASA MA-555 Type-C Wall Charger',
+  description: 'شاحن حائط MASA MA-555 هو شاحن سفر بقابس الاتحاد الأوروبي، يوفر شحنًا فعالًا وموثوقًا به. يتميز بمخرج 2.1 أمبير عند 5 فولت تيار مستمر، مما يجعله مناسبًا لشحن مجموعة واسعة من الأجهزة. مصنوع من مادة ABS المتينة، ويحتوي على كابل Micro USB مدمج بطول 1000 مم. يدعم الشحن السريع ونقل البيانات عالي السرعة، مع تصميم متين وتوافق عالٍ وموصل نحاسي فائق النقاء لضمان جودة ممتازة.',
+  price: 100, // Price in EGP
+  images: [
+    masa_ma_555, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن آمن وعالي السرعة للهواتف المحمولة/الأجهزة اللوحية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'العلامة التجارية': 'ماسا',
+    'الموديل': 'MA-555',
+    'المادة': 'ABS',
+    'الإدخال': 'تيار متردد 110-240 فولت 50/60 هرتز',
+    'الإخراج': 'تيار مستمر 5 فولت - 2.1 أمبير',
+    'نوع القابس': 'قابس الاتحاد الأوروبي',
+    'طول الكابل': '1000 مم (1 متر)',
+    'نوع الكابل': 'Micro USB (مضمن مع الشاحن)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.9, // Estimated for a standard charger with good features
+  reviewCount: 22, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '102',
+  name: 'شاحن حائط MASA MA-555 Type-C',
+  englishName: 'MASA MA-555 Type-C Wall Charger',
+  description: 'شاحن حائط MASA MA-555 هو شاحن سفر بقابس الاتحاد الأوروبي، يوفر شحنًا فعالًا وموثوقًا به. يتميز بمخرج 2.1 أمبير عند 5 فولت تيار مستمر، مما يجعله مناسبًا لشحن مجموعة واسعة من الأجهزة. مصنوع من مادة ABS المتينة، ويحتوي على كابل Micro USB مدمج بطول 1000 مم. يدعم الشحن السريع ونقل البيانات عالي السرعة، مع تصميم متين وتوافق عالٍ وموصل نحاسي فائق النقاء لضمان جودة ممتازة.',
+  price: 100, // Price in EGP
+  images: [
+    masa_ma_555, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن آمن وعالي السرعة للهواتف المحمولة/الأجهزة اللوحية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'العلامة التجارية': 'ماسا',
+    'الموديل': 'MA-555',
+    'المادة': 'ABS',
+    'الإدخال': 'تيار متردد 110-240 فولت 50/60 هرتز',
+    'الإخراج': 'تيار مستمر 5 فولت - 2.1 أمبير',
+    'نوع القابس': 'قابس الاتحاد الأوروبي',
+    'طول الكابل': '1000 مم (1 متر)',
+    'نوع الكابل': 'Micro USB (مضمن مع الشاحن)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.9, // Estimated for a standard charger with good features
+  reviewCount: 22, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '101',
+  name: 'شاحن BIBOSHI MINI PORTABLE B03-175',
+  englishName: 'BIBOSHI MINI PORTABLE CHARGER B03-175',
+  description: 'شاحن BIBOSHI MINI PORTABLE B03-175 هو شاحن محمول وصغير الحجم يوفر شحنًا آمنًا وفعالًا. يتميز بمخرج 12 واط و2.4 أمبير، مع شريحة طاقة ذكية مدمجة للتعرف التلقائي على الجهاز وإيقاف الشحن عند الامتلاء. هيكل الشاحن مصنوع من مادة ABS+PC المقاومة للهب والصديقة للبيئة، مما يمنع التلف العرضي. يوفر الشاحن شحنًا صامتًا مع جهد وتيار ثابتين، ويحتوي على حماية متعددة ضد الجهد الزائد، التيار الزائد، التفريغ الزائد، درجة الحرارة الزائدة، الشحن الزائد، وقصر الدائرة.',
+  price: 175, // Price in EGP (from the model number)
+  images: [
+    biboshi_b03_175, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شريحة طاقة ذكية احترافية مدمجة، تعريف تلقائي، إيقاف تشغيل تلقائي للمعدات عند الشحن الكامل",
+    "الغلاف مصنوع من مادة ABS+PC الصديقة للبيئة، مقاومة للحريق، تمنع التلف العرضي",
+    "شحن هادئ، يوفر جهدًا وتيارًا ثابتين، مما يجعل الشحن لا يصدر صوت تيار 'صرير'",
+    "حماية احترافية من التيار الزائد والتفريغ الزائد، وحماية من درجة الحرارة الزائدة والشحن الزائد، ووظيفة القطع التلقائي لمخرج الدائرة القصيرة"
+  ],
+  specifications: {
+    'الموديل': 'B03-175',
+    'الخرج': '12 واط',
+    'التيار': '2.4 أمبير',
+    'نوع القابس': 'أوروبي (EU)',
+    'عدد المنافذ': 'منفذ واحد (Single Port)',
+    'الحماية': 'حماية متعددة (الجهد الزائد، التيار الزائد، التفريغ الزائد، درجة الحرارة الزائدة، الشحن الزائد، قصر الدائرة)',
+    'المادة': 'ABS+PC (مقاومة للهب)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // High rating due to multiple safety features and smart chip
+  reviewCount: 40, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '1000',
+  name: 'شاحن BIBOSHI QUICK CHARGE C78',
+  englishName: 'BIBOSHI QUICK CHARGE C78',
+  description: 'شاحن BIBOSHI QUICK CHARGE C78 هو شاحن سفر USB ثنائي المنفذ يدعم الشحن السريع. يوفر تيارًا يصل إلى 3 أمبير، مما يسمح بشحن الأجهزة بكفاءة عالية. يتميز بتقنية AUTO-ID للتعرف الذكي على الجهاز وتوفير الشحن الأمثل. إنه حل مثالي لاحتياجات الشحن السريعة والمتعددة.',
+  price: 160, // Price in EGP
+  images: [
+    biboshi_c78, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن سريع",
+    "منفذين USB",
+    "تقنية AUTO-ID للتعرف الذكي"
+  ],
+  specifications: {
+    'الموديل': 'C78',
+    'التيار الأقصى': '3 أمبير',
+    'عدد المنافذ': '2 USB',
+    'النوع': 'شاحن سفر (Travel Adapter)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated for a quick charger with two ports
+  reviewCount: 20, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '99',
+  name: 'شاحن حائط BIBOSHI C06 ثنائي المنفذ USB',
+  englishName: 'BIBOSHI C06 Dual USB European Wall Charger',
+  description: 'شاحن حائط BIBOSHI C06 هو محول طاقة أوروبي مزود بمنفذين USB، مصمم لشحن الهواتف الذكية والأجهزة اللوحية بكفاءة. يوفر مخرجًا يصل إلى 2.1 أمبير/5 فولت، مما يتيح لك شحن جهازين في وقت واحد بأقصى سرعة. يتميز بتصميم مدمج وموثوق به للاستخدام اليومي.',
+  price: 150, // Price in EGP
+  images: [
+    biboshi_c_06, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "مخرج ثنائي المنفذ USB",
+    "شحن متزامن للهاتف الذكي أو الجهاز اللوحي",
+    "مخرج 2.1 أمبير/5 فولت",
+    "شحن بأقصى سرعة"
+  ],
+  specifications: {
+    'الموديل': 'C06',
+    'المنفذ': 'USB مزدوج',
+    'التيار الأقصى': '2.1 أمبير',
+    'الجهد': '5 فولت',
+    'نوع القابس': 'أوروبي'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated good rating for a standard charger
+  reviewCount: 15, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '98',
+  name: 'كابل صوت JNUOBI AUX PURE AUDIO YP-171',
+  englishName: 'JNUOBI AUX CABLE PURE AUDIO YP-171',
+  description: 'كابل صوت JNUOBI AUX PURE AUDIO YP-171 هو كابل صوت عالي الجودة مصمم لتقديم تجربة صوتية نقية. بطول 1 متر، يوفر الكابل مرونة كافية للاستخدامات المختلفة. يتميز بخصائص مقاومة التشابك والالتواء لضمان المتانة وسهولة الاستخدام.',
+  price: 65, // Price in EGP
+  images: [
+    jnuobi_yp_171_aux_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "صوت نقي",
+    "مقاوم للتشابك والالتواء"
+  ],
+  specifications: {
+    'الموديل': 'YP-171',
+    'الطول': '1 متر',
+    'النوع': 'كابل صوت AUX'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a good quality AUX cable
+  reviewCount: 12, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '97',
+  name: 'كابل LDNIO PVC LS841 للشحن والمزامنة',
+  englishName: 'LDNIO PVC LS841 Charge & Sync Cable',
+  description: 'كابل LDNIO PVC LS841 هو كابل شحن ومزامنة بيانات متين وعالي الجودة، مصمم لتوفير شحن سريع وآمن. يدعم الكابل طاقة تصل إلى 25 واط، مما يجعله مناسبًا للشحن السريع. يتميز بحماية أمان متعددة ويقاوم التلف الناتج عن الانحناء المتكرر بفضل واجهته المُحسّنة. مصنوع من مواد PVC صديقة للبيئة وناعمة ومرنة ومضادة للسحب والانحناء. بفضل تقنية "TURBO" الذكية، يتعرف الكابل على جميع الأجهزة ويوفر التوافق الكامل مع الهواتف المختلفة، مما يضمن مزامنة سريعة للبيانات في الوقت الفعلي.',
+  price: 70, // Price in EGP
+  images: [
+    ldnio_pvc_ls_841_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "مصمم بحماية أمان متعددة وشحن سريع غير قابل للتلف",
+    "مزامنة سريعة للبيانات في الوقت الفعلي",
+    "مصنوع من مواد صديقة للبيئة ناعمة ومرنة ومضادة للسحب والانحناء",
+    "محرك الطاقة TURBO™",
+    "واجهة مُحسّنة ومُعززة تتحمل الانحناء المتكرر لتجنب الكسر",
+    "يتعرف بذكاء على جميع الأجهزة ومتوافق تمامًا مع جميع الهواتف"
+  ],
+  specifications: {
+    'الموديل': 'LS841',
+    'القدرة': '25 واط',
+    'الطول': '1000 مم (1 متر)',
+    'النوع': 'كابل Lightning (وفقًا للصورة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated based on features and typical cable quality
+  reviewCount: 30, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '96',
+  name: 'كابل شحن EHP FAST CABLE',
+  englishName: 'EHP FAST CABLE',
+  description: 'كابل شحن EHP FAST CABLE هو كابل بيانات وشحن عالي الأداء مصمم لتوفير شحن آمن وسريع بالإضافة إلى نقل بيانات عالي السرعة. يدعم الكابل تيارًا يصل إلى 2.4 أمبير، ويتميز بتصميم متين يقاوم الضغط العالي. يحتوي على موصل نحاسي فائق النقاء لضمان جودة عالية، وهو مضاد للتداخل ومتوافق مع أي إصدار من USB. يوفر الكابل حلاً موثوقًا وفعالًا لشحن ومزامنة الهواتف المحمولة والأجهزة اللوحية.',
+  price: 95, // Price in EGP
+  images: [
+    ehp_c_20_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن آمن وعالي السرعة للهواتف المحمولة/الأجهزة اللوحية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء، يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل",
+    "نقل بيانات عالي السرعة",
+    "شحن سريع وتصميم متين",
+    "توافق عالي"
+  ],
+  specifications: {
+    'التيار': '2.4 أمبير',
+    'الطول': '100 سم (1 متر)',
+    'النوع': 'كابل شحن (Micro USB حسب الصورة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a general purpose cable
+  reviewCount: 18, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '95',
+  name: 'كابل شحن JNUOBI FAST CHARGE ZS-13 3 في 1',
+  englishName: 'JNUOBI FAST CHARGE ZS-13 3 IN 1 CABLE',
+  description: 'كابل شحن JNUOBI FAST CHARGE ZS-13 هو كابل شحن سريع ومتعدد الاستخدامات بتصميم 3 في 1. يدعم الكابل تيار شحن قوي يصل إلى 6 أمبير، مما يجعله مثاليًا لشحن الأجهزة المختلفة بسرعة وكفاءة. يجمع الكابل بين أنواع موصلات متعددة (على الأرجح Lightning، Micro USB، و Type-C) في كابل واحد، مما يوفر راحة كبيرة للمستخدمين الذين يمتلكون أجهزة متنوعة.',
+  price: 225, // Price in EGP
+  images: [
+    jnuobi_3_in_1_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "تصميم 3 في 1",
+    "يدعم شحن سريع بتيار يصل إلى 6 أمبير",
+    "جودة ممتازة",
+    "مقاوم للتجمد"
+  ],
+  specifications: {
+    'الموديل': 'ZS-13',
+    'التيار الأقصى': '6 أمبير',
+    'النوع': 'كابل شحن 3 في 1 (يتضمن على الأرجح Lightning، Micro USB، وType-C)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4, // Good rating for high current and versatility
+  reviewCount: 30, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '94',
+  name: 'كابل شحن GX Type-C إلى Type-C',
+  englishName: 'GX Type-C to Type-C Charging Cable',
+  description: 'كابل شحن GX Type-C إلى Type-C هو كابل عالي الجودة مصمم لتوفير شحن عالي السرعة لهاتفك المحمول. يتميز بتصميم مريح مع أخدود فريد لبصمة الإصبع لسهولة التركيب. يوفر أمانًا وسرعة فائقة مع تصميم أنيق وموجز. متوافق بنسبة 99% مع الهواتف المحمولة، مما يعزز حياتك الذكية.',
+  price: 85, // Price in EGP
+  images: [
+    gx_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن عالي السرعة لهاتفك المحمول",
+    "تصميم مريح سهل التركيب مع أخدود فريد ببصمة الإصبع",
+    "أمان وسرعة فائقة",
+    "تصميم أنيق وموجز",
+    "متوافق بنسبة 99% مع الهواتف المحمولة",
+    "يعزز حياتك الذكية"
+  ],
+  specifications: {
+    'النوع': 'كابل شحن Type-C إلى Type-C',
+    'الوظيفة': 'شحن ونقل بيانات'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated for a good quality Type-C cable
+  reviewCount: 15, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '93',
+  name: 'كابل شحن JNUOBI S-1 Lightning',
+  englishName: 'JNUOBI S-1 Lightning Charge Cable',
+  description: 'كابل شحن JNUOBI S-1 Lightning هو كابل شحن سريع مصمم خصيصًا لأجهزة Apple التي تستخدم منفذ Lightning. يدعم الكابل تيار شحن قوي يصل إلى 6 أمبير، مما يضمن شحنًا فائق السرعة لجهازك. يتميز بتصميم متين ومواد عالية الجودة لضمان الأداء الأمثل وعمر افتراضي طويل.',
+  price: 75, // Price in EGP
+  images: [
+    jnuobi_s_1_lightning_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "يدعم شحن سريع بتيار يصل إلى 6 أمبير",
+    "مصمم خصيصًا لأجهزة Lightning",
+    "يتميز بتصميم متين ومواد عالية الجودة"
+  ],
+  specifications: {
+    'الموديل': 'S-1',
+    'التيار الأقصى': '6 أمبير',
+    'الطول': '1 متر (1M)',
+    'النوع': 'كابل شحن Lightning'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Estimated for a good quality fast charging cable
+  reviewCount: 20, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '92',
+  name: 'كابل شحن MASA SUPER FAST CHARGING MA70',
+  englishName: 'MASA SUPER FAST CHARGING CABLE MA70',
+  description: 'كابل MASA SUPER FAST CHARGING MA70 هو كابل شحن بيانات عالي الأداء مصمم للشحن السريع والفعال. يتميز هذا الكابل بموصلات عالية الجودة وكابل ناعم ومرن مع أداء طي جيد. يدعم شحنًا سريعًا للهواتف والأجهزة اللوحية بتيار أقصى يبلغ 6 أمبير. يوفر مقاومة عالية للتداخل ونقل بيانات عالي السرعة. الكابل مصنوع من خط TPE عالي المرونة والخالي من الهالوجين، مما يزيد من عمر خدمته ويجعله صديقًا للبيئة.',
+  price: 90, // Price in EGP
+  images: [
+    masa_ma_70_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "موصلات عالية الجودة وكابل ناعم ومرن",
+    "شحن سريع وفعال للهواتف والأجهزة اللوحية",
+    "مقاومة عالية للتداخل ونقل بيانات عالي السرعة",
+    "مصنوع من خط TPE عالي المرونة، خالٍ من الهالوجين وصديق للبيئة",
+    "يزيد بشكل كبير من عمر خدمة المنتج"
+  ],
+  specifications: {
+    'الموديل': 'MA70',
+    'الجهد المقدر': '5 فولت تيار مستمر',
+    'أقصى تيار عمل': '6 أمبير',
+    'النوع': 'كابل شحن سريع (على الأرجح USB-A إلى Lightning حسب الصورة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4, // Good rating for high current and durability
+  reviewCount: 35, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '91',
+  name: 'كابل بيانات MASA FLAT MA-60 Micro',
+  englishName: 'MASA FLAT DATA CABLE MA-60 Micro',
+  description: 'كابل بيانات MASA FLAT MA-60 Micro هو كابل شحن ونقل بيانات عالي الأداء، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يتميز هذا الكابل بتيار خرج يصل إلى 5 أمبير، مما يجعله مثاليًا للشحن السريع. بطول 1000 مم، يوفر مرونة كافية للاستخدام اليومي. يتمتع بتصميم متين ومقاوم للضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية وأداء مستقر. يجمع الكابل بين وظيفتي نقل البيانات والشحن، وهو مضاد للتداخل ومتوافق مع أي إصدار من USB.',
+  price: 80, // Price in EGP
+  images: [
+    masa_ma_60_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن آمن وعالي السرعة للهواتف المحمولة/الأجهزة اللوحية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'العلامة التجارية': 'ماسا',
+    'الموديل': 'MA-60',
+    'الخرج': '5 أمبير',
+    'الطول': '1000 مم',
+    'النوع': 'كابل بيانات Micro USB (وفقًا للصورة والوصف)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Estimated for a good quality basic cable
+  reviewCount: 28, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '90',
+  name: 'كابل بيانات MIC USB UC04',
+  englishName: 'MIC USB Data Cable UC04',
+  description: 'كابل بيانات MIC USB UC04 هو كابل شحن ونقل بيانات مصمم ليكون متوافقًا على نطاق واسع مع مختلف الأجهزة. يدعم الكابل تيارًا يصل إلى 2.4 أمبير، ويجمع بين وظائف نقل البيانات والشحن. يتميز بتصميم ممتاز يقاوم الضغط العالي ومضاد للتداخل، مما يضمن جودة عالية وأداء موثوقًا به. كما أنه متوافق مع أي إصدار من USB، مما يجعله حلاً متعدد الاستخدامات للهواتف المحمولة والأجهزة اللوحية وسماعات الرأس/المكبرات الصوتية التي تعمل بتقنية البلوتوث ومشغلات MP3 والأجهزة الرقمية المختلفة.',
+  price: 85, // Price in EGP
+  images: [
+    MIC_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "مضاد للتداخل",
+    "متوافق مع أي إصدار USB",
+    "ضمان جودة عالية",
+    "متوافق على نطاق واسع مع الهواتف المحمولة، الأجهزة اللوحية، سماعات الرأس/مكبرات الصوت التي تعمل بتقنية البلوتوث، مشغلات MP3، والأجهزة الرقمية المختلفة"
+  ],
+  specifications: {
+    'الموديل': 'UC04',
+    'التيار': '2.4 أمبير',
+    'النوع': 'كابل بيانات USB (على الأرجح USB-A إلى Type-C/Micro USB/Lightning بناءً على الصورة)',
+    'الوظيفة': 'شحن ومزامنة'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Estimated for a good general-purpose cable
+  reviewCount: 25, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '89',
+  name: 'كابل بيانات JOYROOM 3 في 1',
+  englishName: 'JOYROOM 3 IN 1 DATA CABLE',
+  description: 'كابل بيانات JOYROOM 3 في 1 هو كابل متعدد الوظائف يجمع بين الشحن ونقل البيانات لأجهزتك المحمولة. يدعم تيارًا يصل إلى 3.0 أمبير لشحن آمن وعالي السرعة. يتميز بتصميم متين يقاوم الضغط العالي وموصل نحاسي فائق النقاء لضمان جودة عالية. كما أنه مضاد للتداخل ومتوافق مع أي إصدار من USB، مما يجعله حلاً عمليًا وفعالًا لمختلف الأجهزة.',
+  price: 95, // Price in EGP
+  images: [
+    joyroom_3_in_1_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن آمن وعالي السرعة للهواتف المحمولة/الأجهزة اللوحية",
+    "وظيفة مزدوجة: نقل البيانات والشحن",
+    "تصميم مقاوم للضغط العالي",
+    "موصل نحاسي فائق النقاء لضمان جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'التيار الأقصى': '3.0 أمبير',
+    'النوع': 'كابل بيانات 3 في 1 (وفقًا للصورة، يتضمن على الأرجح Lightning وMicro USB وType-C)',
+    'الطول': '1000 مم (1 متر)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Estimated for a versatile cable
+  reviewCount: 30, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '88',
+  name: 'كابل LDNIO TPE للشحن والمزامنة LS441',
+  englishName: 'LDNIO TPE Charge & Sync Cable LS441',
+  description: 'كابل LDNIO TPE LS441 هو كابل شحن ومزامنة بيانات عالي الجودة ومتين، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يدعم تيارًا يصل إلى 2.4 أمبير، مما يجعله مناسبًا للشحن اليومي السريع. يتميز بحماية أمان متعددة ويقاوم الانحناء والكسر بفضل واجهته المُحسّنة. مصنوع من مواد TPE صديقة للبيئة ومرنة ومضادة للسحب والانحناء. يتعرف الكابل بذكاء على جميع الأجهزة ليكون متوافقًا تمامًا مع الهواتف المختلفة.',
+  price: 100, // Price in EGP
+  images: [
+    ldnio_tpe_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "حماية أمان متعددة وشحن سريع غير قابل للتلف",
+    "مزامنة سريعة للبيانات في الوقت الفعلي",
+    "واجهة مُحسّنة ومُعززة تتحمل الانحناء المتكرر لتجنب الكسر",
+    "مصنوع من مواد صديقة للبيئة ناعمة ومرنة ومضادة للسحب والانحناء",
+    "يتعرف بذكاء على جميع الأجهزة ومتوافق تمامًا مع جميع الهواتف"
+  ],
+  specifications: {
+    'الموديل': 'LS441',
+    'التيار': '2.4 أمبير',
+    'الطول': '1000 مم (1 متر)',
+    'اللون': 'أحمر/رمادي (وفقًا للصورة قد يكون هناك خيارات ألوان)',
+    'الوظيفة': 'شحن ومزامنة',
+    'المادة': 'TPE'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated for a good quality cable
+  reviewCount: 45, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '87',
+  name: 'كابل بيانات MASA MA-15 للشحن السريع',
+  englishName: 'MASA MA-15 Fast Charging Data Cable',
+  description: 'كابل بيانات MASA MA-15 هو كابل شحن ونقل بيانات مصمم للشحن السريع، ويدعم تيار يصل إلى 5 أمبير. يوفر هذا الكابل الشحن فائق السرعة ونقل البيانات، مما يجعله خيارًا فعالًا لاحتياجات الشحن اليومية.',
+  price: 50, // Price in EGP
+  images: [
+    masa_ma_15_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "يدعم الشحن السريع",
+    "تيار يصل إلى 5 أمبير",
+    "نقل بيانات فائق السرعة"
+  ],
+  specifications: {
+    'الموديل': 'MA-15',
+    'التيار الأقصى': '5 أمبير',
+    'النوع': 'كابل بيانات وشحن (USB إلى Micro - حسب الصورة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a basic fast charging cable
+  reviewCount: 20, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '86',
+  name: 'سماعات أذن Heatz HE04 داخل الأذن',
+  englishName: 'Heatz HE04 In-Ear Earphones',
+  description: 'سماعات أذن Heatz HE04 هي سماعات داخل الأذن مصممة لتقديم صوت نقي وواضح مع عزل فعال للضوضاء الخارجية. تتميز بتصميم متين بفضل مادة ABS التي تحمي السماعات من التلف الخارجي. تأتي بموصل Type-C، مما يجعلها متوافقة على نطاق واسع مع الهواتف المحمولة وأجهزة الكمبيوتر التي تدعم هذا النوع من الموصلات. تحتوي على ميكروفون مدمج ومفتاح تحكم بزر واحد لسهولة الاستخدام.',
+  price: 220, // Price in EGP
+  images: [
+    heatz, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "تصميم داخل الأذن",
+    "مادة ABS المتينة لحماية السماعة",
+    "عزل فعال للضوضاء الخارجية",
+    "صوت نقي وواضح",
+    "ميكروفون مدمج",
+    "تحكم بزر واحد",
+    "متوافق مع جميع أنواع الهواتف المحمولة وأجهزة الكمبيوتر المزودة بمنفذ Type-C"
+  ],
+  specifications: {
+    'الموديل': 'HE04',
+    'النوع': 'داخل الأذن',
+    'نوع القابس': 'Type-C',
+    'وحدة التشغيل': 'ديناميكية',
+    'مكبر الصوت': '32 أوم',
+    'الميكروفون': '-42 ± 3 ديسيبل',
+    'الطول': '1.2 متر',
+    'المقاومة': '320',
+    'الحساسية': '96 ± 3 ديسيبل/ميلي واط',
+    'قوة مكبر الصوت': '3-5 ميجا واط',
+    'استجابة التردد': '20-20000 هرتز',
+    'المادة': 'IPE، ABS'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for good quality earphones
+  reviewCount: 20, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '85',
+  name: 'كابل LDNIO LS881 للشحن والمزامنة السريعة',
+  englishName: 'LDNIO LS881 Fast Charge & Sync Cable',
+  description: 'كابل LDNIO LS881 هو كابل شحن ومزامنة بيانات عالي الجودة ومتين، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يدعم الكابل خرج طاقة يصل إلى 30 واط، مما يجعله مثاليًا للشحن السريع. يتميز بحماية أمان متعددة ويقاوم الانحناء والكسر بفضل واجهته المُحسّنة. مصنوع من مواد صديقة للبيئة ومرنة ومضادة للسحب. بفضل الشريحة الذكية المدمجة، يتعرف الكابل على أجهزة الشحن المختلفة ويوفر الشحن الأمثل للهواتف والأجهزة اللوحية وغيرها.',
+  price: 240, // Price in EGP
+  images: [
+    LdnioLS881, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "حماية أمان متعددة وشحن سريع غير قابل للتلف",
+    "مزامنة سريعة للبيانات في الوقت الفعلي",
+    "واجهة مُحسّنة ومُعززة تتحمل الانحناء المتكرر لتجنب الكسر",
+    "مصنوع من مواد صديقة للبيئة ناعمة ومرنة ومضادة للسحب والانحناء",
+    "يتعرف بذكاء على أجهزة الشحن المختلفة ويوفر حل الشحن الأمثل"
+  ],
+  specifications: {
+    'الموديل': 'LS881',
+    'القدرة': '30 واط',
+    'نوع الكابل': 'Type-C/Lightning/Micro (متوفر بأنواع متعددة)',
+    'الطول': '1000 مم (1 متر)',
+    'اللون': 'ذهبي'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // High rating for fast charging and durability
+  reviewCount: 75, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '84',
+  name: 'مجموعة محول طاقة JNUOBI JC-120A بقوة 120 واط',
+  englishName: 'JNUOBI JC-120A 120W Power Adapter Suit',
+  description: 'مجموعة محول طاقة JNUOBI JC-120A هي شاحن قوي وعالي الكفاءة بقدرة 120 واط، مصمم لتوفير شحن سريع وموثوق لمجموعة واسعة من الأجهزة. مصنوع من مادة البولي كربونات المتينة، ويدعم مدخلات جهد عالمية. يوفر هذا المحول مخرجات متعددة للجهد والتيار لتلبية احتياجات الشحن المختلفة، مما يجعله حل شحن متعدد الاستخدامات.',
+  price: 450, // Price in EGP
+  images: [
+    Jnuobi_jc_120a, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "قدرة شحن عالية 120 واط",
+    "مصنوع من مادة PC (البولي كربونات)",
+    "يدعم مدخلات جهد عالمية (100-240 فولت)",
+    "مخرجات متعددة لتلبية احتياجات الشحن المختلفة"
+  ],
+  specifications: {
+    'الموديل': 'JC-120A',
+    'القدرة': '120 واط',
+    'مادة المنتج': 'PC (بولي كربونات)',
+    'الإدخال': '100-240 فولت، 50/60 هرتز، 1.5 أمبير',
+    'الإخراج': '5 فولت = 3 أمبير / 9 فولت = 3 أمبير / 11 فولت = 6.1 أمبير كحد أقصى / 20 فولت = 3.35 أمبير كحد أقصى'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6, // High rating for high power output
+  reviewCount: 50, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '83',
+  name: 'شاحن حائط LDNIO سريع 32 واط',
+  englishName: 'LDNIO 32W Fast Wall Charger',
+  description: 'شاحن حائط LDNIO بقوة 32 واط هو شاحن سريع ومدمج، مصمم لتوفير شحن عالي الكفاءة لأجهزتك. يتميز بحجم صغير يسهل حمله، ويدعم نطاق جهد عالمي (100-240 فولت) مما يجعله مناسبًا للاستخدام في بلدان ومناطق مختلفة. يشتمل الشاحن على نظام تبريد متقدم من صفائح الألومنيوم والنحاس لضمان عمر خدمة طويل وكفاءة عالية في تبديد الحرارة. اجتاز معايير السلامة لمنع الحوادث مثل قصر الدائرة والتسرب والجهد الزائد. يوفر مخرج Type-C بقدرة 20 واط ومخرج تعريف تلقائي بقدرة 12 واط، ليبلغ إجمالي المخرج 32 واط.',
+  price: 570, // Price in EGP
+  images: [
+    ldnio_32w, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شاحن حائط سريع بقدرة 32 واط",
+    "حجم صغير وسهل الحمل",
+    "نطاق جهد عالمي (100-240 فولت)",
+    "نظام تبريد متقدم (صفائح الألومنيوم + صفائح النحاس)",
+    "اجتاز شهادات الجودة ومعايير السلامة لمنع قصر الدائرة، التسرب، والجهد الزائد",
+    "مخرجين: Type-C و تعريف تلقائي"
+  ],
+  specifications: {
+    'القدرة الإجمالية': '32 واط',
+    'الإدخال': 'تيار متردد 100-240 فولت، 50/60 هرتز، 0.8 أمبير كحد أقصى',
+    'مخرج Type-C': '5 فولت-3 أمبير، 9 فولت-2.22 أمبير، 12 فولت-1.67 أمبير (20 واط)',
+    'مخرج التعريف التلقائي': '5 فولت-2.4 أمبير (12 واط)',
+    'اللون': 'أبيض (وفقًا للصورة)',
+    'المداخل': '2 مخرج (Type-C + تعريف تلقائي)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // Estimated for a good quality fast charger
+  reviewCount: 60, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '82',
+  name: 'كابل بيانات LENYES LC502 TC-1 (Type-C إلى Lightning)',
+  englishName: 'LENYES LC502 TC-1 Data Cable (Type-C to Lightning)',
+  description: 'كابل بيانات LENYES LC502 TC-1 هو كابل شحن ونقل بيانات عالي الأداء، مصمم خصيصًا للأجهزة التي تستخدم منافذ Type-C وLightning. يدعم الكابل سرعة شحن تصل إلى 30 واط، مما يجعله مثاليًا للشحن السريع. يتميز بتصميم متين مصنوع من الأكريليك المنسوج الشفاف، مما يوفر مرونة ومقاومة. بطول 1000 مم، يوفر هذا الكابل مدى مناسبًا للاستخدام اليومي. يأتي مع تحذير بضرورة استخدام موصلات التحويل الصحيحة لتوافقه مع أنواع مختلفة من الأجهزة المحمولة.',
+  price: 320, // Price in EGP
+  images: [
+    lenyes_lc_502_tc_1_, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "يدعم شحن سريع بقدرة 30 واط",
+    "مصنوع من الأكريليك المنسوج الشفاف لتعزيز المتانة والمرونة",
+    "طول الكابل 1000 مم (1 متر)",
+    "متوافق مع أجهزة Type-C و Lightning"
+  ],
+  specifications: {
+    'الموديل': 'LC502 TC-I',
+    'اللون': 'أسود',
+    'الطول': '1000 مم',
+    'سرعة الشحن': '30 واط',
+    'الواجهة': 'Type-C إلى Lightning',
+    'المادة': 'أكريليك منسوج شفاف'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4, // Estimated for a good quality cable
+  reviewCount: 30, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '81',
+  name: 'محول سماعة رأس Samsung USB-C',
+  englishName: 'Samsung USB-C Headset Jack Adapter',
+  description: 'محول مقبس سماعة رأس Samsung USB-C هو محول صوت فائق الجودة يحول منفذ USB-C إلى مقبس صوت 3.5 ملم. يتيح لك هذا المحول استخدام سماعات الرأس السلكية التقليدية مع الأجهزة التي لا تحتوي على مقبس سماعة رأس 3.5 ملم مخصص، مثل الهواتف الذكية الحديثة والأجهزة اللوحية.',
+  price: 50, // Price in EGP
+  images: [
+    samsung_usp_c_adaptor, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "يحول منفذ USB-C إلى مقبس صوت 3.5 ملم",
+    "يوفر جودة صوت فائقة",
+    "يسمح باستخدام سماعات الرأس التقليدية مع الأجهزة الحديثة"
+  ],
+  specifications: {
+    'النوع': 'محول صوت',
+    'الموصل الأول': 'USB-C',
+    'الموصل الثاني': '3.5 ملم جاك صوت'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2, // Estimated for a common adapter
+  reviewCount: 40, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '80',
+  name: 'سماعات EarPods مع موصل Lightning',
+  englishName: 'EarPods with Lightning Connector',
+  description: 'سماعات EarPods مع موصل Lightning توفر تجربة صوتية ممتازة ومريحة. تم تصميمها خصيصًا للأجهزة التي تحتوي على منفذ Lightning، مما يضمن توافقًا سلسًا وجودة صوت واضحة.',
+  price: 245, // Price in EGP
+  images: [
+    earpods_lighting, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "مصممة بموصل Lightning",
+    "توفر تجربة صوتية ممتازة",
+    "مريحة للاستخدام اليومي"
+  ],
+  specifications: {
+    'نوع الموصل': 'Lightning',
+    'النوع': 'سماعات أذن (EarPods)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Estimated based on general perception of EarPods
+  reviewCount: 70, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '79',
+  name: 'حامل الهاتف المحمول',
+  englishName: 'Mobile Phone Holder',
+  description: 'حامل الهاتف المحمول هذا مصمم خصيصًا للحمل الشاق، مما يجعله مثاليًا لتثبيت هاتفك في مجموعة متنوعة من البيئات. بفضل تصميمه القوي، يعد هذا الحامل مناسبًا للاستخدام في غرفة الاجتماعات، الكنيسة، أو أي مكان عام آخر حيث تحتاج إلى وضع ثابت وآمن لهاتفك.',
+  price: 50, // Price in EGP
+  images: [
+    mobile_stand, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "تصميم خاص للحمل الشاق",
+    "مناسب للاستخدام في غرفة الاجتماعات، الكنيسة، أو أي مكان عام آخر"
+  ],
+  specifications: {
+    'النوع': 'حامل هاتف محمول',
+    'الاستخدام المقترح': 'غرفة الاجتماعات، الكنيسة، الأماكن العامة'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.8, // Estimated for a basic phone stand
+  reviewCount: 15, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '78',
+  name: 'ميكروفون K9 اللاسلكي',
+  englishName: 'K9 Wireless Microphone',
+  description: 'ميكروفون K9 اللاسلكي هو حل صوتي مدمج وسهل الاستخدام، يتميز بتقنية التوصيل والتشغيل لسهولة الإعداد الفوري. يوفر استقبالًا خاليًا من العوائق لمسافة تصل إلى 20 مترًا، مما يمنحك حرية الحركة أثناء التسجيل أو البث. يتميز هذا الميكروفون بقدرة التقاط صوت دقيقة، وراديو واضح، وصوت جرس واضح، وحساسية عالية، مما يضمن جودة صوت ممتازة. كما أنه متوافق على نطاق واسع مع مختلف الأجهزة.',
+  price: 390, // Price in EGP
+  images: [
+    microphone, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل','إكسسوارات الكمبيوتر'],
+  features: [
+    "توصيل وتشغيل سهل",
+    "استقبال لاسلكي خالي من العوائق لمسافة 20 مترًا",
+    "التقاط صوت دقيق وراديو واضح",
+    "جرس واضح وحساسية عالية",
+    "متوافق على نطاق واسع"
+  ],
+  specifications: {
+    'الموديل': 'K9',
+    'نوع الاتصال': 'لاسلكي',
+    'مدى الاستقبال': '20 مترًا',
+    'مميزات الصوت': 'بيك اب دقيق، راديو دقيق، جرس واضح، حساس للغاية'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3, // Estimated for a wireless microphone
+  reviewCount: 25, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '77',
+  name: 'بطاقة ذاكرة Kingston 8GB',
+  englishName: 'KINGSTON MEMORY CARD 8GB',
+  description: 'بطاقة ذاكرة Kingston بسعة 8 جيجابايت توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية، مما يجعلها مثالية لتخزين الصور ومقاطع الفيديو والملفات الأخرى ونقلها بسرعة. تعتبر هذه البطاقة حلاً موثوقًا لتوسيع مساحة التخزين للأجهزة المتوافقة مثل الهواتف الذكية والأجهزة اللوحية والكاميرات.',
+  price: 155, // Price in EGP
+  images: [
+    kingston_8G, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "سعة تخزين 8 جيجابايت",
+    "سرعة قراءة تصل إلى 100 ميجابايت/ثانية",
+    "مثالية لتخزين الصور ومقاطع الفيديو والملفات"
+  ],
+  specifications: {
+    'السعة': '8 جيجابايت',
+    'سرعة القراءة': '100 ميجابايت/ثانية',
+    'النوع': 'بطاقة ذاكرة (microSD على الأرجح بناءً على الصورة)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4, // Estimated for a basic memory card
+  reviewCount: 35, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '76',
+  name: 'جهاز بث تلفزيون CHROMECAST من Google',
+  englishName: 'CHROMECAST TV STREAMING DEVICE BY GOOGLE',
+  description: 'جهاز Chromecast من Google هو جهاز بث تلفزيوني يتيح لك بث الفيديو عالي الدقة (HD) بدقة 1080 بكسل مباشرةً من السحابة إلى التلفزيون الخاص بك. يدعم الجهاز شبكة Wi-Fi مزدوجة النطاق (2.4/5 جيجاهرتز) مع نظام هوائي متكيف لضمان اتصال مستقر وقوي. كما يوفر دعمًا للصوت المحيطي وميزة انعكاس الشاشة من أجهزة Android وأجهزة الكمبيوتر المحمولة. متوافق مع مجموعة واسعة من الأجهزة بما في ذلك Android، iPhone، iPad، Mac، Windows، و Chromebook، مما يجعله حلًا متعدد الاستخدامات للترفيه المنزلي.',
+  price: 485, // Price in EGP
+  images: [
+    chrome_cast, // Placeholder for actual image variable
+  ],
+  categories: ['إلكترونيات منزلية صغيرة'],
+  features: [
+    "بث فيديو عالي الدقة (HD) بجودة 1080 بكسل",
+    "دعم الصوت المحيطي",
+    "شبكة Wi-Fi مزدوجة النطاق 2.4/5 جيجاهرتز مع نظام هوائي متكيف",
+    "إمكانية انعكاس الشاشة من أجهزة Android وأجهزة الكمبيوتر المحمولة"
+  ],
+  specifications: {
+    'الدقة المدعومة': '1080 بكسل',
+    'الاتصال اللاسلكي': 'Wi-Fi 2.4/5 جيجاهرتز',
+    'دعم الصوت': 'صوت محيطي',
+    'الأجهزة المتوافقة': 'أجهزة Android، iPhone، iPad، Mac، Windows، Chromebook'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.7, // High rating for popular streaming device
+  reviewCount: 150, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '75',
+  name: 'كابل LDNIO LC651i USB-C إلى Lightning للشحن السريع',
+  englishName: 'LDNIO LC651i USB-C to Lightning Fast Charging Cable',
+  description: 'كابل LDNIO LC651i هو كابل شحن ومزامنة بيانات عالي الأداء مصمم خصيصًا لأجهزة iPhone والأجهزة المتوافقة مع منفذ Lightning. يدعم الشحن السريع Power Delivery (PD) بقدرة 30 واط لأجهزة iPhone 8 والإصدارات الأحدث، مما يضمن شحنًا سريعًا وآمنًا. يتميز الكابل بتصميم متين مع واجهة مُعززة لمقاومة الانحناء والكسر، ومصنوع من مواد صديقة للبيئة. تضمن شريحة بروتوكول PD المدمجة شحنًا ذكيًا ومتوافقًا تمامًا مع نظام iOS.',
+  price: 220, // Price in EGP
+  images: [
+    ldnio_ls, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "يدعم الشحن السريع Power Delivery (PD) لأجهزة iPhone 8 والطرازات الأحدث",
+    "حماية أمان متعددة وشحن سريع غير قابل للتلف",
+    "مزامنة بيانات سريعة في الوقت الفعلي",
+    "واجهة محسّنة ومعززة تتحمل الانحناء المتكرر لتجنب الكسر",
+    "مصنوع من مواد صديقة للبيئة ناعمة ومرنة ومضادة للسحب والانحناء",
+    "شريحة بروتوكول PD مدمجة لتحديد أجهزة الشحن بذكاء وتوفير حل الشحن الأمثل",
+    "متوافق تمامًا مع نظام iOS"
+  ],
+  specifications: {
+    'الموديل': 'LC651i',
+    'القدرة': '30 واط',
+    'نوع الكابل': 'USB-C إلى Lightning',
+    'اللون': 'ذهبي/رمادي',
+    'الطول': '1000 مم (1 متر)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6, // High rating for fast charging and durability
+  reviewCount: 90, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '74',
+  name: ' 4S Plus كابل بيانات',
+  englishName: '4S Plus Data Cable',
+  description: 'يُعد كابل البيانات 4S Plus حلاً موثوقًا وعالي الأداء لمزامنة البيانات وشحن الأجهزة المحمولة. مصمم ليوفر شحنًا آمنًا وسريعًا للهواتف المحمولة والأجهزة اللوحية، مع الحفاظ على سرعة نقل بيانات عالية. يتميز بتصميم متين يقاوم الضغط العالي وموصل نحاسي فائق النقاء لضمان جودة عالية. متوافق مع أي إصدار من USB ومضاد للتداخل، مما يجعله كابلًا عمليًا ومتعدد الاستخدامات لاحتياجات الشحن ونقل البيانات اليومية.',
+  price: 100, // Price in EGP
+  images: [
+    _4splus_cable, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "شحن آمن وعالي السرعة للهواتف المحمولة/الأجهزة اللوحية",
+    "وظيفة مزدوجة: نقل البيانات والشحن",
+    "تصميم مقاوم للضغط العالي",
+    "موصل نحاسي فائق النقاء لضمان جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'الموديل': 'غير محدد (4S Plus)',
+    'نوع الكابل': 'كابل بيانات وشحن',
+    'واجهة الاتصال': 'USB 2.0 (متوافق مع أي إصدار USB)',
+    'التيار الأقصى': '2.4 أمبير',
+    'الوظائف': 'مزامنة البيانات، شحن',
+    'المادة': 'موصل نحاسي فائق النقاء'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated average for a data cable
+  reviewCount: 20, // Estimated
+  createdAt: new Date('2025-06-12'), // Current date
+},
 {
   id: '73',
   name: 'لوحة مفاتيح Point PT-200 اللاسلكية ذات الوضع المزدوج (Mini)',
@@ -491,7 +2096,7 @@ export const products: Product[] = [
     crashx50_2,
     crashx50 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  categories: [ 'إكسسوارات الموبايل'],
   features: [
     "صوت ستريو عالي الجودة مع جهير ديناميكي",
     "تصميم مريح فوق الأذن (On-Ear)",
@@ -525,7 +2130,7 @@ export const products: Product[] = [
     ramko,
     ramko2 // Placeholder for actual image variable
   ],
-  categories: ['إكسسوارات الكمبيوتر', 'إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  categories: ['إكسسوارات الكمبيوتر'],
   features: [
     "مكبرات صوت كبيرة بحجم 40 مم لتجربة صوتية قوية",
     "تصميم مريح للاستخدام لفترات طويلة",
@@ -562,7 +2167,7 @@ export const products: Product[] = [
     jbltune760_2,
     jbltune760_3 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  categories: [ 'إكسسوارات الموبايل'],
   features: [
     "صوت JBL Pure Bass القوي",
     "تصميم خفيف الوزن وقابل للطي لسهولة الحمل والتخزين",
@@ -673,7 +2278,7 @@ export const products: Product[] = [
     hp210,
     hp210_2 // Placeholder for actual image variable
   ],
-  categories: ['إكسسوارات الكمبيوتر', 'إكسسوارات الموبايل'],
+  categories: ['إكسسوارات الكمبيوتر'],
   features: [
     "اتصال مزدوج الوضع (بلوتوث ولاسلكي 2.4GHz)",
     "دقة عالية 1600 DPI لتتبع دقيق",
@@ -793,7 +2398,7 @@ export const products: Product[] = [
     point_pt09_2,
     point_pt09 // Placeholder for actual image variable
   ],
-  categories: ['إكسسوارات الكمبيوتر', 'إكسسوارات الموبايل'],
+  categories: ['إكسسوارات الكمبيوتر'],
   features: [
     "تصميم خفيف الوزن ومريح للاستخدام لفترات طويلة",
     "صوت واضح وعالي الجودة لتجربة لعب غامرة",
@@ -834,7 +2439,7 @@ export const products: Product[] = [
     gnobign04_2,
     gnobign04 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "مكبر صوت كبير بحجم 8 بوصات لتجربة صوت قوية",
     "طاقة خرج 10 واط لضمان صوت واضح وعميق",
@@ -871,7 +2476,7 @@ export const products: Product[] = [
     bdtan4200_2,
     bdtan4200 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "صوت قوي وواضح بقوة 10 واط RMS",
     "تصميم مزدوج السماعات (4 بوصة × 2) لتغطية صوتية أوسع",
@@ -1141,7 +2746,7 @@ export const products: Product[] = [
 Hummer,
 Hummer_3 // Placeholder image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة', 'إكسسوارات الكمبيوتر', 'إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     'تصميم أسطواني مميز مع شعار Hummer',
     'اتصال بلوتوث لاسلكي',
@@ -1178,7 +2783,7 @@ Hummer_3 // Placeholder image variable
 },
 
 {
-  id: '42',
+  id: '100',
   name: 'سماعات أذن Samsung AKG Type-C',
   englishName: 'Samsung AKG Type-C Earphones',
   description: 'استمتع بتجربة صوتية غامرة مع سماعات أذن Samsung AKG Type-C. تم ضبط هذه السماعات بواسطة AKG لتقديم جودة صوت استثنائية، مع صوت واضح وجهير غني. تتميز بتصميم داخل الأذن مريح وتأتي مع سدادات أذن بثلاثة أحجام مختلفة لضمان ملاءمة مثالية. تتصل عبر منفذ Type-C، مما يجعلها متوافقة مع أحدث أجهزة سامسونج والأجهزة الأخرى المزودة بمنفذ Type-C للصوت. مثالية للاستماع إلى الموسيقى وإجراء المكالمات بوضوح.',
@@ -1409,7 +3014,7 @@ Hummer_3 // Placeholder image variable
      'نوع المفتاح': 'غشائي',
      'أبعاد العبوة': '50 × 15.3 × 2.5 سم',
    },
-   isAvailable: false, // تم تحديثه ليعكس التوفر المحدود/النفاذ
+   isAvailable: true, // تم تحديثه ليعكس التوفر المحدود/النفاذ
    isNew: false, // تم تحديثه ليعكس أنه ليس منتجًا جديدًا تمامًا
    isPromotion: false, // تم الإبقاء عليه
    isBundle: false, // تم الإبقاء عليه
@@ -1426,7 +3031,7 @@ Hummer_3 // Placeholder image variable
   images: [
     crashspeakerm4 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "صوت احترافي 2.0",
     "صوت باس (جهير) قوي",
@@ -1467,7 +3072,7 @@ Hummer_3 // Placeholder image variable
     speakerbdt6601 // Placeholder for actual image variable
 
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "جودة صوت عالية واحترافية",
     "إضاءة LED ديناميكية متعددة الألوان",
@@ -1507,7 +3112,7 @@ Hummer_3 // Placeholder image variable
   images: [
     speakergts1360 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "صوت نقي وقوي",
     "إضاءة LED ملونة ديناميكية (RGB)",
@@ -1551,7 +3156,7 @@ Hummer_3 // Placeholder image variable
   images: [
     speakerpointpt122 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر'],
   features: [
     "نظام صوت ستريو 2.0",
     "إضاءة RGB ديناميكية وملونة",
@@ -1590,7 +3195,7 @@ Hummer_3 // Placeholder image variable
   images: [
     speakera012    // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "إضاءة RGB LED ملونة",
     "دعم البلوتوث اللاسلكي",
@@ -1634,7 +3239,7 @@ Hummer_3 // Placeholder image variable
     crashspeakerm3 // Placeholder for actual image variable (pink)
 
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "صوت جهير احترافي وقوي",
     "إضاءة RGB LED ديناميكية",
@@ -1681,7 +3286,7 @@ Hummer_3 // Placeholder image variable
   images: [
     speakermininbox // Placeholder for actual image variable (box)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "إضاءة LED ملونة ديناميكية",
     "دعم البلوتوث اللاسلكي",
@@ -1723,7 +3328,7 @@ Hummer_3 // Placeholder image variable
   images: [
     kisonlik100 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "نظام مكبر صوت ستريو 2.0",
     "تعمل بالطاقة عبر منفذ USB 2.0 (تيار مستمر 5 فولت)",
@@ -1764,7 +3369,7 @@ Hummer_3 // Placeholder image variable
     goldenkingg06 // Placeholder for actual image variable
 
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "نظام مكبر صوت ستريو 2.0",
     "صوت ناعم وواضح",
@@ -1803,7 +3408,7 @@ Hummer_3 // Placeholder image variable
     goldenkingg418 // Placeholder for actual image variable (black speaker)
 
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "وحدة مكبر صوت قوية بحجم 4 بوصات",
     "إضاءة LED ملونة وجذابة",
@@ -1848,7 +3453,7 @@ Hummer_3 // Placeholder image variable
   images: [
     minibassm1 // Placeholder for actual image variable (black speaker)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "تصميم أنيق ومحمول",
     "بطارية ليثيوم عالية السعة (400 مللي أمبير/ساعة)",
@@ -1894,7 +3499,7 @@ Hummer_3 // Placeholder image variable
     bdtan22 // Placeholder for actual image variable (green speaker)
 
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "منافذ USB و TF لتشغيل الموسيقى",
     "وظيفة الكاريوكي مع مدخل ميكروفون",
@@ -1933,7 +3538,7 @@ Hummer_3 // Placeholder image variable
   images: [
     bdtan18 // Placeholder for actual image variable (black speaker)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "دعم البلوتوث اللاسلكي", // Inferred and confirmed by box icons
     "تشغيل الموسيقى من USB", // Confirmed by box icon
@@ -2014,7 +3619,7 @@ Hummer_3 // Placeholder image variable
   images: [
     kisonlis444 // Placeholder for actual image variable (speakers out of box)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "نظام مكبر صوت ستريو 2.0",
     "تعمل بالطاقة عبر منفذ USB",
@@ -2054,7 +3659,7 @@ Hummer_3 // Placeholder image variable
     p222, // Placeholder for actual image variable (orange speaker)
     p222_2
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "إصدار بلوتوث V5.0 لاتصال لاسلكي مستقر",
     "مسافة إرسال تصل إلى 15 مترًا",
@@ -2098,7 +3703,7 @@ Hummer_3 // Placeholder image variable
   images: [
     crashx4 // Placeholder for actual image variable (speakers out of box)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر'],
   features: [
     "نظام مكبر صوت ستريو 2.0",
     "صوت محيطي (Virtual Surround)",
@@ -2140,7 +3745,7 @@ Hummer_3 // Placeholder image variable
   images: [
     crashx9 // Placeholder for actual image variable (speakers out of box)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر'],
   features: [
     "نظام مكبر صوت ستريو 2.0",
     "صوت محيطي (Virtual Surround)",
@@ -2181,7 +3786,7 @@ Hummer_3 // Placeholder image variable
   images: [
     kt125 // Placeholder for actual image variable (speaker with phone)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "اتصال بلوتوث لاسلكي",
     "حامل هاتف مدمج",
@@ -2224,7 +3829,7 @@ Hummer_3 // Placeholder image variable
     speaker1201_1, // Placeholder for actual image variable (speaker with LED lights)
     speaker1201_2
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "إضاءة LED ملونة قابلة للتحكم",
     "دعم تشغيل الموسيقى عبر بلوتوث وUSB وبطاقة TF",
@@ -2263,7 +3868,7 @@ Hummer_3 // Placeholder image variable
     crashx40,
     crashx40_2
   ],
-  categories: ['إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إكسسوارات الكمبيوتر'],
   features: [
     "صوت ستريو مذهل",
     "ميكروفون بخاصية تقليل الضوضاء",
@@ -2362,7 +3967,7 @@ Hummer_3 // Placeholder image variable
     scorpion2,
     scorpion
   ],
-  categories: ['إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إكسسوارات الكمبيوتر'],
   features: [
     "سماعة رأس مخصصة للألعاب",
     "جودة صوت عالية مع محركات 40 ملم",
@@ -2710,7 +4315,7 @@ Hummer_3 // Placeholder image variable
   images: [
     mic_B // Placeholder for actual image variable (pink microphone)
   ],
-  categories: ['إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إكسسوارات الموبايل'],
   features: [
     "ميكروفون وسماعة بلوتوث في جهاز واحد",
     "اتصال لاسلكي بالبلوتوث",
@@ -2796,7 +4401,7 @@ Hummer_3 // Placeholder image variable
   images: [
     bdt_an2304mini, // Placeholder for actual image variable (device itself) 
   ],
-  categories: ['إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "مصباح ليلي LED متعدد الألوان",
     "شاحن لاسلكي مدمج للهواتف الذكية",
@@ -2836,7 +4441,7 @@ Hummer_3 // Placeholder image variable
   images: [
     bdt_an2304, // Placeholder for actual image variable (device itself)
   ],
-  categories: ['إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "مصباح ليلي LED بإضاءة RGB متعددة الألوان",
     "شاحن لاسلكي مدمج للهواتف الذكية",
@@ -2876,7 +4481,7 @@ Hummer_3 // Placeholder image variable
   images: [
     jpl_m3_mini, // Placeholder for actual image variable (silver speaker)
   ],
-  categories: ['إكسسوارات الكمبيوتر','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
   features: [
     "تصميم صغير جداً ومحمول",
     "اتصال بلوتوث لاسلكي",
