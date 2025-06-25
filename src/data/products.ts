@@ -174,18 +174,2254 @@ import vidive_usp_car from '../assets/vidive usp car.jpg';
 import spieder_power_adaptor from '../assets/spieder power adaptor.png';
 import vidive_hs_660 from '../assets/vidive hs 660.png';
 import blue_spectrum_d42 from '../assets/blue spectrum d42.png';
+import JOYROOM_S_A14 from '../assets/JOYROOM S-A14.png';
+import JOYROOM_S_A29 from '../assets/JOYROOM S-A29.png';
+import crash_hp from '../assets/crash hp.png';
+import crash_dell from '../assets/crash dell.png';
+import platinum_le from '../assets/platinum le.png';
+import Platinume_AS from '../assets/Platinume AS.png';
+import platinum_TO_2 from '../assets/platinum TO_2.png';
+import platinum_TO from '../assets/platinum TO.png';
+import ldnio_ls421_1M_lenght from '../assets/ldnio ls421 1M lenght.png';
+import hoco_c101a from '../assets/hoco c101a.png';
+import LDNIO_LS641 from '../assets/LDNIO LS641.jpg';
+import ldnio_ls421_2M_lenth from '../assets/ldnio ls421 2M lenth.png';
+import gemax_hy_c610 from '../assets/gemax hy-c610.png';
+import jnuobi_x_120 from '../assets/jnuobi x-120.jpg';
+import anker_ldo_cable from '../assets/anker ldo cable.png';
+import type_c_to_type_c_cable from '../assets/type-c to type-c cable.png';
+import wuw_t_82 from '../assets/wuw t-82.png';
+import sky_dolphine_sc07v from '../assets/sky dolphine sc07v.png';
+import blue_specturm_d_43 from '../assets/blue specturm d-43.png';
+import vdenmenv_dr01 from '../assets/vdenmenv dr01.png';
+import ysion from '../assets/ysion.png';
+import unipha_u19 from '../assets/unipha u19.png';
+import duda_du_01 from '../assets/duda du-01.png';
+import ehp_c_1 from '../assets/ehp c-1.png';
+import biboshi_b01_03 from '../assets/biboshi b01-03.png';
+import one_depot_s01t from '../assets/one depot s01t.png';
+import jnuobi_s_2 from '../assets/jnuobi s-2.png';
+import dolphin_d_162 from '../assets/dolphin d-162.png';
+import anker_ak_2 from '../assets/anker ak-2.jpg';
+import wuw_x_195 from '../assets/wuw x-195.png';
+import dolphin_d_160 from '../assets/dolphin d-160.png';
+import grand_mouse_3 from '../assets/grand mouse_3.png';
+import grand_mouse_1 from '../assets/grand mouse.png';
+import grand_mouse_2 from '../assets/grand mouse_2.png';
+import grand_mouse_4 from '../assets/grand mouse_4.png';
+import spider_gaming_mouse_1 from '../assets/spider gamming mouse.webp';
+import spider_gaming_mouse_2 from '../assets/spider gaming mouse_2.webp';
+import lenovo_hanging_headphone_1 from '../assets/LENOVO HANGING HEADPHONE.jpg';
+import lenovo_hanging_headphone_2 from '../assets/LENOVO HANGING HEADPHONE_2.jpg';
+import usp_c_to_lighning_power_adaptor from '../assets/usp-c to lighning power adaptor.png';
+import heatz_zcc3 from '../assets/heatz zcc3.png';
+import heatz_zc46 from '../assets/heatz zc46.png';
+import heatz_zc33 from '../assets/heatz  zc33.png';
+import hdtv_premium from '../assets/hdtv premium.png';
+import crash_usp_hub from '../assets/crash usp hub.png';
+import cms_usp_hub from '../assets/cms usp hub.png';
+import kinoken_usp_hub from '../assets/kinoken usp hub.png';
+import Twins from '../assets/Twins.png';
+import GLX from '../assets/GLX.png';
+import lava_st_300_1 from '../assets/lava st-300.png';
+import lava_st_300_2 from '../assets/lava st-300_2.jpg';
+import lava_st_300_3 from '../assets/lava st-300_3.jpg';
+import crash_m400 from '../assets/crash m400.png';
+import jinheung from '../assets/jinheung.png';
+import crash_m300 from '../assets/crash m300.png';
+import anker_power_set_2 from '../assets/anker power set_2.png';
+import anker_power_set from '../assets/anker power set.png';
+import mi_67W from '../assets/mi 67W.png';
+import emy_port_charge from '../assets/emy port charge.png';
+import aorax_my_10 from '../assets/aorax my-10.png';
+import cable_4s_5 from '../assets/4s-5 data cable.png';
+import fox_data_cabel from '../assets/fox data cabel.png';
+import gemax_hy_c39 from '../assets/gemax hy-c39.png';
+import cable_4s_13 from '../assets/4s-13 data  cable.png';
+import cable_4s_15 from '../assets/4s-15 data cabel.png';
+import anker_iphone_cable from '../assets/anker iphone cable.png';
+import anker_iphone_earphone from '../assets/anker iphone earphone.png';
+import remax_earphone from '../assets/remax earphone.png';
+import ehp_earphone from '../assets/ehp earphone.png';
+import joyroom_jr_el120 from '../assets/joyroom jr-el120.png';
+import jnuobi_yx_02 from '../assets/jnuobi yx-02.png';
+import heatz_za68e from '../assets/heatz za68e.png';
+import airpods from '../assets/airpods.png';
 
 // Sample products data (will be expanded in a real implementation)
 export const products: Product[] = [
 
-
-
-
-
-
-
-
-
+{
+  id: '187',
+  name: 'سماعة أذن ايربود برو 2 الجيل الثاني',
+  englishName: 'AirPods Pro 2nd Generation Earbuds',
+  description: 'سماعات أذن لاسلكية من الجيل الثاني، تأتي مع علبة شحن وكابل. توفر تجربة صوتية ممتازة مع تقنية إلغاء الضوضاء النشط (ANC).',
+  price: 570,
+  images: [
+    airpods // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "الجيل الثاني",
+    "مع كابل وعلبة شحن",
+    "إلغاء الضوضاء النشط (ANC)"
+  ],
+  specifications: {
+    'النوع': 'سماعات أذن لاسلكية (TWS)',
+    'الجيل': 'الثاني'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.7,
+  reviewCount: 25,
+  createdAt: new Date('2025-06-25T23:47:43.000Z')
+},
+{
+  id: '186',
+  name: 'شاحن طاقة HEATZ ZA68e',
+  englishName: 'HEATZ ZA68e Power Adapter',
+  description: 'شاحن طاقة HEATZ ZA68e عالي الكفاءة بقدرة 20 واط، مصمم لتوفير شحن سريع ومريح لأجهزة iPhone. يدعم تقنية Power Delivery (PD) للشحن فائق السرعة، ويمكنه شحن iPhone X/11 Pro/Pro Max حتى 50% في 30 دقيقة. يوفر أقصى خرج طاقة 27 واط من منفذ USB-C PD. يتميز بحماية مدمجة ضد الشحن الزائد، السخونة الزائدة، والتيار الزائد لضمان شحن آمن. تصميمه خفيف الوزن وصغير الحجم يجعله مثاليًا للسفر.',
+  price: 350,
+  images: [
+    heatz_za68e // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "شاحن عالي الكفاءة - 20 واط لأجهزة iPhone",
+    "شاحن توصيل الطاقة (Power Delivery)",
+    "شحن سريع باستخدام شاحن 27 واط من النوع C",
+    "يشحن iPhone X حتى 50% في 30 دقيقة",
+    "حماية مدمجة ضد الشحن الزائد والسخونة الزائدة والتيار الزائد",
+    "تصميم خفيف الوزن وقابل للحمل",
+    "حجم صغير ومناسب للسفر"
+  ],
+  specifications: {
+    'الطراز': 'ZA68e',
+    'الطاقة القصوى': '27 واط (خرج PD)',
+    'الخرج': '5 فولت/38 فولت (9 فولت/2.2 فولت)',
+    'جهد الإدخال': 'تيار متردد 110-240 فولت 50/60 هرتز 0.54 أمبير',
+    'الموصل': 'USB-C (PD)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6,
+  reviewCount: 15,
+  createdAt: new Date('2025-06-25T23:44:41.000Z')
+},
+{
+  id: '185',
+  name: 'سماعات أذن JNUOBI YX-02',
+  englishName: 'JNUOBI YX-02 Earphones',
+  description: 'سماعات أذن JNUOBI YX-02 مصممة لتوفير صوت عالي الدقة (Hi-Fi) مع احترام كل صوت. تتميز بسلك نحاسي عالي الدقة خالٍ من الأكسجين (OFC) لأداء توصيل أفضل ودقة صوت عالية. يبلغ طول الكابل 100 سم. يوصى بضبط مستوى الصوت إلى مستوى مناسب لحماية الأذن.',
+  price: 85,
+  images: [
+    jnuobi_yx_02 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "صوت عالي الدقة",
+    "سلك نحاسي عالي الدقة خالٍ من الأكسجين (OFC)",
+    "دقة صوت عالية"
+  ],
+  specifications: {
+    'الطراز': 'YX-02',
+    'الماركة': 'JNUOBI',
+    'قطر السماعة': '10 مم',
+    'نطاق التردد': '18-20000 هرتز',
+    'الحساسية': '116 ± 3 ديسيبل (عند 1 كيلو هرتز، 0.5 جذر متوسط التربيع)',
+    'المقاومة': '32 أوم',
+    'طول السلك': '100 سم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T23:43:36.000Z')
+},
+{
+  id: '184',
+  name: 'سماعات أذن Joyroom JR-EL120',
+  englishName: 'Joyroom JR-EL120 Earphones',
+  description: 'سماعات أذن Joyroom JR-EL120 توفر صوتًا عالي الدقة (Hi-Fi) بفضل مكبر الصوت الغشائي. مزودة بميكروفون عالي الحساسية لإجراء مكالمات واضحة وعالية الدقة. تصميمها يجعلها مريحة للاستخدام اليومي.',
+  price: 85,
+  images: [
+    joyroom_jr_el120 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "مكبر صوت غشائي، صوت هاي فاي",
+    "ميكروفون عالي الحساسية، مكالمات عالية الدقة"
+  ],
+  specifications: {
+    'الطراز': 'JR-EL120',
+    'الماركة': 'Joyroom',
+    'النوع': 'سماعات أذن سلكية'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-25T23:41:39.000Z')
+},
+{
+  id: '183',
+  name: 'سماعات أذن EHP Music X22 مع ميكروفون',
+  englishName: 'EHP Music Earphones X22 with Microphone',
+  description: 'سماعات أذن EHP Music X22 مصممة لتوفير تجربة صوتية ممتازة مع صوت جهير فائق. تأتي مع ميكروفون مدمج وزر متعدد الوظائف للتحكم في المكالمات والموسيقى بسهولة. متوافقة مع مجموعة واسعة من الأجهزة بما في ذلك الهواتف المحمولة، ومشغلات الموسيقى، وأجهزة الألعاب المحمولة، وأجهزة الكمبيوتر.',
+  price: 95,
+  images: [
+    ehp_earphone // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "صوت جهير فائق (Super Bass)",
+    "ميكروفون مدمج",
+    "زر للرد/إنهاء المكالمة/كتم الصوت",
+    "متوافقة مع جميع الهواتف المحمولة، ومشغلات الموسيقى، وأجهزة الألعاب المحمولة، وأجهزة الكمبيوتر"
+  ],
+  specifications: {
+    'الطراز': 'X22',
+    'حجم مكبر الصوت': '10 مم',
+    'نطاق التردد': '18-20,000 هرتز',
+    'الحساسية': '116 ± 3 ديسيبل (عند 1 كيلو هرتز 0.5 مللي ثانية)',
+    'المقاومة': '32 أوم',
+    'طول الكابل': '120 سم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T23:40:00.000Z')
+},
+{
+  id: '182',
+  name: 'سماعات أذن REAMX MALAYSIA',
+  englishName: 'REMAX MALAYSIA Earphones',
+  description: 'سماعات أذن من REMAX MALAYSIA، مصممة لتوفير جودة صوت جيدة وتجربة استماع مريحة. مناسبة للاستخدام اليومي مع الهواتف الذكية والأجهزة الأخرى المزودة بمنفذ 3.5 ملم.',
+  price: 115,
+  images: [
+    remax_earphone // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "جودة صوت جيدة",
+    "مريحة للاستخدام"
+  ],
+  specifications: {
+    'الماركة': 'REMAX MALAYSIA',
+    'النوع': 'سماعات أذن سلكية'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-25T23:38:42.000Z')
+},
+{
+  id: '181',
+  name: 'سماعات أذن ANKER Lightning',
+  englishName: 'ANKER Lightning Earphones',
+  description: 'سماعات أذن ANKER بمنفذ Lightning بطول 1 متر، مصممة لأجهزة Apple. توفر تحكمًا سلكيًا سهل الاستخدام للموسيقى والمكالمات. يمكنك تشغيل/إيقاف الموسيقى مؤقتًا، ضبط مستوى الصوت، وتغيير المسارات. كما تتيح لك الرد على المكالمات وإنهائها، وإعادة الاتصال بسهولة.',
+  price: 170,
+  images: [
+    anker_iphone_earphone // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "منفذ Lightning",
+    "تحكم سلكي في التشغيل/الإيقاف المؤقت، مستوى الصوت، والسابق/التالي",
+    "الرد على المكالمات وإنهائها ومعاودة الاتصال"
+  ],
+  specifications: {
+    'الطول': '1 متر',
+    'الماركة': 'ANKER',
+    'التحكم': 'سلكي (Wire Control)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 12,
+  createdAt: new Date('2025-06-25T23:37:51.000Z')
+},
+{
+  id: '180',
+  name: 'كابل شحن سريع ANKER USB-C إلى Lightning',
+  englishName: 'ANKER Lightning Fast Charging USB-C to Lightning Cable',
+  description: 'كابل شحن سريع ومتين من ANKER، بطول 1 متر (3.3 قدم)، مصمم لأجهزة Apple المزودة بمنفذ Lightning. يدعم تقنية Power Delivery (PD) للشحن فائق السرعة، حيث يمكنه شحن iPhone X حتى 50% في 30 دقيقة. يتميز بتصميم PowerLine Select+ مع كابل نايلون مضفر وأطراف موصل معززة، مما يجعله يتحمل أكثر من 15000 انحناء لمتانة فائقة. معتمد رسميًا لضمان التوافق الكامل مع جميع أجهزة Lightning.',
+  price: 160,
+  images: [
+    anker_iphone_cable // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "شحن سريع عبر تقنية رائدة",
+    "كابل PowerLine Select+ USB-C مع موصل Lightning",
+    "أطراف الموصل المعززة وكابل النايلون المضفر يتحملان أكثر من 15000 انحناء",
+    "متوافق مع تقنية الشحن عالي السرعة Power Delivery",
+    "يشحن iPhone X حتى 50% في 30 دقيقة",
+    "معتمد رسميًا للتوافق مع جميع أجهزة Lightning"
+  ],
+  specifications: {
+    'الطول': '1 متر (3.3 قدم)',
+    'النوع': 'USB-C إلى Lightning',
+    'الماركة': 'ANKER',
+    'التوافق': 'جميع أجهزة Lightning'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.8,
+  reviewCount: 20,
+  createdAt: new Date('2025-06-25T23:36:51.000Z')
+},
+{
+  id: '179',
+  name: 'كابل بيانات 4S-15 Type-C',
+  englishName: '4S-15 Type-C Data Cable',
+  description: 'كابل بيانات 4S-15 Type-C يوفر تيار شحن 5 أمبير وطول 1 متر. مصمم لمزامنة البيانات وشحن هاتفك من جهاز الكمبيوتر أو شاحن USB. يجمع بين وظيفتي نقل البيانات والشحن بأمان وسرعة عالية. يتميز بتصميم متين يقاوم الضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية. الكابل متوافق مع جميع إصدارات USB ومضاد للتداخل.',
+  price: 130,
+  images: [
+    cable_4s_15
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "5 أمبير",
+    "كابل بيانات لمزامنة وإعادة شحن هاتفك",
+    "منفذ USB 2.0 متوافق مع مزامنة البيانات",
+    "يشحن الهاتف من جهاز الكمبيوتر",
+    "يشحن الهاتف من شاحن USB",
+    "اشحن هاتفك المحمول/التابلت بأمان مع سرعة نقل عالية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء، مما يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'الطراز': '4S-15',
+    'النوع': 'Type-C',
+    'الطول': '1 متر'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T23:34:27.000Z')
+},
+{
+  id: '178',
+  name: 'كابل بيانات 4S-13 مايكرو USB',
+  englishName: '4S-13 Micro USB Data Cable',
+  description: 'كابل بيانات 4S-13 Micro USB يوفر تيار شحن 2.4 أمبير، مصمم لمزامنة البيانات وشحن هاتفك من جهاز الكمبيوتر أو شاحن USB. يجمع بين وظيفتي نقل البيانات والشحن بأمان وسرعة عالية. يتميز بتصميم متين يقاوم الضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية. الكابل متوافق مع جميع إصدارات USB ومضاد للتداخل.',
+  price: 80,
+  images: [
+    cable_4s_13
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "2.4 أمبير",
+    "كابل بيانات لمزامنة وإعادة شحن هاتفك",
+    "منفذ متوافق مع USB 2.0",
+    "يشحن الهاتف من جهاز الكمبيوتر أو شاحن USB",
+    "اشحن هاتفك المحمول/التابلت بأمان مع سرعة نقل عالية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء، مما يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'الطراز': '4S-13',
+    'النوع': 'Micro USB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T23:33:11.000Z')
+},
+{
+  id: '177',
+  name: 'كابل بيانات GEMAX HY-C39 (مايكرو USB)',
+  englishName: 'GEMAX HY-C39 Data Cable (Micro USB)',
+  description: 'كابل بيانات GEMAX HY-C39 Micro USB بطول 2 متر، مصمم لحل مشكلة نقل البيانات والشحن معًا بكفاءة. يتميز بتصميم خاص يتحمل درجات الحرارة العالية وأطراف مطلية بالذهب للحفاظ على أفضل اتصال. متوافق مع جميع إصدارات USB (2.0/3.0).',
+  price: 100,
+  images: [
+    gemax_hy_c39 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "يحل مشكلة نقل البيانات والشحن معًا",
+    "تصميم خاص يتحمل درجات الحرارة العالية",
+    "أطراف بتصميم مطلي بالذهب",
+    "يحافظ على أفضل اتصال",
+    "2 في 1 (شحن ونقل بيانات)"
+  ],
+  specifications: {
+    'الطراز': 'HY-C39',
+    'النوع': 'Micro USB',
+    'الطول': '2 متر',
+    'التوافق': 'USB2.0/3.0، متوافق مع جميع إصدارات USB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-25T23:25:00.000Z')
+},
+{
+  id: '176',
+  name: 'كابل بيانات FOX 4 في 1 للشحن السريع',
+  englishName: 'FOX 4-in-1 Fast Charging Data Cable',
+  description: 'كابل بيانات وشحن سريع FOX متعدد الوظائف بتصميم 4 في 1، مناسب لمختلف الأجهزة التي تستخدم منافذ USB، Type-C، وLightning. بطول 1 متر، يوفر شحنًا سريعًا ونقل بيانات فعالًا. يتميز بتصميم أصلي منحني و"NOODLE LINE" لمقاومة التشابك. مصنوع من موصل نحاسي فائق النقاء لضمان جودة عالية، ومقاوم للضغط العالي والتداخل. يجمع بين وظيفتي نقل البيانات والشحن بأمان.',
+  price: 120,
+  images: [
+    fox_data_cabel // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "4 في 1 (USB, Type-C, Lightning)",
+    "شحن سريع ونقل بيانات",
+    "تصميم أصلي منحني و NOODLE LINE لحل مشكلة اللف",
+    "شحن آمن للهاتف المحمول/التابلت مع سرعة نقل عالية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء، مما يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'الطول': '1 متر',
+    'النوع': 'متعدد (USB, Type-C, Lightning)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T23:20:00.000Z')
+},
+{
+  id: '175',
+  name: 'كابل بيانات 4S-05 (مايكرو USB)',
+  englishName: '4S-05 Data Cable (Micro USB)',
+  description: 'كابل بيانات 4S-05 مصمم لأجهزة Micro USB. يوفر تيار شحن يصل إلى 2.4 أمبير ويبلغ طوله 1 متر. مثالي للشحن السريع ونقل البيانات بشكل آمن وموثوق.',
+  price: 70,
+  images: [
+    cable_4s_5,
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "تيار 2.4 أمبير",
+    "طول 1 متر",
+    "شحن سريع وآمن",
+    "كابل سميك للغاية",
+    "شحن فلاش متوافق بالكامل"
+  ],
+  specifications: {
+    'الطراز': '4S-05',
+    'النوع': 'Micro USB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-25T23:15:00.000Z')
+},
+{
+  id: '174',
+  name: 'كابل بيانات وشحن سريع AORAX MY-10 (مايكرو USB)',
+  englishName: 'AORAX MY-10 Fast Charge Data Cable (Micro USB)',
+  description: 'كابل بيانات وشحن سريع من AORAX، موديل MY-10، مصمم لتوفير شحن سريع وصحيح لأجهزتك بقوة 20 واط و5 أمبير. يتميز بلون وتصميم كلاسيكي بجودة عالية، ومقاوم للتداخل بفضل تصميمه الممتاز وموصله النحاسي فائق النقاء. يتيح لك شحن ومزامنة أجهزتك مع أي مقابس أو منافذ USB في جهاز الكمبيوتر الخاص بك. متوافق مع جميع إصدارات USB. صنع في الصين.',
+  price: 110,
+  images: [
+    aorax_my_10 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "مشحون بأقصى سرعة شحن صحيحة",
+    "اللون المفضل والتصميم الكلاسيكي بأعلى جودة من كابل Micro USB",
+    "اشحن أجهزتك وزامنها مع أي مقابس أو منافذ USB في جهاز الكمبيوتر الخاص بك",
+    "اشحن جهازك اللوحي المحمول مع منفذ نقل",
+    "اجمع بين وظيفة نقل البيانات والشحن",
+    "مقاوم للتداخل مع تصميم ممتاز",
+    "موصل نحاسي فائق النقاء، مما يضمن جودة عالية",
+    "متوافق مع أي إصدار USB"
+  ],
+  specifications: {
+    'الطراز': 'MY-10',
+    'الطاقة': '20 واط',
+    'التيار': '5 أمبير',
+    'النوع': 'Micro USB',
+    'الطول': '1 متر',
+    'صنع في': 'الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T23:14:00.000Z')
+},
+{
+  id: '173',
+  name: 'شاحن سفر عالمي EMY MY-A303 بـ 3 منافذ USB',
+  englishName: 'EMY MY-A303 3-Port Universal Travel Charger',
+  description: 'محول تيار متردد من EMY مثالي للمنزل والسفر، مزود بـ 3 منافذ USB لشحن ما يصل إلى ثلاثة أجهزة رقمية في وقت واحد. يتميز بشريحة تعرف ذكية للشحن السريع لمختلف المنتجات في السوق. مصنوع من مادة ABS عالية الجودة والمقاومة للحريق، مما يوفر أمانًا ممتازًا ويتوافق مع معايير اختبار الأسلاك الساخنة الوطنية. يتميز بتصميم أنيق ومضغوط مع نقش ليزر للشعار والنص لضمان متانة اللون. يحتوي على نظام حماية مدمج ضد قصر الدائرة وارتفاع درجة الحرارة لضمان سلامة معدات الشحن الخاصة بك. يمكن للمستهلكين اختيار المنتج مع كابل MicroUSB أو كابل شحن Apple.',
+  price: 270,
+  images: [
+    emy_port_charge // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "3 مقابس شحن USB لشحن ثلاثة أجهزة رقمية في نفس الوقت",
+    "شريحة تعرف على الشحن الذكي مدمجة",
+    "مصنوع من مادة ABS عالية الجودة ومقاومة للحريق",
+    "تصميم سطح مصقول وحبيبات شعاعية",
+    "صغير وسهل النقل",
+    "نقش الشعار والنص بالليزر لضمان لون يدوم طويلًا",
+    "نظام حماية مدمج ضد قصر الدائرة وارتفاع درجة الحرارة",
+    "يتوفر مع كابل MicroUSB أو كابل شحن Apple"
+  ],
+  specifications: {
+    'الطراز': 'MY-A303',
+    'الإدخال': 'تيار متردد 100-240 فولت 50-60 هرتز 0.6 أمبير',
+    'الإخراج': 'تيار مستمر 5 فولت 3.1 أمبير (كحد أقصى) 15.5 واط',
+    'مادة المنتج': 'PC (البولي كربونات)',
+    'عدد منافذ USB': '3'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: true,
+  rating: 4.5,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-25T23:12:00.000Z')
+},
+{
+  id: '172',
+  name: 'شاحن Xiaomi 67 واط (MDY-12-ES)',
+  englishName: 'Xiaomi 67W Power Adapter (MDY-12-ES)',
+  description: 'محول طاقة أصلي من Xiaomi بقوة 67 واط، موديل MDY-12-ES. مصنوع من مادة البولي كربونات (PC) لضمان المتانة. يدعم جهد إدخال واسع من 100 إلى 240 فولت، مما يجعله مناسبًا للاستخدام العالمي. مثالي لشحن الأجهزة المتوافقة مع الشحن السريع.',
+  price: 290,
+  images: [
+    mi_67W // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "قوة 67 واط",
+    "مصنوع من مادة PC"
+  ],
+  specifications: {
+    'الطراز': 'MDY-12-ES',
+    'الإدخال': '100 فولت - 240 فولت - 50/60 هرتز، 1.7 أمبير',
+    'الإخراج': '5 فولت'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.7,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-25T23:09:55.000Z')
+},
+{
+  id: '171',
+  name: 'شاحن حائط ANKER PowerPort III 20W Cube',
+  englishName: 'ANKER PowerPort III 20W Cube Wall Charger',
+  description: 'شاحن حائط صغير ومحمول من ANKER، يتميز بقدرة 20 واط ويدعم تقنية Power Delivery (PD) عبر منفذ USB-C. مثالي للشحن السريع للأجهزة المتوافقة. يتميز بتصميم مكعب قابل للطي، ويزن 38 جرامًا فقط. يعمل بجهد إدخال عالمي من 100 إلى 240 فولت، ويوفر خرج جهد متعدد لاستيعاب متطلبات الشحن المختلفة.',
+  price: 580,
+  images: [
+    anker_power_set_2, // Variable for the image
+    anker_power_set // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "إجمالي طاقة الخرج: 20 واط",
+    "دعم Power Delivery (PD)",
+    "تصميم مكعب قابل للطي",
+    "خفيف الوزن (38 جرام)"
+  ],
+  specifications: {
+    'نموذج المنتج': 'A2149',
+    'حجم المنتج': '32.3×31.8×33 ملم',
+    'اللون': 'أبيض',
+    'الجهد (الإدخال)': '100-240 فولت-0.7 أمبير 50-60 هرتز',
+    'الجهد (الخرج)': '5 فولت-3 أمبير / 9 فولت-2.22 أمبير',
+    'المنشأ': 'الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-25T23:07:43.000Z')
+},
+{
+  id: '170',
+  name: 'وصلة كهرباء Crash M300 بـ 4 مقابس و2 منفذ USB',
+  englishName: 'Crash M300 Power Strip with 4 Sockets and 2 USB Ports',
+  description: 'وصلة كهرباء Crash M300 تتميز بمقابس قياسية صينية جديدة مطلية بالفضة لضمان التوصيل الآمن والفعال، مع قدرة تحمل تصل إلى 10000 إدخال وإخراج دون ارتخاء. توفر مفتاح تحكم كامل لقطع الطاقة بضغطة واحدة، وتم اختبار المفتاح لـ 5000 ضغطة. السطح مصنوع من مواد PC وABS المقاومة للحريق، ومثبطة للهب حتى 750 درجة مئوية. تدعم شحن USB الذكي بتقنية Super Charge™، حيث يتعرف كل منفذ USB تلقائيًا على الجهاز المتصل لتوفير تيار شحن مثالي (0.1 إلى 3.4 أمبير). قادرة على شحن جهاز واحد بسرعة 3.4 أمبير. مناسبة لشحن الهواتف الذكية، الأجهزة اللوحية، الكاميرات الرقمية وغيرها. المنتج صنع في ألمانيا.',
+  price: 260,
+  images: [
+    crash_m300 // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "مقبس قياسي صيني جديد مطلي بالفضة، حرارة أقل، أمان عالي",
+    "إدخال وإخراج 10000 مرة في الاستخدام العادي لن يكون مفكوكًا",
+    "تصميم مفتاح تحكم كامل، مفتاح واحد يمكنه قطع الطاقة",
+    "اختبار الضغط 5000 مرة، مفتاح الاتصال المطلي بالفضة أكثر أمانًا",
+    "سطح مقاوم للحريق مصنوع من مادة PC وABS، ومثبط للهب اللاهوائي",
+    "يتوافق مع معيار 750 درجة مئوية. سلك Kot غير قابل للاحتراق، حرارة 100 درجة مئوية غير قابل للتشوه",
+    "شحن ذكي عبر USB، تقنية شحن سريع ذكية فريدة من نوعها Super Charge™",
+    "كل منفذ USB يتعرف تلقائيًا على الهاتف المحمول أو الجهاز اللوحي أو بنك الطاقة وما إلى ذلك. أجهزة USB، متوافقة تلقائيًا بدون تكيف، ويتم شحنها تلقائيًا، مصدر طاقة من 0.1 إلى 3.4 أمبير لأفضل تيار لكل عملية شحن",
+    "يكفي لدعم جهاز واحد 3.4 أمبير شحن سريع تلقائي",
+    "يمكن استخدام جهاز تحديد الهوية ومطابقة تيار الشحن بذكاء لشحن أي علامة تجارية، مثل الهاتف الذكي أو الجهاز اللوحي أو الكاميرا الرقمية، إلخ."
+  ],
+  specifications: {
+    'التيار المقدر': '16 أمبير (كحد أقصى)',
+    'الجهد المقدر': '250 فولت',
+    'الطاقة المقدرة': '2500 واط',
+    'مخرج USB': 'تيار مستمر 5 فولت - 3.4 أمبير (حد أقصى تلقائي) 17 واط',
+    'منفذ الإخراج': '4 مقابس كومبو، 2 منفذ USB',
+    'صنع في': 'ألمانيا'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.8,
+  reviewCount: 15,
+  createdAt: new Date('2025-06-25T23:06:31.000Z')
+},
+{
+  id: '169',
+  name: 'وصلة كهرباء JINHEUNG متعددة المنافذ (4 مقابس + 2 USB)',
+  englishName: 'JINHEUNG Multi Tap Power Strip (4 Terminals + 2 USB)',
+  description: 'وصلة كهرباء JINHEUNG متعددة الوظائف توفر 4 مقابس كهربائية ومنفذين USB لشحن الأجهزة. تتميز بمفاتيح منفصلة لكل منفذ لزيادة الكفاءة في استخدام الكهرباء وإمكانية فصل وإعادة توصيل الطاقة بسهولة. تتضمن شاحن USB بقوة 5 فولت تيار مستمر 2 أمبير. مصممة بآلية حظر الطاقة الاحتياطية بنوع استشعار الحمل، وتقطع التيار عند زيادة الحمل (أكثر من 16 أمبير).',
+  price: 590,
+  images: [
+    jinheung // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "شاحن متعدد الوظائف بأربعة أطراف + 2 منفذ USB",
+    "شاحن USB 5 فولت تيار مستمر 2 أمبير",
+    "تبديل منفصل",
+    "الاستخدام الفعال للكهرباء",
+    "افصل الطاقة وأعد توصيلها دون"
+  ],
+  specifications: {
+    'الحجم (العرض × الطول × الارتفاع)': '298.6 مم × 73.5 مم × 41.9 مم',
+    'التقييم': '16 أمبير، 220 فولت - 240 فولت',
+    'استهلاك الطاقة أثناء التشغيل': 'الحد الأقصى 0.85 واط',
+    'استهلاك الطاقة عند إيقاف التشغيل': 'الحد الأقصى 0.75 واط',
+    'تيار قطع الحمل الزائد': 'أكثر من 16 أمبير',
+    'طاقة الهوائي': '200 مللي واط أو أقل',
+    'طريقة حظر الطاقة الاحتياطية': 'نوع استشعار الحمل',
+    'درجة حرارة التشغيل الموصى بها': '0 درجة مئوية ~ 40 درجة مئوية (داخلي)',
+    'شاحن USB': '5Vdc 2A (2Port)',
+    'طول الكابل': '200 سم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-25T23:05:31.000Z')
+},
+{
+  id: '168',
+  name: 'وصلة كهرباء Crash M400 بـ 4 مقابس طاقة و2 منفذ USB',
+  englishName: 'Crash M400 Power Strip with 4 Power Sockets and 2 USB Ports',
+  description: 'وصلة كهرباء Crash M400 متعددة الوظائف، مزودة بـ 4 مقابس طاقة و2 منفذ USB ذكي للشحن السريع. تتميز بمفتاح تحكم كامل لقطع الطاقة مباشرة عند عدم الاستخدام، وقد تم اختباره لـ 5000 ضغطة. السطح مصنوع من مادة ABS المقاومة للحريق، والتي تتوافق مع مقاومة الأسلاك الساخنة حتى 750 درجة مئوية ولا تتشوه بنسبة 100%. تقنية الشحن الذكي Super Charge™ في منافذ USB تتعرف تلقائيًا على الجهاز المتصل (هاتف محمول، جهاز لوحي، بنك طاقة، إلخ) لتوفير أفضل تيار شحن (0.1 إلى 2 أمبير). تدعم شحن جهاز واحد بسرعة 3.4 أمبير، مع تعريف تلقائي للجهاز وتوافق ذكي مع تيار الشحن لأي علامة تجارية من الهواتف الذكية، الأجهزة اللوحية، الكاميرات الرقمية، إلخ. المنتج صنع في مصر.',
+  price: 240,
+  images: [
+    crash_m400 // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "مقبس USB ذكي للاستخدام المرن والقوي، وحرارة أقل",
+    "مفتاح تحكم كامل لقطع الطاقة مباشرة، تم اختباره 5000 مرة",
+    "مفتاح Silverinstast Silverin أكثر أمانًا",
+    "سطح مقاوم للحريق مصنوع من مادة ABS، يتوافق مع مقاومة الأسلاك الساخنة حتى 750 درجة مئوية",
+    "شحن ذكي عبر USB بتقنية Super Charge™ الفريدة",
+    "كل منفذ USB يتعرف تلقائيًا على الجهاز لتوفير أفضل تيار شحن (0.1 إلى 2 أمبير)",
+    "يدعم جهازًا واحدًا 3.4 أمبير شحن سريع",
+    "متوافق مع أي علامة تجارية للهواتف الذكية، الأجهزة اللوحية، الكاميرات الرقمية، إلخ."
+  ],
+  specifications: {
+    'التيار المقدر': '16 أمبير (كحد أقصى)',
+    'الجهد المقدر': '250 فولت',
+    'الطاقة المقدرة': '2500 واط',
+    'مخرج USB': 'تيار مستمر 5 فولت - 3.4 أمبير (حد أقصى تلقائي) 17 واط',
+    'منافذ الإخراج': '4 مقابس كومبو، 2 منفذ USB',
+    'صنع في': 'مصر'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.7,
+  reviewCount: 12,
+  createdAt: new Date('2025-06-25T23:05:00.000Z')
+},
+{
+  id: '167',
+  name: 'لوحة مفاتيح وماوس الوسائط المتعددة LAVA ST-300',
+  englishName: 'LAVA ST-300 Multimedia Keyboard and Mouse',
+  description: 'طقم لوحة مفاتيح وماوس LAVA ST-300 مصمم لتوفير تجربة استخدام مريحة وفعالة. تتميز لوحة المفاتيح بتصميم مريح ومقاوم للماء والغبار، ومفاتيح غشائية عالية الجودة بعمر افتراضي يصل إلى 10 ملايين ضغطة. مصنوعة من مادة ABS عالية القوة، مع أغطية مفاتيح بطباعة حبر الأشعة فوق البنفسجية لضمان المتانة وطول العمر. يتميز الطقم بتصميم بسيط وأنيق، ومناسب لمجموعة متنوعة من الأجهزة الرقمية، ويهدف إلى تخفيف تعب عضلات اليد. يتصل لاسلكيًا عبر واجهة USB 2.0 ويحتوي على 104 مفاتيح. متوافق مع أنظمة تشغيل متعددة.',
+  price: 590,
+  images: [
+    lava_st_300_1, // Variable for the image
+    lava_st_300_2, // Variable for the image
+    lava_st_300_3 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "تصميم مريح، شعور مريح بالمقبض",
+    "تصميم فريد من نوعه مقاوم للماء والغبار",
+    "مفتاح مفتاح غشاء عالي الجودة",
+    "عمر ضغطة المفتاح: 10.000.000 مرة",
+    "مادة ABS عالية القوة",
+    "تصميم بسيط وأنيق",
+    "أغطية مفاتيح حبر الطباعة بالأشعة فوق البنفسجية"
+  ],
+  specifications: {
+    'العلامة التجارية': 'LAVA',
+    'الموديل': 'ST-300',
+    'واجهة الاتصال': 'USB الإصدار 2.0',
+    'عدد أزرار لوحة المفاتيح': '104 مفتاح',
+    'نوع الاتصال': 'لاسلكي',
+    'عمر المفتاح': '≥ 5 ملايين مرة',
+    'تيار التشغيل المقدر للوحة المفاتيح': '6mA@3.0V',
+    'دعم النظام': 'Windows 98/2000/ME/XP, Vista/Windows 7/Mac OS X/Linux'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-25T23:02:00.000Z')
+},
+{
+  id: '166',
+  name: 'مشترك كهرباء GLX 4 منافذ',
+  englishName: 'GLX 4-Port Power Strip',
+  description: 'مشترك كهرباء GLX رباعي المنافذ يتميز بتصميم جديد وجذاب، ومفتاح توصيل، وبلاستيك عالي الجودة. يوفر استخدامًا آمنًا للغاية بفضل احتوائه على 30% من النحاس في مكوناته الداخلية لضمان توصيل فعال وآمن للطاقة. مناسب للاستخدام في المنازل والمكاتب لتوصيل أجهزة متعددة.',
+  price: 210,
+  images: [
+    GLX // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "كابل نحاسي 100%",
+    "مادة عالية الجودة (بلاستيك)",
+    "استخدام آمن للغاية",
+    "30% نحاس",
+    "مفتاح توصيل",
+    "تصميم جديد وجذاب"
+  ],
+  specifications: {
+    'عدد المنافذ': '4',
+    'التيار/الجهد': '10/16 أمبير 250 فولت',
+    'التردد': '50-60 هرتز'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T23:01:00.000Z')
+},
+{
+  id: '165',
+  name: 'وصلة كهرباء TWINS مع قطع تلقائي',
+  englishName: 'TWINS Electricity Extender with Automatic Cut-off',
+  description: 'وصلة كهرباء TWINS مزودة بخاصية القطع التلقائي للتيار، مصممة لزيادة الأمان ومنع الحرائق الناتجة عن ارتفاع درجة الحرارة الموضعي. يجب تجنب استخدام المقابس ذات الأطراف الملتوية أو الملتوية، وعدم لمس الوحدة بأيدٍ مبللة، وإبعادها عن الأماكن التي قد تتناثر فيها المياه أو السوائل أو المبيدات الحشرية. مناسبة لمجموعة متنوعة من الأجهزة الكهربائية المنزلية.',
+  price: 150,
+  images: [
+    Twins // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "سيتم قطع التيار تلقائيًا",
+    "تجنب استخدام مقابس الطاقة ذات أطراف ملتوية أو ملتوية لتجنب الحريق الناتج عن ارتفاع درجة الحرارة الموضعي",
+    "لا تلمس الوحدة عندما تكون يديك مبللتين",
+    "احتفظ بها بعيدًا عن الأماكن التي يمكن أن تتناثر فيها المياه أو السوائل أو المبيدات الحشرية"
+  ],
+  specifications: {
+  
+    'تلفزيون': '200 واط',
+    'سخان الماء': '600 واط',
+    'ماكينة صنع القهوة': '800 واط',
+    'مكواة كهربائية': '950 واط',
+    'سخان كهربائي': '1100 واط',
+    'مكواة ملابس': '1200 واط',
+    'مجفف ملابس': '1300 واط',
+    'طباخ أوتوماتيكي': '1300 واط',
+    'مدفأة كهربائية صغيرة': '1500 واط'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T23:00:00.000Z')
+},
+{
+  id: '164',
+  name: 'موزع USB KINOKEN 3 منافذ',
+  englishName: 'KINOKEN 3-Port USB Hub',
+  description: 'موزع USB KINOKEN بـ 3 منافذ، يتميز بكونه متوافقًا مع أنظمة ويندوز وماك، ويوفر 3 منافذ USB 2.0 عالية السرعة. مصمم للعمل مع مجموعة واسعة من أجهزة USB مثل أجهزة الكمبيوتر المحمولة، الهواتف المحمولة، أجهزة المساعد الرقمي الشخصي، الفئران، لوحات المفاتيح، الطابعات، والكاميرات الرقمية. يوفر أقصى معدل نقل بيانات يبلغ 480 ميجابايت في الثانية.',
+  price: 65,
+  images: [
+    kinoken_usp_hub // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل',
+    "ملحقات الكمبيوتر"
+  ],
+  features: [
+    "3 منافذ USB 2.0 عالية السرعة",
+    "متوافق مع أنظمة ويندوز وماك",
+    "يعمل مع الأجهزة المتوافقة مع USB مثل أجهزة الكمبيوتر المحمولة، الهواتف المحمولة، أجهزة المساعد الرقمي الشخصي، أجهزة الماوس، لوحات المفاتيح، الطابعات، والكاميرات الرقمية"
+  ],
+  specifications: {
+    'الواجهة': 'USB 2.0',
+    'عدد المنافذ': '3',
+    'طول الكابل': '100 مم',
+    'أقصى معدل نقل بيانات': '480 ميجابايت في الثانية',
+    'متطلبات النظام (لكمبيوتر شخصي)': 'ويندوز 8/7/فيستا/إكس بي/2000',
+    'متطلبات النظام (ل Mac)': 'ماك أو إس 10.6 أو أحدث'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.8,
+  reviewCount: 4,
+  createdAt: new Date('2025-06-25T22:58:02.000Z')
+},
+{
+  id: '163',
+  name: 'موزع USB CMS 4 منافذ',
+  englishName: 'CMS 4-Port USB Hub',
+  description: 'موزع USB CMS بـ 4 منافذ بتصميم فريد، يتيح لك شحن ومزامنة جهاز iPod Shuffle، ويوفر سهولة الوصول من خلال منفذ USB علوي. متوافق تمامًا مع مواصفات USB 2.0 و 1.1، ويوفر معدل نقل بيانات يصل إلى 480 ميجابت في الثانية. يدعم توصيل ما يصل إلى جهازين بدون الحاجة لمحول طاقة، ويوفر حماية من التيار الزائد لكل منفذ. يتميز بخاصية التوصيل والتشغيل ولا يتطلب تثبيت برامج تشغيل، مع مؤشر LED واحد للطاقة.',
+  price: 65,
+  images: [
+    cms_usp_hub // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل',
+    "ملحقات الكمبيوتر"
+  ],
+  features: [
+    "اشحن ومزامنة جهاز iPod Shuffle",
+    "منفذ USB علوي لسهولة الوصول",
+    "متوافق تمامًا مع مواصفات USB 2.0",
+    "متوافق مع USB 1.1",
+    "الحد الأقصى لمعدل نقل البيانات 480 ميجابت في الثانية",
+    "يربط ما يصل إلى جهازين بدون محول طاقة",
+    "حماية من التيار الزائد لكل منفذ",
+    "التوصيل والتشغيل",
+    "لا يلزم تثبيت برنامج تشغيل",
+    "مؤشر حالة الضوء (مؤشر LED واحد للطاقة)"
+  ],
+  specifications: {
+    'الواجهة': 'USB 2.0 (متوافقة مع USB 1.1)',
+    'معدل نقل البيانات': 'حتى 480 ميجابت في الثانية',
+    'عدد المنافذ': '4',
+    'متطلبات النظام (لكمبيوتر شخصي)': 'كمبيوتر بمعالج Pentium® مع منفذ USB 2.0، Windows® 98SE أو 2000 أو Me أو XP أو Vista',
+    'متطلبات النظام (ل Mac)': 'Mac OS® 8.6 أو أعلى لوضع USB 1.1، Mac OSxv10.2.7 أو أعلى لطراز USB 2.0'
+  },
+  isAvailable: true,
+  isNew: false,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.9,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T22:56:58.000Z')
+},
+{
+  id: '162',
+  name: 'موزع USB Crash 4 منافذ',
+  englishName: 'Crash 4-Port USB Hub',
+  description: 'موزع USB Crash بـ 4 منافذ، يتميز بمفتاح أمان لكل مدخل، وتصميم شبه شفاف مع مصباح LED أزرق للطاقة. متوافق تمامًا مع مواصفات USB الإصدار 2.0 ويدعم خاصية Hot Plug & Play. يوفر معدل نقل بيانات يصل إلى 480 ميجابت في الثانية وحماية لتيار حد طاقة الحافلة 500 مللي أمبير. يمكنه دعم محركات أقراص صلبة تصل إلى 500 جيجابايت.',
+  price: 90,
+  images: [
+    crash_usp_hub // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل',
+    'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "4 منافذ USB مع مفتاح أمان لكل مدخل",
+    "منفذ USB واحد في الاتجاه العلوي وأربعة منافذ في الاتجاه السفلي",
+    "متوافق تمامًا مع مواصفات USB الإصدار 2.0",
+    "Hot Plug&Play Device USB",
+    "تصميم شبه شفاف مع مصباح LED أزرق للطاقة",
+    "حماية تيار حد طاقة الحافلة: 500 مللي أمبير",
+    "يدعم حتى 500 جيجابايت"
+  ],
+  specifications: {
+    'الواجهة': 'USB 2.0، متوافقة مع USB 1.1',
+    'معدل نقل البيانات': '1.5 ميجابت في الثانية / 12 ميجابت في الثانية / حتى 480 ميجابت في الثانية',
+    'عدد المنافذ': '4'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-25T22:55:00.000Z')
+},
+{
+  id: '161',
+  name: 'كابل HDTV 2.0 عالي السرعة (4K، 1.5 متر)',
+  englishName: 'HDTV 2.0 High-Speed Cable (4K, 1.5m)',
+  description: 'كابل HDTV 2.0 عالي السرعة بطول 1.5 متر يدعم دقة 4K ونقل البيانات بسرعة 10/100 ميجابت في الثانية عبر الإيثرنت. متوافق مع متطلبات HDTV 2.0 ويعتمد معيار النحاس الخام 19+1 بالإضافة إلى سلك أرضي لضمان جودة الإشارة. يدعم عرض الشاشة المزدوجة، 4 تدفقات إشارة صوتية، Doldy True-HD، DTS-HD Master audio، وما يصل إلى 32 قناة صوتية. مزود بموصل مطلي بالذهب عيار 24 قيراطًا وغطاء من سبائك الألومنيوم لمتانة فائقة ودقة إشارة.',
+  price: 110,
+  images: [
+    hdtv_premium // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "متوافق مع متطلبات HDTV2.0",
+    "يعتمد معيار النحاس الخام 19 + 1 سلك + سلك أرضي",
+    "يدعم عرض الشاشة المزدوجة و4 تدفقات إشارة صوتية",
+    "يدعم Doldy True-HD وDTS-HD وMaster audio، ويدعم ما يصل إلى 32 قناة صوتية في نفس الوقت",
+    "موصل مطلي بالذهب عيار 24 قيراطًا، وغطاء من سبائك الألومنيوم، للحفاظ على دقة الإشارة المساعدة ومتانة عالية",
+    "يدعم إيثرنت عالي السرعة نقل شبكة 10/100 ميجابت في الثانية، ويمكن أن تصل السرعة القصوى إلى 100 ميجابت في الثانية",
+    "متوافق مع PS4/Blu ray/جهاز عرض/جهاز فك التشفير/HDTV"
+  ],
+  specifications: {
+    'النوع': 'كابل HDTV',
+    'الإصدار': '2.0',
+    'الدقة المدعومة': '4K',
+    'الطول': '1.5 متر',
+    'معدل نقل الإيثرنت': '10/100 ميجابت في الثانية'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-25T22:52:31.000Z')
+},
+{
+  id: '160',
+  name: 'كابل شحن Heatz ZC33 Lightning سريع (3 أمبير)',
+  englishName: 'Heatz ZC33 Lightning Fast Charge Cable (3A)',
+  description: 'كابل شحن Heatz ZC33 Lightning سريع بقوة 3 أمبير، مصمم لمتانة فائقة وأداء موثوق به. يتميز بهيكل من الألومنيوم فائق الجودة وغلاف من النايلون المنسوج، مما يجعله مرنًا ومقاومًا للالتفاف والانحناء (أكثر من 20,000 درجة). مصنوع من مادة نحاسية عالية الجودة لضمان الشحن السريع والآمن، ويدعم أيضًا نقل البيانات المستقر. تصميمه يجعله سهل الحمل ومناسبًا للاستخدام في المنزل، المكتب، السيارة، والسفر.',
+  price: 170,
+  images: [
+    heatz_zc33 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "كابل نايلون فيت للشحن السريع 3 أمبير",
+    "متين للغاية، يتحمل أكثر من 20,000 درجة من الانحناء",
+    "هيكل من الألومنيوم فائق الجودة وغلاف من النايلون المنسوج",
+    "مقاوم للتشابك",
+    "مادة نحاسية عالية الجودة لمنع ارتفاع درجة الحرارة والشحن الزائد",
+    "يدعم الشحن السريع مع ضمان سلامة الجهاز",
+    "يوفر نقلًا مستقرًا لمزامنة البيانات",
+    "سهل الحمل ومناسب لمختلف السيناريوهات (المنزل، المكتب، السيارة، السفر)",
+    "تصميم أنيق"
+  ],
+  specifications: {
+    'الموديل': 'ZC33',
+    'نوع المنتج': 'كابل Lightning للشحن السريع',
+    'العلامة التجارية': 'HEATZ',
+    'الشركة المصنعة': 'مجموعة Astitel',
+    'التيار': '3 أمبير',
+    'الواجهة': 'Lightning',
+    'المادة': 'ألومنيوم ونايلون منسوج'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.8,
+  reviewCount: 15,
+  createdAt: new Date('2025-06-25T22:50:00.000Z')
+},
+{
+  id: '159',
+  name: 'كابل شحن Heatz ZC46 (USB-C إلى USB-C)',
+  englishName: 'Heatz ZC46 Charging Cable (USB-C to USB-C)',
+  description: 'كابل شحن Heatz ZC46 من نوع USB-C إلى USB-C يدعم الشحن السريع بقوة 60 واط. مصنوع من كابل سيليكون سائل أصلي برأس معدني، مما يجعله متينًا ومقاومًا للأوساخ والالتفاف. يضمن هذا الكابل شحنًا آمنًا وسريعًا ونقل بيانات مستقرًا وموثوقًا به، وذلك بفضل استخدامه لسلك نحاسي عالي الجودة يتوافق مع المتطلبات الصارمة.',
+  price: 200,
+  images: [
+    heatz_zc46 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "شحن سريع بقوة 60 واط",
+    "شحن آمن وسريع، نقل بيانات أكثر استقرارًا وموثوقية",
+    "سلك نحاسي يتوافق مع المتطلبات الصارمة",
+    "مادة: كابل سيليكون أصلي سائل برأس معدني",
+    "متين ومتين",
+    "مقاوم للأوساخ",
+    "مضاد للالتفاف"
+  ],
+  specifications: {
+    'الموديل': 'ZC46',
+    'نوع المنتج': 'كابل شحن',
+    'العلامة التجارية': 'HEATZ',
+    'الطاقة المدعومة': '60 واط',
+    'نوع الكابل': 'USB-C إلى USB-C',
+    'المادة': 'كابل سيليكون أصلي سائل برأس معدني',
+    'اللون': 'أسود'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.7,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-25T22:48:00.000Z')
+},
+{
+  id: '158',
+  name: 'شاحن سيارة Heatz ZCC3 بمنفذين',
+  englishName: 'Heatz ZCC3 Dual Port Car Charger',
+  description: 'شاحن سيارة Heatz ZCC3 متعدد الاستخدامات مزود بمنفذي شحن (USB-A و USB-C) يسمح بشحن جهازين في وقت واحد. يدعم منفذ USB-C تقنية توصيل الطاقة (PD) لشحن أسرع. يوفر الشاحن إجمالي خرج يصل إلى 38 وات (بحد أقصى) ويتميز بحماية ذكية ضد ارتفاع درجة الحرارة، والجهد الزائد، والتيار الزائد. متوافق مع الأجهزة اللوحية والهواتف الذكية ومعظم أجهزة USB.',
+  price: 290,
+  images: [
+    heatz_zcc3 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "مخرج 36 واط مع دعم توصيل الطاقة",
+    "منفذان لشحن جهازين في وقت واحد",
+    "حماية ذكية ضد ارتفاع درجة الحرارة، والجهد الزائد، والتيار الزائد",
+    "منفذ USB-C مع دعم توصيل الطاقة",
+    "متوافق مع الأجهزة اللوحية والهواتف الذكية ومعظم أجهزة USB"
+  ],
+  specifications: {
+    'الموديل': 'ZCC3',
+    'النوع': 'شاحن سيارة',
+    'العلامة التجارية': 'HEATZ',
+    'الشركة المصنعة': 'Ashtel Group',
+    'المدخلات': '12-24 فولت',
+    'مخرج USB-A': '5V/3A, 9V/2A, 12V/1.5A',
+    'مخرج USB-C': '5V/3A, 9V/2A, 12V/1.5A',
+    'إجمالي المخرجات': '38 وات (كحد أقصى)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-25T22:45:00.000Z')
+},
+{
+  id: '157',
+  name: 'محول طاقة USB-C بقدرة 20 وات مع كابل USB-C إلى لايتنينج',
+  englishName: '20W USB-C Power Adapter with USB-C to Lightning Cable',
+  description: 'محول طاقة USB-C بقدرة 20 وات مصمم للشحن السريع والفعال، ويأتي مرفقًا بكابل USB-C إلى لايتنينج. يوفر هذا الشاحن حلاً متكاملًا لمستخدمي أجهزة آبل الذين يحتاجون إلى شحن سريع وموثوق.',
+  price: 210,
+  images: [
+    usp_c_to_lighning_power_adaptor // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "شحن سريع بقدرة 20 وات",
+    "يشمل كابل USB-C إلى لايتنينج"
+  ],
+  specifications: {
+    'الطاقة': '20 وات',
+    'نوع الموصل (الشاحن)': 'USB-C',
+    'نوع الكابل': 'USB-C إلى لايتنينج'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: true,
+  rating: 4.5,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-25T22:37:00.000Z')
+},
+{
+  id: '156',
+  name: 'سماعة رأس بلوتوث لينوفو Thinkplus الرياضية HE05X II',
+  englishName: 'Lenovo Thinkplus Sports Headphones HE05X II',
+  description: 'سماعة رأس بلوتوث لينوفو Thinkplus الرياضية HE05X II مصممة خصيصًا لعشاق الرياضة، وتتميز بوحدة صوت 10 ملم وجودة صوت غنية. توفر عمر بطارية طويل الأمد يصل إلى 12 ساعة، وتصميمًا مريحًا للارتداء، مع ميزة الاتصال التلقائي. تدعم تقنية Bluetooth V5.0 لمسافة فعالة تصل إلى 10 أمتار.',
+  price: 370,
+  images: [
+    lenovo_hanging_headphone_1, // Variable for the image
+    lenovo_hanging_headphone_2 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "وحدة صوت 10 ملم",
+    "عمر بطارية طويل الأمد",
+    "مريح في الارتداء",
+    "الاتصال تلقائيا"
+  ],
+  specifications: {
+    'الموديل': 'HE05X II',
+    'إصدار البلوتوث': 'V5.0',
+    'مسافة البلوتوث الفعالة': '≥10 متر',
+    'حجم السماعة': '10 مم',
+    'الحد الأقصى للطاقة': '10 ميجاوات',
+    'الحساسية': '92 ديسيبل ± 3 ديسيبل',
+    'استجابة التردد': '20 هرتز - 20 كيلو هرتز',
+    'بطارية مدمجة': '110 مللي أمبير',
+    'عمر البطارية': 'حوالي 12 ساعة',
+    'الإدخال المقدر': '5 فولت 500 مللي أمبير'
+  },
+  isAvailable: true,
+  isNew: false,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 20,
+  createdAt: new Date('2024-03-10T10:00:00Z')
+},
+{
+  id: '155',
+  name: 'ماوس الألعاب SPIDER S31',
+  englishName: 'SPIDER S31 Gaming Mouse',
+  description: 'ماوس الألعاب SPIDER S31 مصمم خصيصًا لتجربة لعب محسّنة. يتميز بوضع إضاءة خلفية ملونة متغيرة، وتصميم مريح يوفر شعورًا بالراحة أثناء الاستخدام. يتوفر بإصدارين: 4D مع تعديل DPI بثلاث سرعات (800/1000/1200) و6D مع تعديل DPI بأربع سرعات (800/1200/1600/2400)، مما يتيح لك تخصيص الدقة حسب احتياجاتك في اللعب أو العمل.',
+  price: 250,
+  images: [
+    spider_gaming_mouse_1, // Variable for the image
+    spider_gaming_mouse_2
+  ],
+  categories: [
+    'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "وضع إضاءة خلفية ملونة متنفسة",
+    "تصميم مريح، شعور بالراحة",
+    "تعديل DPI بثلاث سرعات: 800/1000/1200 (إصدار 4D)",
+    "تعديل DPI بأربع سرعات: 800/1200/1600/2400 (إصدار 6D)"
+  ],
+  specifications: {
+    'الموديل': 'S31',
+    'نوع الماوس': 'ماوس ألعاب',
+    'DPI': '800/1000/1200 (إصدار 4D)؛ 800/1200/1600/2400 (إصدار 6D)'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 12,
+  createdAt: new Date('2025-06-25T22:35:00.000Z')
+},
+{
+  id: '154',
+  name: 'ماوس الألعاب اللاسلكي GRAND NASUS W200 (2.4 جيجا هرتز، قابل لإعادة الشحن)',
+  englishName: 'GRAND NASUS W200 2.4GHz Rechargeable Wireless Gaming Mouse',
+  description: 'ماوس الألعاب اللاسلكي GRAND NASUS W200 قابل لإعادة الشحن، يتميز بمحرك تتبع عالي الدقة يصل إلى 2400 نقطة في البوصة، مع إمكانية التبديل بين ثلاث دقات لتلبية احتياجات العمل واللعب. يستخدم تقنية لاسلكية 2.4 جيجا هرتز لنقل إشارة مستقر على بعد 10 أمتار بدون تأخير. يشتمل على نظام إضاءة LED بضوء بارد ورقاقة موفرة للطاقة لإطالة عمر البطارية.',
+  price: 650,
+  images: [
+    grand_mouse_1,
+    grand_mouse_4,
+    grand_mouse_2,
+    grand_mouse_3 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "محرك تتبع عالي الدقة بدقة 1000 نقطة في البوصة",
+    "تقنية لاسلكية 2.4 جيجا هرتز لأي نطاق زاوية 10 أمتار، نقل إشارة ثابت، بدون تأخير وبدون إسقاط للإطارات",
+    "جيل جديد من الرقائق الموفرة للطاقة",
+    "نظام إضاءة LED بضوء بارد",
+    "دقة تحديد المواقع عالية الدقة: 800-2400 نقطة في البوصة، يمكن قص ثلاث دقات وتغييرها"
+  ],
+  specifications: {
+    'الموديل': 'NASUS W200',
+    'النوع': 'ماوس لاسلكي قابل لإعادة الشحن',
+    'تقنية الاتصال': '2.4 جيجا هرتز لاسلكي',
+    'الدقة (DPI)': '800-2400 نقطة في البوصة (قابلة للتعديل)',
+    'متطلبات النظام': 'ويندوز XP/فيستا/7 أو أحدث، ماك 10.4 أو أحدث، منفذ USB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 15,
+  createdAt: new Date('2025-06-25T22:32:02.000Z')
+},
+{
+  id: '153',
+  name: 'كابل شحن Dolphin D-160 USB إلى Micro',
+  englishName: 'Dolphin D-160 USB to Micro Charge Cable',
+  description: 'كابل شحن Dolphin D-160 USB إلى Micro بطول 1 متر، مصمم للشحن الآمن والسريع ونقل البيانات عالي السرعة لأجهزة Micro USB. مصنوع من مادة TPE والنحاس، ويتميز بتصميم مقاوم للضغط العالي وموصل نحاسي فائق النقاء لضمان الجودة. يدعم تيار أقصى 2.4 أمبير وهو مضاد للتداخل ومتوافق مع أي إصدار USB.',
+  price: 30,
+  images: [
+    dolphin_d_160 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "اشحن هاتفك المحمول/التابلت بأمان مع سرعة نقل عالية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء، مما يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'العلامة التجارية': 'دولفين',
+    'اسم المنتج': 'D-160',
+    'الوظيفة': 'كابل شحن',
+    'المادة': 'TPE ونحاس',
+    'الطول': '1000 مم',
+    'الواجهة': 'مايكرو (Micro USB)',
+    'الحد الأقصى للتيار': '2.4 أمبير'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T22:33:00.000Z')
+},
+{
+  id: '152',
+  name: 'كابل بيانات WUW X195 Type-C',
+  englishName: 'WUW X195 Type-C Data Cable',
+  description: 'كابل بيانات WUW X195 Type-C بطول 1 متر، يوفر مخرج 2.4 أمبير لشحن سريع ونقل بيانات عالي السرعة. يتميز بسلك PVC صديق للبيئة ناعم ومرن ومقاوم للشد والانحناء، وتصميم مسطح يمنع التشابك. مزود بتركيبات عالية الجودة ومقبس مقاوم للصدأ، ويدعم الشحن السريع ونقل البيانات المتزامن، ومتوافق مع معظم أجهزة USB في السوق.',
+  price: 35,
+  images: [
+    wuw_x_195 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "سلك بولي كلوريد الفينيل الصديق للبيئة، ناعم ومرن، قابل للشد والانحناء",
+    "تصميم مسطح، مضاد فعال للالتفاف",
+    "تركيبات عالية الجودة، قابس مقاوم للصدأ",
+    "نقل بيانات عالي السرعة",
+    "شحن سريع ومتين",
+    "تصميم عالي التوافق",
+    "نقل متزامن عالي السرعة، نسخ احتياطي سريع للبيانات",
+    "أجزاء أسلاك وموصلات عالية الجودة، تدعم الشحن السريع",
+    "متوافق مع معظم أجهزة USB في السوق"
+  ],
+  specifications: {
+    'الموديل': 'X195',
+    'المادة': 'PVC',
+    'اللون': 'أبيض',
+    'الخرج': '2.4 أمبير',
+    'الطول': '1 متر',
+    'نوع الكابل': 'Type-C'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T22:31:00.000Z')
+},
+{
+  id: '151',
+  name: 'كابل بيانات ANKER AK-2 Type-C',
+  englishName: 'ANKER AK-2 Type-C Data Cable',
+  description: 'كابل بيانات ANKER AK-2 Type-C بطول 1 متر، يوفر مخرج 2.4 أمبير لشحن آمن وموثوق. يتميز بسلك PVC صديق للبيئة ناعم ومرن ومقاوم للشد والانحناء، وتصميم مسطح يمنع التشابك. مزود بتركيبات عالية الجودة ومقبس مقاوم للصدأ، ويوفر خرج طاقة ثابتًا لنقل مثالي للطاقة وأداء فائق مع الأجهزة المتوافقة.',
+  price: 55,
+  images: [
+    anker_ak_2 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "سلك PVC صديق للبيئة، ناعم ومرن، قابل للشد والانحناء",
+    "تصميم مسطح، مضاد فعال للالتفاف",
+    "تركيبات عالية الجودة، قابس مقاوم للصدأ",
+    "شاحن آمن",
+    "استخدام موثوق وآمن مع الأجهزة المتوافقة",
+    "خرج طاقة ثابت لأداء فائق",
+    "نقل مثالي للطاقة"
+  ],
+  specifications: {
+    'الموديل': 'AK-2',
+    'نوع الكابل': 'Type-C',
+    'الإخراج': '2.4 أمبير',
+    'الطول': '1 متر',
+    'المادة': 'PVC'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2,
+  reviewCount: 11,
+  createdAt: new Date('2025-06-25T22:30:00.000Z')
+},
+{
+  id: '150',
+  name: 'كابل Dolphin D-162 USB إلى لايتنينج',
+  englishName: 'Dolphin D-162 USB to Lightning Cable',
+  description: 'كابل Dolphin D-162 USB إلى لايتنينج بطول 1 متر، مصمم للشحن الآمن والسريع ونقل البيانات عالي السرعة لأجهزة آبل. مصنوع من مادة TPE والنحاس، ويتميز بتصميم مقاوم للضغط العالي وموصل نحاسي فائق النقاء لضمان الجودة. يدعم تيار أقصى 2.4 أمبير وهو مضاد للتداخل ومتوافق مع أي إصدار USB.',
+  price: 40,
+  images: [
+    dolphin_d_162 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "اشحن هاتفك المحمول/التابلت بأمان مع سرعة نقل عالية",
+    "يجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء، مما يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'العلامة التجارية': 'دولفين',
+    'اسم المنتج': 'D-162',
+    'الوظيفة': 'كابل شحن',
+    'المادة': 'TPE ونحاس',
+    'الطول': '1000 مم',
+    'الواجهة': 'لايتنينج',
+    'الحد الأقصى للتيار': '2.4 أمبير'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-25T22:28:14.000Z')
+},
+{
+  id: '149',
+  name: 'كابل بيانات JNUOBI S-2 (Micro USB)',
+  englishName: 'JNUOBI S-2 Data Cable (Micro USB)',
+  description: 'كابل بيانات JNUOBI S-2 بطول 1 متر، مصمم للشحن السريع بتيار 6 أمبير، ومجهز بدعم خاص لتخفيف الضغط لضمان المتانة. يتوافق هذا الكابل مع أجهزة Micro USB ويوفر شحنًا عالي السرعة.',
+  price: 50,
+  images: [
+    jnuobi_s_2 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "يدعم تيار 6 أمبير",
+    "دعم خاص لتخفيف الضغط"
+  ],
+  specifications: {
+    'الموديل': 'S-2',
+    'نوع الكابل': 'Micro USB',
+    'التيار': '6 أمبير',
+    'الطول': '1 متر'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3,
+  reviewCount: 4,
+  createdAt: new Date('2025-06-25T22:27:00.000Z')
+},
+{
+  id: '148',
+  name: 'كابل بيانات ONE DEPOT S01T Type-C',
+  englishName: 'ONE DEPOT S01T Type-C Data Cable',
+  description: 'كابل بيانات ONE DEPOT S01T Type-C بطول 1 متر، مصمم لدعم الشحن والمزامنة بحد أقصى للتيار يبلغ 2.4 أمبير. يتميز بسطح موصل من PVC وسلك أساسي متين، مما يضمن نقل بيانات عالي الجودة وشحن فعال.',
+  price: 35,
+  images: [
+    one_depot_s01t // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "يدعم الشحن والمزامنة",
+    "تيار 2.4 أمبير",
+    "موصل من النوع C"
+  ],
+  specifications: {
+    'الموديل': 'S01T',
+    'الطول': '1 متر (100 سم)',
+    'الوزن': '24 جم',
+    'المقاس': '3.5 × 1000 مم',
+    'سطح الموصل': 'PVC',
+    'السلك الأساسي': '43 × 0.08 × 2C + 10 × 0.08 × 2C',
+    'الحد الأقصى للإخراج': '2.4 أمبير'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T22:25:27.000Z')
+},
+{
+  id: '147',
+  name: 'كابل بيانات BIBOSHI B01-03',
+  englishName: 'BIBOSHI B01-03 Data Cable',
+  description: 'كابل بيانات BIBOSHI B01-03 مصمم للشحن ونقل البيانات عالي السرعة، ويتميز بنواة من أفضل الأنواع ومادة TPE عالية الجودة. يوفر ميزات ذكية لإدارة الطاقة، مثل إيقاف التشغيل الذكي والشحن البطيء لحماية البطارية. مع 160 نواة نحاسية نقية سميكة، يضمن تجربة شحن فائقة، كما أن تصميمه المقوى يجعله مقاومًا للانحناء والتشقق.',
+  price: 60,
+  images: [
+    biboshi_b01_03 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "نواة من أفضل الأنواع، نقل بيانات عالي السرعة",
+    "مادة TPE عالية الجودة، قوة عالية، قوة شد ومرونة",
+    "إيقاف تشغيل ذكي، يطيل عمر البطارية",
+    "الشحن البطيء، يحمي الهاتف، ويضبط التيار تلقائيًا، ويتجنب تلف البطارية الناتج عن الشحن السريع",
+    "160 نواة نحاسية نقية سميكة، توفر تجربة شحن سريعة تفوق الخيال",
+    "تقوية هيكل خيط TPE، ومقاومة الانحناء، والخيط والتشقق باستمرار، وتجنب مخاطر السلامة"
+  ],
+  specifications: {
+    'الموديل': 'B01-03',
+    'المادة': 'TPE',
+    'الخصائص الذكية': 'إيقاف تشغيل ذكي، اختناق ذكي'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.3,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-25T22:23:44.000Z')
+},
+{
+  id: '146',
+  name: 'كابل بيانات EHP Type-C موديل C1',
+  englishName: 'EHP Type-C Data Cable Model C1',
+  description: 'كابل بيانات EHP Type-C موديل C1 بطول 1 متر، مصمم لتوفير شحن آمن وسريع ونقل بيانات عالي السرعة لهاتفك المحمول أو التابلت. يتميز بتصميم مقاوم للضغط العالي، وموصل نحاسي فائق النقاء لضمان الجودة، وهو متوافق مع أي إصدار USB ومضاد للتداخل.',
+  price: 60,
+  images: [
+    ehp_c_1 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "اشحن هاتفك المحمول/التابلت بأمان مع سرعة نقل عالية",
+    "اجمع بين وظيفة نقل البيانات والشحن",
+    "يقاوم الضغط العالي بتصميم ممتاز",
+    "موصل نحاسي فائق النقاء يضمن جودة عالية",
+    "متوافق مع أي إصدار USB",
+    "مضاد للتداخل"
+  ],
+  specifications: {
+    'الموديل': 'C1',
+    'نوع الكابل': 'Type-C',
+    'الطول': '1 متر'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.2,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T22:21:31.000Z')
+},
+{
+  id: '145',
+  name: 'رأس شاحن DUDA DU-01',
+  englishName: 'DUDA DU-01 Charger Set',
+  description: 'مجموعة شاحن DUDA DU-01 توفر شحنًا آمنًا وسريعًا ومستقرًا. يتميز هذا الشاحن بمخرج 2.1 أمبير، مما يضمن نقلًا مثاليًا للطاقة وأداءً فائقًا لأجهزتك المتوافقة. إنه مصمم ليكون موثوقًا وآمنًا للاستخدام اليومي.',
+  price: 80,
+  images: [
+    duda_du_01 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "شحن سريع",
+    "شاحن آمن",
+    "استخدام موثوق وآمن مع الأجهزة المتوافقة",
+    "خرج طاقة ثابت لأداء فائق",
+    "نقل مثالي للطاقة"
+  ],
+  specifications: {
+    'الموديل': 'DU-01',
+    'الإخراج': '2.1 أمبير'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: true,
+  rating: 4.1,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-25T22:20:27.000Z')
+},
+{
+  id: '144',
+  name: 'سماعات أذن ستيريو UNIPHA U19',
+  englishName: 'UNIPHA U19 Stereo Earphones',
+  description: 'سماعات أذن ستيريو UNIPHA U19 مصممة لتجربة صوتية غامرة. تتميز بمكبر صوت 10 مم، حساسية 98 ديسيبل، ومقاومة 32 أوم، مما يوفر نطاق تردد واسع من 20 هرتز إلى 20 كيلوهرتز. تأتي مع قابس 3.5 مم قياسي وطول سلك 120 سم، ومناسبة للاستخدام اليومي مع الهواتف الذكية والأجهزة الأخرى. يرجى الانتباه إلى إرشادات السلامة المرفقة للحفاظ على صحة السمع وتجنب الحوادث.',
+  price: 40,
+  images: [
+    unipha_u19 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "موسيقى ستيريو",
+    "صوت عالي الدقة",
+    "مريحة للارتداء"
+  ],
+  specifications: {
+    'الموديل': 'U19',
+    'حجم مكبر الصوت': '10 مم',
+    'الحساسية': '98 ديسيبل ± 2 ديسيبل',
+    'المقاومة': '32 أوم',
+    'استجابة التردد': '20 هرتز - 20 كيلو هرتز',
+    'نوع القابس': '3.5 مم',
+    'الوزن': '14 جرام',
+    'RMS': '3 ميجاوات',
+    'طول السلك': '120 سم',
+    'مكان الصنع': 'الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.9,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-25T22:19:28.000Z')
+},
+{
+  id: '143',
+  name: 'سماعات أذن YSION ستيريو',
+  englishName: 'YSION Stereo Earphones',
+  description: 'سماعات أذن YSION ستيريو توفر تجربة صوت غنية وميزات تحكم مريحة للمكالمات والموسيقى. تتميز بمحرك أقراص 10 مم، واستجابة تردد واسعة، وكابل بطول 1.2 متر، مما يجعلها مثالية للاستخدام اليومي.',
+  price: 40,
+  images: [
+    ysion // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "تحكم متعدد الوظائف للمكالمات والموسيقى: ضغطة قصيرة للاتصال/الرد، ضغطة طويلة لرفض/إنهاء المكالمة، إيقاف مؤقت/تشغيل الموسيقى",
+    "تحكم بالأغاني: ضغط مستمر (3 ضغطات) للأغنية السابقة، ضغط مستمر (2 ضغطات) للأغنية التالية"
+  ],
+  specifications: {
+    'محرك الأقراص': '10 مم',
+    'استجابة التردد': '20-20000 هرتز',
+    'المقاومة': '16 أوم ± 15%',
+    'الحساسية': '95 ديسيبل ± ديسيبل',
+    'طول السلك': '1.2 متر'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.8,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-25T22:18:28.000Z')
+},
+{
+  id: '142',
+  name: 'سماعات أذن VDENMENV DR01',
+  englishName: 'VDENMENV DR01 Earphones',
+  description: 'سماعات أذن VDENMENV DR01 توفر جودة صوت غنية وتصميمًا مريحًا. هذه السماعات مزودة بتحكم سلكي عالمي، مما يجعلها ملحقًا جميلًا وعمليًا للاستخدام اليومي مع مختلف الأجهزة.',
+  price: 45,
+  images: [
+    vdenmenv_dr01 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "تحكم سلكي عالمي",
+    "ملحقات جميلة"
+  ],
+  specifications: {
+    'الموديل': 'DR01',
+    'نوع السماعة': 'سماعة أذن سلكية'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 3.9,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T22:17:35.000Z')
+},
+{
+  id: '141',
+  name: 'سماعات أذن Blue Spectrum D-43',
+  englishName: 'Blue Spectrum D-43 Earphones',
+  description: 'سماعات أذن Blue Spectrum D-43 توفر تجربة صوت ستيريو ديناميكية مع ميكروفون مدمج لإجراء مكالمات بدون استخدام اليدين. تتميز بنطاق تردد واسع وحساسية عالية، وتصميم مريح يناسب واجهة 3.5 مم القياسية في الهواتف الذكية.',
+  price: 55,
+  images: [
+    blue_specturm_d_43 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "مخرج ستيريو ديناميكي",
+    "ميكروفون مدمج بدون استخدام اليدين",
+    "ينطبق على واجهة 3.5 قدم للهاتف المحمول الذكي"
+  ],
+  specifications: {
+    'الموديل': 'D-43',
+    'قطر مكبر الصوت': '14.2 مم',
+    'نطاق التردد': '20 هرتز - 20 كيلوهرتز',
+    'الحساسية': '110 ديسيبل ± 3',
+    'المعاوقة': '32 أوم',
+    'طول الكابل': '135 سم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-25T22:16:41.000Z')
+},
+{
+  id: '140',
+  name: 'مجموعة شاحن Sky Dolphin أحادي المنفذ (Micro USB)',
+  englishName: 'Sky Dolphin Single Port Charger Set (Micro USB)',
+  description: 'مجموعة شاحن السفر Sky Dolphin أحادي المنفذ، مصممة لشحن أجهزة Micro USB بكفاءة. يتميز بشاحن سريع مع مخرج 2.4 أمبير و12 واط، وكابل بيانات يدعم الشحن والمزامنة، مما يجعله حل شحن متكامل ومناسب للسفر.',
+  price: 50,
+  images: [
+    sky_dolphine_sc07v // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "منفذ USB واحد",
+    "شاحن سريع",
+    "شاحن سفر",
+    "يدعم الشحن والمزامنة"
+  ],
+  specifications: {
+    'الموديل': 'SC07V',
+    'الإخراج': 'تيار مستمر 5 فولت/2.4 أمبير (12 واط)',
+    'الإدخال': 'تيار متردد 100-240 فولت 50/60 هرتز',
+    'تيار الكابل الأقصى': '2.4 أمبير',
+    'نوع الكابل': 'Micro USB'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: true,
+  rating: 4.0,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T22:15:45.000Z')
+},
+{
+  id: '139',
+  name: 'رأس شاحن WUW T82',
+  englishName: 'WUW T82 Charger Set',
+  description: 'مجموعة شاحن WUW T82 توفر شحنًا آمنًا، سريعًا، وثابتًا. يأتي مع مخرج 2.14 أمبير، مما يجعله مناسبًا لشحن الهواتف الذكية والأجهزة اللوحية بكفاءة.',
+  price: 70,
+  images: [
+    wuw_t_82 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "شاحن آمن، سريع، وثابت",
+    "مخرج 2.14 أمبير"
+  ],
+  specifications: {
+    'الموديل': 'T82',
+    'الإخراج': '2.14 أمبير'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: true,
+  rating: 4.0,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-25T22:14:21.000Z')
+},
+{
+  id: '138',
+  name: 'كابل بيانات Type-C إلى Type-C',
+  englishName: 'Type-C to Type-C Data Cable',
+  description: 'كابل بيانات Type-C إلى Type-C قياسي، مصمم لتوصيل الأجهزة المزودة بمنافذ Type-C ببعضها البعض. يدعم الشحن ونقل البيانات، مما يوفر اتصالاً متعدد الاستخدامات لأجهزتك الحديثة.',
+  price: 60,
+  images: [
+    type_c_to_type_c_cable // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "توصيل Type-C إلى Type-C"
+  ],
+  specifications: {
+    'نوع الكابل': 'Type-C إلى Type-C'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-25T22:13:22.000Z')
+},
+{
+  id: '137',
+  name: 'كابل بيانات Anker USB-C إلى لايتنينج (LDO)',
+  englishName: 'Anker USB-C to Lightning Data Cable (LDO)',
+  description: 'كابل بيانات Anker LDO بطول 1 متر، مصمم للتوصيل بين أجهزة USB-C وأجهزة لايتنينج. يدعم تقنية الشحن السريع Power Delivery (PD) بقوة 20 واط، مما يضمن شحنًا فعالًا وسريعًا لأجهزة آبل المتوافقة.',
+  price: 60,
+  images: [
+    anker_ldo_cable // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "يدعم الشحن السريع PD20W"
+  ],
+  specifications: {
+    'الموديل': 'LDO',
+    'نوع الكابل': 'USB-C إلى لايتنينج (Lightning)',
+    'القدرة المدعومة': 'PD20W',
+    'الطول': '1 متر'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6,
+  reviewCount: 18,
+  createdAt: new Date('2025-06-25T22:11:29.000Z')
+},
+{
+  id: '136',
+  name: 'كابل JNUOBI X-120 لايتنينج OD6.0',
+  englishName: 'JNUOBI X-120 OD6.0 Lightning Cable',
+  description: 'كابل JNUOBI X-120 لايتنينج فائق السُمك (OD6.0) مصمم للشحن فائق السرعة، حيث يدعم طاقة تصل إلى 120 واط. بطول 1 متر، يضمن هذا الكابل شحنًا ومزامنة بيانات فعالة لأجهزة آبل المتوافقة. يتميز بتصميم متين لضمان عمر افتراضي طويل.',
+  price: 155,
+  images: [
+    jnuobi_x_120 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "يدعم شحن فائق بقوة 120 واط",
+    "كابل سميك للغاية (OD6.0)",
+    "كابل شحن فلاش متوافق تمامًا"
+  ],
+  specifications: {
+    'الموديل': 'X-120',
+    'نوع الكابل': 'لايتنينج (Lightning)',
+    'القدرة المدعومة': '120 واط',
+    'الطول': '1 متر',
+    'سمك الكابل (OD)': '6.0 مم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-25T22:09:43.000Z')
+},
+{
+  id: '135',
+  name: 'كابل بيانات GEMAX Type-C HY-C610',
+  englishName: 'GEMAX Type-C Data Cable HY-C610',
+  description: 'كابل بيانات GEMAX HY-C610 Type-C مصمم للشحن السريع للغاية، حيث يدعم قوة تصل إلى 120 واط. يتميز بسطح سميك (OD6.0) وسلك فائق السُمك لضمان المتانة والأداء الأمثل. يوفر تيار 3 أمبير لشحن فعال وسريع لأجهزتك المزودة بمنفذ Type-C.',
+  price: 220,
+  images: [
+    gemax_hy_c610 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "سطح أكثر سمكًا OD6.0",
+    "سلك فائق السُمك بقوة 120 واط",
+    "كابل بيانات شحن سريع",
+    "يدعم تيار 3 أمبير"
+  ],
+  specifications: {
+    'الموديل': 'HY-C610',
+    'نوع الكابل': 'Type-C',
+    'القدرة المدعومة': '120 واط',
+    'التيار': '3 أمبير',
+    'سمك الكابل (OD)': '6.0 مم'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-25T22:08:15.000Z')
+},
+{
+  id: '134',
+  name: 'كابل بيانات LDNIO بزاوية 90 درجة (طول 2 متر)',
+  englishName: 'LDNIO 90° Angle Data Cable (2M Length)',
+  description: 'كابل بيانات LDNIO متين بطول 2 متر، يتميز بتصميم بزاوية 90 درجة لسهولة الاستخدام وحماية معززة. يدعم الشحن عالي التيار ونقل البيانات السريع، ومزود بحماية أمنية متعددة لضمان شحن آمن ومزامنة بيانات فورية. الواجهة المصنوعة من أنبوب فولاذي غير ملحوم تتحمل الانحناء المتكرر وتوفر توصيلاً فائقًا. كما أن الكابل مصنوع من مواد صديقة للبيئة، ناعمة، مرنة، ومضادة للتشابك والسحب.',
+  price: 180,
+  images: [
+    ldnio_ls421_2M_lenth // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "يدعم الشحن بتيار عالٍ ونقل البيانات السريع",
+    "مصمم بحماية أمنية متعددة، وشحن سريع بدون تلف، ومزامنة سريعة للبيانات في الوقت الفعلي",
+    "واجهة مُحسّنة ومُعززة تتحمل الانحناء أو الانبعاج المتكرر لتجنب الكسر",
+    "باستخدام مواد صديقة للبيئة ناعمة ومرنة ومضادة للسحب والانحناء",
+    "تتكون الواجهة من أنبوب فولاذي غير ملحوم يتميز بمقاومة أقوى للضغط والالتواء بالإضافة إلى توصيل أسرع"
+  ],
+  specifications: {
+    'المخرج': '2.4 أمبير',
+    'الطول': '200 سم',
+    'الألوان المتاحة': 'برتقالي/بنفسجي',
+    'أنواع الكابلات المتاحة': 'Type-C/Lightning/Micro'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-25T22:06:46.000Z')
+},
+{
+  id: '133',
+  name: 'كابل بيانات وشحن LDNIO LS641 من الألومنيوم',
+  englishName: 'LDNIO LS641 Aluminium Charging Data Cable',
+  description: 'كابل بيانات وشحن LDNIO LS641 مصنوع من سبائك الألومنيوم بطول 1 متر، مصمم للشحن السريع ونقل البيانات الفوري. يتميز بحماية أمان متعددة لضمان شحن آمن وغير ضار لأجهزتك. الواجهة معززة لتحمل الانحناء المتكرر، والمادة المصنوعة منها صديقة للبيئة ومرنة ومقاومة للسحب والالتواء.',
+  price: 150,
+  images: [
+    LDNIO_LS641 // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "مصمم بحماية أمان متعددة",
+    "شحن سريع غير قابل للتلف",
+    "مزامنة بيانات سريعة في الوقت الفعلي",
+    "واجهة مُحسّنة ومُقوّاة يمكنها تحمل الانحناء أو الانبعاج المتكرر لتجنب الكسر",
+    "مصنوع من مواد صديقة للبيئة ناعمة ومرنة ومضادة للسحب والانحناء"
+  ],
+  specifications: {
+    'القدرة': '30 واط',
+    'الطول': '1000 مم',
+    'المادة': 'سبائك ألومنيوم',
+    'أنواع الكابلات المتاحة': 'تايب-سي/لايتنينج/مايكرو'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 11,
+  createdAt: new Date('2025-06-25T22:05:44.000Z')
+},
+{
+  id: '132',
+  name: 'مجموعة شاحن السفر HOCO C101A',
+  englishName: 'HOCO C101A Travel Charger Set',
+  description: 'مجموعة شاحن السفر HOCO C101A متعددة الاستخدامات، توفر شحنًا سريعًا وفعالًا لأجهزتك. تدعم الشحن السريع PD بقوة تصل إلى 20 واط عبر منفذ Type-C، مما يجعلها مثالية لشحن الهواتف الذكية والأجهزة اللوحية. تتميز بمدخل تيار متردد عالمي (110-240 فولت)، مما يجعلها مناسبة للاستخدام في مختلف البلدان.',
+  price: 550,
+  images: [
+    hoco_c101a // Variable for the image
+  ],
+  categories: [
+    "إكسسوارات الموبايل"
+  ],
+  features: [
+    "مدخل تيار متردد 110-240 فولت 50/60 هرتز 0.6 أمبير كحد أقصى",
+    "إخراج Type-C: تيار مستمر 5.0 فولت/3.0 أمبير، 9.0 فولت/2.22 أمبير، 12.0 فولت/1.67 أمبير",
+    "دعم PD20W كحد أقصى",
+    "إجمالي الإخراج: 20 واط كحد أقصى"
+  ],
+  specifications: {
+    'المدخل': 'تيار متردد 110-240 فولت 50/60 هرتز 0.6 أمبير كحد أقصى',
+    'الإخراج (Type-C)': 'تيار مستمر 5.0 فولت/3.0 أمبير، 9.0 فولت/2.22 أمبير، 12.0 فولت/1.67 أمبير',
+    'الطاقة القصوى (PD)': '20 واط',
+    'إجمالي الطاقة القصوى': '20 واط'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: true,
+  rating: 4.3,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-25T22:03:47.000Z')
+},
+{
+  id: '131',
+  name: 'كابل بيانات LDNIO بزاوية 90 درجة لايتنينج',
+  englishName: 'LDNIO 90° Angle Lightning Data Cable',
+  description: 'كابل بيانات LDNIO Lightning بطول 1 متر بتصميم فريد بزاوية 90 درجة لسهولة الاستخدام. يدعم الشحن عالي التيار ونقل البيانات السريع، ومصمم بحماية أمنية متعددة لشحن آمن ومزامنة بيانات سريعة. الواجهة مُحسّنة ومُعززة لتحمل الانحناء المتكرر، ومصنوعة من مواد صديقة للبيئة ومرنة ومضادة للتشابك.',
+  price: 165,
+  images: [
+    ldnio_ls421_1M_lenght // Placeholder for actual image variable
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "يدعم الشحن بتيار عالٍ ونقل البيانات السريع",
+    "مصمم بحماية أمنية متعددة، وشحن سريع بدون تلف، ومزامنة سريعة للبيانات في الوقت الفعلي",
+    "واجهة مُحسّنة ومُعززة يمكنها تحمل الانحناء أو الانبعاج المتكرر لتجنب الكسر",
+    "استخدام مواد صديقة للبيئة ناعمة ومرنة ومضادة للسحب والانحناء",
+    "الواجهة مصنوعة من أنبوب فولاذي غير ملحوم يتميز بمقاومة أقوى للضغط والالتواء بالإضافة إلى توصيل أسرع"
+  ],
+  specifications: {
+    'الطول': '1 متر',
+    'النوع': 'لايتنينج (Lightning)',
+    'الزاوية': '90 درجة'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 12,
+  createdAt: new Date('2025-06-25T21:59:07.000Z')
+},
+{
+  id: '130',
+  name: 'محول طاقة لاب توب Platinum AC/DC (موديل TO)',
+  englishName: 'Platinum AC/DC Notebook Power Adapter (TO Model)',
+  description: 'محول طاقة Platinum AC/DC عالي الجودة مصمم لأجهزة اللاب توب، يتميز بجودة ممتازة وقد اجتاز فحص حماية البيئة واختبار تقادم الحمل بنسبة 100%. يوفر هذا المحول حماية من التيار الزائد، حماية من قصر الدائرة، وحماية من درجات الحرارة العالية، بالإضافة إلى كونه فعالاً ويوفر الطاقة. يدعم دخل تيار متردد 100-240 فولت ويخرج تيار مستمر 19 فولت 3.42 أمبير مع موصل بحجم 5.5 × 2.5 مم.',
+  price: 450,
+  images: [
+    platinum_TO,
+    platinum_TO_2 // Placeholder for actual image variable
+  ],
+  categories: [
+    'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "مصنوع من مواد اجتازت فحص حماية البيئة",
+    "اجتاز اختبار تقادم الحمل بنسبة 100%",
+    "جودة ممتازة",
+    "حماية من التيار الزائد",
+    "حماية من قصر الدائرة",
+    "حماية من درجات الحرارة العالية",
+    "كفاءة عالية وتوفير الطاقة"
+  ],
+  specifications: {
+    'الموديل': 'TO',
+    'الإدخال': 'تيار متردد 100-240 فولت 50/60 هرتز',
+    'الإخراج': '19 فولت 3.42 أمبير',
+    'حجم التيار المستمر': '5.5 × 2.5 مم',
+    'مكان الصنع': 'الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-25T21:56:29.000Z')
+},
+{
+  id: '129',
+  name: 'محول طاقة لاب توب Platinum AC/DC (موديل AS)',
+  englishName: 'Platinum AC/DC Notebook Power Adapter (AS Model)',
+  description: 'محول طاقة Platinum AC/DC عالي الجودة مصمم لأجهزة اللاب توب، يتميز بجودة ممتازة وقد اجتاز فحص حماية البيئة واختبار تقادم الحمل بنسبة 100%. يوفر هذا المحول حماية من التيار الزائد، حماية من قصر الدائرة، وحماية من درجات الحرارة العالية، بالإضافة إلى كونه فعالاً ويوفر الطاقة. يدعم دخل تيار متردد 100-240 فولت ويخرج تيار مستمر 19 فولت 3.42 أمبير مع موصل بحجم 4.0*1.35 مم.',
+  price: 450,
+  images: [
+    Platinume_AS // Placeholder for actual image variable
+  ],
+  categories: [
+    'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "مصنوع من مواد اجتازت فحص حماية البيئة",
+    "اجتاز اختبار تقادم الحمل بنسبة 100%",
+    "جودة ممتازة",
+    "حماية من التيار الزائد",
+    "حماية من قصر الدائرة",
+    "حماية من درجات الحرارة العالية",
+    "كفاءة عالية وتوفير الطاقة"
+  ],
+  specifications: {
+    'الموديل': 'AS',
+    'الإدخال': 'تيار متردد 100-240 فولت 50/60 هرتز',
+    'الإخراج': '19 فولت 3.42 أمبير',
+    'حجم التيار المستمر': '4.0*1.35 مم',
+    'مكان الصنع': 'الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-25T21:48:31.000Z')
+},
+{
+  id: '128',
+  name: 'محول طاقة لاب توب Platinum AC/DC',
+  englishName: 'Platinum AC/DC Notebook Power Adapter',
+  description: 'محول طاقة Platinum AC/DC عالي الجودة مصمم لأجهزة اللاب توب، يتميز بجودة ممتازة وقد اجتاز فحص حماية البيئة واختبار تقادم الحمل بنسبة 100%. يوفر هذا المحول حماية من التيار الزائد، حماية من قصر الدائرة، وحماية من درجات الحرارة العالية، بالإضافة إلى كونه فعالاً ويوفر الطاقة. يدعم دخل تيار متردد 100-240 فولت ويخرج تيار مستمر 20 فولت 3.25 أمبير مع موصل USB.',
+  price: 450, // Price in EGP
+  images: [
+    platinum_le, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "مصنوع من مواد اجتازت فحص حماية البيئة",
+    "اجتاز اختبار تقادم الحمل بنسبة 100%",
+    "جودة ممتازة",
+    "حماية من التيار الزائد",
+    "حماية من قصر الدائرة",
+    "حماية من درجات الحرارة العالية",
+    "كفاءة عالية وتوفير الطاقة"
+  ],
+  specifications: {
+    'الاسم التجاري': 'LE',
+    'الإدخال': 'تيار متردد 100-240 فولت 50/60 هرتز',
+    'الإخراج': '20 فولت 3.25 أمبير',
+    'حجم التيار المستمر': 'USB',
+    'مكان الصنع': 'الصين'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.1, // Good rating for safety and quality features
+  reviewCount: 8, // Estimated
+  createdAt: new Date('2025-06-25'), // Current date
+},
+{
+  id: '127',
+  name: 'محول تيار متردد للاب توب Crash لأجهزة DELL',
+  englishName: 'Crash Laptop AC Adapter for DELL',
+  description: 'محول تيار متردد عالي الجودة من Crash مصمم خصيصًا لأجهزة الكمبيوتر المحمولة DELL بقوة 65 واط. يوفر خرج 19.5 فولت و 3.33 أمبير مع موصل 4.5*3.0 مم. يتميز بتصميم متين ويخضع لمراقبة جودة جيدة لضمان التوافق بنسبة 100% مع أجهزة الكمبيوتر المحمولة المتوافقة.',
+  price: 450, // Price in EGP
+  images: [
+    crash_dell, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "مراقبة جودة جيدة",
+    "تصميم محول متين",
+    "متوافق 100% مع أجهزة الكمبيوتر المحمول"
+  ],
+  specifications: {
+    'الجهد/التيار': '19.5 فولت 3.33 أمبير',
+    'الطاقة': '65 واط',
+    'حجم الموصل': '4.5*3.0 مم',
+    'التوافق': 'أجهزة DELL'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a compatible laptop charger
+  reviewCount: 6, // Estimated
+  createdAt: new Date('2025-06-25'), // Current date
+},
+{
+  id: '126',
+  name: 'محول تيار متردد للاب توب Crash لأجهزة HP',
+  englishName: 'Crash Laptop AC Adapter for HP',
+  description: 'محول تيار متردد عالي الجودة من Crash مصمم خصيصًا لأجهزة الكمبيوتر المحمولة HP بقوة 65 واط. يوفر خرج 18.5 فولت و 3.5 أمبير مع موصل 4.8*1.7 مم. يتميز بتصميم متين ويخضع لمراقبة جودة جيدة لضمان التوافق بنسبة 100% مع أجهزة الكمبيوتر المحمولة المتوافقة.',
+  price: 430, // Price in EGP
+  images: [
+    crash_hp, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الكمبيوتر'],
+  features: [
+    "مراقبة جودة جيدة",
+    "تصميم محول متين",
+    "متوافق 100% مع أجهزة الكمبيوتر المحمولة"
+  ],
+  specifications: {
+    'الجهد/التيار': '18.5 فولت 3.5 أمبير',
+    'الطاقة': '65 واط',
+    'حجم الموصل': '4.8*1.7 مم',
+    'التوافق': 'أجهزة HP'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.0, // Estimated for a compatible laptop charger
+  reviewCount: 7, // Estimated
+  createdAt: new Date('2025-06-25'), // Current date
+},
+{
+  id: '125',
+  name: 'كابل شحن JOYROOM S-A29 USB-C إلى Lightning',
+  englishName: 'JOYROOM S-A29 USB-C to Lightning Charging Cable',
+  description: 'كابل شحن سريع JOYROOM S-A29 من النوع USB-C إلى Lightning يدعم 30 واط PD (توصيل الطاقة). يتميز بمادة السيليكون السائل المقاومة للأوساخ والتي يسهل تنظيفها وتحافظ على لونها. الكابل متين وقوي، مصمم ليتحمل درجات حرارة قصوى واختبارات انحناء مكثفة، مما يجعله أكثر مرونة ومقاومًا للتشابك. يوفر تنظيمًا تلقائيًا للجهد/التيار لشحن آمن وسريع.',
+  price: 320, // Price in EGP
+  images: [
+    JOYROOM_S_A29, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "30 واط PD",
+    "كابل شحن سريع من السيليكون السائل",
+    "مقاوم للأوساخ، سهل التنظيف بالمسح، خالٍ من البهتان أو الاصفرار",
+    "مادة ممتازة مقاومة للهب/مضادة للتجمد، تتحمل درجات حرارة تتراوح من -60 درجة مئوية إلى 200 درجة مئوية",
+    "مرونة فائقة دون تشابك",
+    "تنظيم تلقائي للجهد/التيار لشحن سريع وآمن",
+    "متين وقوي، يتحمل ما يصل إلى 30000 اختبار انحناء، ومتانة أكبر بـ 6 مرات"
+  ],
+  specifications: {
+    'النوع': 'USB-C إلى Lightning',
+    'الطاقة المدعومة': '30 واط PD',
+    'المادة': 'سيليكون سائل'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.6, // High rating for PD, durability, and material features
+  reviewCount: 18, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
+{
+  id: '124',
+  name: 'كابل شحن JOYROOM S-A14 لايتنينج',
+  englishName: 'JOYROOM S-A14 Lightning Charging Cable',
+  description: 'كابل شحن JOYROOM S-A14 لايتنينج عالي الجودة يوفر شحنًا سريعًا وآمنًا ونقل بيانات فعال لأجهزة آبل. يتميز بقلب نحاسي سميك لشحن أسرع 3 مرات، وطرف مضاد للأكسدة يدوم لأكثر من 10000 عملية توصيل، ويدعم حتى 7 كجم. مصنوع من مادة مقاومة للهب من الدرجة V1 لشحن أكثر أمانًا. يدعم الجهد/التيار التلقائي ويولد حرارة أقل، ويدعم مزامنة البيانات حتى 480 ميجابت في الثانية، مما يسمح بنقل ملف بحجم 1 جيجابايت في 25 ثانية.',
+  price: 170, // Price in EGP
+  images: [
+    JOYROOM_S_A14, // Placeholder for actual image variable
+  ],
+  categories: ['إكسسوارات الموبايل'],
+  features: [
+    "تلقائي للجهد/التيار، حرارة أقل",
+    "يدعم كلاً من الشحن والنقل، مزامنة البيانات حتى 480 ميجابت في الثانية، نقل ملف بحجم 1 جيجابايت في 25 ثانية",
+    "نواة نحاسية أكثر سمكًا، شحن أسرع 3 مرات",
+    "طرف مضاد للأكسدة، عمر افتراضي لأكثر من 10000 قابس، يدعم حتى 7 كجم",
+    "مادة مقاومة للهب من الدرجة V1، شحن أكثر أمانًا",
+    "3 أمبير"
+  ],
+  specifications: {
+    'النوع': 'لايتنينج (Lightning)',
+    'التيار': '3 أمبير',
+    'سرعة نقل البيانات': 'حتى 480 ميجابت في الثانية',
+    'المادة': 'مادة مقاومة للهب من الدرجة V1'
+  },
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5, // High rating for fast charging, data sync, and safety features
+  reviewCount: 15, // Estimated
+  createdAt: new Date('2025-06-21'), // Current date
+},
 {
   id: '123',
   name: 'سماعات أذن Blue Spectrum D42',
