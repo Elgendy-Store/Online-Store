@@ -272,9 +272,10 @@ export const products: Product[] = [
     'النوع': 'سماعات أذن لاسلكية (TWS)',
     'الجيل': 'الثاني'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.7,
   reviewCount: 25,
@@ -308,9 +309,10 @@ export const products: Product[] = [
     'جهد الإدخال': 'تيار متردد 110-240 فولت 50/60 هرتز 0.54 أمبير',
     'الموصل': 'USB-C (PD)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6,
   reviewCount: 15,
@@ -342,9 +344,10 @@ export const products: Product[] = [
     'المقاومة': '32 أوم',
     'طول السلك': '100 سم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 7,
@@ -371,9 +374,10 @@ export const products: Product[] = [
     'الماركة': 'Joyroom',
     'النوع': 'سماعات أذن سلكية'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3,
   reviewCount: 9,
@@ -405,9 +409,10 @@ export const products: Product[] = [
     'المقاومة': '32 أوم',
     'طول الكابل': '120 سم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 6,
@@ -433,9 +438,10 @@ export const products: Product[] = [
     'الماركة': 'REMAX MALAYSIA',
     'النوع': 'سماعات أذن سلكية'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 8,
@@ -463,9 +469,10 @@ export const products: Product[] = [
     'الماركة': 'ANKER',
     'التحكم': 'سلكي (Wire Control)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5,
   reviewCount: 12,
@@ -497,9 +504,10 @@ export const products: Product[] = [
     'الماركة': 'ANKER',
     'التوافق': 'جميع أجهزة Lightning'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.8,
   reviewCount: 20,
@@ -535,9 +543,10 @@ export const products: Product[] = [
     'النوع': 'Type-C',
     'الطول': '1 متر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2,
   reviewCount: 7,
@@ -571,9 +580,10 @@ export const products: Product[] = [
     'الطراز': '4S-13',
     'النوع': 'Micro USB'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 6,
@@ -604,9 +614,10 @@ export const products: Product[] = [
     'الطول': '2 متر',
     'التوافق': 'USB2.0/3.0، متوافق مع جميع إصدارات USB'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -639,9 +650,10 @@ export const products: Product[] = [
     'الطول': '1 متر',
     'النوع': 'متعدد (USB, Type-C, Lightning)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3,
   reviewCount: 6,
@@ -670,9 +682,10 @@ export const products: Product[] = [
     'الطراز': '4S-05',
     'النوع': 'Micro USB'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -708,9 +721,10 @@ export const products: Product[] = [
     'الطول': '1 متر',
     'صنع في': 'الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2,
   reviewCount: 7,
@@ -745,10 +759,11 @@ export const products: Product[] = [
     'مادة المنتج': 'PC (البولي كربونات)',
     'عدد منافذ USB': '3'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
-  isBundle: true,
+  isPromotion: true,
+  isBundle: false,
   rating: 4.5,
   reviewCount: 9,
   createdAt: new Date('2025-06-25T23:12:00.000Z')
@@ -774,9 +789,10 @@ export const products: Product[] = [
     'الإدخال': '100 فولت - 240 فولت - 50/60 هرتز، 1.7 أمبير',
     'الإخراج': '5 فولت'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.7,
   reviewCount: 10,
@@ -809,9 +825,10 @@ export const products: Product[] = [
     'الجهد (الخرج)': '5 فولت-3 أمبير / 9 فولت-2.22 أمبير',
     'المنشأ': 'الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6,
   reviewCount: 9,
@@ -849,9 +866,10 @@ export const products: Product[] = [
     'منفذ الإخراج': '4 مقابس كومبو، 2 منفذ USB',
     'صنع في': 'ألمانيا'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.8,
   reviewCount: 15,
@@ -888,9 +906,10 @@ export const products: Product[] = [
     'شاحن USB': '5Vdc 2A (2Port)',
     'طول الكابل': '200 سم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4,
   reviewCount: 10,
@@ -926,9 +945,10 @@ export const products: Product[] = [
     'منافذ الإخراج': '4 مقابس كومبو، 2 منفذ USB',
     'صنع في': 'مصر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.7,
   reviewCount: 12,
@@ -967,9 +987,10 @@ export const products: Product[] = [
     'تيار التشغيل المقدر للوحة المفاتيح': '6mA@3.0V',
     'دعم النظام': 'Windows 98/2000/ME/XP, Vista/Windows 7/Mac OS X/Linux'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5,
   reviewCount: 8,
@@ -1000,9 +1021,10 @@ export const products: Product[] = [
     'التيار/الجهد': '10/16 أمبير 250 فولت',
     'التردد': '50-60 هرتز'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3,
   reviewCount: 7,
@@ -1038,9 +1060,10 @@ export const products: Product[] = [
     'طباخ أوتوماتيكي': '1300 واط',
     'مدفأة كهربائية صغيرة': '1500 واط'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2,
   reviewCount: 6,
@@ -1072,9 +1095,10 @@ export const products: Product[] = [
     'متطلبات النظام (لكمبيوتر شخصي)': 'ويندوز 8/7/فيستا/إكس بي/2000',
     'متطلبات النظام (ل Mac)': 'ماك أو إس 10.6 أو أحدث'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8,
   reviewCount: 4,
@@ -1112,9 +1136,10 @@ export const products: Product[] = [
     'متطلبات النظام (لكمبيوتر شخصي)': 'كمبيوتر بمعالج Pentium® مع منفذ USB 2.0، Windows® 98SE أو 2000 أو Me أو XP أو Vista',
     'متطلبات النظام (ل Mac)': 'Mac OS® 8.6 أو أعلى لوضع USB 1.1، Mac OSxv10.2.7 أو أعلى لطراز USB 2.0'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9,
   reviewCount: 7,
@@ -1147,9 +1172,10 @@ export const products: Product[] = [
     'معدل نقل البيانات': '1.5 ميجابت في الثانية / 12 ميجابت في الثانية / حتى 480 ميجابت في الثانية',
     'عدد المنافذ': '4'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -1183,9 +1209,10 @@ export const products: Product[] = [
     'الطول': '1.5 متر',
     'معدل نقل الإيثرنت': '10/100 ميجابت في الثانية'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6,
   reviewCount: 9,
@@ -1223,9 +1250,10 @@ export const products: Product[] = [
     'الواجهة': 'Lightning',
     'المادة': 'ألومنيوم ونايلون منسوج'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.8,
   reviewCount: 15,
@@ -1261,9 +1289,10 @@ export const products: Product[] = [
     'المادة': 'كابل سيليكون أصلي سائل برأس معدني',
     'اللون': 'أسود'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.7,
   reviewCount: 8,
@@ -1298,9 +1327,10 @@ export const products: Product[] = [
     'مخرج USB-C': '5V/3A, 9V/2A, 12V/1.5A',
     'إجمالي المخرجات': '38 وات (كحد أقصى)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6,
   reviewCount: 10,
@@ -1327,10 +1357,11 @@ export const products: Product[] = [
     'نوع الموصل (الشاحن)': 'USB-C',
     'نوع الكابل': 'USB-C إلى لايتنينج'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
-  isBundle: true,
+  isPromotion: true,
+  isBundle: false,
   rating: 4.5,
   reviewCount: 10,
   createdAt: new Date('2025-06-25T22:37:00.000Z')
@@ -1366,9 +1397,10 @@ export const products: Product[] = [
     'عمر البطارية': 'حوالي 12 ساعة',
     'الإدخال المقدر': '5 فولت 500 مللي أمبير'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5,
   reviewCount: 20,
@@ -1398,9 +1430,10 @@ export const products: Product[] = [
     'نوع الماوس': 'ماوس ألعاب',
     'DPI': '800/1000/1200 (إصدار 4D)؛ 800/1200/1600/2400 (إصدار 6D)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4,
   reviewCount: 12,
@@ -1435,9 +1468,10 @@ export const products: Product[] = [
     'الدقة (DPI)': '800-2400 نقطة في البوصة (قابلة للتعديل)',
     'متطلبات النظام': 'ويندوز XP/فيستا/7 أو أحدث، ماك 10.4 أو أحدث، منفذ USB'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5,
   reviewCount: 15,
@@ -1472,9 +1506,10 @@ export const products: Product[] = [
     'الواجهة': 'مايكرو (Micro USB)',
     'الحد الأقصى للتيار': '2.4 أمبير'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 7,
@@ -1511,9 +1546,10 @@ export const products: Product[] = [
     'الطول': '1 متر',
     'نوع الكابل': 'Type-C'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 6,
@@ -1547,9 +1583,10 @@ export const products: Product[] = [
     'الطول': '1 متر',
     'المادة': 'PVC'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2,
   reviewCount: 11,
@@ -1584,9 +1621,10 @@ export const products: Product[] = [
     'الواجهة': 'لايتنينج',
     'الحد الأقصى للتيار': '2.4 أمبير'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 8,
@@ -1614,9 +1652,10 @@ export const products: Product[] = [
     'التيار': '6 أمبير',
     'الطول': '1 متر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3,
   reviewCount: 4,
@@ -1648,9 +1687,10 @@ export const products: Product[] = [
     'السلك الأساسي': '43 × 0.08 × 2C + 10 × 0.08 × 2C',
     'الحد الأقصى للإخراج': '2.4 أمبير'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 6,
@@ -1681,9 +1721,10 @@ export const products: Product[] = [
     'المادة': 'TPE',
     'الخصائص الذكية': 'إيقاف تشغيل ذكي، اختناق ذكي'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3,
   reviewCount: 9,
@@ -1714,9 +1755,10 @@ export const products: Product[] = [
     'نوع الكابل': 'Type-C',
     'الطول': '1 متر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2,
   reviewCount: 7,
@@ -1745,10 +1787,11 @@ export const products: Product[] = [
     'الموديل': 'DU-01',
     'الإخراج': '2.1 أمبير'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
-  isBundle: true,
+  isPromotion: true,
+  isBundle: false,
   rating: 4.1,
   reviewCount: 8,
   createdAt: new Date('2025-06-25T22:20:27.000Z')
@@ -1782,9 +1825,10 @@ export const products: Product[] = [
     'طول السلك': '120 سم',
     'مكان الصنع': 'الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9,
   reviewCount: 5,
@@ -1813,9 +1857,10 @@ export const products: Product[] = [
     'الحساسية': '95 ديسيبل ± ديسيبل',
     'طول السلك': '1.2 متر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8,
   reviewCount: 5,
@@ -1841,9 +1886,10 @@ export const products: Product[] = [
     'الموديل': 'DR01',
     'نوع السماعة': 'سماعة أذن سلكية'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9,
   reviewCount: 6,
@@ -1874,9 +1920,10 @@ export const products: Product[] = [
     'المعاوقة': '32 أوم',
     'طول الكابل': '135 سم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 9,
@@ -1907,10 +1954,11 @@ export const products: Product[] = [
     'تيار الكابل الأقصى': '2.4 أمبير',
     'نوع الكابل': 'Micro USB'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
-  isBundle: true,
+  isPromotion: true,
+  isBundle: false,
   rating: 4.0,
   reviewCount: 7,
   createdAt: new Date('2025-06-25T22:15:45.000Z')
@@ -1935,10 +1983,11 @@ export const products: Product[] = [
     'الموديل': 'T82',
     'الإخراج': '2.14 أمبير'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
-  isBundle: true,
+  isPromotion: true,
+  isBundle: false,
   rating: 4.0,
   reviewCount: 6,
   createdAt: new Date('2025-06-25T22:14:21.000Z')
@@ -1961,9 +2010,10 @@ export const products: Product[] = [
   specifications: {
     'نوع الكابل': 'Type-C إلى Type-C'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -1990,9 +2040,10 @@ export const products: Product[] = [
     'القدرة المدعومة': 'PD20W',
     'الطول': '1 متر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6,
   reviewCount: 18,
@@ -2022,9 +2073,10 @@ export const products: Product[] = [
     'الطول': '1 متر',
     'سمك الكابل (OD)': '6.0 مم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5,
   reviewCount: 7,
@@ -2055,9 +2107,10 @@ export const products: Product[] = [
     'التيار': '3 أمبير',
     'سمك الكابل (OD)': '6.0 مم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5,
   reviewCount: 9,
@@ -2088,9 +2141,10 @@ export const products: Product[] = [
     'الألوان المتاحة': 'برتقالي/بنفسجي',
     'أنواع الكابلات المتاحة': 'Type-C/Lightning/Micro'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4,
   reviewCount: 10,
@@ -2121,9 +2175,10 @@ export const products: Product[] = [
     'المادة': 'سبائك ألومنيوم',
     'أنواع الكابلات المتاحة': 'تايب-سي/لايتنينج/مايكرو'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4,
   reviewCount: 11,
@@ -2153,10 +2208,11 @@ export const products: Product[] = [
     'الطاقة القصوى (PD)': '20 واط',
     'إجمالي الطاقة القصوى': '20 واط'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
-  isBundle: true,
+  isPromotion: true,
+  isBundle: false,
   rating: 4.3,
   reviewCount: 10,
   createdAt: new Date('2025-06-25T22:03:47.000Z')
@@ -2185,9 +2241,10 @@ export const products: Product[] = [
     'النوع': 'لايتنينج (Lightning)',
     'الزاوية': '90 درجة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4,
   reviewCount: 12,
@@ -2222,9 +2279,10 @@ export const products: Product[] = [
     'حجم التيار المستمر': '5.5 × 2.5 مم',
     'مكان الصنع': 'الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 8,
@@ -2258,9 +2316,10 @@ export const products: Product[] = [
     'حجم التيار المستمر': '4.0*1.35 مم',
     'مكان الصنع': 'الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 8,
@@ -2292,9 +2351,10 @@ export const products: Product[] = [
     'حجم التيار المستمر': 'USB',
     'مكان الصنع': 'الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Good rating for safety and quality features
   reviewCount: 8, // Estimated
@@ -2321,9 +2381,10 @@ export const products: Product[] = [
     'حجم الموصل': '4.5*3.0 مم',
     'التوافق': 'أجهزة DELL'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a compatible laptop charger
   reviewCount: 6, // Estimated
@@ -2350,9 +2411,10 @@ export const products: Product[] = [
     'حجم الموصل': '4.8*1.7 مم',
     'التوافق': 'أجهزة HP'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a compatible laptop charger
   reviewCount: 7, // Estimated
@@ -2382,9 +2444,10 @@ export const products: Product[] = [
     'الطاقة المدعومة': '30 واط PD',
     'المادة': 'سيليكون سائل'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6, // High rating for PD, durability, and material features
   reviewCount: 18, // Estimated
@@ -2414,9 +2477,10 @@ export const products: Product[] = [
     'سرعة نقل البيانات': 'حتى 480 ميجابت في الثانية',
     'المادة': 'مادة مقاومة للهب من الدرجة V1'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // High rating for fast charging, data sync, and safety features
   reviewCount: 15, // Estimated
@@ -2445,9 +2509,10 @@ export const products: Product[] = [
     'طول السلك': '135 سم',
     'مكان الصنع': 'الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.5, // Estimated for basic earphones
   reviewCount: 5, // Estimated
@@ -2474,9 +2539,10 @@ export const products: Product[] = [
     'النوع': 'سماعات أذن (Earphone)',
     'التصميم': 'Angled fit'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for good quality earphones with noise isolation
   reviewCount: 10, // Estimated
@@ -2502,9 +2568,10 @@ export const products: Product[] = [
     'الإدخال': 'تيار متردد 220 فولت 50/60 هرتز 0.15 أمبير',
     'الإخراج': 'تيار مستمر 5.3 فولت 2200 مللي أمبير كحد أقصى'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated for a basic charger with good compatibility
   reviewCount: 7, // Estimated
@@ -2533,9 +2600,10 @@ export const products: Product[] = [
     'منافذ USB': '2',
     'درجة حرارة التشغيل': '-10 درجات مئوية - 50 درجة مئوية'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a dual-port car charger with good specs
   reviewCount: 12, // Estimated
@@ -2564,9 +2632,10 @@ export const products: Product[] = [
     'المادة': 'سبيكة زنك',
     'اللون': 'كستنائي'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Good rating for OTG functionality and material
   reviewCount: 9, // Estimated
@@ -2589,9 +2658,10 @@ export const products: Product[] = [
   specifications: {
     'النوع': 'أغطية أصابع للألعاب'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // High rating for a useful gaming accessory
   reviewCount: 30, // Estimated
@@ -2620,9 +2690,10 @@ export const products: Product[] = [
     'مواصفات USB': 'USB 2.0',
     'أنظمة التشغيل المدعومة': 'Windows 98/Win7/2000/XP/Vista'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.7, // Estimated for a basic card reader
   reviewCount: 5, // Estimated
@@ -2646,9 +2717,10 @@ export const products: Product[] = [
     'الموديل': 'C-02 (تقديري من السياق والصورة)',
     'النوع': 'حامل للدراجات'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated for a functional bike/motorcycle holder
   reviewCount: 6, // Estimated
@@ -2677,9 +2749,10 @@ export const products: Product[] = [
     'المادة': 'بلاستيك + سيليكون',
     'النوع': 'حامل مصاصة للفأرة التلسكوبية (Telescopic Mouse Sucker Holder)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Good rating for stability and auto-clamp feature
   reviewCount: 8, // Estimated
@@ -2702,9 +2775,10 @@ export const products: Product[] = [
     'الموديل': 'CC-03',
     'النوع': 'حامل (Holder)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a functional phone holder
   reviewCount: 5, // Estimated
@@ -2728,9 +2802,10 @@ export const products: Product[] = [
     'الجهد': '3.7 فولت',
     'النوع': 'ليثيوم أيون (Li-ion)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.5, // Estimated for a generic battery, emphasizing the warnings
   reviewCount: 5, // Estimated
@@ -2756,9 +2831,10 @@ export const products: Product[] = [
     'النوع': 'محول Lightning إلى مقبس سماعة رأس',
     'التوافق': 'iPhone 7/8/X/Xs/Xr/11/11 Pro Max/12/12 Pro Max'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.5, // Estimated for a basic adapter
   reviewCount: 7, // Estimated
@@ -2782,9 +2858,10 @@ export const products: Product[] = [
     'القدرة': '25 واط',
     'المنفذ': 'USB-C'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a standard 25W USB-C adapter
   reviewCount: 8, // Estimated
@@ -2814,9 +2891,10 @@ export const products: Product[] = [
     'جهد الإدخال': '12-24 فولت',
     'الوظائف': 'مشغل MP3، شاحن سيارة، جهاز إرسال FM لاسلكي'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated based on typical car MP3 player functionality
   reviewCount: 10, // Estimated
@@ -2846,9 +2924,10 @@ export const products: Product[] = [
     'عدد المنافذ': '2 USB',
     'النوع': 'شاحن سيارة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Good rating for safety features and dual port
   reviewCount: 18, // Estimated
@@ -2873,9 +2952,10 @@ export const products: Product[] = [
     'النوع': 'محول طاقة USB-C PD',
     'المحتويات': 'محول سفر، كتيب (الكابل غير متضمن)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // High rating for a genuine Samsung fast charger
   reviewCount: 50, // Estimated
@@ -2902,9 +2982,10 @@ export const products: Product[] = [
     'الطول': '1.2 متر / 4 أقدام',
     'المادة': 'معدنية'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a durable cable
   reviewCount: 15, // Estimated
@@ -2934,9 +3015,10 @@ export const products: Product[] = [
     'التوافق': 'iOS/5G (يدعم Android/iOS)',
     'النوع': 'شاحن سفر (Travel Adapter)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated for a 15W charger with AUTO-ID
   reviewCount: 15, // Estimated
@@ -2964,9 +3046,10 @@ export const products: Product[] = [
     'المادة': 'TPE',
     'النوع': 'Micro USB (وفقًا للصورة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Good rating for durability and high current
   reviewCount: 10, // Estimated
@@ -2994,9 +3077,10 @@ export const products: Product[] = [
     'مخرج PDO': '5 فولت-3 أمبير أو 9 فولت-3 أمبير أو 12 فولت-3 أمبير أو 15 فولت-3 أمبير',
     'مخرج PPS': '5-11 فولت-5 أمبير (65 واط كحد أقصى) أو 5-16 فولت-2.8 أمبير'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6, // High rating for a GaN fast charger
   reviewCount: 50, // Estimated
@@ -3027,9 +3111,10 @@ export const products: Product[] = [
     'نوع الكابل المرفق': 'Micro USB',
     'الضمان': '18 شهرًا'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Good rating for a charger with fast charging and safety features
   reviewCount: 25, // Estimated
@@ -3063,9 +3148,10 @@ export const products: Product[] = [
     'طول الكابل': '1000 مم (1 متر)',
     'نوع الكابل': 'Micro USB (مضمن مع الشاحن)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated for a standard charger with good features
   reviewCount: 22, // Estimated
@@ -3099,9 +3185,10 @@ export const products: Product[] = [
     'طول الكابل': '1000 مم (1 متر)',
     'نوع الكابل': 'Micro USB (مضمن مع الشاحن)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated for a standard charger with good features
   reviewCount: 22, // Estimated
@@ -3132,9 +3219,10 @@ export const products: Product[] = [
     'الحماية': 'حماية متعددة (الجهد الزائد، التيار الزائد، التفريغ الزائد، درجة الحرارة الزائدة، الشحن الزائد، قصر الدائرة)',
     'المادة': 'ABS+PC (مقاومة للهب)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // High rating due to multiple safety features and smart chip
   reviewCount: 40, // Estimated
@@ -3161,9 +3249,10 @@ export const products: Product[] = [
     'عدد المنافذ': '2 USB',
     'النوع': 'شاحن سفر (Travel Adapter)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated for a quick charger with two ports
   reviewCount: 20, // Estimated
@@ -3192,9 +3281,10 @@ export const products: Product[] = [
     'الجهد': '5 فولت',
     'نوع القابس': 'أوروبي'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated good rating for a standard charger
   reviewCount: 15, // Estimated
@@ -3219,9 +3309,10 @@ export const products: Product[] = [
     'الطول': '1 متر',
     'النوع': 'كابل صوت AUX'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a good quality AUX cable
   reviewCount: 12, // Estimated
@@ -3251,9 +3342,10 @@ export const products: Product[] = [
     'الطول': '1000 مم (1 متر)',
     'النوع': 'كابل Lightning (وفقًا للصورة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on features and typical cable quality
   reviewCount: 30, // Estimated
@@ -3285,9 +3377,10 @@ export const products: Product[] = [
     'الطول': '100 سم (1 متر)',
     'النوع': 'كابل شحن (Micro USB حسب الصورة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a general purpose cable
   reviewCount: 18, // Estimated
@@ -3314,9 +3407,10 @@ export const products: Product[] = [
     'التيار الأقصى': '6 أمبير',
     'النوع': 'كابل شحن 3 في 1 (يتضمن على الأرجح Lightning، Micro USB، وType-C)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4, // Good rating for high current and versatility
   reviewCount: 30, // Estimated
@@ -3344,9 +3438,10 @@ export const products: Product[] = [
     'النوع': 'كابل شحن Type-C إلى Type-C',
     'الوظيفة': 'شحن ونقل بيانات'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated for a good quality Type-C cable
   reviewCount: 15, // Estimated
@@ -3373,9 +3468,10 @@ export const products: Product[] = [
     'الطول': '1 متر (1M)',
     'النوع': 'كابل شحن Lightning'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Estimated for a good quality fast charging cable
   reviewCount: 20, // Estimated
@@ -3404,9 +3500,10 @@ export const products: Product[] = [
     'أقصى تيار عمل': '6 أمبير',
     'النوع': 'كابل شحن سريع (على الأرجح USB-A إلى Lightning حسب الصورة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4, // Good rating for high current and durability
   reviewCount: 35, // Estimated
@@ -3437,9 +3534,10 @@ export const products: Product[] = [
     'الطول': '1000 مم',
     'النوع': 'كابل بيانات Micro USB (وفقًا للصورة والوصف)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated for a good quality basic cable
   reviewCount: 28, // Estimated
@@ -3469,9 +3567,10 @@ export const products: Product[] = [
     'النوع': 'كابل بيانات USB (على الأرجح USB-A إلى Type-C/Micro USB/Lightning بناءً على الصورة)',
     'الوظيفة': 'شحن ومزامنة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated for a good general-purpose cable
   reviewCount: 25, // Estimated
@@ -3500,9 +3599,10 @@ export const products: Product[] = [
     'النوع': 'كابل بيانات 3 في 1 (وفقًا للصورة، يتضمن على الأرجح Lightning وMicro USB وType-C)',
     'الطول': '1000 مم (1 متر)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Estimated for a versatile cable
   reviewCount: 30, // Estimated
@@ -3533,9 +3633,10 @@ export const products: Product[] = [
     'الوظيفة': 'شحن ومزامنة',
     'المادة': 'TPE'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated for a good quality cable
   reviewCount: 45, // Estimated
@@ -3561,9 +3662,10 @@ export const products: Product[] = [
     'التيار الأقصى': '5 أمبير',
     'النوع': 'كابل بيانات وشحن (USB إلى Micro - حسب الصورة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for a basic fast charging cable
   reviewCount: 20, // Estimated
@@ -3602,9 +3704,10 @@ export const products: Product[] = [
     'استجابة التردد': '20-20000 هرتز',
     'المادة': 'IPE، ABS'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated for good quality earphones
   reviewCount: 20, // Estimated
@@ -3634,9 +3737,10 @@ export const products: Product[] = [
     'الطول': '1000 مم (1 متر)',
     'اللون': 'ذهبي'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // High rating for fast charging and durability
   reviewCount: 75, // Estimated
@@ -3665,9 +3769,10 @@ export const products: Product[] = [
     'الإدخال': '100-240 فولت، 50/60 هرتز، 1.5 أمبير',
     'الإخراج': '5 فولت = 3 أمبير / 9 فولت = 3 أمبير / 11 فولت = 6.1 أمبير كحد أقصى / 20 فولت = 3.35 أمبير كحد أقصى'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6, // High rating for high power output
   reviewCount: 50, // Estimated
@@ -3699,9 +3804,10 @@ export const products: Product[] = [
     'اللون': 'أبيض (وفقًا للصورة)',
     'المداخل': '2 مخرج (Type-C + تعريف تلقائي)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // Estimated for a good quality fast charger
   reviewCount: 60, // Estimated
@@ -3731,9 +3837,10 @@ export const products: Product[] = [
     'الواجهة': 'Type-C إلى Lightning',
     'المادة': 'أكريليك منسوج شفاف'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4, // Estimated for a good quality cable
   reviewCount: 30, // Estimated
@@ -3759,9 +3866,10 @@ export const products: Product[] = [
     'الموصل الأول': 'USB-C',
     'الموصل الثاني': '3.5 ملم جاك صوت'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated for a common adapter
   reviewCount: 40, // Estimated
@@ -3786,9 +3894,10 @@ export const products: Product[] = [
     'نوع الموصل': 'Lightning',
     'النوع': 'سماعات أذن (EarPods)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Estimated based on general perception of EarPods
   reviewCount: 70, // Estimated
@@ -3812,9 +3921,10 @@ export const products: Product[] = [
     'النوع': 'حامل هاتف محمول',
     'الاستخدام المقترح': 'غرفة الاجتماعات، الكنيسة، الأماكن العامة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated for a basic phone stand
   reviewCount: 15, // Estimated
@@ -3843,9 +3953,10 @@ export const products: Product[] = [
     'مدى الاستقبال': '20 مترًا',
     'مميزات الصوت': 'بيك اب دقيق، راديو دقيق، جرس واضح، حساس للغاية'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Estimated for a wireless microphone
   reviewCount: 25, // Estimated
@@ -3871,9 +3982,10 @@ export const products: Product[] = [
     'سرعة القراءة': '100 ميجابايت/ثانية',
     'النوع': 'بطاقة ذاكرة (microSD على الأرجح بناءً على الصورة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4, // Estimated for a basic memory card
   reviewCount: 35, // Estimated
@@ -3901,9 +4013,10 @@ export const products: Product[] = [
     'دعم الصوت': 'صوت محيطي',
     'الأجهزة المتوافقة': 'أجهزة Android، iPhone، iPad، Mac، Windows، Chromebook'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.7, // High rating for popular streaming device
   reviewCount: 150, // Estimated
@@ -3935,9 +4048,10 @@ export const products: Product[] = [
     'اللون': 'ذهبي/رمادي',
     'الطول': '1000 مم (1 متر)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6, // High rating for fast charging and durability
   reviewCount: 90, // Estimated
@@ -3969,9 +4083,10 @@ export const products: Product[] = [
     'الوظائف': 'مزامنة البيانات، شحن',
     'المادة': 'موصل نحاسي فائق النقاء'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated average for a data cable
   reviewCount: 20, // Estimated
@@ -4011,9 +4126,10 @@ export const products: Product[] = [
     'ميزات إضافية': 'مفاتيح وسائط متعددة، وضع سكون تلقائي',
     'التوافق': 'أجهزة التلفزيون الذكية، أجهزة الألعاب، صناديق التلفزيون، أجهزة الكمبيوتر الشخصية، الأجهزة اللوحية، أجهزة الكمبيوتر المحمولة'
   },
+  discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // Estimated based on features and dual connectivity
   reviewCount: 80, // Estimated
@@ -4048,9 +4164,10 @@ export const products: Product[] = [
     'التطبيق': 'كمبيوتر مكتبي، كمبيوتر محمول',
     'النظام المدعوم': 'ويندوز XP/2000/Vista 7/8/10/11, Mac OS'
   },
+  discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated based on features
   reviewCount: 30, // Estimated
@@ -4085,9 +4202,10 @@ export const products: Product[] = [
     'اللون': 'أسود/أبيض',
     'الأجهزة المتوافقة': 'كمبيوتر شخصي، ماك'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical mini keyboard features
   reviewCount: 40, // Estimated
@@ -4121,9 +4239,10 @@ export const products: Product[] = [
     'عمر المفتاح': '3,000,000 مرة',
     'مصدر الطاقة': 'بطاريتان AAA'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated based on office use and wireless features
   reviewCount: 50, // Estimated
@@ -4156,9 +4275,10 @@ export const products: Product[] = [
     'النوع': 'سلكي (مفترض من عدم ذكر اللاسلكي ومن حجم الكابلات في المنتجات المشابهة)',
     'المنشأ': 'قوانغتشو، قوانغدونغ، الصين'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on features and common mouse ratings
   reviewCount: 60, // Estimated
@@ -4196,9 +4316,10 @@ export const products: Product[] = [
     'الدقة (DPI)': '1200 نقطة في البوصة',
     'متطلبات النظام': 'Windows 98/XP/7/8/10, Mac OS X10.5 أو أحدث, Linux kemel 2.6 أو أحدث'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated based on features and wireless nature
   reviewCount: 55, // Estimated
@@ -4236,9 +4357,10 @@ export const products: Product[] = [
     'دعم الطاقة': 'بطارية قابلة لإعادة الشحن',
     'منفذ الشحن': 'USB من النوع C'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4, // Estimated based on features and dual connectivity
   reviewCount: 75, // Estimated
@@ -4276,9 +4398,10 @@ export const products: Product[] = [
     'التوافق': 'Windows 98/2000ME/XP/NT',
     'عدد الأزرار': '3 أزرار + عجلة تمرير (مع وظيفة زر أمامي/خلفي مدمجة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical office mouse features
   reviewCount: 45, // Estimated
@@ -4314,9 +4437,10 @@ export const products: Product[] = [
     'ميزة خاصة': 'تصميم مريح لليد اليمنى',
     'استهلاك الطاقة': '10 مللي أمبير (تيار العمل في وضع الخمول)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Estimated based on features
   reviewCount: 90, // Estimated
@@ -4348,9 +4472,10 @@ export const products: Product[] = [
     'طول الكابل': '2.0 متر',
     'الموصلات': '3.5 مم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated for a basic stereo headphone
   reviewCount: 35, // Estimated
@@ -4384,9 +4509,10 @@ export const products: Product[] = [
     'طول الكابل': '1.7 متر',
     'نوع الاتصال': 'سلكي (3.5mm، مفترض من كونه سماعة كمبيوتر)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated based on typical gaming headset features at this price point
   reviewCount: 70, // Estimated
@@ -4418,9 +4544,10 @@ export const products: Product[] = [
     'حجم المشغل (Driver Size)': '40 مم (تقديري، بناءً على معلومات شائعة للموديل)',
     'الميكروفون': 'نعم (مفترض لوجود اتصال بلوتوث للمكالمات)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // Estimated based on brand reputation and features
   reviewCount: 120, // Estimated
@@ -4456,9 +4583,10 @@ export const products: Product[] = [
     'أوضاع التشفير': 'WEP, WPA, WPA2',
     'الهوائي': 'قابل للدوران'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this type
   reviewCount: 20, // Estimated
@@ -4496,9 +4624,10 @@ export const products: Product[] = [
     'طباعة الحروف': 'طباعة الشاشة',
     'التوافق': 'Windows 7/8/10/XP, Android'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated based on features and target audience
   reviewCount: 40, // Estimated
@@ -4536,9 +4665,10 @@ export const products: Product[] = [
     'التصميم': 'مريح ومتماثل',
     'الإضاءة': 'RGB'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.4, // Estimated based on advanced features and versatility
   reviewCount: 80, // Estimated
@@ -4573,9 +4703,10 @@ export const products: Product[] = [
     'موقع الويب': 'www.point4co.com'
     // 'نوع المستشعر': 'بصري' // This specification is typically for mice; omitting it for clarity unless explicitly confirmed to apply to keyboard.
   },
+  discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on features and typical quality for a membrane gaming keyboard
   reviewCount: 50, // Estimated
@@ -4615,10 +4746,11 @@ export const products: Product[] = [
     'تصميم الماوس': 'مريح ومتماثل',
     'متطلبات النظام': 'كمبيوتر متوافق مع منافذ USB'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
-  isBundle: true,
+  isPromotion: true,
+  isBundle: false,
   rating: 4.0, // Estimated based on features and price for a combo set
   reviewCount: 65, // Estimated
   createdAt: new Date('2025-06-12'), // Current date
@@ -4659,7 +4791,8 @@ export const products: Product[] = [
   },
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
+  discount_value: 15,
   isBundle: false,
   rating: 4.1, // Estimated based on features and typical quality for this price range
   reviewCount: 55, // Estimated
@@ -4694,9 +4827,10 @@ export const products: Product[] = [
     'الوزن': 'غير محدد',
     'الأبعاد': 'غير محدد'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // Estimated based on large speaker size, RGB, and features
   reviewCount: 70, // Estimated
@@ -4730,9 +4864,10 @@ export const products: Product[] = [
     'نوع الاتصال': 'بلوتوث، USB (لتشغيل الوسائط، مفترض)',
     'الميزات الإضافية': 'إضاءة LED ملونة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range and features
   reviewCount: 35, // Estimated
@@ -4768,9 +4903,10 @@ export const products: Product[] = [
     'التصميم': 'مريح (لليمين واليسار)',
     'متطلبات النظام': 'Windows 98/2000/ME/XP/10, Mac OS X+, منفذ USB متاح'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Estimated based on features and target audience
   reviewCount: 60, // Estimated
@@ -4807,9 +4943,10 @@ export const products: Product[] = [
     'الأبعاد': 'غير محددة',
     'الوزن': 'غير محدد'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated based on typical product quality and features
   reviewCount: 45, // Estimated
@@ -4842,9 +4979,10 @@ export const products: Product[] = [
     'الإضاءة': 'RGB (16.8 مليون لون)',
     'متطلبات النظام': 'Windows 10, Windows 8, Windows 7, macOS, Smart TV, Linux'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 50, // Estimated
@@ -4882,9 +5020,10 @@ export const products: Product[] = [
     'مدخل الطاقة': '1.5 واط',
     'الوزن الصافي': '0.5 كجم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated rating
   reviewCount: 25, // Estimated review count
@@ -4923,9 +5062,10 @@ export const products: Product[] = [
     'مدخل الطاقة': '3.0 واط',
     'الوزن الصافي': '0.9 كجم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated rating
   reviewCount: 40, // Estimated review count
@@ -4933,9 +5073,9 @@ export const products: Product[] = [
 },
 {
   id: '44',
-  name: 'سماعة ألعاب AI TNT X Series بإضاءة RGB',
+  name: 'سماعة ألعاب AI TNT X Series',
   englishName: 'AI TNT X Series Gaming Headset with RGB Light',
-  description: 'انغمس في عالم الألعاب مع سماعة الألعاب AI TNT X Series. مصممة خصيصًا لتجربة لعب غامرة، تتميز هذه السماعة بإضاءة RGB جذابة وميكروفون متعدد الاتجاهات يوفر وضوحًا فائقًا في الصوت. توفر وسادات الأذن المريحة وصوت الستريو جودة صوت ممتازة للعب والموسيقى. مع تصميم متين وكابل طويل، تعد هذه السماعة خيارًا رائعًا للاعبين الذين يبحثون عن أداء موثوق به.',
+  description: 'انغمس في عالم الألعاب مع سماعة الألعاب AI TNT X Series.مصممة خصيصًا لتجربة لعب غامرة، تتميز هذه السماعة بميكروفون متعدد الاتجاهات يوفر وضوحًا فائقًا في الصوت. توفر وسادات الأذن المريحة وصوت الستريو جودة صوت ممتازة للعب والموسيقى. مع تصميم متين وكابل طويل، تعد هذه السماعة خيارًا رائعًا للاعبين الذين يبحثون عن أداء موثوق به.',
   price: 350, // Price provided in the prompt
   images: [
     AITNT_XS_2, // Placeholder for the image of the headset
@@ -4943,7 +5083,6 @@ export const products: Product[] = [
   ],
   categories: ['إكسسوارات الكمبيوتر'],
   features: [
-    "إضاءة RGB جذابة",
     "صوت ستريو عالي الجودة للألعاب والموسيقى",
     "ميكروفون متعدد الاتجاهات لإلغاء الضوضاء",
     "تصميم مريح للاستخدام لفترات طويلة",
@@ -4963,9 +5102,10 @@ export const products: Product[] = [
     'ضغط الصوت الناتج/الحساسية (S.P.L)': '118 ديسيبل ± 3 ديسيبل',
     'طول الكابل': '≥ 1.8 متر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated rating
   reviewCount: 30, // Estimated review count
@@ -5009,9 +5149,10 @@ Hummer_3 // Placeholder image variable
     'الوسائط المدعومة': 'بلوتوث، SD، USB (حسب التصميم الظاهر)',
     'منفذ الشحن': 'غالبًا Micro USB أو DC (غير محدد بدقة)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 45,
@@ -5045,9 +5186,10 @@ Hummer_3 // Placeholder image variable
     'الضمان': 'هذا المنتج غير مشمول بالضمان (الأضرار المصنوعة يدويًا ضارة).',
     'تحذير خاص': 'قد تتأثر الأجهزة الطبية (مثل أجهزة تنظيم ضربات القلب) بالعناصر المغناطيسية ضمن نطاق 15 سم. يُنصح بعدم استخدام هذا المنتج قبل استشارة الطبيب في حال استخدام مثل هذه الأجهزة الطبية.'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.3, // Estimated rating
   reviewCount: 90, // Estimated review count
@@ -5090,9 +5232,10 @@ Hummer_3 // Placeholder image variable
     'هل المنتج مادة خطرة أو خطرة للتخزين أو النقل؟': 'لا',
     'نوع معرف المنتج الخارجي': 'UPC-E',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.7,
   reviewCount: 28,
@@ -5129,9 +5272,10 @@ Hummer_3 // Placeholder image variable
     'الوزن': 'تقريباً 600 جرام',
     'الأبعاد': '44 × 13 × 3 سم (تقديرية)',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6,
   reviewCount: 12,
@@ -5167,9 +5311,10 @@ Hummer_3 // Placeholder image variable
     'المكونات المشمولة': 'كابل USB',
     'لغة لوحة المفاتيح': 'عربي + إنجليزي',
   },
+  discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5,
   reviewCount: 15,
@@ -5208,9 +5353,10 @@ Hummer_3 // Placeholder image variable
     'تيار التشغيل': '>120mA',
     'عمر الزر': 'أكثر من 10 ملايين مرة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6,
   reviewCount: 22,
@@ -5250,9 +5396,10 @@ Hummer_3 // Placeholder image variable
      'نوع المفتاح': 'غشائي',
      'أبعاد العبوة': '50 × 15.3 × 2.5 سم',
    },
+  discount_value: 5,
    isAvailable: true, // تم تحديثه ليعكس التوفر المحدود/النفاذ
    isNew: false, // تم تحديثه ليعكس أنه ليس منتجًا جديدًا تمامًا
-   isPromotion: false, // تم الإبقاء عليه
+   isPromotion: true, // تم الإبقاء عليه
    isBundle: false, // تم الإبقاء عليه
    rating: 3.4, // تم تحديثه بناءً على مراجعات أمازون
    reviewCount: 23, // تم تحديثه بناءً على مراجعات أمازون
@@ -5290,9 +5437,10 @@ Hummer_3 // Placeholder image variable
     'التوصيل': 'بلوتوث، USB، بطاقة TF، AUX',
     'ميزات إضافية': 'راديو FM، TWS',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated based on typical ratings for such products
   reviewCount: 15, // Estimated
@@ -5331,9 +5479,10 @@ Hummer_3 // Placeholder image variable
     'التوافق': 'متوافق مع أجهزة متعددة (الهواتف الذكية، أجهزة الكمبيوتر المحمولة، الأجهزة اللوحية)',
     'الوزن': 'غير متاح (أكثر من 20 جرام بكثير)', // Acknowledging the incorrect 20g found in search
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 5.0, // Based on Amazon.eg (4 reviews)
   reviewCount: 4, // Based on Amazon.eg
@@ -5374,9 +5523,10 @@ Hummer_3 // Placeholder image variable
     'نسبة الإشارة إلى الضوضاء (SNR)': '≥85 ديسيبل',
     'التوصيل': 'بلوتوث، USB، بطاقة TF، AUX',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality
   reviewCount: 10, // Estimated
@@ -5413,9 +5563,10 @@ Hummer_3 // Placeholder image variable
     'التوصيل': 'USB (للطاقة والصوت)',
     'حجم وحدة مكبر الصوت': '2.5 بوصة',
   },
+  discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 12, // Estimated
@@ -5427,7 +5578,7 @@ Hummer_3 // Placeholder image variable
   name: 'مكبر صوت بلوتوث صغير A012',
   englishName: 'Mini A012 Bluetooth Speaker',
   description: 'مكبر الصوت البلوتوث الصغير A012 هو رفيقك المثالي للاستمتاع بالموسيقى في أي مكان. يتميز بتصميم مدمج ومحمول مع إضاءة RGB ملونة تضفي جوًا حيويًا. يدعم الاتصال اللاسلكي عبر البلوتوث، بالإضافة إلى إمكانية تشغيل الموسيقى مباشرة من بطاقات USB و TF. كما يشتمل على راديو FM مدمج ووظيفة الرد على المكالمات بفضل الميكروفون المدمج. يعمل ببطارية قابلة لإعادة الشحن، مما يضمن ساعات من الاستماع المتواصل.',
-  price: 230, // Estimated average price in EGP
+  price: 165, // Estimated average price in EGP
   images: [
     speakera012    // Placeholder for actual image variable
   ],
@@ -5456,9 +5607,10 @@ Hummer_3 // Placeholder image variable
     'نسبة الإشارة إلى الضوضاء (SNR) (تقديرية)': '≥75 ديسيبل',
     'التوصيل': 'بلوتوث، USB، بطاقة TF، AUX',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 18, // Estimated
@@ -5504,9 +5656,10 @@ Hummer_3 // Placeholder image variable
     'نسبة الإشارة إلى الضوضاء (SNR) (تقديرية)': '≥75 ديسيبل',
     'استجابة التردد (تقديرية)': '100 هرتز - 20 كيلو هرتز',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1,
   reviewCount: 25,
@@ -5546,9 +5699,10 @@ Hummer_3 // Placeholder image variable
     'نسبة الإشارة إلى الضوضاء (SNR) (تقديرية)': '≥75 ديسيبل', // Estimated due to invalid sensitivity value
     'استجابة التردد (تقديرية)': '100 هرتز - 20 كيلو هرتز',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on common reviews for similar products
   reviewCount: 30, // Estimated
@@ -5586,9 +5740,10 @@ Hummer_3 // Placeholder image variable
     'حجم وحدة مكبر الصوت': '2 بوصة',
     'التوصيل': 'USB (للطاقة) / 3.5 ملم (للصوت)',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.7, // Estimated based on typical product quality for this price range
   reviewCount: 20, // Estimated
@@ -5625,9 +5780,10 @@ Hummer_3 // Placeholder image variable
     'مصدر الطاقة': 'USB 5 فولت',
     'وحدة مكبر الصوت': '2 بوصة', // Corrected based on common size for such speakers
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false, // Assuming it's not brand new in the market
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 15, // Estimated
@@ -5671,9 +5827,10 @@ Hummer_3 // Placeholder image variable
     'طريقة الضبط': 'الضغط على المفتاح',
     'التوافق': 'هواتف محمولة، كمبيوتر'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this range
   reviewCount: 22, // Estimated
@@ -5716,9 +5873,10 @@ Hummer_3 // Placeholder image variable
     'المقاومة': '4 أوم',
     'التوصيل': 'بلوتوث، بطاقة TF، USB، AUX',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated based on common reviews for similar products
   reviewCount: 20, // Estimated
@@ -5756,9 +5914,10 @@ Hummer_3 // Placeholder image variable
     'نسبة الإشارة إلى الضوضاء (SNR) (تقديرية)': '≥70 ديسيبل',
     'التوصيل': 'بلوتوث، USB، بطاقة TF، كاريوكي',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated based on common reviews for similar products
   reviewCount: 15, // Estimated
@@ -5799,9 +5958,10 @@ Hummer_3 // Placeholder image variable
     'المقاومة': '4 أوم',
     'طريقة الضبط': 'الضغط على المفتاح',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this range
   reviewCount: 20, // Estimated
@@ -5838,9 +5998,10 @@ Hummer_3 // Placeholder image variable
     'وحدة مكبر الصوت (تقديرية)': '2 بوصة',
     'مدخل الصوت': '3.5 ملم (AUX)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false, // Assuming it's not brand new in the market
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 18, // Estimated
@@ -5876,9 +6037,10 @@ Hummer_3 // Placeholder image variable
     'مصدر الطاقة': 'USB 5 فولت',
     'وحدة مكبر الصوت': '2 بوصة',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false, // Assuming it's not brand new in the market
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.7, // Estimated based on typical product quality for this price range
   reviewCount: 25, // Estimated
@@ -5921,9 +6083,10 @@ Hummer_3 // Placeholder image variable
     'استجابة التردد (تقديرية)': '100 هرتز - 20 كيلو هرتز',
     'نسبة الإشارة إلى الضوضاء (SNR) (تقديرية)': '≥ 70 ديسيبل'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 28, // Estimated
@@ -5963,9 +6126,10 @@ Hummer_3 // Placeholder image variable
     'مادة مكبر الصوت': 'بلاستيك',
     'وحدة مكبر الصوت': 'مكبر صوت بغشاء ألومنيوم مع دائرة مغناطيسية من حديد الروبيديوم والبورون',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -6004,9 +6168,10 @@ Hummer_3 // Placeholder image variable
     'مصدر الطاقة': 'USB 5 فولت',
     'مادة الصنع': 'بلاستيك'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.6, // Estimated based on typical product quality for this price range and low power output
   reviewCount: 15, // Estimated
@@ -6018,7 +6183,7 @@ Hummer_3 // Placeholder image variable
   name: 'مكبر صوت بلوتوث محمول KT-125 مع حامل هاتف',
   englishName: 'KT-125 Portable Bluetooth Speaker with Phone Holder',
   description: 'استمتع بموسيقاك المفضلة أينما ذهبت مع مكبر الصوت KT-125 المحمول متعدد الاستخدامات. يتميز هذا المكبر بتصميم أسطواني أنيق يضم حاملًا مدمجًا للهاتف، مما يجعله مثاليًا لمشاهدة الفيديوهات أو إجراء مكالمات الفيديو أثناء الاستماع. يدعم KT-125 تشغيل الموسيقى لاسلكيًا عبر البلوتوث، بالإضافة إلى إمكانية تشغيل الملفات من أجهزة تخزين USB وبطاقات TF. بفضل بطاريته المدمجة، يوفر وقت تشغيل يصل إلى 3-4 ساعات، كما أنه مقاوم للرذاذ، مما يجعله رفيقًا مثاليًا للرحلات الخارجية أو الاستخدام اليومي.',
-  price: 250, // Estimated average price in EGP
+  price: 185, // Estimated average price in EGP
   images: [
     kt125 // Placeholder for actual image variable (speaker with phone)
   ],
@@ -6046,9 +6211,10 @@ Hummer_3 // Placeholder image variable
     'الأبعاد (الطول×القطر) (تقديرية)': '170×80 مم',
     'الوزن': '400 جرام'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 22, // Estimated
@@ -6085,9 +6251,10 @@ Hummer_3 // Placeholder image variable
     'وقت الشحن (تقديري)': '1.5-2.5 ساعة',
     'الميزات الإضافية': 'إضاءة LED، دعم USB/TF، بلوتوث'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 20, // Estimated
@@ -6133,9 +6300,10 @@ Hummer_3 // Placeholder image variable
     'هل المنتج مادة خطرة أو خطرة للتخزين أو النقل؟': 'لا',
     'نوع معرف المنتج الخارجي': 'غير متوفر', // UPC, EAN, etc. not found
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 0, // No specific user reviews or ratings found
   reviewCount: 0, // No specific user reviews found
@@ -6183,9 +6351,10 @@ Hummer_3 // Placeholder image variable
     'هل المنتج مادة خطرة أو خطرة للتخزين أو النقل؟': 'لا',
     'نوع معرف المنتج الخارجي': 'غير متوفر', // UPC, EAN, etc. not found
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 0, // No clear, consolidated rating found for the Oraimo branded OR-P9
   reviewCount: 0, // No quantifiable review count found for the Oraimo branded OR-P9
@@ -6224,9 +6393,10 @@ Hummer_3 // Placeholder image variable
     'طول الكابل': '2.1 متر',
     'المقاومة (تقديرية)': '32 أوم'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated based on typical product quality for this price range
   reviewCount: 45, // Estimated
@@ -6269,9 +6439,10 @@ Hummer_3 // Placeholder image variable
     'مصدر الطاقة': 'بطارية مدمجة قابلة لإعادة الشحن (شحن Micro USB)',
     'المادة (الرئيسية)': 'بلاستيك'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 35, // Estimated
@@ -6314,9 +6485,10 @@ Hummer_3 // Placeholder image variable
     'وقت الاستعداد': 'أكثر من 200 ساعة',
     'سعة البطارية': '300-400 مللي أمبير/ساعة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -6357,9 +6529,10 @@ Hummer_3 // Placeholder image variable
     'ميكروفون': 'مدمج (متوقع)',
     'الوزن': '150-250 جرام'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 25, // Estimated
@@ -6399,9 +6572,10 @@ Hummer_3 // Placeholder image variable
     'ميكروفون': 'مدمج (متوقع)',
     'الوزن': '150-250 جرام'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 28, // Estimated
@@ -6441,9 +6615,10 @@ Hummer_3 // Placeholder image variable
     'مدخل صوت إضافي': 'AUX 3.5 ملم (متوقع)',
     'اللون': 'أزرق وأسود',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -6486,9 +6661,10 @@ Hummer_3 // Placeholder image variable
     'اللون': 'فضي/أبيض (كما يظهر في الصورة)',
     'الوزن': '200-250 جرام'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 35, // Estimated
@@ -6533,9 +6709,10 @@ Hummer_3 // Placeholder image variable
     'اللون': 'أحمر (كما يظهر في الصورة)',
     'الوزن': '150-200 جرام'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 40, // Estimated
@@ -6578,9 +6755,10 @@ Hummer_3 // Placeholder image variable
     'المادة': 'بلاستيك ABS + معدن',
     'الوزن': '250-350 جرام'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.2, // Estimated based on typical product quality for this price range
   reviewCount: 50, // Estimated
@@ -6619,9 +6797,10 @@ Hummer_3 // Placeholder image variable
     'المادة': 'بلاستيك ABS',
     'اللون': 'أبيض، أزرق، وردي',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 45, // Estimated
@@ -6659,9 +6838,10 @@ Hummer_3 // Placeholder image variable
     'المادة': 'بلاستيك ABS',
     'اللون': 'أبيض مع إضاءة ملونة',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 20, // Estimated
@@ -6699,9 +6879,10 @@ Hummer_3 // Placeholder image variable
     'المادة': 'بلاستيك ABS',
     'اللون': 'أبيض مع إضاءة ملونة',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 22, // Estimated
@@ -6741,9 +6922,10 @@ Hummer_3 // Placeholder image variable
     'الوزن': '50-80 جرام',
     'الألوان': 'فضي، أحمر (وغيرها)'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 3.7, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -6778,9 +6960,10 @@ Hummer_3 // Placeholder image variable
     'نوع البطارية': 'بطارية ليثيوم أيون عالية الأداء',
     'دورات الشحن والتفريغ': '300 دورة'
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.5, // Estimated rating
   reviewCount: 75, // Estimated review count
@@ -6819,9 +7002,10 @@ Hummer_3 // Placeholder image variable
     'المادة': 'سبائك الألومنيوم',
     'الضمان': '18 شهر',
   },
+  discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: false,
+  isPromotion: true,
   isBundle: false,
   rating: 4.6, // Estimated rating
   reviewCount: 55, // Estimated review count

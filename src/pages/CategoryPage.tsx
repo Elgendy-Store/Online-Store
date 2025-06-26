@@ -19,19 +19,23 @@ const CategoryPage: React.FC = () => {
   const [maxPrice, setMaxPrice] = useState(10000);
   const [sortOption, setSortOption] = useState('newest');
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
+  const [showDiscountedOnly, setShowDiscountedOnly] = useState(false);
 
   useEffect(() => {
     if (category) {
       filterAndSortProducts();
     }
-  }, [category, minPrice, maxPrice, sortOption]);
+  }, [category, minPrice, maxPrice, sortOption, showDiscountedOnly]);
 
   const filterAndSortProducts = () => {
     let filtered = allCategoryProducts.filter(
       (product) => product.price >= minPrice && product.price <= maxPrice
     );
 
-    // Sort products
+    if (showDiscountedOnly) {
+      filtered = filtered.filter((product) => product.isPromotion === true);
+    }
+
     switch (sortOption) {
       case 'newest':
         filtered = [...filtered].sort(
@@ -63,6 +67,10 @@ const CategoryPage: React.FC = () => {
     setSortOption(sort);
   };
 
+  const handleDiscountFilterChange = (showDiscounted: boolean) => {
+    setShowDiscountedOnly(showDiscounted);
+  };
+
   const toggleMobileFilter = () => {
     setIsMobileFilterOpen(!isMobileFilterOpen);
   };
@@ -79,7 +87,6 @@ const CategoryPage: React.FC = () => {
   return (
     <main className="bg-neutral-50 py-8">
       <div className="container mx-auto px-4">
-        {/* Category Header */}
         <div className="relative overflow-hidden rounded-xl mb-8 bg-gradient-to-r from-primary-900 to-primary-700 h-48 flex items-center">
           <div className="absolute inset-0">
             <img
@@ -96,7 +103,6 @@ const CategoryPage: React.FC = () => {
           </div>
         </div>
 
-        {/* Mobile Filter Toggle */}
         <div className="md:hidden mb-4">
           <button
             onClick={toggleMobileFilter}
@@ -107,19 +113,17 @@ const CategoryPage: React.FC = () => {
           </button>
         </div>
 
-        {/* Products and Filter */}
         <div className="flex flex-col md:flex-row gap-6">
-          {/* Filters Sidebar */}
           <div className="md:w-1/4 lg:w-1/5">
-            {/* Mobile Filter Overlay */}
             {isMobileFilterOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden\" onClick={toggleMobileFilter}>
+              <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden" onClick={toggleMobileFilter}>
                 <div className="absolute inset-y-0 right-0 max-w-sm w-full bg-white h-full" onClick={(e) => e.stopPropagation()}>
                   <ProductFilter
                     minPrice={minPrice}
                     maxPrice={maxPrice}
                     onPriceChange={handlePriceChange}
                     onSortChange={handleSortChange}
+                    onDiscountFilterChange={handleDiscountFilterChange}
                     onFilterToggle={toggleMobileFilter}
                     isMobileFilterOpen={isMobileFilterOpen}
                   />
@@ -127,18 +131,17 @@ const CategoryPage: React.FC = () => {
               </div>
             )}
             
-            {/* Desktop Filter */}
             <div className="hidden md:block">
               <ProductFilter
                 minPrice={minPrice}
                 maxPrice={maxPrice}
                 onPriceChange={handlePriceChange}
                 onSortChange={handleSortChange}
+                onDiscountFilterChange={handleDiscountFilterChange}
               />
             </div>
           </div>
 
-          {/* Products Grid */}
           <div className="md:w-3/4 lg:w-4/5">
             {filteredProducts.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

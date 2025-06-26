@@ -28,61 +28,76 @@ const BudgetPage: React.FC = () => {
     <div className="container mx-auto px-4 py-12">
       <h1 className="text-3xl font-bold mb-8 text-neutral-800">{t('myBudget')}</h1>
       <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8 border border-neutral-100">
-        {budgetItems.map((item: BudgetItem) => (
-          <div
-            key={item.product.id}
-            className="flex items-center justify-between py-6 border-b border-neutral-200 last:border-b-0"
-          >
-            <div className="flex items-center space-x-6">
-              <img
-                src={item.product.images[0]}
-                alt={item.product.name}
-                className="w-20 h-20 object-cover rounded-lg border border-neutral-200"
-              />
-              <div>
-                <Link
-                  to={`/products/${item.product.id}`}
-                  className="text-lg font-medium text-neutral-800 hover:text-primary-600 transition-colors duration-200"
+        {budgetItems.map((item: BudgetItem) => {
+          const discountedPrice = item.product.isPromotion && item.product.discount_value
+            ? item.product.price - (item.product.price * (item.product.discount_value / 100))
+            : null;
+
+          return (
+            <div
+              key={item.product.id}
+              className="flex items-center justify-between py-6 border-b border-neutral-200 last:border-b-0"
+            >
+              <div className="flex items-center space-x-6">
+                <img
+                  src={item.product.images[0]}
+                  alt={item.product.name}
+                  className="w-20 h-20 object-cover rounded-lg border border-neutral-200"
+                />
+                <div>
+                  <Link
+                    to={`/products/${item.product.id}`}
+                    className="text-lg font-medium text-neutral-800 hover:text-primary-600 transition-colors duration-200"
+                  >
+                    {item.product.name}
+                  </Link>
+                  <div className="text-right mt-1">
+                    {item.product.isPromotion && item.product.discount_value ? (
+                      <>
+                        <span className="line-through text-neutral-500 mr-2">{item.product.price} {t('egp')}</span>
+                        <span className="font-bold text-lg text-primary-600">
+                          {(discountedPrice || item.product.price).toFixed(2)} {t('egp')}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="font-bold text-lg">{item.product.price} {t('egp')}</span>
+                    )}
+                  </div>
+                </div>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div className="flex items-center bg-neutral-100 rounded-full p-1">
+                  <button
+                    onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
+                    disabled={item.quantity <= 1}
+                    className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
+                    aria-label={t('decreaseQuantity')}
+                  >
+                    <Minus size={18} />
+                  </button>
+                  <span className="w-12 text-center font-medium text-neutral-800">{item.quantity}</span>
+                  <button
+                    onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
+                    className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 transition-colors duration-200"
+                    aria-label={t('increaseQuantity')}
+                  >
+                    <Plus size={18} />
+                  </button>
+                </div>
+                <button
+                  onClick={() => removeFromBudget(item.product.id)}
+                  className="w-10 h-10 flex items-center justify-center rounded-full text-error-600 hover:bg-error-100 transition-colors duration-200"
+                  aria-label={t('removeFromBudget')}
                 >
-                  {item.product.name}
-                </Link>
-                <p className="text-sm text-neutral-500 mt-1">
-                  {item.product.price} {t('egp')} / {t('unit')}
-                </p>
+                  <Trash2 size={18} />
+                </button>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
-              <div className="flex items-center bg-neutral-100 rounded-full p-1">
-                <button
-                  onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
-                  disabled={item.quantity <= 1}
-                  className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
-                  aria-label={t('decreaseQuantity')}
-                >
-                  <Minus size={18} />
-                </button>
-                <span className="w-12 text-center font-medium text-neutral-800">{item.quantity}</span>
-                <button
-                  onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                  className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 transition-colors duration-200"
-                  aria-label={t('increaseQuantity')}
-                >
-                  <Plus size={18} />
-                </button>
-              </div>
-              <button
-                onClick={() => removeFromBudget(item.product.id)}
-                className="w-10 h-10 flex items-center justify-center rounded-full text-error-600 hover:bg-error-100 transition-colors duration-200"
-                aria-label={t('removeFromBudget')}
-              >
-                <Trash2 size={18} />
-              </button>
-            </div>
-          </div>
-        ))}
+          );
+        })}
         <div className="mt-8">
           <p className="text-xl font-semibold text-neutral-800">
-            {t('totalBudget')}: {getTotalBudget()} {t('egp')}
+            {t('totalBudget')}: {getTotalBudget().toFixed(2)} {t('egp')}
           </p>
           <p className="text-sm text-neutral-500 mt-2">{t('budgetEstimation')}</p>
           <div className="flex flex-col sm:flex-row sm:space-x-4 mt-6 space-y-4 sm:space-y-0">

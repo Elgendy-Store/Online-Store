@@ -18,6 +18,7 @@ export interface Product {
   reviewCount: number;
   createdAt: Date;
   userRating?: number;
+  discount_value:number;
 }
 
 export interface Category {

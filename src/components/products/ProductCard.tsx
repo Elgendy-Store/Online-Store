@@ -28,6 +28,10 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     setIsLiked(!isLiked);
   };
 
+  const discountedPrice = product.isPromotion && product.discount_value
+    ? product.price - (product.price * (product.discount_value / 100))
+    : null;
+
   return (
     <div className="card card-hover h-full flex flex-col">
       <Link to={`/products/${product.id}`} className="block overflow-hidden relative">
@@ -87,7 +91,23 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </p>
         
         <div className="mt-auto flex items-center justify-between">
-          <span className="font-bold text-lg">{product.price} {t('egp')}</span>
+          <div className="text-right">
+            {product.isPromotion && product.discount_value && (
+              <span className="block mb-1 bg-secondary-500 text-secondary-1000 text-base font-medium px-2 py-1 rounded-full">
+                Sale -{product.discount_value}%
+              </span>
+            )}
+            {product.isPromotion && product.discount_value ? (
+              <>
+                <span className="line-through text-neutral-500 mr-2">{product.price} {t('egp')}</span>
+                <span className="font-bold text-lg text-primary-600">
+                  {discountedPrice?.toFixed(2)} {t('egp')}
+                </span>
+              </>
+            ) : (
+              <span className="font-bold text-lg">{product.price} {t('egp')}</span>
+            )}
+          </div>
           
           <button
             onClick={handleAddToBudget}

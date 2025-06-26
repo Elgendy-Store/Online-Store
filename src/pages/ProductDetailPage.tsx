@@ -46,6 +46,10 @@ const ProductDetailPage: React.FC = () => {
     setTimeout(() => setShowRatingSuccess(false), 3000);
   };
 
+  const discountedPrice = product.isPromotion && product.discount_value
+    ? product.price - (product.price * (product.discount_value / 100))
+    : null;
+
   return (
     <main className="bg-neutral-50 py-8">
       <div className="container mx-auto px-4">
@@ -130,9 +134,25 @@ const ProductDetailPage: React.FC = () => {
 
               <div className="border-t border-b border-neutral-200 py-4">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-2xl font-bold text-neutral-900">
-                    {product.price} {t('egp')}
-                  </span>
+                  <div className="text-right">
+                    {product.isPromotion && product.discount_value && (
+                      <span className="block mb-1 bg-secondary-500 text-secondary-1000 text-base font-medium px-2 py-1 rounded-full">
+                        Sale -{product.discount_value}%
+                      </span>
+                    )}
+                    {product.isPromotion && product.discount_value ? (
+                      <>
+                        <span className="line-through text-neutral-500 mr-2">{product.price} {t('egp')}</span>
+                        <span className="text-2xl font-bold text-primary-600">
+                          {discountedPrice?.toFixed(2)} {t('egp')}
+                        </span>
+                      </>
+                    ) : (
+                      <span className="text-2xl font-bold text-neutral-900">
+                        {product.price} {t('egp')}
+                      </span>
+                    )}
+                  </div>
                   <span className={`px-3 py-1 rounded-full text-sm ${
                     product.isAvailable 
                       ? 'bg-success-100 text-success-700' 
@@ -155,12 +175,12 @@ const ProductDetailPage: React.FC = () => {
                 >
                   {isAddedToBudget ? (
                     <>
-                      <Check size={20} className="ml-2" />
+                      <Check size={20} className="mr-2" />
                       تمت الإضافة بنجاح
                     </>
                   ) : (
                     <>
-                      <ShoppingBag size={20} className="ml-2" />
+                      <ShoppingBag size={20} className="mr-2" />
                       {t('addToBudget')}
                     </>
                   )}
@@ -241,7 +261,7 @@ const ProductDetailPage: React.FC = () => {
                       <ul className="space-y-2">
                         {product.features.map((feature, index) => (
                           <li key={index} className="flex items-start">
-                            <span className="bg-primary-100 text-primary-600 rounded-full p-1 mt-0.5 ml-2">
+                            <span className="bg-primary-100 text-primary-600 rounded-full p-1 mt-0.5 mr-2">
                               <Check size={14} />
                             </span>
                             <span className="text-neutral-700">{feature}</span>

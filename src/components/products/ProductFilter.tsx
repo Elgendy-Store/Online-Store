@@ -7,6 +7,7 @@ interface ProductFilterProps {
   maxPrice: number;
   onPriceChange: (min: number, max: number) => void;
   onSortChange: (sort: string) => void;
+  onDiscountFilterChange?: (showDiscounted: boolean) => void; // New prop for discount filter
   onFilterToggle?: () => void;
   isMobileFilterOpen?: boolean;
 }
@@ -16,6 +17,7 @@ const ProductFilter: React.FC<ProductFilterProps> = ({
   maxPrice,
   onPriceChange,
   onSortChange,
+  onDiscountFilterChange,
   onFilterToggle,
   isMobileFilterOpen,
 }) => {
@@ -24,6 +26,7 @@ const ProductFilter: React.FC<ProductFilterProps> = ({
   const [localMaxPrice, setLocalMaxPrice] = useState(maxPrice);
   const [isPriceOpen, setIsPriceOpen] = useState(true);
   const [isSortOpen, setIsSortOpen] = useState(true);
+  const [showDiscountedOnly, setShowDiscountedOnly] = useState(false); // State for discount filter
 
   const handlePriceSubmit = () => {
     onPriceChange(localMinPrice, localMaxPrice);
@@ -31,6 +34,14 @@ const ProductFilter: React.FC<ProductFilterProps> = ({
 
   const handleSortChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     onSortChange(e.target.value);
+  };
+
+  const handleDiscountFilterChange = () => {
+    const newValue = !showDiscountedOnly;
+    setShowDiscountedOnly(newValue);
+    if (onDiscountFilterChange) {
+      onDiscountFilterChange(newValue);
+    }
   };
 
   const resetPriceFilter = () => {
@@ -109,6 +120,21 @@ const ProductFilter: React.FC<ProductFilterProps> = ({
             </div>
           </div>
         )}
+      </div>
+
+      {/* Discount Filter */}
+      <div className="border-b border-neutral-200">
+        <div className="p-4">
+          <label className="flex items-center text-right font-medium">
+            <input
+              type="checkbox"
+              checked={showDiscountedOnly}
+              onChange={handleDiscountFilterChange}
+              className="mr-2"
+            />
+            {t('showDiscountedOnly')} {/* Add translation key if needed */}
+          </label>
+        </div>
       </div>
 
       {/* Sort Options */}

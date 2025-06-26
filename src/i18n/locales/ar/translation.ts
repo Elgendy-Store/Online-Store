@@ -41,6 +41,7 @@ export default {
   ratings: 'التقييمات',
   rateProduct: 'قيّم هذا المنتج',
   submitRating: 'إرسال التقييم',
+  Sale: 'خصم',
   
   // Filters
   filter: 'تصفية',
@@ -50,6 +51,7 @@ export default {
   highestRated: 'الأعلى تقييماً',
   lowestPrice: 'السعر: من الأقل إلى الأعلى',
   highestPrice: 'السعر: من الأعلى إلى الأقل',
+  showDiscountedOnly: "عرض المنتجات المخفضة فقط",
   
   // Budget
   myBudget: 'الميزانية الخاصة بي',

@@ -50,6 +50,7 @@ export default {
   highestRated: 'Highest Rated',
   lowestPrice: 'Price: Low to High',
   highestPrice: 'Price: High to Low',
+  showDiscountedOnly: "Show Discounted Only",
   
   // Budget
   myBudget: 'My Budget',

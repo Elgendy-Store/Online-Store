@@ -19,6 +19,7 @@ const SearchResultsPage: React.FC = () => {
   const [maxPrice, setMaxPrice] = useState(10000);
   const [sortOption, setSortOption] = useState('newest');
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
+  const [showDiscountedOnly, setShowDiscountedOnly] = useState(false); // New state for discount filter
 
   useEffect(() => {
     setFilteredProducts(searchProducts(query));
@@ -26,12 +27,17 @@ const SearchResultsPage: React.FC = () => {
 
   useEffect(() => {
     filterAndSortProducts();
-  }, [minPrice, maxPrice, sortOption]);
+  }, [minPrice, maxPrice, sortOption, showDiscountedOnly]); // Include showDiscountedOnly
 
   const filterAndSortProducts = () => {
     let filtered = allSearchResults.filter(
       (product) => product.price >= minPrice && product.price <= maxPrice
     );
+
+    // Apply discount filter based on isPromotion
+    if (showDiscountedOnly) {
+      filtered = filtered.filter((product) => product.isPromotion === true);
+    }
 
     // Sort products
     switch (sortOption) {
@@ -63,6 +69,10 @@ const SearchResultsPage: React.FC = () => {
 
   const handleSortChange = (sort: string) => {
     setSortOption(sort);
+  };
+
+  const handleDiscountFilterChange = (showDiscounted: boolean) => {
+    setShowDiscountedOnly(showDiscounted);
   };
 
   const toggleMobileFilter = () => {
@@ -102,13 +112,14 @@ const SearchResultsPage: React.FC = () => {
           <div className="md:w-1/4 lg:w-1/5">
             {/* Mobile Filter Overlay */}
             {isMobileFilterOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden\" onClick={toggleMobileFilter}>
+              <div className="fixed inset-0 bg-black bg-opacity-50 z-50 md:hidden" onClick={toggleMobileFilter}>
                 <div className="absolute inset-y-0 right-0 max-w-sm w-full bg-white h-full" onClick={(e) => e.stopPropagation()}>
                   <ProductFilter
                     minPrice={minPrice}
                     maxPrice={maxPrice}
                     onPriceChange={handlePriceChange}
                     onSortChange={handleSortChange}
+                    onDiscountFilterChange={handleDiscountFilterChange} // Pass the new callback
                     onFilterToggle={toggleMobileFilter}
                     isMobileFilterOpen={isMobileFilterOpen}
                   />
@@ -123,6 +134,7 @@ const SearchResultsPage: React.FC = () => {
                 maxPrice={maxPrice}
                 onPriceChange={handlePriceChange}
                 onSortChange={handleSortChange}
+                onDiscountFilterChange={handleDiscountFilterChange} // Pass the new callback
               />
             </div>
           </div>

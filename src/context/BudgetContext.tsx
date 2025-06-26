@@ -81,7 +81,12 @@ export const BudgetProvider: React.FC<BudgetProviderProps> = ({ children }) => {
 
   const getTotalBudget = () => {
     return budgetItems.reduce(
-      (total: number, item: BudgetItem) => total + item.product.price * item.quantity,
+      (total: number, item: BudgetItem) => {
+        const priceToUse = item.product.isPromotion && item.product.discount_value
+          ? item.product.price - (item.product.price * (item.product.discount_value / 100))
+          : item.product.price;
+        return total + (priceToUse * item.quantity);
+      },
       0
     );
   };
