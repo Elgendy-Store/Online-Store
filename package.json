@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "homepage": "https://elgendy-store.github.io/Online-Store/Store",
+  "homepage": "https://elgendy-store.github.io/Online-Store",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
