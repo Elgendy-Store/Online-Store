@@ -247,10 +247,548 @@ import joyroom_jr_el120 from '../assets/joyroom jr-el120.png';
 import jnuobi_yx_02 from '../assets/jnuobi yx-02.png';
 import heatz_za68e from '../assets/heatz za68e.png';
 import airpods from '../assets/airpods.png';
+import xertmt_jl_1267 from '../assets/xertmt jl-1267.png';
+import ldnio_power_bank_pq19 from '../assets/ldnio power bank pq19.png';
+import jnuobi_power_bank_dy_25 from '../assets/jnuobi power bank dy-25.png';
+import jnuobi_power_bank_3c_06 from '../assets/jnuobi power bank 3c-06.png';
+import jnuobi_jc05 from '../assets/jnuobi jc05.png';
+import gemax_hy_c508 from '../assets/gemax hy-c508.png';
+import t800_ultra_2_plus from '../assets/t800 ultra 2 -plus.png';
+import t800_ultra_3 from '../assets/t800 ultra 3.png';
+import Magnetic_charging_cable from '../assets/Magnetic charging cable.png';
+import jbl_jl_324 from '../assets/jbl jl-324.png';
+import _35w_USP_C_power_adaptor_USP_C_TO_LIGHTNING_CABLE from '../assets/35w USP-C power adaptor USP-C TO LIGHTNING CABLE.png';
+import GT_122_SPEAKER from '../assets/GT-122 SPEAKER.png';
+import mini_speaker_ws_887 from '../assets/mini speaker ws-887.png';
+import video_making_kit from '../assets/video making kit.png';
+import video_making_kit_2 from '../assets/video making kit_2.png';
+import bt_wireless_earphone_m10 from '../assets/bt wireless earphone m10.png';
+import kt_125 from '../assets/kt-125.png';
 
 // Sample products data (will be expanded in a real implementation)
 export const products: Product[] = [
 
+{
+  id: '202',
+  name: 'سماعة رأس لاسلكية M10 Newest Digital Indicator True Wireless Headset',
+  englishName: 'M10 Newest Digital Indicator True Wireless Headset',
+  description: 'سماعة رأس لاسلكية M10 True Wireless Headset بتقنية Bluetooth V5.1. تتميز بتصميم صغير للغاية وتوفر صوت ستريو ومكالمات واضحة وشحنًا سريعًا. توفر ما يصل إلى 5 ساعات من تشغيل الموسيقى و 280 ساعة في وضع الاستعداد.',
+  price: 185,
+  images: [
+    bt_wireless_earphone_m10 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "مؤشر رقمي",
+    "لاسلكي حقيقي (True Wireless)",
+    "صغير جدًا",
+    "يدعم المكالمات والموسيقى",
+    "شحن سريع"
+  ],
+  specifications: {
+    'الإصدار اللاسلكي': 'V5.1',
+    'أوضاع الاتصال اللاسلكي': 'A2DP/HFP/HSP/AVRCP',
+    'مسافة الإرسال': '10 أمتار',
+    'وقت الشحن': 'حوالي ساعتين',
+    'وضع الاستعداد': '280 ساعة',
+    'تشغيل الموسيقى': 'حوالي 5 ساعات (سماعات الأذن)',
+    'الخرج': '5 فولت 1 أمبير'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-27T08:37:04.000Z')
+},
+{
+  id: '201',
+  name: 'مجموعة صنع الفيديو AY-49',
+  englishName: 'Video-Making Kit AY-49',
+  description: 'مجموعة صنع الفيديو AY-49 مثالية للبث المباشر وصناعة المحتوى. تتضمن ميكروفونًا أحادي الاتجاه فائق القلب، وضوء LED بـ 49 خرزة مع درجة حرارة لون 6500 كلفن وقوة 5 واط، وبطارية توفر 1.5 ساعة من الاستخدام عند الطاقة الكاملة.',
+  price: 385,
+  images: [
+    video_making_kit_2, // Variable for the image
+    video_making_kit
+  ],
+  categories: [
+    'إكسسوارات الموبايل',
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "ميكروفون عالي الجودة",
+    "ضوء LED",
+    "مثالي للبث المباشر"
+  ],
+  specifications: {
+    'الطراز': 'AY49',
+    'نوع الميكروفون': 'كهروستاتيكي',
+    'اتجاهية الميكروفون': 'فائقة القلب',
+    'استجابة التردد': '50 هرتز - 16 كيلو هرتز',
+    'الحساسية': '-45 ديسيبل ± 3 ديسيبل',
+    'مستوى الضوضاء المكافئ': '24 ديسيبل',
+    'أقصى مستوى لضغط الصوت (SPL)': '130 ديسيبل (THD ≤ 1.5% عند 1 كيلو هرتز)',
+    'معاوقة الخرج': '200 ± 0.30% (عند 1 كيلو هرتز)',
+    'القناة': 'أحادية',
+    'درجة حرارة اللون': '6500 كلفن (± 200 كلفن)',
+    'عدد خرزات المصباح': '49',
+    'الطاقة': '5 واط',
+    'عمر البطارية (ضوء LED)': '1.5 ساعة عند 6500 كلفن، طاقة 100%',
+    'الوزن الصافي': 'حوالي 244 جرام',
+    'حجم المنتج': '78.5 مم، 66.5 مم، 30.5 مم'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.6,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-27T08:31:55.000Z')
+},
+{
+  id: '200',
+  name: 'مكبر صوت WS-887 MINI',
+  englishName: 'WS-887 MINI Speaker',
+  description: 'مكبر صوت WS-887 MINI محمول بتصميم صغير، يوفر صوتًا بقوة 3 واط. يعمل عبر USB (تيار مستمر 5 فولت). مثالي للاستخدام أثناء التنقل.',
+  price: 125,
+  images: [
+    mini_speaker_ws_887 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل',
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "صغير الحجم",
+    "محمول"
+  ],
+  specifications: {
+    'الطراز': 'WS887',
+    'RMS': '3 واط',
+    'المقاومة': '4 أوم',
+    'مصدر الطاقة': 'USB (تيار مستمر + 5 فولت)',
+    'بلد المنشأ': 'صُنع في الصين'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 3.7,
+  reviewCount: 3,
+  createdAt: new Date('2025-06-27T08:30:10.000Z')
+},
+{
+  id: '199',
+  name: 'مكبر صوت GT-122 المحمول',
+  englishName: 'GT-122 Portable Speaker',
+  description: 'مكبر صوت GT-122 محمول، يوفر طاقة خرج 405 واط*2 ووقت تشغيل من 2-4 ساعات. يتميز بأزرار للتحكم في الوضع، الأغنية السابقة/التالية، ورفع/خفض مستوى الصوت. متوافق مع الأجهزة اللوحية والهواتف ومشغلات MP3 وأجهزة الكمبيوتر الشخصي.',
+  price: 145,
+  images: [
+    GT_122_SPEAKER // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل',
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "محمول",
+    "أزرار تحكم في الموسيقى ومستوى الصوت",
+    "متوافق مع الأجهزة اللوحية والهواتف وأجهزة MP3 والكمبيوتر الشخصي"
+  ],
+  specifications: {
+    'الطراز': 'GT-122',
+    'طاقة الخرج': '405 واط × 2',
+    'وقت التشغيل': '2-4 ساعات',
+    'الإشارة إلى الضوضاء': '≥ 85 ديسيبل',
+    'التشوه': '≤ 0.5%',
+    'سعة البطارية': '1200 مللي أمبير',
+    'وقت الشحن': '2-4 ساعات'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 3.9,
+  reviewCount: 2,
+  createdAt: new Date('2025-06-27T08:29:04.000Z')
+},
+{
+  id: '198',
+  name: 'محول طاقة USB-C بقوة 35 واط مع كابل USB-C إلى Lightning',
+  englishName: '35W USB-C Power Adapter with USB-C to Lightning Cable',
+  description: 'محول طاقة USB-C بقوة 35 واط (طراز MHJE3TU/A) مصمم في كاليفورنيا ومصنوع في الصين. يأتي مع كابل USB-C إلى Lightning، مما يجعله مناسبًا لشحن أجهزة Apple الحديثة بسرعة وفعالية.',
+  price: 275,
+  images: [
+    _35w_USP_C_power_adaptor_USP_C_TO_LIGHTNING_CABLE // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "محول طاقة USB-C بقوة 35 واط",
+    "يتضمن كابل USB-C إلى Lightning"
+  ],
+  specifications: {
+    'الطراز': 'MHJE3TU/A',
+    'الطاقة القصوى': '35 واط',
+    'المنشأ': 'مصمم في كاليفورنيا، صنع في الصين'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.7,
+  reviewCount: 12,
+  createdAt: new Date('2025-06-27T08:21:24.000Z')
+},
+{
+  id: '197',
+  name: 'مكبر صوت JBL JL-324',
+  englishName: 'JBL JL-324 Speaker',
+  description: 'مكبر صوت JBL JL-324 لاسلكي مع إضاءة ملونة وميزات USB/TF Card. يوفر قوة خرج 3 واط × 2 مع استجابة تردد من 45 هرتز إلى 18 كيلو هرتز. مزود ببطارية 1200 مللي أمبير/ساعة. مثالي للحفلات بفضل صوته القوي ومصابيح LED الملونة.',
+  price: 495,
+  images: [
+    jbl_jl_324 // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "إضاءة ملونة",
+    "دعم USB/بطاقة TF",
+    "صوت قوي للحفلات"
+  ],
+  specifications: {
+    'الطراز': 'JL-324',
+    'وحدة مكبر الصوت': '3 بوصة × 2',
+    'طاقة الخرج': '3 واط × 2',
+    'RMS': '3 واط × 2',
+    'استجابة التردد': '45 هرتز - 18 كيلو هرتز',
+    'الإشارة إلى النغمة': '≥ 85 ديسيبل',
+    'سعة البطارية': '1200 مللي أمبير/ساعة',
+    'الجهد': 'تيار مستمر 5 فولت',
+    'المقاومة': '2 أوم',
+    'مصدر الطاقة': 'USB (تيار مستمر + 5 فولت)',
+    'حجم العلبة': '120 × 95 × 240 مم',
+    'بلد المنشأ': 'صُنع في الصين'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-27T08:20:28.000Z')
+},
+{
+  id: '196',
+  name: 'كابل شحن مغناطيسي',
+  englishName: 'Magnetic Charging Cable',
+  description: 'كابل شحن مغناطيسي بطول 1 متر، مصمم لتوفير شحن سهل ومريح. يتميز بتصميم مغناطيسي يسهل توصيل وفصل الكابل من الجهاز.',
+  price: 145,
+  images: [
+    Magnetic_charging_cable // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "كابل شحن مغناطيسي",
+    "سهل الاستخدام"
+  ],
+  specifications: {
+    'الطول': '1 متر'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 4,
+  createdAt: new Date('2025-06-27T08:19:24.000Z')
+},
+{
+  id: '195',
+  name: 'ساعة T8000 Ultra 3 الذكية',
+  englishName: 'T8000 Ultra 3 Smart Watch',
+  description: 'ساعة T8000 Ultra 3 الذكية ذات استهلاك فائق الانخفاض للطاقة. تتميز بشاشة 2.20 بوصة وتدعم الشحن اللاسلكي. تشمل العبوة الساعة الذكية، سوار، كابل شحن، ودليل المستخدم.',
+  price: 385,
+  images: [
+    t800_ultra_3 // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "استهلاك فائق الانخفاض للطاقة",
+    "شاشة 2.20 بوصة",
+    "شحن لاسلكي",
+    "يشمل: ساعة ذكية، سوار، كابل شحن، ودليل المستخدم"
+  ],
+  specifications: {
+    'الطراز': 'T8000 Ultra 3',
+    'النوع': 'ساعة ذكية'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.3,
+  reviewCount: 9,
+  createdAt: new Date('2025-06-27T08:18:10.000Z')
+},
+{
+  id: '194',
+  name: 'ساعة T800 Ultra 2-Plus الذكية',
+  englishName: 'T800 Ultra 2-Plus Smart Watch',
+  description: 'ساعة T800 Ultra 2-Plus الذكية مع تحكم بالإصبع وشحن لاسلكي. تأتي مع زوج واحد من السوار وكابل شحن ودليل المستخدم.',
+  price: 450,
+  images: [
+    t800_ultra_2_plus // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة'
+  ],
+  features: [
+    "تحكم بالإصبع",
+    "شحن لاسلكي",
+    "يتضمن زوج واحد من السوار",
+    "يشمل كابل شحن ودليل المستخدم"
+  ],
+  specifications: {
+    'الطراز': 'T800 Ultra 2-Plus',
+    'النوع': 'ساعة ذكية'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.2,
+  reviewCount: 7,
+  createdAt: new Date('2025-06-27T08:17:10.000Z')
+},
+{
+  id: '193',
+  name: 'كابل بيانات Gemax Type-C',
+  englishName: 'Gemax Type-C Data Cable',
+  description: 'كابل بيانات Gemax Type-C بطول 120 سم، مصمم للشحن ونقل البيانات بسرعة وأمان. يتميز بسلك مانع للتجمد ومقاوم للكسر، مع قدرة تحمل عالية تصل إلى 10000 مرة من الانحناء. يدعم تيار 3 أمبير لشحن فائق السرعة بفضل قلب نحاسي نقي عالي الجودة. متوافق مع جميع المنتجات الإلكترونية ذات واجهة Type-C.',
+  price: 95,
+  images: [
+    gemax_hy_c508 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سلك مانع التجمد",
+    "يمنع الكسر",
+    "شحن المروحة",
+    "مطابقة ذكية، مناسبة للمنتجات الإلكترونية ذات واجهة Type-c",
+    "بعد عشرات الآلاف من اختبارات الانحناء، لن ينكسر المفصل",
+    "قوة مستقيمة 10000 مرة، متينة وقوية وليس من السهل كسرها",
+    "تيار فائق 3 أمبير، قلب نحاسي نقي مدمج عالي الجودة، أسرع وأكثر أمانًا"
+  ],
+  specifications: {
+    'الطراز': 'HY-C508',
+    'الماركة': 'Gemax',
+    'النوع': 'Type-C',
+    'المخرج': '3 أمبير',
+    'الطول': '120 سم'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 11,
+  createdAt: new Date('2025-06-27T08:15:36.000Z')
+},
+{
+  id: '192',
+  name: 'شاحن سفر JNUOBI JC05 Type-C',
+  englishName: 'JNUOBI JC05 Type-C Travel Charger',
+  description: 'شاحن سفر JNUOBI JC05 بمنفذ Type-C، يوفر خرج 2.4 أمبير و2 منفذ USB. مصمم ليكون آمنًا وذكيًا، وهو متوفر لأنظمة iOS والأجهزة الأخرى. مصنوع في الصين.',
+  price: 175,
+  images: [
+    jnuobi_jc05 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "مخرج 2.4 أمبير",
+    "2 مخرج USB",
+    "متوفر بنظام IOS",
+    "شاحن آمن وذكي"
+  ],
+  specifications: {
+    'الطراز': 'JC05',
+    'الماركة': 'JNUOBI',
+    'المدخل': 'تيار متردد 100-240 فولت',
+    'الخرج': '2.4 أمبير',
+    'الموصل': 'Type-C'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 6,
+  createdAt: new Date('2025-06-27T08:14:00.000Z')
+},
+{
+  id: '191',
+  name: 'باور بانك JNUOBI 3C-06 Polymer Fast Mobile Charge 10000mAh',
+  englishName: 'JNUOBI 3C-06 Polymer Fast Mobile Charge Power Bank 10000mAh',
+  description: 'باور بانك JNUOBI 3C-06 بسعة 10000 مللي أمبير/ساعة، يدعم الشحن السريع بقدرة 66 واط ومتوافق مع تقنية PD27W. حاصل على شهادة 3C الوطنية. يتميز بمنفذ Type-C. مثالي للشحن السريع والفعال أثناء التنقل.',
+  price: 1085,
+  images: [
+    jnuobi_power_bank_3c_06 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "شهادة 3C الوطنية",
+    "100%",
+    "متوافق مع النوع C",
+    "66 واط",
+    "يشمل كابل الشحن",
+    "يدعم PD27W"
+  ],
+  specifications: {
+    'الطراز': '3C-06',
+    'الماركة': 'JNUOBI',
+    'السعة': '10000 مللي أمبير/ساعة',
+    'النوع': 'Polymer Fast Charge Mobile Power Supply',
+    'الطاقة القصوى': '66 واط'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 8,
+  createdAt: new Date('2025-06-27T08:12:21.000Z')
+},
+{
+  id: '190',
+  name: 'باور بانك JNUOBI DY-25 Polymer Mobile Power 10000mAh',
+  englishName: 'JNUOBI DY-25 Polymer Mobile Power Bank 10000mAh',
+  description: 'باور بانك JNUOBI DY-25 بسعة 10000 مللي أمبير/ساعة مع شاشة LED. يتميز بمنفذين USB للشحن العادي. مثالي لشحن الأجهزة المحمولة أثناء التنقل.',
+  price: 585,
+  images: [
+    jnuobi_power_bank_dy_25 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "شاشة LED",
+    "2 منفذ USB",
+    "سرعة شحن عادية"
+  ],
+  specifications: {
+    'الطراز': 'DY-25',
+    'الماركة': 'JNUOBI',
+    'السعة': '10000 مللي أمبير/ساعة',
+    'النوع': 'Polymer Mobile Power'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 3.8,
+  reviewCount: 5,
+  createdAt: new Date('2025-06-27T08:11:15.000Z')
+},
+{
+  id: '189',
+  name: 'باور بانك LDNIO PQ19 LED',
+  englishName: 'LDNIO PQ19 LED Power Bank',
+  description: 'باور بانك LDNIO PQ19 بسعة 10000 مللي أمبير/ساعة مع شاشة LED، يدعم الشحن السريع PD+QC3.0+SCP بقدرة تصل إلى 22.5 واط. يتميز بمدخل USB-C ومخارج USB-A و USB-C و Lightning، مما يجعله متوافقًا مع مجموعة واسعة من الأجهزة. مثالي للشحن السريع أثناء التنقل.',
+  price: 1085,
+  images: [
+    ldnio_power_bank_pq19 // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "مدخل USB-C",
+    "مخرج USB-A/USB-C/LIGHTNING",
+    "شحن سريع PD+QC3.0+SCP",
+    "بروتوكول شحن سريع SCP بقوة 22.5 واط"
+  ],
+  specifications: {
+    'السعة': '10000 مللي أمبير/ساعة / 37 واط/ساعة',
+    'مدخل USB-C': '5 فولت 3 أمبير، 9 فولت - 2 أمبير، 12 فولت - 1.5 أمبير',
+    'مخرج كابل USB-C': '4.5 فولت = 5 أمبير (SCP)، 5 فولت - 4.5 أمبير (SCP)، 9 فولت = 2 أمبير، 12 فولت - 1.5 أمبير (22.5 واط)',
+    'مخرج كابل Lightning': '5 فولت 3 أمبير، 9 فولت - 2.22 أمبير، 12 فولت - 1.67 أمبير (20 واط)',
+    'مخرج USB-A': '4.5 فولت - 5 أمبير (SCP)، 5 فولت - 4.5 أمبير (SCP)، 9 فولت = 2 أمبير، 12 فولت = 1.5 أمبير (22.5 واط)'
+  },
+  discount_value: 5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-27T08:08:34.000Z')
+},
+{
+  id: '188',
+  name: 'مكبر صوت XERTMT LED JL-1267',
+  englishName: 'XERTMT LED JL-1267 Speaker',
+  description: 'مكبر صوت XERTMT LED JL-1267 لاسلكي مع إضاءة LED، يوفر صوتًا بقوة 5 واط. يتميز ببطارية بسعة 1200 مللي أمبير/ساعة توفر عمر بطارية يتراوح من 2 إلى 5 ساعات. يدعم الشحن عبر USB ويعمل بجهد 5 فولت 1 أمبير. صغير الحجم ومناسب للاستماع إلى الموسيقى في أي مكان.',
+  price: 345,
+  images: [
+    xertmt_jl_1267 // Variable for the image
+  ],
+  categories: [
+    'إلكترونيات منزلية صغيرة',
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "إضاءة LED",
+    "قيمة تربيعية متوسطة (RMS) 5 واط",
+    "عمر بطارية من 2-5 ساعات",
+    "صغير الحجم وقابل للحمل"
+  ],
+  specifications: {
+    'الطراز': 'JL-1267',
+    'المقاومة': '4 أوم',
+    'مصدر الطاقة': 'USB (تيار مستمر + 12 فولت)',
+    'طاقة الخرج': '5 واط',
+    'سعة البطارية': '1200 مللي أمبير/ساعة',
+    'جهد التشغيل': '5 فولت 1 أمبير',
+    'الحجم': '90 × 75 × 75 مم'
+  },
+  discount_value: 5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.0,
+  reviewCount: 3,
+  createdAt: new Date('2025-06-27T08:04:11.000Z')
+},
 {
   id: '187',
   name: 'سماعة أذن ايربود برو 2 الجيل الثاني',
@@ -809,7 +1347,7 @@ export const products: Product[] = [
     anker_power_set // Variable for the image
   ],
   categories: [
-    'إلكترونيات منزلية صغيرة'
+    'إكسسوارات الموبايل'
   ],
   features: [
     "إجمالي طاقة الخرج: 20 واط",
@@ -6185,6 +6723,7 @@ Hummer_3 // Placeholder image variable
   description: 'استمتع بموسيقاك المفضلة أينما ذهبت مع مكبر الصوت KT-125 المحمول متعدد الاستخدامات. يتميز هذا المكبر بتصميم أسطواني أنيق يضم حاملًا مدمجًا للهاتف، مما يجعله مثاليًا لمشاهدة الفيديوهات أو إجراء مكالمات الفيديو أثناء الاستماع. يدعم KT-125 تشغيل الموسيقى لاسلكيًا عبر البلوتوث، بالإضافة إلى إمكانية تشغيل الملفات من أجهزة تخزين USB وبطاقات TF. بفضل بطاريته المدمجة، يوفر وقت تشغيل يصل إلى 3-4 ساعات، كما أنه مقاوم للرذاذ، مما يجعله رفيقًا مثاليًا للرحلات الخارجية أو الاستخدام اليومي.',
   price: 185, // Estimated average price in EGP
   images: [
+    kt_125,
     kt125 // Placeholder for actual image variable (speaker with phone)
   ],
   categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],

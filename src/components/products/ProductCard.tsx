@@ -98,12 +98,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
               </span>
             )}
             {product.isPromotion && product.discount_value ? (
-              <>
-                <span className="line-through text-neutral-500 mr-2">{product.price} {t('egp')}</span>
+              <div className="flex items-baseline justify-end space-x-2 space-x-reverse">
                 <span className="font-bold text-lg text-primary-600">
                   {discountedPrice?.toFixed(2)} {t('egp')}
                 </span>
-              </>
+                <span className="line-through text-md text-red-600 ml-2">
+                  {product.price}
+                </span>
+              </div>
             ) : (
               <span className="font-bold text-lg">{product.price} {t('egp')}</span>
             )}

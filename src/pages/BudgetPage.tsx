@@ -53,12 +53,14 @@ const BudgetPage: React.FC = () => {
                   </Link>
                   <div className="text-right mt-1">
                     {item.product.isPromotion && item.product.discount_value ? (
-                      <>
-                        <span className="line-through text-neutral-500 mr-2">{item.product.price} {t('egp')}</span>
+                      <div className="flex items-baseline justify-end space-x-2 space-x-reverse">
                         <span className="font-bold text-lg text-primary-600">
                           {(discountedPrice || item.product.price).toFixed(2)} {t('egp')}
                         </span>
-                      </>
+                        <span className="line-through text-md text-red-600 ml-2">
+                          {item.product.price}
+                        </span>
+                      </div>
                     ) : (
                       <span className="font-bold text-lg">{item.product.price} {t('egp')}</span>
                     )}

@@ -141,12 +141,14 @@ const ProductDetailPage: React.FC = () => {
                       </span>
                     )}
                     {product.isPromotion && product.discount_value ? (
-                      <>
-                        <span className="line-through text-neutral-500 mr-2">{product.price} {t('egp')}</span>
+                      <div className="flex items-baseline space-x-2 space-x-reverse">
+                        <span className="line-through text-2xl font-semibold text-red-500">
+                          {product.price}
+                        </span>
                         <span className="text-2xl font-bold text-primary-600">
                           {discountedPrice?.toFixed(2)} {t('egp')}
                         </span>
-                      </>
+                      </div>
                     ) : (
                       <span className="text-2xl font-bold text-neutral-900">
                         {product.price} {t('egp')}
