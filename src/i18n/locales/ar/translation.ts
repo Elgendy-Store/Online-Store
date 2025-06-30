@@ -115,4 +115,12 @@ export default {
   increaseQuantity: 'زيادة الكمية',
   budgetEstimation: 'هذا تقدير للميزانية فقط. للشراء، يرجى التواصل معنا عبر صفحة الاتصال.',
   contactToPurchase: 'تواصل للشراء',
+
+
+  buyNow: 'اشتري الآن',
+  buyNowDetails: 'أدخل معلوماتك للشراء',
+  purchaseRequestSent: 'تم إرسال طلب الشراء بنجاح!',
+  errorSendingPurchaseRequest: 'خطأ في إرسال طلب الشراء. حاول مرة أخرى.',
+  submit: 'إرسال',
+  cancel: 'إلغاء',
 };

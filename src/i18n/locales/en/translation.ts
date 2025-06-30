@@ -96,4 +96,13 @@ export default {
   myAccount: 'My Account',
   savedProducts: 'Saved Products',
   logout: 'Logout',
+
+
+  buyNow: 'Buy Now',
+  buyNowDetails: 'Enter your details to purchase',
+  purchaseRequestSent: 'Purchase request sent successfully!',
+  errorSendingPurchaseRequest: 'Error sending purchase request. Please try again.',
+  sending: 'Sending...',
+  submit: 'Submit',
+  cancel: 'Cancel',
 };

@@ -8,6 +8,7 @@ import { useBudget } from '../context/BudgetContext';
 import ProductImageGallery from '../components/products/ProductImageGallery';
 import ProductCard from '../components/products/ProductCard';
 import ProductRating from '../components/products/ProductRating';
+import emailjs from '@emailjs/browser';
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -16,10 +17,17 @@ const ProductDetailPage: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'description' | 'specifications' | 'features'>('description');
   const [showRatingSuccess, setShowRatingSuccess] = useState(false);
   const [isAddedToBudget, setIsAddedToBudget] = useState(false);
-  
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
+  const [isSending, setIsSending] = useState(false);
+  const [message, setMessage] = useState('');
+  const [error, setError] = useState<string | null>(null);
+  const [isPhoneValid, setIsPhoneValid] = useState(true); // New state for phone validation
+
   const product = getProductById(id || '');
   const relatedProducts = product ? getRelatedProducts(product) : [];
-  
+
   if (!product) {
     return (
       <div className="container mx-auto px-4 py-16 text-center">
@@ -49,6 +57,69 @@ const ProductDetailPage: React.FC = () => {
   const discountedPrice = product.isPromotion && product.discount_value
     ? product.price - (product.price * (product.discount_value / 100))
     : null;
+
+  const handleBuyNow = () => {
+    setIsModalOpen(true);
+  };
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsSending(true);
+    setMessage('');
+    setError(null);
+
+    const phoneRegex = /^[0-9]{11}$/;
+    if (!phoneRegex.test(phone.trim())) {
+      setError(t('invalidPhone'));
+      setIsSending(false);
+      return;
+    }
+
+    const orderId = `ORDER-${Date.now()}`;
+    const baseUrl = 'https://elgendy-store.github.io/Online-Store';
+    const productLink = `${baseUrl}/products/${product.id}`;
+    const templateParams = {
+      name,
+      phone,
+      product_name: product.name,
+      product_price: discountedPrice?.toFixed(2) || product.price.toString(),
+      product_link: productLink,
+      order_id: orderId,
+      // Add recipient email here - please provide the store owner's email
+      // e.g., email: 'storeowner@example.com'
+    };
+
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID_BUY_NOW,
+        templateParams,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setMessage(t('purchaseRequestSent'));
+          setName('');
+          setPhone('');
+          setIsSending(false);
+          setTimeout(() => setIsModalOpen(false), 2000);
+        },
+        (error) => {
+          setMessage(t('errorSendingPurchaseRequest') + `: ${error.text}`);
+          setIsSending(false);
+        }
+      );
+  };
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newPhone = e.target.value;
+    setPhone(newPhone);
+    const phoneRegex = /^[0-9]{11}$/;
+    setIsPhoneValid(phoneRegex.test(newPhone.trim()));
+    if (!isPhoneValid && phoneRegex.test(newPhone.trim())) {
+      setError(null);
+    }
+  };
 
   return (
     <main className="bg-neutral-50 py-8">
@@ -142,7 +213,7 @@ const ProductDetailPage: React.FC = () => {
                     )}
                     {product.isPromotion && product.discount_value ? (
                       <div className="flex items-baseline space-x-2 space-x-reverse">
-                        <span className="line-through text-2xl font-semibold text-red-500">
+                        <span className="line-through text-xl font-semibold text-red-500">
                           {product.price}
                         </span>
                         <span className="text-2xl font-bold text-primary-600">
@@ -164,29 +235,46 @@ const ProductDetailPage: React.FC = () => {
                   </span>
                 </div>
 
-                <button
-                  onClick={handleAddToBudget}
-                  disabled={!product.isAvailable || isAddedToBudget}
-                  className={`w-full py-3 px-4 rounded-lg flex items-center justify-center transition-colors ${
-                    isAddedToBudget
-                      ? 'bg-success-500 text-white cursor-not-allowed'
-                      : product.isAvailable
-                        ? 'bg-primary-600 hover:bg-primary-700 text-white'
+                <div className="flex space-x-2 space-x-reverse">
+                  <button
+                    onClick={handleAddToBudget}
+                    disabled={!product.isAvailable || isAddedToBudget}
+                    className={`w-full py-3 px-4 rounded-lg flex items-center justify-center transition-colors ${
+                      isAddedToBudget
+                        ? 'bg-success-500 text-white cursor-not-allowed'
+                        : product.isAvailable
+                          ? 'bg-primary-600 hover:bg-primary-700 text-white'
+                          : 'bg-neutral-300 text-neutral-600 cursor-not-allowed'
+                    }`}
+                  >
+                    {isAddedToBudget ? (
+                      <>
+                        <Check size={20} className="mr-2" />
+                        تمت الإضافة بنجاح
+                      </>
+                    ) : (
+                      <>
+                        <Plus size={20} className="mr-2" />
+                        {t('addToBudget')}
+                      </>
+                    )}
+                  </button>
+                  <button
+                    onClick={handleBuyNow}
+                    disabled={!product.isAvailable}
+                    className={`w-full py-3 px-4 rounded-lg flex items-center justify-center ${
+                      product.isAvailable
+                        ? 'bg-green-500 hover:bg-green-600 text-white'
                         : 'bg-neutral-300 text-neutral-600 cursor-not-allowed'
-                  }`}
-                >
-                  {isAddedToBudget ? (
-                    <>
-                      <Check size={20} className="mr-2" />
-                      تمت الإضافة بنجاح
-                    </>
-                  ) : (
-                    <>
-                      <ShoppingBag size={20} className="mr-2" />
-                      {t('addToBudget')}
-                    </>
-                  )}
-                </button>
+                    }`}
+                    aria-label={t('buyNow')}
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                      <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                    </svg>
+                    {t('buyNow')}
+                  </button>
+                </div>
               </div>
 
               {/* Product Tabs */}
@@ -289,9 +377,58 @@ const ProductDetailPage: React.FC = () => {
             </div>
           </section>
         )}
+
+        {isModalOpen && (
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+            <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+              <h3 className="text-lg font-semibold mb-4">{t('buyNowDetails')}</h3>
+              <form onSubmit={sendEmail}>
+                <div className="mb-4">
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">{t('name')}</label>
+                  <input
+                    type="text"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    className="w-full p-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                    required
+                  />
+                </div>
+                <div className="mb-4">
+                  <label className="block text-sm font-medium text-neutral-700 mb-1">{t('phone')}</label>
+                  <input
+                    type="tel"
+                    value={phone}
+                    onChange={handlePhoneChange} // Updated to use validation handler
+                    className="w-full p-2 border border-neutral-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500"
+                    required
+                  />
+                </div>
+                {!isPhoneValid && <p className="text-center text-sm mb-2 text-red-600">{t('invalidPhone')}</p>}
+                {error && <p className="text-center text-sm mb-2 text-red-600">{error}</p>}
+                {message && <p className="text-center text-sm mb-2 text-green-600">{message}</p>}
+                <div className="flex justify-end space-x-2 space-x-reverse">
+                  <button
+                    type="button"
+                    onClick={() => setIsModalOpen(false)}
+                    className="px-4 py-2 bg-neutral-200 text-neutral-700 rounded-md hover:bg-neutral-300"
+                    disabled={isSending}
+                  >
+                    {t('cancel')}
+                  </button>
+                  <button
+                    type="submit"
+                    className="px-4 py-2 bg-primary-600 text-white rounded-md hover:bg-primary-700 disabled:bg-primary-300"
+                    disabled={isSending || !name || !phone || !isPhoneValid} // Added isPhoneValid
+                  >
+                    {isSending ? t('sending') : t('submit')}
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        )}
       </div>
     </main>
   );
 };
-
-export default ProductDetailPage;
+  export default ProductDetailPage;
