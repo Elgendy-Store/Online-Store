@@ -264,10 +264,281 @@ import video_making_kit from '../assets/video making kit.png';
 import video_making_kit_2 from '../assets/video making kit_2.png';
 import bt_wireless_earphone_m10 from '../assets/bt wireless earphone m10.png';
 import kt_125 from '../assets/kt-125.png';
+import mobile_water_cover from '../assets/mobile water cover.png';
+import kingston_64G_card from '../assets/kingston 64G card.png';
+import kingston_128_flash_se9 from '../assets/kingston 128 flash se9.png';
+import kingston_8G_card from '../assets/kingston 8G card.png';
+import kingston_128G_card from '../assets/kingston 128G card.png';
+import kingston_4G_flash_se9 from '../assets/kingston 4G flash se9.png';
+import kingston_8G_flash_se9 from '../assets/kingston 8G flash se9.png';
+import kingston_64G_flash_se9 from '../assets/kingston 64G flash se9.png';
 
 // Sample products data (will be expanded in a real implementation)
 export const products: Product[] = [
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  id: '210',
+  name: 'ذاكرة فلاش Kingston DataTraveler SE9 64GB',
+  englishName: 'Kingston DataTraveler SE9 64GB Flash Drive',
+  description: 'ذاكرة فلاش Kingston DataTraveler SE9 بسعة 64 جيجابايت مع واجهة USB 3.0/2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
+  price: 265,
+  images: [
+    kingston_64G_flash_se9 // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الكمبيوتر',
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 64 جيجابايت",
+    "واجهة USB 3.0/2.0"
+  ],
+  specifications: {
+    'السعة': '64 جيجابايت',
+    'النوع': 'DataTraveler SE9',
+    'الواجهة': 'USB 3.0/2.0'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.6,
+  reviewCount: 11,
+  createdAt: new Date('2025-07-02T07:54:30.000Z')
+},
+{
+  id: '209',
+  name: 'ذاكرة فلاشة Kingston DataTraveler SE9 8GB',
+  englishName: 'Kingston DataTraveler SE9 8GB Flash Drive',
+  description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 8 جيجابايت مع واجهة USB 3.0/2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات.',
+  price: 155,
+  images: [
+    kingston_8G_flash_se9 // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الكمبيوتر',
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 8 جيجابايت",
+    "واجهة USB 3.0/2.0"
+  ],
+  specifications: {
+    'السعة': '8 جيجابايت',
+    'النوع': 'DataTraveler SE9',
+    'الواجهة': 'USB 3.0/2.0'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.4,
+  reviewCount: 6,
+  createdAt: new Date('2025-07-02T07:53:30.000Z')
+},
+{
+  id: '208',
+  name: 'ذاكرة فلاشة Kingston DataTraveler SE9 4GB',
+  englishName: 'Kingston DataTraveler SE9 4GB Flash Drive',
+  description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 4 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات.',
+  price: 125,
+  images: [
+    kingston_4G_flash_se9 // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الكمبيوتر',
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 4 جيجابايت",
+    "واجهة USB 2.0"
+  ],
+  specifications: {
+    'السعة': '4 جيجابايت',
+    'النوع': 'DataTraveler SE9',
+    'الواجهة': 'USB 2.0'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.3,
+  reviewCount: 7,
+  createdAt: new Date('2025-07-02T07:52:13.000Z')
+},
+{
+  id: '207',
+  name: 'بطاقة Kingston 128GB MicroSD Canvas Select Plus',
+  englishName: 'Kingston 128GB MicroSD Card Canvas Select Plus',
+  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 128 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
+  price: 350,
+  images: [
+    kingston_128G_card // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الكمبيوتر',
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 128 جيجابايت",
+    "سرعة قراءة 100 ميجابايت/ثانية",
+    "تتضمن محول SD"
+  ],
+  specifications: {
+    'السعة': '128 جيجابايت',
+    'السرعة': '100 ميجابايت/ثانية',
+    'الفئة': 'Canvas Select Plus',
+    'النوع': 'MicroSDHC'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.9,
+  reviewCount: 18,
+  createdAt: new Date('2025-07-02T06:50:56.000Z')
+},
+{
+  id: '206',
+  name: 'بطاقة Kingston 8GB MicroSD Canvas Select Plus',
+  englishName: 'Kingston 8GB MicroSD Card Canvas Select Plus',
+  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 8 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
+  price: 155,
+  images: [
+    kingston_8G_card // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الكمبيوتر',
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 8 جيجابايت",
+    "سرعة قراءة 100 ميجابايت/ثانية",
+    "تتضمن محول SD"
+  ],
+  specifications: {
+    'السعة': '8 جيجابايت',
+    'السرعة': '100 ميجابايت/ثانية',
+    'الفئة': 'Canvas Select Plus',
+    'النوع': 'MicroSDHC'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.7,
+  reviewCount: 9,
+  createdAt: new Date('2025-07-02T06:49:35.000Z')
+},
+{
+  id: '205',
+  name: 'ذاكرة فلاشة Kingston DataTraveler SE9 128GB',
+  englishName: 'Kingston DataTraveler SE9 128GB Flash Drive',
+  description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 128 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
+  price: 350,
+  images: [
+    kingston_128_flash_se9 // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الكمبيوتر',
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 128 جيجابايت",
+    "واجهة USB 2.0"
+  ],
+  specifications: {
+    'السعة': '128 جيجابايت',
+    'النوع': 'DataTraveler SE9',
+    'الواجهة': 'USB 2.0'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-27T08:40:30.000Z')
+},
+{
+  id: '204',
+  name: 'بطاقة Kingston 64GB MicroSD Canvas Select Plus',
+  englishName: 'Kingston 64GB MicroSD Card Canvas Select Plus',
+  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 64 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
+  price: 265,
+  images: [
+    kingston_64G_card // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الكمبيوتر',
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 64 جيجابايت",
+    "سرعة قراءة 100 ميجابايت/ثانية",
+    "تتضمن محول SD"
+  ],
+  specifications: {
+    'السعة': '64 جيجابايت',
+    'السرعة': '100 ميجابايت/ثانية',
+    'الفئة': 'Canvas Select Plus',
+    'النوع': 'MicroSDHC'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.8,
+  reviewCount: 15,
+  createdAt: new Date('2025-06-27T08:39:15.000Z')
+},
+{
+  id: '203',
+  name: 'غطاء الهاتف المقاوم للماء',
+  englishName: 'Mobile Phone Waterproof Cover',
+  description: 'غطاء هاتف مقاوم للماء يحمي هاتفك من الماء والرطوبة. مثالي للاستخدام أثناء الأنشطة المائية أو في الظروف الرطبة.',
+  price: 35,
+  images: [
+    mobile_water_cover // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "مقاوم للماء",
+    "حماية شاملة"
+  ],
+  discount_value:5,
+  specifications: {},
+  isAvailable: true,
+  isNew: true,
+  isPromotion: true,
+  isBundle: false,
+  rating: 4.1,
+  reviewCount: 3,
+  createdAt: new Date('2025-06-27T08:38:00.000Z')
+},
 {
   id: '202',
   name: 'سماعة رأس لاسلكية M10 Newest Digital Indicator True Wireless Headset',
@@ -4509,7 +4780,8 @@ export const products: Product[] = [
   images: [
     kingston_8G, // Placeholder for actual image variable
   ],
-  categories: ['إكسسوارات الموبايل'],
+  categories: ['إكسسوارات الكمبيوتر',
+        'إكسسوارات الموبايل'],
   features: [
     "سعة تخزين 8 جيجابايت",
     "سرعة قراءة تصل إلى 100 ميجابايت/ثانية",
@@ -5516,7 +5788,7 @@ export const products: Product[] = [
     'متطلبات النظام': 'Windows 10, Windows 8, Windows 7, macOS, Smart TV, Linux'
   },
   discount_value: 5,
-  isAvailable: true,
+  isAvailable: false,
   isNew: true,
   isPromotion: true,
   isBundle: false,

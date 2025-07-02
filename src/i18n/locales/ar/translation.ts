@@ -32,7 +32,7 @@ export default {
   specifications: 'المواصفات',
   features: 'المميزات',
   relatedProducts: 'منتجات ذات صلة',
-  addToBudget: 'أضف إلى الميزانية',
+  addToBudget: 'أضف إلى السلة',
   removeFromBudget: 'إزالة من الميزانية',
   price: 'السعر',
   egp: 'EGP',
@@ -56,8 +56,8 @@ export default {
   // Budget
   myBudget: 'الميزانية الخاصة بي',
   totalBudget: 'إجمالي الميزانية',
-  clearBudget: 'مسح الميزانية',
-  emptyBudget: 'لا توجد منتجات في الميزانية',
+  clearBudget:  'إزالة الكل',
+  emptyBudget: 'لا توجد منتجات في السلة',
   
   // About
   aboutUs: 'من نحن',

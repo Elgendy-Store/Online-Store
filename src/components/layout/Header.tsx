@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Search, ShoppingBag, Menu, X, User, Globe } from 'lucide-react';
+import { Search, ShoppingBag,ShoppingCart, Menu, X, User, Globe } from 'lucide-react';
 import { useBudget } from '../../context/BudgetContext';
 import { categories } from '../../data/categories';
+import { FaShoppingCart } from 'react-icons/fa'; // Font Awesome
+import { MdShoppingCart } from 'react-icons/md'; // Material Design
+import { BsCart } from 'react-icons/bs';         // Bootstrap
+
 
 const Header: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -184,7 +188,7 @@ const Header: React.FC = () => {
                 to="/budget"
                 className="relative p-2 text-neutral-700 hover:text-primary-700 transition-colors"
               >
-                <ShoppingBag size={22} />
+                <FaShoppingCart size={22} />
                 {budgetItems.length > 0 && (
                   <span className="absolute -top-1 -right-1 bg-primary-600 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
                     {budgetItems.length}

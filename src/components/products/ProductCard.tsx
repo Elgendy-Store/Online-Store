@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Star, Check, Heart, ShoppingBag, ShoppingCart } from 'lucide-react';
+import { Star, Check, Heart, ShoppingBag, ShoppingCart, Plus } from 'lucide-react';
 import { Product } from '../../types/types';
 import { useBudget } from '../../context/BudgetContext';
 import emailjs from '@emailjs/browser';
@@ -22,12 +22,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const [message, setMessage] = useState('');
   const [error, setError] = useState<string | null>(null);
   const [isPhoneValid, setIsPhoneValid] = useState(true);
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
   const handleAddToBudget = (e: React.MouseEvent) => {
     e.preventDefault();
     if (!isAddedToBudget) {
       addToBudget(product);
       setIsAddedToBudget(true);
+      setShowSuccessMessage(true); // Show the success message
     }
   };
 
@@ -104,8 +106,23 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     }
   };
 
+  // Hide success message after 3 seconds
+  useEffect(() => {
+    if (showSuccessMessage) {
+      const timer = setTimeout(() => {
+        setShowSuccessMessage(false);
+      }, 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [showSuccessMessage]);
+
   return (
     <div className="card card-hover h-full flex flex-col">
+      {showSuccessMessage && (
+        <div className="bg-success-100 text-success-700 text-center py-2 text-sm font-medium">
+          تمت الإضافة إلى السلة بنجاح
+        </div>
+      )}
       <Link to={`/products/${product.id}`} className="block overflow-hidden relative">
         <img
           src={product.images[0]}
@@ -172,7 +189,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             {product.isPromotion && product.discount_value ? (
               <div className="flex items-baseline justify-end space-x-2 space-x-reverse">
                 <span className="font-bold text-lg text-primary-600">
-                  {discountedPrice?.toFixed(2)} {t('egp')}
+                  {discountedPrice?.toFixed(1)} {t('egp')}
                 </span>
                 <span className="line-through text-md text-red-600 ml-2">
                   {product.price}
@@ -194,7 +211,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
               }`}
               aria-label={isAddedToBudget ? 'تمت الإضافة بنجاح' : t('addToBudget')}
             >
-              {isAddedToBudget ? <Check size={18} /> : <ShoppingBag size={18} />}
+              {isAddedToBudget ? <Check size={18} /> : <Plus size={18} />}
             </button>
             <button
               onClick={handleBuyNow}
@@ -260,4 +277,5 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     </div>
   );
 };
-  export default ProductCard;
+
+export default ProductCard;

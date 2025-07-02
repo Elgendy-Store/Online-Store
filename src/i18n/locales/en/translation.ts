@@ -32,7 +32,7 @@ export default {
   specifications: 'Specifications',
   features: 'Features',
   relatedProducts: 'Related Products',
-  addToBudget: 'Add to Budget',
+  addToBudget: 'Add to Cart',
   removeFromBudget: 'Remove from Budget',
   price: 'Price',
   egp: 'EGP',
@@ -55,8 +55,8 @@ export default {
   // Budget
   myBudget: 'My Budget',
   totalBudget: 'Total Budget',
-  clearBudget: 'Clear Budget',
-  emptyBudget: 'No products in budget',
+  clearBudget: 'Clear All',
+  emptyBudget: 'No products in cart',
   
   // About
   aboutUs: 'About Us',
