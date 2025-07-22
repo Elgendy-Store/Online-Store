@@ -315,7 +315,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 11,
@@ -346,7 +346,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 6,
@@ -377,7 +377,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 7,
@@ -410,7 +410,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.9,
   reviewCount: 18,
@@ -443,7 +443,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7,
   reviewCount: 9,
@@ -507,7 +507,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.8,
   reviewCount: 15,
@@ -533,7 +533,7 @@ export const products: Product[] = [
   specifications: {},
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 3,
@@ -570,7 +570,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 6,
@@ -615,7 +615,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 5,
@@ -648,7 +648,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.7,
   reviewCount: 3,
@@ -684,7 +684,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9,
   reviewCount: 2,
@@ -714,7 +714,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7,
   reviewCount: 12,
@@ -754,7 +754,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 8,
@@ -782,7 +782,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 4,
@@ -813,7 +813,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 9,
@@ -844,7 +844,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2,
   reviewCount: 7,
@@ -881,7 +881,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 11,
@@ -915,7 +915,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 6,
@@ -951,7 +951,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 8,
@@ -983,7 +983,7 @@ export const products: Product[] = [
   discount_value:5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8,
   reviewCount: 5,
@@ -1017,7 +1017,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 10,
@@ -1054,7 +1054,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 3,
@@ -1084,7 +1084,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7,
   reviewCount: 25,
@@ -1121,7 +1121,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 15,
@@ -1156,7 +1156,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 7,
@@ -1186,7 +1186,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 9,
@@ -1221,7 +1221,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 6,
@@ -1250,7 +1250,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 8,
@@ -1281,7 +1281,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 12,
@@ -1316,7 +1316,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.8,
   reviewCount: 20,
@@ -1355,7 +1355,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2,
   reviewCount: 7,
@@ -1392,7 +1392,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 6,
@@ -1426,7 +1426,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -1462,7 +1462,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 6,
@@ -1494,7 +1494,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -1533,7 +1533,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2,
   reviewCount: 7,
@@ -1571,7 +1571,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 9,
@@ -1601,7 +1601,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7,
   reviewCount: 10,
@@ -1637,7 +1637,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 9,
@@ -1678,7 +1678,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.8,
   reviewCount: 15,
@@ -1718,7 +1718,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 10,
@@ -1757,7 +1757,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7,
   reviewCount: 12,
@@ -1799,7 +1799,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 8,
@@ -1833,7 +1833,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 7,
@@ -1872,7 +1872,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2,
   reviewCount: 6,
@@ -1907,7 +1907,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8,
   reviewCount: 4,
@@ -1948,7 +1948,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9,
   reviewCount: 7,
@@ -1984,7 +1984,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -2021,7 +2021,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 9,
@@ -2062,7 +2062,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.8,
   reviewCount: 15,
@@ -2101,7 +2101,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7,
   reviewCount: 8,
@@ -2139,7 +2139,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 10,
@@ -2169,7 +2169,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 10,
@@ -2209,7 +2209,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 20,
@@ -2242,7 +2242,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 12,
@@ -2280,7 +2280,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 15,
@@ -2318,7 +2318,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 7,
@@ -2358,7 +2358,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 6,
@@ -2395,7 +2395,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2,
   reviewCount: 11,
@@ -2433,7 +2433,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 8,
@@ -2464,7 +2464,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 4,
@@ -2499,7 +2499,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 6,
@@ -2533,7 +2533,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 9,
@@ -2567,7 +2567,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2,
   reviewCount: 7,
@@ -2599,7 +2599,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 8,
@@ -2637,7 +2637,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9,
   reviewCount: 5,
@@ -2669,7 +2669,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8,
   reviewCount: 5,
@@ -2698,7 +2698,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9,
   reviewCount: 6,
@@ -2732,7 +2732,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 9,
@@ -2766,7 +2766,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 7,
@@ -2795,7 +2795,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 6,
@@ -2822,7 +2822,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0,
   reviewCount: 5,
@@ -2852,7 +2852,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 18,
@@ -2885,7 +2885,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 7,
@@ -2919,7 +2919,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 9,
@@ -2953,7 +2953,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 10,
@@ -2987,7 +2987,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 11,
@@ -3020,7 +3020,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3,
   reviewCount: 10,
@@ -3053,7 +3053,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4,
   reviewCount: 12,
@@ -3091,7 +3091,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 8,
@@ -3128,7 +3128,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 8,
@@ -3163,7 +3163,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Good rating for safety and quality features
   reviewCount: 8, // Estimated
@@ -3193,7 +3193,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a compatible laptop charger
   reviewCount: 6, // Estimated
@@ -3223,7 +3223,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a compatible laptop charger
   reviewCount: 7, // Estimated
@@ -3256,7 +3256,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6, // High rating for PD, durability, and material features
   reviewCount: 18, // Estimated
@@ -3289,7 +3289,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // High rating for fast charging, data sync, and safety features
   reviewCount: 15, // Estimated
@@ -3321,7 +3321,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.5, // Estimated for basic earphones
   reviewCount: 5, // Estimated
@@ -3351,7 +3351,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for good quality earphones with noise isolation
   reviewCount: 10, // Estimated
@@ -3380,7 +3380,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated for a basic charger with good compatibility
   reviewCount: 7, // Estimated
@@ -3412,7 +3412,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a dual-port car charger with good specs
   reviewCount: 12, // Estimated
@@ -3444,7 +3444,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Good rating for OTG functionality and material
   reviewCount: 9, // Estimated
@@ -3470,7 +3470,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // High rating for a useful gaming accessory
   reviewCount: 30, // Estimated
@@ -3502,7 +3502,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.7, // Estimated for a basic card reader
   reviewCount: 5, // Estimated
@@ -3529,7 +3529,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated for a functional bike/motorcycle holder
   reviewCount: 6, // Estimated
@@ -3561,7 +3561,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Good rating for stability and auto-clamp feature
   reviewCount: 8, // Estimated
@@ -3587,7 +3587,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a functional phone holder
   reviewCount: 5, // Estimated
@@ -3614,7 +3614,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.5, // Estimated for a generic battery, emphasizing the warnings
   reviewCount: 5, // Estimated
@@ -3643,7 +3643,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.5, // Estimated for a basic adapter
   reviewCount: 7, // Estimated
@@ -3670,7 +3670,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a standard 25W USB-C adapter
   reviewCount: 8, // Estimated
@@ -3703,7 +3703,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated based on typical car MP3 player functionality
   reviewCount: 10, // Estimated
@@ -3736,7 +3736,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Good rating for safety features and dual port
   reviewCount: 18, // Estimated
@@ -3764,7 +3764,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // High rating for a genuine Samsung fast charger
   reviewCount: 50, // Estimated
@@ -3794,7 +3794,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a durable cable
   reviewCount: 15, // Estimated
@@ -3827,7 +3827,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated for a 15W charger with AUTO-ID
   reviewCount: 15, // Estimated
@@ -3858,7 +3858,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Good rating for durability and high current
   reviewCount: 10, // Estimated
@@ -3889,7 +3889,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6, // High rating for a GaN fast charger
   reviewCount: 50, // Estimated
@@ -3923,7 +3923,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Good rating for a charger with fast charging and safety features
   reviewCount: 25, // Estimated
@@ -3960,7 +3960,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated for a standard charger with good features
   reviewCount: 22, // Estimated
@@ -3997,7 +3997,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated for a standard charger with good features
   reviewCount: 22, // Estimated
@@ -4031,7 +4031,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // High rating due to multiple safety features and smart chip
   reviewCount: 40, // Estimated
@@ -4061,7 +4061,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated for a quick charger with two ports
   reviewCount: 20, // Estimated
@@ -4093,7 +4093,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated good rating for a standard charger
   reviewCount: 15, // Estimated
@@ -4121,7 +4121,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a good quality AUX cable
   reviewCount: 12, // Estimated
@@ -4154,7 +4154,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on features and typical cable quality
   reviewCount: 30, // Estimated
@@ -4189,7 +4189,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a general purpose cable
   reviewCount: 18, // Estimated
@@ -4219,7 +4219,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4, // Good rating for high current and versatility
   reviewCount: 30, // Estimated
@@ -4250,7 +4250,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated for a good quality Type-C cable
   reviewCount: 15, // Estimated
@@ -4280,7 +4280,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Estimated for a good quality fast charging cable
   reviewCount: 20, // Estimated
@@ -4312,7 +4312,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4, // Good rating for high current and durability
   reviewCount: 35, // Estimated
@@ -4346,7 +4346,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated for a good quality basic cable
   reviewCount: 28, // Estimated
@@ -4379,7 +4379,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated for a good general-purpose cable
   reviewCount: 25, // Estimated
@@ -4411,7 +4411,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Estimated for a versatile cable
   reviewCount: 30, // Estimated
@@ -4445,7 +4445,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated for a good quality cable
   reviewCount: 45, // Estimated
@@ -4474,7 +4474,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for a basic fast charging cable
   reviewCount: 20, // Estimated
@@ -4516,7 +4516,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated for good quality earphones
   reviewCount: 20, // Estimated
@@ -4549,7 +4549,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // High rating for fast charging and durability
   reviewCount: 75, // Estimated
@@ -4581,7 +4581,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6, // High rating for high power output
   reviewCount: 50, // Estimated
@@ -4616,7 +4616,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // Estimated for a good quality fast charger
   reviewCount: 60, // Estimated
@@ -4649,7 +4649,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4, // Estimated for a good quality cable
   reviewCount: 30, // Estimated
@@ -4678,7 +4678,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated for a common adapter
   reviewCount: 40, // Estimated
@@ -4706,7 +4706,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Estimated based on general perception of EarPods
   reviewCount: 70, // Estimated
@@ -4733,7 +4733,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated for a basic phone stand
   reviewCount: 15, // Estimated
@@ -4765,7 +4765,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Estimated for a wireless microphone
   reviewCount: 25, // Estimated
@@ -4795,7 +4795,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4, // Estimated for a basic memory card
   reviewCount: 35, // Estimated
@@ -4826,7 +4826,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7, // High rating for popular streaming device
   reviewCount: 150, // Estimated
@@ -4861,7 +4861,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6, // High rating for fast charging and durability
   reviewCount: 90, // Estimated
@@ -4896,7 +4896,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated average for a data cable
   reviewCount: 20, // Estimated
@@ -4939,7 +4939,7 @@ export const products: Product[] = [
   discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // Estimated based on features and dual connectivity
   reviewCount: 80, // Estimated
@@ -4977,7 +4977,7 @@ export const products: Product[] = [
   discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated based on features
   reviewCount: 30, // Estimated
@@ -5015,7 +5015,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical mini keyboard features
   reviewCount: 40, // Estimated
@@ -5052,7 +5052,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated based on office use and wireless features
   reviewCount: 50, // Estimated
@@ -5088,7 +5088,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on features and common mouse ratings
   reviewCount: 60, // Estimated
@@ -5129,7 +5129,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated based on features and wireless nature
   reviewCount: 55, // Estimated
@@ -5170,7 +5170,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4, // Estimated based on features and dual connectivity
   reviewCount: 75, // Estimated
@@ -5211,7 +5211,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical office mouse features
   reviewCount: 45, // Estimated
@@ -5250,7 +5250,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Estimated based on features
   reviewCount: 90, // Estimated
@@ -5285,7 +5285,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated for a basic stereo headphone
   reviewCount: 35, // Estimated
@@ -5322,7 +5322,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated based on typical gaming headset features at this price point
   reviewCount: 70, // Estimated
@@ -5357,7 +5357,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // Estimated based on brand reputation and features
   reviewCount: 120, // Estimated
@@ -5396,7 +5396,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this type
   reviewCount: 20, // Estimated
@@ -5437,7 +5437,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated based on features and target audience
   reviewCount: 40, // Estimated
@@ -5478,7 +5478,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.4, // Estimated based on advanced features and versatility
   reviewCount: 80, // Estimated
@@ -5516,7 +5516,7 @@ export const products: Product[] = [
   discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on features and typical quality for a membrane gaming keyboard
   reviewCount: 50, // Estimated
@@ -5559,7 +5559,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on features and price for a combo set
   reviewCount: 65, // Estimated
@@ -5601,7 +5601,7 @@ export const products: Product[] = [
   },
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   discount_value: 15,
   isBundle: false,
   rating: 4.1, // Estimated based on features and typical quality for this price range
@@ -5640,7 +5640,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // Estimated based on large speaker size, RGB, and features
   reviewCount: 70, // Estimated
@@ -5677,7 +5677,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range and features
   reviewCount: 35, // Estimated
@@ -5716,7 +5716,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Estimated based on features and target audience
   reviewCount: 60, // Estimated
@@ -5756,7 +5756,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated based on typical product quality and features
   reviewCount: 45, // Estimated
@@ -5790,7 +5790,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: false,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 50, // Estimated
@@ -5831,7 +5831,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated rating
   reviewCount: 25, // Estimated review count
@@ -5873,7 +5873,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated rating
   reviewCount: 40, // Estimated review count
@@ -5913,7 +5913,7 @@ export const products: Product[] = [
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated rating
   reviewCount: 30, // Estimated review count
@@ -5960,7 +5960,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 45,
@@ -5997,7 +5997,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.3, // Estimated rating
   reviewCount: 90, // Estimated review count
@@ -6043,7 +6043,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.7,
   reviewCount: 28,
@@ -6083,7 +6083,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 12,
@@ -6122,7 +6122,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5,
   reviewCount: 15,
@@ -6164,7 +6164,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6,
   reviewCount: 22,
@@ -6207,7 +6207,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
    isAvailable: true, // تم تحديثه ليعكس التوفر المحدود/النفاذ
    isNew: false, // تم تحديثه ليعكس أنه ليس منتجًا جديدًا تمامًا
-   isPromotion: true, // تم الإبقاء عليه
+   isPromotion: false, // تم الإبقاء عليه
    isBundle: false, // تم الإبقاء عليه
    rating: 3.4, // تم تحديثه بناءً على مراجعات أمازون
    reviewCount: 23, // تم تحديثه بناءً على مراجعات أمازون
@@ -6248,7 +6248,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated based on typical ratings for such products
   reviewCount: 15, // Estimated
@@ -6290,7 +6290,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 5.0, // Based on Amazon.eg (4 reviews)
   reviewCount: 4, // Based on Amazon.eg
@@ -6334,7 +6334,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality
   reviewCount: 10, // Estimated
@@ -6374,7 +6374,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 15,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 12, // Estimated
@@ -6418,7 +6418,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 18, // Estimated
@@ -6467,7 +6467,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1,
   reviewCount: 25,
@@ -6510,7 +6510,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on common reviews for similar products
   reviewCount: 30, // Estimated
@@ -6551,7 +6551,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.7, // Estimated based on typical product quality for this price range
   reviewCount: 20, // Estimated
@@ -6591,7 +6591,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false, // Assuming it's not brand new in the market
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 15, // Estimated
@@ -6638,7 +6638,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this range
   reviewCount: 22, // Estimated
@@ -6684,7 +6684,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated based on common reviews for similar products
   reviewCount: 20, // Estimated
@@ -6725,7 +6725,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated based on common reviews for similar products
   reviewCount: 15, // Estimated
@@ -6769,7 +6769,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this range
   reviewCount: 20, // Estimated
@@ -6809,7 +6809,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false, // Assuming it's not brand new in the market
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 18, // Estimated
@@ -6848,7 +6848,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false, // Assuming it's not brand new in the market
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.7, // Estimated based on typical product quality for this price range
   reviewCount: 25, // Estimated
@@ -6894,7 +6894,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 28, // Estimated
@@ -6937,7 +6937,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -6979,7 +6979,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.6, // Estimated based on typical product quality for this price range and low power output
   reviewCount: 15, // Estimated
@@ -7023,7 +7023,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 22, // Estimated
@@ -7063,7 +7063,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 20, // Estimated
@@ -7112,7 +7112,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 0, // No specific user reviews or ratings found
   reviewCount: 0, // No specific user reviews found
@@ -7163,7 +7163,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 0, // No clear, consolidated rating found for the Oraimo branded OR-P9
   reviewCount: 0, // No quantifiable review count found for the Oraimo branded OR-P9
@@ -7205,7 +7205,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated based on typical product quality for this price range
   reviewCount: 45, // Estimated
@@ -7251,7 +7251,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 35, // Estimated
@@ -7297,7 +7297,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -7341,7 +7341,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.8, // Estimated based on typical product quality for this price range
   reviewCount: 25, // Estimated
@@ -7384,7 +7384,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 28, // Estimated
@@ -7427,7 +7427,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -7473,7 +7473,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 35, // Estimated
@@ -7521,7 +7521,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.9, // Estimated based on typical product quality for this price range
   reviewCount: 40, // Estimated
@@ -7567,7 +7567,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.2, // Estimated based on typical product quality for this price range
   reviewCount: 50, // Estimated
@@ -7609,7 +7609,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 45, // Estimated
@@ -7650,7 +7650,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.0, // Estimated based on typical product quality for this price range
   reviewCount: 20, // Estimated
@@ -7691,7 +7691,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.1, // Estimated based on typical product quality for this price range
   reviewCount: 22, // Estimated
@@ -7734,7 +7734,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 3.7, // Estimated based on typical product quality for this price range
   reviewCount: 30, // Estimated
@@ -7772,7 +7772,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: false,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.5, // Estimated rating
   reviewCount: 75, // Estimated review count
@@ -7814,7 +7814,7 @@ Hummer_3 // Placeholder image variable
   discount_value: 5,
   isAvailable: true,
   isNew: true,
-  isPromotion: true,
+  isPromotion: false,
   isBundle: false,
   rating: 4.6, // Estimated rating
   reviewCount: 55, // Estimated review count

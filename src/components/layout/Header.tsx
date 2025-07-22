@@ -58,19 +58,6 @@ const Header: React.FC = () => {
 
   return (
     <>
-      {/* Discount Banner */}
-      {showDiscountBanner && (
-        <div className="bg-primary-600 text-white text-center py-5">
-          <div className="inline-block">
-            <p className="text-2xl font-bold text-yellow-300">عرض خاص لفترة محدودة</p>
-            <div className="border-b border-yellow-300 w-full"></div>
-          </div>
-          <h2 className="text-3xl font-bold mt-2">
-            خصم <span className="text-4xl text-yellow-300 font-bold">5%</span> علي جميع المنتجات
-          </h2>
-        </div>
-      )}
-
       <header
         className={`sticky top-0 z-50 transition-all duration-300 ${
           isScrolled || !showDiscountBanner ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
