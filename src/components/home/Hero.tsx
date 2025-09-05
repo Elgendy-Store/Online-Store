@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
               <img
                 src={storelogo}
                 alt="Electronics showcase"
-                className="w-[600px] h-[450px] rounded-xl"
+                className="w-[600px] h-[500px] rounded-xl"
               />
             </div>
           </motion.div>
