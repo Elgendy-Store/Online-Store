@@ -30,6 +30,11 @@ export const categories: Category[] = [
         name: 'حوامل وستاندات',
         englishName: 'Stands and Holders',
       },
+      {
+        id: '1-5',
+        name: 'ميكروفون',
+        englishName: 'Microphone',
+      },
     ],
   },
   {
@@ -54,9 +59,19 @@ export const categories: Category[] = [
         englishName: 'Headsets',
       },
       {
-        id: '2-4',
-        name: 'شاشات',
-        englishName: 'Monitors',
+        id: '2-5',
+        name: 'محول طاقة',
+        englishName: 'Power Adapter',
+      },
+      {
+        id: '2-6',
+        name: 'ميكروفون',
+        englishName: 'Microphone',
+      },
+      {
+        id: '2-7',
+        name: 'حوامل + اجهزة تبريد',
+        englishName: 'Stands + Cooling Devices',
       },
     ],
   },
@@ -73,8 +88,18 @@ export const categories: Category[] = [
       },
       {
         id: '3-3',
-        name: 'أدوات منزلية ذكية',
+        name: 'أجهزة منزلية ذكية',
         englishName: 'Smart Home Devices',
+      },
+      {
+        id: '3-4',
+        name: 'مشتركات',
+        englishName: 'Power Strips',
+      },
+      {
+        id: '3-5',
+        name: 'اجهزة توصيل عن بعد',
+        englishName: 'Remote Control',
       },
     ],
   },

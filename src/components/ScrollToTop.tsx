@@ -1,18 +1,6 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-
+import { useScrollRestoration } from '../hooks/useScrollRestoration';
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, [pathname]);
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
+  useScrollRestoration();
   return null;
 };
-
-export default ScrollToTop; // ✅ Make sure this line is here!
+export default ScrollToTop;

@@ -293,6 +293,7 @@ export const products: Product[] = [
 {
   id: '210',
   name: 'ذاكرة فلاش Kingston DataTraveler SE9 64GB',
+  subcategory: "",
   englishName: 'Kingston DataTraveler SE9 64GB Flash Drive',
   description: 'ذاكرة فلاش Kingston DataTraveler SE9 بسعة 64 جيجابايت مع واجهة USB 3.0/2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
   price: 265,
@@ -324,6 +325,7 @@ export const products: Product[] = [
 {
   id: '209',
   name: 'ذاكرة فلاشة Kingston DataTraveler SE9 8GB',
+  subcategory: "",
   englishName: 'Kingston DataTraveler SE9 8GB Flash Drive',
   description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 8 جيجابايت مع واجهة USB 3.0/2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات.',
   price: 155,
@@ -355,6 +357,7 @@ export const products: Product[] = [
 {
   id: '208',
   name: 'ذاكرة فلاشة Kingston DataTraveler SE9 4GB',
+  subcategory: "",
   englishName: 'Kingston DataTraveler SE9 4GB Flash Drive',
   description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 4 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات.',
   price: 125,
@@ -386,6 +389,7 @@ export const products: Product[] = [
 {
   id: '207',
   name: 'بطاقة Kingston 128GB MicroSD Canvas Select Plus',
+  subcategory: "",
   englishName: 'Kingston 128GB MicroSD Card Canvas Select Plus',
   description: 'بطاقة ذاكرة Kingston MicroSD بسعة 128 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
   price: 350,
@@ -419,6 +423,7 @@ export const products: Product[] = [
 {
   id: '206',
   name: 'بطاقة Kingston 8GB MicroSD Canvas Select Plus',
+  subcategory: " ",
   englishName: 'Kingston 8GB MicroSD Card Canvas Select Plus',
   description: 'بطاقة ذاكرة Kingston MicroSD بسعة 8 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
   price: 155,
@@ -452,6 +457,7 @@ export const products: Product[] = [
 {
   id: '205',
   name: 'ذاكرة فلاشة Kingston DataTraveler SE9 128GB',
+  subcategory: " ",
   englishName: 'Kingston DataTraveler SE9 128GB Flash Drive',
   description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 128 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
   price: 350,
@@ -483,6 +489,7 @@ export const products: Product[] = [
 {
   id: '204',
   name: 'بطاقة Kingston 64GB MicroSD Canvas Select Plus',
+  subcategory: " ",
   englishName: 'Kingston 64GB MicroSD Card Canvas Select Plus',
   description: 'بطاقة ذاكرة Kingston MicroSD بسعة 64 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
   price: 265,
@@ -516,6 +523,7 @@ export const products: Product[] = [
 {
   id: '203',
   name: 'غطاء الهاتف المقاوم للماء',
+  subcategory: "حافظات وأغطية",
   englishName: 'Mobile Phone Waterproof Cover',
   description: 'غطاء هاتف مقاوم للماء يحمي هاتفك من الماء والرطوبة. مثالي للاستخدام أثناء الأنشطة المائية أو في الظروف الرطبة.',
   price: 35,
@@ -542,6 +550,7 @@ export const products: Product[] = [
 {
   id: '202',
   name: 'سماعة رأس لاسلكية M10 Newest Digital Indicator True Wireless Headset',
+  subcategory: "سماعات",
   englishName: 'M10 Newest Digital Indicator True Wireless Headset',
   description: 'سماعة رأس لاسلكية M10 True Wireless Headset بتقنية Bluetooth V5.1. تتميز بتصميم صغير للغاية وتوفر صوت ستريو ومكالمات واضحة وشحنًا سريعًا. توفر ما يصل إلى 5 ساعات من تشغيل الموسيقى و 280 ساعة في وضع الاستعداد.',
   price: 185,
@@ -579,6 +588,7 @@ export const products: Product[] = [
 {
   id: '201',
   name: 'مجموعة صنع الفيديو AY-49',
+  subcategory: "حوامل وستاندات",
   englishName: 'Video-Making Kit AY-49',
   description: 'مجموعة صنع الفيديو AY-49 مثالية للبث المباشر وصناعة المحتوى. تتضمن ميكروفونًا أحادي الاتجاه فائق القلب، وضوء LED بـ 49 خرزة مع درجة حرارة لون 6500 كلفن وقوة 5 واط، وبطارية توفر 1.5 ساعة من الاستخدام عند الطاقة الكاملة.',
   price: 385,
@@ -624,6 +634,7 @@ export const products: Product[] = [
 {
   id: '200',
   name: 'مكبر صوت WS-887 MINI',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'WS-887 MINI Speaker',
   description: 'مكبر صوت WS-887 MINI محمول بتصميم صغير، يوفر صوتًا بقوة 3 واط. يعمل عبر USB (تيار مستمر 5 فولت). مثالي للاستخدام أثناء التنقل.',
   price: 125,
@@ -631,7 +642,6 @@ export const products: Product[] = [
     mini_speaker_ws_887 // Variable for the image
   ],
   categories: [
-    'إكسسوارات الموبايل',
     'إلكترونيات منزلية صغيرة'
   ],
   features: [
@@ -657,6 +667,7 @@ export const products: Product[] = [
 {
   id: '199',
   name: 'مكبر صوت GT-122 المحمول',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'GT-122 Portable Speaker',
   description: 'مكبر صوت GT-122 محمول، يوفر طاقة خرج 405 واط*2 ووقت تشغيل من 2-4 ساعات. يتميز بأزرار للتحكم في الوضع، الأغنية السابقة/التالية، ورفع/خفض مستوى الصوت. متوافق مع الأجهزة اللوحية والهواتف ومشغلات MP3 وأجهزة الكمبيوتر الشخصي.',
   price: 145,
@@ -664,7 +675,6 @@ export const products: Product[] = [
     GT_122_SPEAKER // Variable for the image
   ],
   categories: [
-    'إكسسوارات الموبايل',
     'إلكترونيات منزلية صغيرة'
   ],
   features: [
@@ -693,6 +703,7 @@ export const products: Product[] = [
 {
   id: '198',
   name: 'محول طاقة USB-C بقوة 35 واط مع كابل USB-C إلى Lightning',
+  subcategory: "شواحن",
   englishName: '35W USB-C Power Adapter with USB-C to Lightning Cable',
   description: 'محول طاقة USB-C بقوة 35 واط (طراز MHJE3TU/A) مصمم في كاليفورنيا ومصنوع في الصين. يأتي مع كابل USB-C إلى Lightning، مما يجعله مناسبًا لشحن أجهزة Apple الحديثة بسرعة وفعالية.',
   price: 275,
@@ -723,6 +734,7 @@ export const products: Product[] = [
 {
   id: '197',
   name: 'مكبر صوت JBL JL-324',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'JBL JL-324 Speaker',
   description: 'مكبر صوت JBL JL-324 لاسلكي مع إضاءة ملونة وميزات USB/TF Card. يوفر قوة خرج 3 واط × 2 مع استجابة تردد من 45 هرتز إلى 18 كيلو هرتز. مزود ببطارية 1200 مللي أمبير/ساعة. مثالي للحفلات بفضل صوته القوي ومصابيح LED الملونة.',
   price: 495,
@@ -763,6 +775,7 @@ export const products: Product[] = [
 {
   id: '196',
   name: 'كابل شحن مغناطيسي',
+  subcategory: "شواحن",
   englishName: 'Magnetic Charging Cable',
   description: 'كابل شحن مغناطيسي بطول 1 متر، مصمم لتوفير شحن سهل ومريح. يتميز بتصميم مغناطيسي يسهل توصيل وفصل الكابل من الجهاز.',
   price: 145,
@@ -791,6 +804,7 @@ export const products: Product[] = [
 {
   id: '195',
   name: 'ساعة T8000 Ultra 3 الذكية',
+  subcategory: "ساعات ذكية",
   englishName: 'T8000 Ultra 3 Smart Watch',
   description: 'ساعة T8000 Ultra 3 الذكية ذات استهلاك فائق الانخفاض للطاقة. تتميز بشاشة 2.20 بوصة وتدعم الشحن اللاسلكي. تشمل العبوة الساعة الذكية، سوار، كابل شحن، ودليل المستخدم.',
   price: 385,
@@ -822,6 +836,7 @@ export const products: Product[] = [
 {
   id: '194',
   name: 'ساعة T800 Ultra 2-Plus الذكية',
+  subcategory: "ساعات ذكية",
   englishName: 'T800 Ultra 2-Plus Smart Watch',
   description: 'ساعة T800 Ultra 2-Plus الذكية مع تحكم بالإصبع وشحن لاسلكي. تأتي مع زوج واحد من السوار وكابل شحن ودليل المستخدم.',
   price: 450,
@@ -853,6 +868,7 @@ export const products: Product[] = [
 {
   id: '193',
   name: 'كابل بيانات Gemax Type-C',
+  subcategory: "شواحن",
   englishName: 'Gemax Type-C Data Cable',
   description: 'كابل بيانات Gemax Type-C بطول 120 سم، مصمم للشحن ونقل البيانات بسرعة وأمان. يتميز بسلك مانع للتجمد ومقاوم للكسر، مع قدرة تحمل عالية تصل إلى 10000 مرة من الانحناء. يدعم تيار 3 أمبير لشحن فائق السرعة بفضل قلب نحاسي نقي عالي الجودة. متوافق مع جميع المنتجات الإلكترونية ذات واجهة Type-C.',
   price: 95,
@@ -890,6 +906,7 @@ export const products: Product[] = [
 {
   id: '192',
   name: 'شاحن سفر JNUOBI JC05 Type-C',
+  subcategory: "شواحن",
   englishName: 'JNUOBI JC05 Type-C Travel Charger',
   description: 'شاحن سفر JNUOBI JC05 بمنفذ Type-C، يوفر خرج 2.4 أمبير و2 منفذ USB. مصمم ليكون آمنًا وذكيًا، وهو متوفر لأنظمة iOS والأجهزة الأخرى. مصنوع في الصين.',
   price: 175,
@@ -924,6 +941,7 @@ export const products: Product[] = [
 {
   id: '191',
   name: 'باور بانك JNUOBI 3C-06 Polymer Fast Mobile Charge 10000mAh',
+  subcategory: "شواحن",
   englishName: 'JNUOBI 3C-06 Polymer Fast Mobile Charge Power Bank 10000mAh',
   description: 'باور بانك JNUOBI 3C-06 بسعة 10000 مللي أمبير/ساعة، يدعم الشحن السريع بقدرة 66 واط ومتوافق مع تقنية PD27W. حاصل على شهادة 3C الوطنية. يتميز بمنفذ Type-C. مثالي للشحن السريع والفعال أثناء التنقل.',
   price: 1085,
@@ -960,6 +978,7 @@ export const products: Product[] = [
 {
   id: '190',
   name: 'باور بانك JNUOBI DY-25 Polymer Mobile Power 10000mAh',
+  subcategory: "شواحن",
   englishName: 'JNUOBI DY-25 Polymer Mobile Power Bank 10000mAh',
   description: 'باور بانك JNUOBI DY-25 بسعة 10000 مللي أمبير/ساعة مع شاشة LED. يتميز بمنفذين USB للشحن العادي. مثالي لشحن الأجهزة المحمولة أثناء التنقل.',
   price: 585,
@@ -992,6 +1011,7 @@ export const products: Product[] = [
 {
   id: '189',
   name: 'باور بانك LDNIO PQ19 LED',
+  subcategory: "شواحن",
   englishName: 'LDNIO PQ19 LED Power Bank',
   description: 'باور بانك LDNIO PQ19 بسعة 10000 مللي أمبير/ساعة مع شاشة LED، يدعم الشحن السريع PD+QC3.0+SCP بقدرة تصل إلى 22.5 واط. يتميز بمدخل USB-C ومخارج USB-A و USB-C و Lightning، مما يجعله متوافقًا مع مجموعة واسعة من الأجهزة. مثالي للشحن السريع أثناء التنقل.',
   price: 1085,
@@ -1026,6 +1046,7 @@ export const products: Product[] = [
 {
   id: '188',
   name: 'مكبر صوت XERTMT LED JL-1267',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'XERTMT LED JL-1267 Speaker',
   description: 'مكبر صوت XERTMT LED JL-1267 لاسلكي مع إضاءة LED، يوفر صوتًا بقوة 5 واط. يتميز ببطارية بسعة 1200 مللي أمبير/ساعة توفر عمر بطارية يتراوح من 2 إلى 5 ساعات. يدعم الشحن عبر USB ويعمل بجهد 5 فولت 1 أمبير. صغير الحجم ومناسب للاستماع إلى الموسيقى في أي مكان.',
   price: 345,
@@ -1034,7 +1055,6 @@ export const products: Product[] = [
   ],
   categories: [
     'إلكترونيات منزلية صغيرة',
-    'إكسسوارات الموبايل'
   ],
   features: [
     "إضاءة LED",
@@ -1063,6 +1083,7 @@ export const products: Product[] = [
 {
   id: '187',
   name: 'سماعة أذن ايربود برو 2 الجيل الثاني',
+  subcategory: "سماعات",
   englishName: 'AirPods Pro 2nd Generation Earbuds',
   description: 'سماعات أذن لاسلكية من الجيل الثاني، تأتي مع علبة شحن وكابل. توفر تجربة صوتية ممتازة مع تقنية إلغاء الضوضاء النشط (ANC).',
   price: 570,
@@ -1093,6 +1114,7 @@ export const products: Product[] = [
 {
   id: '186',
   name: 'شاحن طاقة HEATZ ZA68e',
+  subcategory: "شواحن",
   englishName: 'HEATZ ZA68e Power Adapter',
   description: 'شاحن طاقة HEATZ ZA68e عالي الكفاءة بقدرة 20 واط، مصمم لتوفير شحن سريع ومريح لأجهزة iPhone. يدعم تقنية Power Delivery (PD) للشحن فائق السرعة، ويمكنه شحن iPhone X/11 Pro/Pro Max حتى 50% في 30 دقيقة. يوفر أقصى خرج طاقة 27 واط من منفذ USB-C PD. يتميز بحماية مدمجة ضد الشحن الزائد، السخونة الزائدة، والتيار الزائد لضمان شحن آمن. تصميمه خفيف الوزن وصغير الحجم يجعله مثاليًا للسفر.',
   price: 350,
@@ -1130,6 +1152,7 @@ export const products: Product[] = [
 {
   id: '185',
   name: 'سماعات أذن JNUOBI YX-02',
+  subcategory: "سماعات",
   englishName: 'JNUOBI YX-02 Earphones',
   description: 'سماعات أذن JNUOBI YX-02 مصممة لتوفير صوت عالي الدقة (Hi-Fi) مع احترام كل صوت. تتميز بسلك نحاسي عالي الدقة خالٍ من الأكسجين (OFC) لأداء توصيل أفضل ودقة صوت عالية. يبلغ طول الكابل 100 سم. يوصى بضبط مستوى الصوت إلى مستوى مناسب لحماية الأذن.',
   price: 85,
@@ -1165,6 +1188,7 @@ export const products: Product[] = [
 {
   id: '184',
   name: 'سماعات أذن Joyroom JR-EL120',
+  subcategory: "سماعات",
   englishName: 'Joyroom JR-EL120 Earphones',
   description: 'سماعات أذن Joyroom JR-EL120 توفر صوتًا عالي الدقة (Hi-Fi) بفضل مكبر الصوت الغشائي. مزودة بميكروفون عالي الحساسية لإجراء مكالمات واضحة وعالية الدقة. تصميمها يجعلها مريحة للاستخدام اليومي.',
   price: 85,
@@ -1195,6 +1219,7 @@ export const products: Product[] = [
 {
   id: '183',
   name: 'سماعات أذن EHP Music X22 مع ميكروفون',
+  subcategory: "سماعات",
   englishName: 'EHP Music Earphones X22 with Microphone',
   description: 'سماعات أذن EHP Music X22 مصممة لتوفير تجربة صوتية ممتازة مع صوت جهير فائق. تأتي مع ميكروفون مدمج وزر متعدد الوظائف للتحكم في المكالمات والموسيقى بسهولة. متوافقة مع مجموعة واسعة من الأجهزة بما في ذلك الهواتف المحمولة، ومشغلات الموسيقى، وأجهزة الألعاب المحمولة، وأجهزة الكمبيوتر.',
   price: 95,
@@ -1230,6 +1255,7 @@ export const products: Product[] = [
 {
   id: '182',
   name: 'سماعات أذن REAMX MALAYSIA',
+  subcategory: "سماعات",
   englishName: 'REMAX MALAYSIA Earphones',
   description: 'سماعات أذن من REMAX MALAYSIA، مصممة لتوفير جودة صوت جيدة وتجربة استماع مريحة. مناسبة للاستخدام اليومي مع الهواتف الذكية والأجهزة الأخرى المزودة بمنفذ 3.5 ملم.',
   price: 115,
@@ -1259,6 +1285,7 @@ export const products: Product[] = [
 {
   id: '181',
   name: 'سماعات أذن ANKER Lightning',
+  subcategory: "سماعات",
   englishName: 'ANKER Lightning Earphones',
   description: 'سماعات أذن ANKER بمنفذ Lightning بطول 1 متر، مصممة لأجهزة Apple. توفر تحكمًا سلكيًا سهل الاستخدام للموسيقى والمكالمات. يمكنك تشغيل/إيقاف الموسيقى مؤقتًا، ضبط مستوى الصوت، وتغيير المسارات. كما تتيح لك الرد على المكالمات وإنهائها، وإعادة الاتصال بسهولة.',
   price: 170,
@@ -1290,6 +1317,7 @@ export const products: Product[] = [
 {
   id: '180',
   name: 'كابل شحن سريع ANKER USB-C إلى Lightning',
+  subcategory: "شواحن",
   englishName: 'ANKER Lightning Fast Charging USB-C to Lightning Cable',
   description: 'كابل شحن سريع ومتين من ANKER، بطول 1 متر (3.3 قدم)، مصمم لأجهزة Apple المزودة بمنفذ Lightning. يدعم تقنية Power Delivery (PD) للشحن فائق السرعة، حيث يمكنه شحن iPhone X حتى 50% في 30 دقيقة. يتميز بتصميم PowerLine Select+ مع كابل نايلون مضفر وأطراف موصل معززة، مما يجعله يتحمل أكثر من 15000 انحناء لمتانة فائقة. معتمد رسميًا لضمان التوافق الكامل مع جميع أجهزة Lightning.',
   price: 160,
@@ -1325,6 +1353,7 @@ export const products: Product[] = [
 {
   id: '179',
   name: 'كابل بيانات 4S-15 Type-C',
+  subcategory: "شواحن",
   englishName: '4S-15 Type-C Data Cable',
   description: 'كابل بيانات 4S-15 Type-C يوفر تيار شحن 5 أمبير وطول 1 متر. مصمم لمزامنة البيانات وشحن هاتفك من جهاز الكمبيوتر أو شاحن USB. يجمع بين وظيفتي نقل البيانات والشحن بأمان وسرعة عالية. يتميز بتصميم متين يقاوم الضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية. الكابل متوافق مع جميع إصدارات USB ومضاد للتداخل.',
   price: 130,
@@ -1364,6 +1393,7 @@ export const products: Product[] = [
 {
   id: '178',
   name: 'كابل بيانات 4S-13 مايكرو USB',
+  subcategory: "شواحن",
   englishName: '4S-13 Micro USB Data Cable',
   description: 'كابل بيانات 4S-13 Micro USB يوفر تيار شحن 2.4 أمبير، مصمم لمزامنة البيانات وشحن هاتفك من جهاز الكمبيوتر أو شاحن USB. يجمع بين وظيفتي نقل البيانات والشحن بأمان وسرعة عالية. يتميز بتصميم متين يقاوم الضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية. الكابل متوافق مع جميع إصدارات USB ومضاد للتداخل.',
   price: 80,
@@ -1401,6 +1431,7 @@ export const products: Product[] = [
 {
   id: '177',
   name: 'كابل بيانات GEMAX HY-C39 (مايكرو USB)',
+  subcategory: "شواحن",
   englishName: 'GEMAX HY-C39 Data Cable (Micro USB)',
   description: 'كابل بيانات GEMAX HY-C39 Micro USB بطول 2 متر، مصمم لحل مشكلة نقل البيانات والشحن معًا بكفاءة. يتميز بتصميم خاص يتحمل درجات الحرارة العالية وأطراف مطلية بالذهب للحفاظ على أفضل اتصال. متوافق مع جميع إصدارات USB (2.0/3.0).',
   price: 100,
@@ -1435,6 +1466,7 @@ export const products: Product[] = [
 {
   id: '176',
   name: 'كابل بيانات FOX 4 في 1 للشحن السريع',
+  subcategory: "شواحن",
   englishName: 'FOX 4-in-1 Fast Charging Data Cable',
   description: 'كابل بيانات وشحن سريع FOX متعدد الوظائف بتصميم 4 في 1، مناسب لمختلف الأجهزة التي تستخدم منافذ USB، Type-C، وLightning. بطول 1 متر، يوفر شحنًا سريعًا ونقل بيانات فعالًا. يتميز بتصميم أصلي منحني و"NOODLE LINE" لمقاومة التشابك. مصنوع من موصل نحاسي فائق النقاء لضمان جودة عالية، ومقاوم للضغط العالي والتداخل. يجمع بين وظيفتي نقل البيانات والشحن بأمان.',
   price: 120,
@@ -1471,6 +1503,7 @@ export const products: Product[] = [
 {
   id: '175',
   name: 'كابل بيانات 4S-05 (مايكرو USB)',
+  subcategory: "شواحن",
   englishName: '4S-05 Data Cable (Micro USB)',
   description: 'كابل بيانات 4S-05 مصمم لأجهزة Micro USB. يوفر تيار شحن يصل إلى 2.4 أمبير ويبلغ طوله 1 متر. مثالي للشحن السريع ونقل البيانات بشكل آمن وموثوق.',
   price: 70,
@@ -1503,6 +1536,7 @@ export const products: Product[] = [
 {
   id: '174',
   name: 'كابل بيانات وشحن سريع AORAX MY-10 (مايكرو USB)',
+  subcategory: "شواحن",
   englishName: 'AORAX MY-10 Fast Charge Data Cable (Micro USB)',
   description: 'كابل بيانات وشحن سريع من AORAX، موديل MY-10، مصمم لتوفير شحن سريع وصحيح لأجهزتك بقوة 20 واط و5 أمبير. يتميز بلون وتصميم كلاسيكي بجودة عالية، ومقاوم للتداخل بفضل تصميمه الممتاز وموصله النحاسي فائق النقاء. يتيح لك شحن ومزامنة أجهزتك مع أي مقابس أو منافذ USB في جهاز الكمبيوتر الخاص بك. متوافق مع جميع إصدارات USB. صنع في الصين.',
   price: 110,
@@ -1542,6 +1576,7 @@ export const products: Product[] = [
 {
   id: '173',
   name: 'شاحن سفر عالمي EMY MY-A303 بـ 3 منافذ USB',
+  subcategory: "شواحن",
   englishName: 'EMY MY-A303 3-Port Universal Travel Charger',
   description: 'محول تيار متردد من EMY مثالي للمنزل والسفر، مزود بـ 3 منافذ USB لشحن ما يصل إلى ثلاثة أجهزة رقمية في وقت واحد. يتميز بشريحة تعرف ذكية للشحن السريع لمختلف المنتجات في السوق. مصنوع من مادة ABS عالية الجودة والمقاومة للحريق، مما يوفر أمانًا ممتازًا ويتوافق مع معايير اختبار الأسلاك الساخنة الوطنية. يتميز بتصميم أنيق ومضغوط مع نقش ليزر للشعار والنص لضمان متانة اللون. يحتوي على نظام حماية مدمج ضد قصر الدائرة وارتفاع درجة الحرارة لضمان سلامة معدات الشحن الخاصة بك. يمكن للمستهلكين اختيار المنتج مع كابل MicroUSB أو كابل شحن Apple.',
   price: 270,
@@ -1580,6 +1615,7 @@ export const products: Product[] = [
 {
   id: '172',
   name: 'شاحن Xiaomi 67 واط (MDY-12-ES)',
+  subcategory: "شواحن",
   englishName: 'Xiaomi 67W Power Adapter (MDY-12-ES)',
   description: 'محول طاقة أصلي من Xiaomi بقوة 67 واط، موديل MDY-12-ES. مصنوع من مادة البولي كربونات (PC) لضمان المتانة. يدعم جهد إدخال واسع من 100 إلى 240 فولت، مما يجعله مناسبًا للاستخدام العالمي. مثالي لشحن الأجهزة المتوافقة مع الشحن السريع.',
   price: 290,
@@ -1610,6 +1646,7 @@ export const products: Product[] = [
 {
   id: '171',
   name: 'شاحن حائط ANKER PowerPort III 20W Cube',
+  subcategory: "شواحن",
   englishName: 'ANKER PowerPort III 20W Cube Wall Charger',
   description: 'شاحن حائط صغير ومحمول من ANKER، يتميز بقدرة 20 واط ويدعم تقنية Power Delivery (PD) عبر منفذ USB-C. مثالي للشحن السريع للأجهزة المتوافقة. يتميز بتصميم مكعب قابل للطي، ويزن 38 جرامًا فقط. يعمل بجهد إدخال عالمي من 100 إلى 240 فولت، ويوفر خرج جهد متعدد لاستيعاب متطلبات الشحن المختلفة.',
   price: 580,
@@ -1646,6 +1683,7 @@ export const products: Product[] = [
 {
   id: '170',
   name: 'وصلة كهرباء Crash M300 بـ 4 مقابس و2 منفذ USB',
+  subcategory: "مشتركات",
   englishName: 'Crash M300 Power Strip with 4 Sockets and 2 USB Ports',
   description: 'وصلة كهرباء Crash M300 تتميز بمقابس قياسية صينية جديدة مطلية بالفضة لضمان التوصيل الآمن والفعال، مع قدرة تحمل تصل إلى 10000 إدخال وإخراج دون ارتخاء. توفر مفتاح تحكم كامل لقطع الطاقة بضغطة واحدة، وتم اختبار المفتاح لـ 5000 ضغطة. السطح مصنوع من مواد PC وABS المقاومة للحريق، ومثبطة للهب حتى 750 درجة مئوية. تدعم شحن USB الذكي بتقنية Super Charge™، حيث يتعرف كل منفذ USB تلقائيًا على الجهاز المتصل لتوفير تيار شحن مثالي (0.1 إلى 3.4 أمبير). قادرة على شحن جهاز واحد بسرعة 3.4 أمبير. مناسبة لشحن الهواتف الذكية، الأجهزة اللوحية، الكاميرات الرقمية وغيرها. المنتج صنع في ألمانيا.',
   price: 260,
@@ -1687,6 +1725,7 @@ export const products: Product[] = [
 {
   id: '169',
   name: 'وصلة كهرباء JINHEUNG متعددة المنافذ (4 مقابس + 2 USB)',
+  subcategory: "مشتركات",
   englishName: 'JINHEUNG Multi Tap Power Strip (4 Terminals + 2 USB)',
   description: 'وصلة كهرباء JINHEUNG متعددة الوظائف توفر 4 مقابس كهربائية ومنفذين USB لشحن الأجهزة. تتميز بمفاتيح منفصلة لكل منفذ لزيادة الكفاءة في استخدام الكهرباء وإمكانية فصل وإعادة توصيل الطاقة بسهولة. تتضمن شاحن USB بقوة 5 فولت تيار مستمر 2 أمبير. مصممة بآلية حظر الطاقة الاحتياطية بنوع استشعار الحمل، وتقطع التيار عند زيادة الحمل (أكثر من 16 أمبير).',
   price: 590,
@@ -1727,6 +1766,7 @@ export const products: Product[] = [
 {
   id: '168',
   name: 'وصلة كهرباء Crash M400 بـ 4 مقابس طاقة و2 منفذ USB',
+  subcategory: "مشتركات",
   englishName: 'Crash M400 Power Strip with 4 Power Sockets and 2 USB Ports',
   description: 'وصلة كهرباء Crash M400 متعددة الوظائف، مزودة بـ 4 مقابس طاقة و2 منفذ USB ذكي للشحن السريع. تتميز بمفتاح تحكم كامل لقطع الطاقة مباشرة عند عدم الاستخدام، وقد تم اختباره لـ 5000 ضغطة. السطح مصنوع من مادة ABS المقاومة للحريق، والتي تتوافق مع مقاومة الأسلاك الساخنة حتى 750 درجة مئوية ولا تتشوه بنسبة 100%. تقنية الشحن الذكي Super Charge™ في منافذ USB تتعرف تلقائيًا على الجهاز المتصل (هاتف محمول، جهاز لوحي، بنك طاقة، إلخ) لتوفير أفضل تيار شحن (0.1 إلى 2 أمبير). تدعم شحن جهاز واحد بسرعة 3.4 أمبير، مع تعريف تلقائي للجهاز وتوافق ذكي مع تيار الشحن لأي علامة تجارية من الهواتف الذكية، الأجهزة اللوحية، الكاميرات الرقمية، إلخ. المنتج صنع في مصر.',
   price: 240,
@@ -1766,6 +1806,7 @@ export const products: Product[] = [
 {
   id: '167',
   name: 'لوحة مفاتيح وماوس الوسائط المتعددة LAVA ST-300',
+  subcategory: "لوحات مفاتيح",
   englishName: 'LAVA ST-300 Multimedia Keyboard and Mouse',
   description: 'طقم لوحة مفاتيح وماوس LAVA ST-300 مصمم لتوفير تجربة استخدام مريحة وفعالة. تتميز لوحة المفاتيح بتصميم مريح ومقاوم للماء والغبار، ومفاتيح غشائية عالية الجودة بعمر افتراضي يصل إلى 10 ملايين ضغطة. مصنوعة من مادة ABS عالية القوة، مع أغطية مفاتيح بطباعة حبر الأشعة فوق البنفسجية لضمان المتانة وطول العمر. يتميز الطقم بتصميم بسيط وأنيق، ومناسب لمجموعة متنوعة من الأجهزة الرقمية، ويهدف إلى تخفيف تعب عضلات اليد. يتصل لاسلكيًا عبر واجهة USB 2.0 ويحتوي على 104 مفاتيح. متوافق مع أنظمة تشغيل متعددة.',
   price: 590,
@@ -1808,6 +1849,7 @@ export const products: Product[] = [
 {
   id: '166',
   name: 'مشترك كهرباء GLX 4 منافذ',
+  subcategory: "مشتركات",
   englishName: 'GLX 4-Port Power Strip',
   description: 'مشترك كهرباء GLX رباعي المنافذ يتميز بتصميم جديد وجذاب، ومفتاح توصيل، وبلاستيك عالي الجودة. يوفر استخدامًا آمنًا للغاية بفضل احتوائه على 30% من النحاس في مكوناته الداخلية لضمان توصيل فعال وآمن للطاقة. مناسب للاستخدام في المنازل والمكاتب لتوصيل أجهزة متعددة.',
   price: 210,
@@ -1842,6 +1884,7 @@ export const products: Product[] = [
 {
   id: '165',
   name: 'وصلة كهرباء TWINS مع قطع تلقائي',
+  subcategory: "مشتركات",
   englishName: 'TWINS Electricity Extender with Automatic Cut-off',
   description: 'وصلة كهرباء TWINS مزودة بخاصية القطع التلقائي للتيار، مصممة لزيادة الأمان ومنع الحرائق الناتجة عن ارتفاع درجة الحرارة الموضعي. يجب تجنب استخدام المقابس ذات الأطراف الملتوية أو الملتوية، وعدم لمس الوحدة بأيدٍ مبللة، وإبعادها عن الأماكن التي قد تتناثر فيها المياه أو السوائل أو المبيدات الحشرية. مناسبة لمجموعة متنوعة من الأجهزة الكهربائية المنزلية.',
   price: 150,
@@ -1881,6 +1924,7 @@ export const products: Product[] = [
 {
   id: '164',
   name: 'موزع USB KINOKEN 3 منافذ',
+  subcategory: "شواحن",
   englishName: 'KINOKEN 3-Port USB Hub',
   description: 'موزع USB KINOKEN بـ 3 منافذ، يتميز بكونه متوافقًا مع أنظمة ويندوز وماك، ويوفر 3 منافذ USB 2.0 عالية السرعة. مصمم للعمل مع مجموعة واسعة من أجهزة USB مثل أجهزة الكمبيوتر المحمولة، الهواتف المحمولة، أجهزة المساعد الرقمي الشخصي، الفئران، لوحات المفاتيح، الطابعات، والكاميرات الرقمية. يوفر أقصى معدل نقل بيانات يبلغ 480 ميجابايت في الثانية.',
   price: 65,
@@ -1916,6 +1960,7 @@ export const products: Product[] = [
 {
   id: '163',
   name: 'موزع USB CMS 4 منافذ',
+  subcategory: "شواحن",
   englishName: 'CMS 4-Port USB Hub',
   description: 'موزع USB CMS بـ 4 منافذ بتصميم فريد، يتيح لك شحن ومزامنة جهاز iPod Shuffle، ويوفر سهولة الوصول من خلال منفذ USB علوي. متوافق تمامًا مع مواصفات USB 2.0 و 1.1، ويوفر معدل نقل بيانات يصل إلى 480 ميجابت في الثانية. يدعم توصيل ما يصل إلى جهازين بدون الحاجة لمحول طاقة، ويوفر حماية من التيار الزائد لكل منفذ. يتميز بخاصية التوصيل والتشغيل ولا يتطلب تثبيت برامج تشغيل، مع مؤشر LED واحد للطاقة.',
   price: 65,
@@ -1957,6 +2002,7 @@ export const products: Product[] = [
 {
   id: '162',
   name: 'موزع USB Crash 4 منافذ',
+  subcategory: "شواحن",
   englishName: 'Crash 4-Port USB Hub',
   description: 'موزع USB Crash بـ 4 منافذ، يتميز بمفتاح أمان لكل مدخل، وتصميم شبه شفاف مع مصباح LED أزرق للطاقة. متوافق تمامًا مع مواصفات USB الإصدار 2.0 ويدعم خاصية Hot Plug & Play. يوفر معدل نقل بيانات يصل إلى 480 ميجابت في الثانية وحماية لتيار حد طاقة الحافلة 500 مللي أمبير. يمكنه دعم محركات أقراص صلبة تصل إلى 500 جيجابايت.',
   price: 90,
@@ -1993,6 +2039,7 @@ export const products: Product[] = [
 {
   id: '161',
   name: 'كابل HDTV 2.0 عالي السرعة (4K، 1.5 متر)',
+  subcategory: "شواحن",
   englishName: 'HDTV 2.0 High-Speed Cable (4K, 1.5m)',
   description: 'كابل HDTV 2.0 عالي السرعة بطول 1.5 متر يدعم دقة 4K ونقل البيانات بسرعة 10/100 ميجابت في الثانية عبر الإيثرنت. متوافق مع متطلبات HDTV 2.0 ويعتمد معيار النحاس الخام 19+1 بالإضافة إلى سلك أرضي لضمان جودة الإشارة. يدعم عرض الشاشة المزدوجة، 4 تدفقات إشارة صوتية، Doldy True-HD، DTS-HD Master audio، وما يصل إلى 32 قناة صوتية. مزود بموصل مطلي بالذهب عيار 24 قيراطًا وغطاء من سبائك الألومنيوم لمتانة فائقة ودقة إشارة.',
   price: 110,
@@ -2030,6 +2077,7 @@ export const products: Product[] = [
 {
   id: '160',
   name: 'كابل شحن Heatz ZC33 Lightning سريع (3 أمبير)',
+  subcategory: "شواحن",
   englishName: 'Heatz ZC33 Lightning Fast Charge Cable (3A)',
   description: 'كابل شحن Heatz ZC33 Lightning سريع بقوة 3 أمبير، مصمم لمتانة فائقة وأداء موثوق به. يتميز بهيكل من الألومنيوم فائق الجودة وغلاف من النايلون المنسوج، مما يجعله مرنًا ومقاومًا للالتفاف والانحناء (أكثر من 20,000 درجة). مصنوع من مادة نحاسية عالية الجودة لضمان الشحن السريع والآمن، ويدعم أيضًا نقل البيانات المستقر. تصميمه يجعله سهل الحمل ومناسبًا للاستخدام في المنزل، المكتب، السيارة، والسفر.',
   price: 170,
@@ -2071,6 +2119,7 @@ export const products: Product[] = [
 {
   id: '159',
   name: 'كابل شحن Heatz ZC46 (USB-C إلى USB-C)',
+  subcategory: "شواحن",
   englishName: 'Heatz ZC46 Charging Cable (USB-C to USB-C)',
   description: 'كابل شحن Heatz ZC46 من نوع USB-C إلى USB-C يدعم الشحن السريع بقوة 60 واط. مصنوع من كابل سيليكون سائل أصلي برأس معدني، مما يجعله متينًا ومقاومًا للأوساخ والالتفاف. يضمن هذا الكابل شحنًا آمنًا وسريعًا ونقل بيانات مستقرًا وموثوقًا به، وذلك بفضل استخدامه لسلك نحاسي عالي الجودة يتوافق مع المتطلبات الصارمة.',
   price: 200,
@@ -2110,6 +2159,7 @@ export const products: Product[] = [
 {
   id: '158',
   name: 'شاحن سيارة Heatz ZCC3 بمنفذين',
+  subcategory: "شواحن",
   englishName: 'Heatz ZCC3 Dual Port Car Charger',
   description: 'شاحن سيارة Heatz ZCC3 متعدد الاستخدامات مزود بمنفذي شحن (USB-A و USB-C) يسمح بشحن جهازين في وقت واحد. يدعم منفذ USB-C تقنية توصيل الطاقة (PD) لشحن أسرع. يوفر الشاحن إجمالي خرج يصل إلى 38 وات (بحد أقصى) ويتميز بحماية ذكية ضد ارتفاع درجة الحرارة، والجهد الزائد، والتيار الزائد. متوافق مع الأجهزة اللوحية والهواتف الذكية ومعظم أجهزة USB.',
   price: 290,
@@ -2148,6 +2198,7 @@ export const products: Product[] = [
 {
   id: '157',
   name: 'محول طاقة USB-C بقدرة 20 وات مع كابل USB-C إلى لايتنينج',
+  subcategory: "شواحن",
   englishName: '20W USB-C Power Adapter with USB-C to Lightning Cable',
   description: 'محول طاقة USB-C بقدرة 20 وات مصمم للشحن السريع والفعال، ويأتي مرفقًا بكابل USB-C إلى لايتنينج. يوفر هذا الشاحن حلاً متكاملًا لمستخدمي أجهزة آبل الذين يحتاجون إلى شحن سريع وموثوق.',
   price: 210,
@@ -2178,6 +2229,7 @@ export const products: Product[] = [
 {
   id: '156',
   name: 'سماعة رأس بلوتوث لينوفو Thinkplus الرياضية HE05X II',
+  subcategory: "سماعات",
   englishName: 'Lenovo Thinkplus Sports Headphones HE05X II',
   description: 'سماعة رأس بلوتوث لينوفو Thinkplus الرياضية HE05X II مصممة خصيصًا لعشاق الرياضة، وتتميز بوحدة صوت 10 ملم وجودة صوت غنية. توفر عمر بطارية طويل الأمد يصل إلى 12 ساعة، وتصميمًا مريحًا للارتداء، مع ميزة الاتصال التلقائي. تدعم تقنية Bluetooth V5.0 لمسافة فعالة تصل إلى 10 أمتار.',
   price: 370,
@@ -2218,6 +2270,7 @@ export const products: Product[] = [
 {
   id: '155',
   name: 'ماوس الألعاب SPIDER S31',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'SPIDER S31 Gaming Mouse',
   description: 'ماوس الألعاب SPIDER S31 مصمم خصيصًا لتجربة لعب محسّنة. يتميز بوضع إضاءة خلفية ملونة متغيرة، وتصميم مريح يوفر شعورًا بالراحة أثناء الاستخدام. يتوفر بإصدارين: 4D مع تعديل DPI بثلاث سرعات (800/1000/1200) و6D مع تعديل DPI بأربع سرعات (800/1200/1600/2400)، مما يتيح لك تخصيص الدقة حسب احتياجاتك في اللعب أو العمل.',
   price: 250,
@@ -2251,6 +2304,7 @@ export const products: Product[] = [
 {
   id: '154',
   name: 'ماوس الألعاب اللاسلكي GRAND NASUS W200 (2.4 جيجا هرتز، قابل لإعادة الشحن)',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'GRAND NASUS W200 2.4GHz Rechargeable Wireless Gaming Mouse',
   description: 'ماوس الألعاب اللاسلكي GRAND NASUS W200 قابل لإعادة الشحن، يتميز بمحرك تتبع عالي الدقة يصل إلى 2400 نقطة في البوصة، مع إمكانية التبديل بين ثلاث دقات لتلبية احتياجات العمل واللعب. يستخدم تقنية لاسلكية 2.4 جيجا هرتز لنقل إشارة مستقر على بعد 10 أمتار بدون تأخير. يشتمل على نظام إضاءة LED بضوء بارد ورقاقة موفرة للطاقة لإطالة عمر البطارية.',
   price: 650,
@@ -2289,6 +2343,7 @@ export const products: Product[] = [
 {
   id: '153',
   name: 'كابل شحن Dolphin D-160 USB إلى Micro',
+  subcategory: "شواحن",
   englishName: 'Dolphin D-160 USB to Micro Charge Cable',
   description: 'كابل شحن Dolphin D-160 USB إلى Micro بطول 1 متر، مصمم للشحن الآمن والسريع ونقل البيانات عالي السرعة لأجهزة Micro USB. مصنوع من مادة TPE والنحاس، ويتميز بتصميم مقاوم للضغط العالي وموصل نحاسي فائق النقاء لضمان الجودة. يدعم تيار أقصى 2.4 أمبير وهو مضاد للتداخل ومتوافق مع أي إصدار USB.',
   price: 30,
@@ -2327,6 +2382,7 @@ export const products: Product[] = [
 {
   id: '152',
   name: 'كابل بيانات WUW X195 Type-C',
+  subcategory: "شواحن",
   englishName: 'WUW X195 Type-C Data Cable',
   description: 'كابل بيانات WUW X195 Type-C بطول 1 متر، يوفر مخرج 2.4 أمبير لشحن سريع ونقل بيانات عالي السرعة. يتميز بسلك PVC صديق للبيئة ناعم ومرن ومقاوم للشد والانحناء، وتصميم مسطح يمنع التشابك. مزود بتركيبات عالية الجودة ومقبس مقاوم للصدأ، ويدعم الشحن السريع ونقل البيانات المتزامن، ومتوافق مع معظم أجهزة USB في السوق.',
   price: 35,
@@ -2367,6 +2423,7 @@ export const products: Product[] = [
 {
   id: '151',
   name: 'كابل بيانات ANKER AK-2 Type-C',
+  subcategory: "شواحن",
   englishName: 'ANKER AK-2 Type-C Data Cable',
   description: 'كابل بيانات ANKER AK-2 Type-C بطول 1 متر، يوفر مخرج 2.4 أمبير لشحن آمن وموثوق. يتميز بسلك PVC صديق للبيئة ناعم ومرن ومقاوم للشد والانحناء، وتصميم مسطح يمنع التشابك. مزود بتركيبات عالية الجودة ومقبس مقاوم للصدأ، ويوفر خرج طاقة ثابتًا لنقل مثالي للطاقة وأداء فائق مع الأجهزة المتوافقة.',
   price: 55,
@@ -2404,6 +2461,7 @@ export const products: Product[] = [
 {
   id: '150',
   name: 'كابل Dolphin D-162 USB إلى لايتنينج',
+  subcategory: "شواحن",
   englishName: 'Dolphin D-162 USB to Lightning Cable',
   description: 'كابل Dolphin D-162 USB إلى لايتنينج بطول 1 متر، مصمم للشحن الآمن والسريع ونقل البيانات عالي السرعة لأجهزة آبل. مصنوع من مادة TPE والنحاس، ويتميز بتصميم مقاوم للضغط العالي وموصل نحاسي فائق النقاء لضمان الجودة. يدعم تيار أقصى 2.4 أمبير وهو مضاد للتداخل ومتوافق مع أي إصدار USB.',
   price: 40,
@@ -2442,6 +2500,7 @@ export const products: Product[] = [
 {
   id: '149',
   name: 'كابل بيانات JNUOBI S-2 (Micro USB)',
+  subcategory: "شواحن",
   englishName: 'JNUOBI S-2 Data Cable (Micro USB)',
   description: 'كابل بيانات JNUOBI S-2 بطول 1 متر، مصمم للشحن السريع بتيار 6 أمبير، ومجهز بدعم خاص لتخفيف الضغط لضمان المتانة. يتوافق هذا الكابل مع أجهزة Micro USB ويوفر شحنًا عالي السرعة.',
   price: 50,
@@ -2473,6 +2532,7 @@ export const products: Product[] = [
 {
   id: '148',
   name: 'كابل بيانات ONE DEPOT S01T Type-C',
+  subcategory: "شواحن",
   englishName: 'ONE DEPOT S01T Type-C Data Cable',
   description: 'كابل بيانات ONE DEPOT S01T Type-C بطول 1 متر، مصمم لدعم الشحن والمزامنة بحد أقصى للتيار يبلغ 2.4 أمبير. يتميز بسطح موصل من PVC وسلك أساسي متين، مما يضمن نقل بيانات عالي الجودة وشحن فعال.',
   price: 35,
@@ -2508,6 +2568,7 @@ export const products: Product[] = [
 {
   id: '147',
   name: 'كابل بيانات BIBOSHI B01-03',
+  subcategory: "شواحن",
   englishName: 'BIBOSHI B01-03 Data Cable',
   description: 'كابل بيانات BIBOSHI B01-03 مصمم للشحن ونقل البيانات عالي السرعة، ويتميز بنواة من أفضل الأنواع ومادة TPE عالية الجودة. يوفر ميزات ذكية لإدارة الطاقة، مثل إيقاف التشغيل الذكي والشحن البطيء لحماية البطارية. مع 160 نواة نحاسية نقية سميكة، يضمن تجربة شحن فائقة، كما أن تصميمه المقوى يجعله مقاومًا للانحناء والتشقق.',
   price: 60,
@@ -2542,6 +2603,7 @@ export const products: Product[] = [
 {
   id: '146',
   name: 'كابل بيانات EHP Type-C موديل C1',
+  subcategory: "شواحن",
   englishName: 'EHP Type-C Data Cable Model C1',
   description: 'كابل بيانات EHP Type-C موديل C1 بطول 1 متر، مصمم لتوفير شحن آمن وسريع ونقل بيانات عالي السرعة لهاتفك المحمول أو التابلت. يتميز بتصميم مقاوم للضغط العالي، وموصل نحاسي فائق النقاء لضمان الجودة، وهو متوافق مع أي إصدار USB ومضاد للتداخل.',
   price: 60,
@@ -2576,6 +2638,7 @@ export const products: Product[] = [
 {
   id: '145',
   name: 'رأس شاحن DUDA DU-01',
+  subcategory: "شواحن",
   englishName: 'DUDA DU-01 Charger Set',
   description: 'مجموعة شاحن DUDA DU-01 توفر شحنًا آمنًا وسريعًا ومستقرًا. يتميز هذا الشاحن بمخرج 2.1 أمبير، مما يضمن نقلًا مثاليًا للطاقة وأداءً فائقًا لأجهزتك المتوافقة. إنه مصمم ليكون موثوقًا وآمنًا للاستخدام اليومي.',
   price: 80,
@@ -2608,6 +2671,7 @@ export const products: Product[] = [
 {
   id: '144',
   name: 'سماعات أذن ستيريو UNIPHA U19',
+  subcategory: "سماعات",
   englishName: 'UNIPHA U19 Stereo Earphones',
   description: 'سماعات أذن ستيريو UNIPHA U19 مصممة لتجربة صوتية غامرة. تتميز بمكبر صوت 10 مم، حساسية 98 ديسيبل، ومقاومة 32 أوم، مما يوفر نطاق تردد واسع من 20 هرتز إلى 20 كيلوهرتز. تأتي مع قابس 3.5 مم قياسي وطول سلك 120 سم، ومناسبة للاستخدام اليومي مع الهواتف الذكية والأجهزة الأخرى. يرجى الانتباه إلى إرشادات السلامة المرفقة للحفاظ على صحة السمع وتجنب الحوادث.',
   price: 40,
@@ -2646,6 +2710,7 @@ export const products: Product[] = [
 {
   id: '143',
   name: 'سماعات أذن YSION ستيريو',
+  subcategory: "سماعات",
   englishName: 'YSION Stereo Earphones',
   description: 'سماعات أذن YSION ستيريو توفر تجربة صوت غنية وميزات تحكم مريحة للمكالمات والموسيقى. تتميز بمحرك أقراص 10 مم، واستجابة تردد واسعة، وكابل بطول 1.2 متر، مما يجعلها مثالية للاستخدام اليومي.',
   price: 40,
@@ -2678,6 +2743,7 @@ export const products: Product[] = [
 {
   id: '142',
   name: 'سماعات أذن VDENMENV DR01',
+  subcategory: "سماعات",
   englishName: 'VDENMENV DR01 Earphones',
   description: 'سماعات أذن VDENMENV DR01 توفر جودة صوت غنية وتصميمًا مريحًا. هذه السماعات مزودة بتحكم سلكي عالمي، مما يجعلها ملحقًا جميلًا وعمليًا للاستخدام اليومي مع مختلف الأجهزة.',
   price: 45,
@@ -2707,6 +2773,7 @@ export const products: Product[] = [
 {
   id: '141',
   name: 'سماعات أذن Blue Spectrum D-43',
+  subcategory: "سماعات",
   englishName: 'Blue Spectrum D-43 Earphones',
   description: 'سماعات أذن Blue Spectrum D-43 توفر تجربة صوت ستيريو ديناميكية مع ميكروفون مدمج لإجراء مكالمات بدون استخدام اليدين. تتميز بنطاق تردد واسع وحساسية عالية، وتصميم مريح يناسب واجهة 3.5 مم القياسية في الهواتف الذكية.',
   price: 55,
@@ -2741,6 +2808,7 @@ export const products: Product[] = [
 {
   id: '140',
   name: 'مجموعة شاحن Sky Dolphin أحادي المنفذ (Micro USB)',
+  subcategory: "شواحن",
   englishName: 'Sky Dolphin Single Port Charger Set (Micro USB)',
   description: 'مجموعة شاحن السفر Sky Dolphin أحادي المنفذ، مصممة لشحن أجهزة Micro USB بكفاءة. يتميز بشاحن سريع مع مخرج 2.4 أمبير و12 واط، وكابل بيانات يدعم الشحن والمزامنة، مما يجعله حل شحن متكامل ومناسب للسفر.',
   price: 50,
@@ -2775,6 +2843,7 @@ export const products: Product[] = [
 {
   id: '139',
   name: 'رأس شاحن WUW T82',
+  subcategory: "شواحن",
   englishName: 'WUW T82 Charger Set',
   description: 'مجموعة شاحن WUW T82 توفر شحنًا آمنًا، سريعًا، وثابتًا. يأتي مع مخرج 2.14 أمبير، مما يجعله مناسبًا لشحن الهواتف الذكية والأجهزة اللوحية بكفاءة.',
   price: 70,
@@ -2804,6 +2873,7 @@ export const products: Product[] = [
 {
   id: '138',
   name: 'كابل بيانات Type-C إلى Type-C',
+  subcategory: "شواحن",
   englishName: 'Type-C to Type-C Data Cable',
   description: 'كابل بيانات Type-C إلى Type-C قياسي، مصمم لتوصيل الأجهزة المزودة بمنافذ Type-C ببعضها البعض. يدعم الشحن ونقل البيانات، مما يوفر اتصالاً متعدد الاستخدامات لأجهزتك الحديثة.',
   price: 60,
@@ -2831,6 +2901,7 @@ export const products: Product[] = [
 {
   id: '137',
   name: 'كابل بيانات Anker USB-C إلى لايتنينج (LDO)',
+  subcategory: "شواحن",
   englishName: 'Anker USB-C to Lightning Data Cable (LDO)',
   description: 'كابل بيانات Anker LDO بطول 1 متر، مصمم للتوصيل بين أجهزة USB-C وأجهزة لايتنينج. يدعم تقنية الشحن السريع Power Delivery (PD) بقوة 20 واط، مما يضمن شحنًا فعالًا وسريعًا لأجهزة آبل المتوافقة.',
   price: 60,
@@ -2861,6 +2932,7 @@ export const products: Product[] = [
 {
   id: '136',
   name: 'كابل JNUOBI X-120 لايتنينج OD6.0',
+  subcategory: "شواحن",
   englishName: 'JNUOBI X-120 OD6.0 Lightning Cable',
   description: 'كابل JNUOBI X-120 لايتنينج فائق السُمك (OD6.0) مصمم للشحن فائق السرعة، حيث يدعم طاقة تصل إلى 120 واط. بطول 1 متر، يضمن هذا الكابل شحنًا ومزامنة بيانات فعالة لأجهزة آبل المتوافقة. يتميز بتصميم متين لضمان عمر افتراضي طويل.',
   price: 155,
@@ -2894,6 +2966,7 @@ export const products: Product[] = [
 {
   id: '135',
   name: 'كابل بيانات GEMAX Type-C HY-C610',
+  subcategory: "شواحن",
   englishName: 'GEMAX Type-C Data Cable HY-C610',
   description: 'كابل بيانات GEMAX HY-C610 Type-C مصمم للشحن السريع للغاية، حيث يدعم قوة تصل إلى 120 واط. يتميز بسطح سميك (OD6.0) وسلك فائق السُمك لضمان المتانة والأداء الأمثل. يوفر تيار 3 أمبير لشحن فعال وسريع لأجهزتك المزودة بمنفذ Type-C.',
   price: 220,
@@ -2928,6 +3001,7 @@ export const products: Product[] = [
 {
   id: '134',
   name: 'كابل بيانات LDNIO بزاوية 90 درجة (طول 2 متر)',
+  subcategory: "شواحن",
   englishName: 'LDNIO 90° Angle Data Cable (2M Length)',
   description: 'كابل بيانات LDNIO متين بطول 2 متر، يتميز بتصميم بزاوية 90 درجة لسهولة الاستخدام وحماية معززة. يدعم الشحن عالي التيار ونقل البيانات السريع، ومزود بحماية أمنية متعددة لضمان شحن آمن ومزامنة بيانات فورية. الواجهة المصنوعة من أنبوب فولاذي غير ملحوم تتحمل الانحناء المتكرر وتوفر توصيلاً فائقًا. كما أن الكابل مصنوع من مواد صديقة للبيئة، ناعمة، مرنة، ومضادة للتشابك والسحب.',
   price: 180,
@@ -2962,6 +3036,7 @@ export const products: Product[] = [
 {
   id: '133',
   name: 'كابل بيانات وشحن LDNIO LS641 من الألومنيوم',
+  subcategory: "شواحن",
   englishName: 'LDNIO LS641 Aluminium Charging Data Cable',
   description: 'كابل بيانات وشحن LDNIO LS641 مصنوع من سبائك الألومنيوم بطول 1 متر، مصمم للشحن السريع ونقل البيانات الفوري. يتميز بحماية أمان متعددة لضمان شحن آمن وغير ضار لأجهزتك. الواجهة معززة لتحمل الانحناء المتكرر، والمادة المصنوعة منها صديقة للبيئة ومرنة ومقاومة للسحب والالتواء.',
   price: 150,
@@ -2996,6 +3071,7 @@ export const products: Product[] = [
 {
   id: '132',
   name: 'مجموعة شاحن السفر HOCO C101A',
+  subcategory: "شواحن",
   englishName: 'HOCO C101A Travel Charger Set',
   description: 'مجموعة شاحن السفر HOCO C101A متعددة الاستخدامات، توفر شحنًا سريعًا وفعالًا لأجهزتك. تدعم الشحن السريع PD بقوة تصل إلى 20 واط عبر منفذ Type-C، مما يجعلها مثالية لشحن الهواتف الذكية والأجهزة اللوحية. تتميز بمدخل تيار متردد عالمي (110-240 فولت)، مما يجعلها مناسبة للاستخدام في مختلف البلدان.',
   price: 550,
@@ -3029,6 +3105,7 @@ export const products: Product[] = [
 {
   id: '131',
   name: 'كابل بيانات LDNIO بزاوية 90 درجة لايتنينج',
+  subcategory: "شواحن",
   englishName: 'LDNIO 90° Angle Lightning Data Cable',
   description: 'كابل بيانات LDNIO Lightning بطول 1 متر بتصميم فريد بزاوية 90 درجة لسهولة الاستخدام. يدعم الشحن عالي التيار ونقل البيانات السريع، ومصمم بحماية أمنية متعددة لشحن آمن ومزامنة بيانات سريعة. الواجهة مُحسّنة ومُعززة لتحمل الانحناء المتكرر، ومصنوعة من مواد صديقة للبيئة ومرنة ومضادة للتشابك.',
   price: 165,
@@ -3062,6 +3139,7 @@ export const products: Product[] = [
 {
   id: '130',
   name: 'محول طاقة لاب توب Platinum AC/DC (موديل TO)',
+  subcategory: "شواحن",
   englishName: 'Platinum AC/DC Notebook Power Adapter (TO Model)',
   description: 'محول طاقة Platinum AC/DC عالي الجودة مصمم لأجهزة اللاب توب، يتميز بجودة ممتازة وقد اجتاز فحص حماية البيئة واختبار تقادم الحمل بنسبة 100%. يوفر هذا المحول حماية من التيار الزائد، حماية من قصر الدائرة، وحماية من درجات الحرارة العالية، بالإضافة إلى كونه فعالاً ويوفر الطاقة. يدعم دخل تيار متردد 100-240 فولت ويخرج تيار مستمر 19 فولت 3.42 أمبير مع موصل بحجم 5.5 × 2.5 مم.',
   price: 450,
@@ -3100,6 +3178,7 @@ export const products: Product[] = [
 {
   id: '129',
   name: 'محول طاقة لاب توب Platinum AC/DC (موديل AS)',
+  subcategory: "محول طاقة",
   englishName: 'Platinum AC/DC Notebook Power Adapter (AS Model)',
   description: 'محول طاقة Platinum AC/DC عالي الجودة مصمم لأجهزة اللاب توب، يتميز بجودة ممتازة وقد اجتاز فحص حماية البيئة واختبار تقادم الحمل بنسبة 100%. يوفر هذا المحول حماية من التيار الزائد، حماية من قصر الدائرة، وحماية من درجات الحرارة العالية، بالإضافة إلى كونه فعالاً ويوفر الطاقة. يدعم دخل تيار متردد 100-240 فولت ويخرج تيار مستمر 19 فولت 3.42 أمبير مع موصل بحجم 4.0*1.35 مم.',
   price: 450,
@@ -3137,6 +3216,7 @@ export const products: Product[] = [
 {
   id: '128',
   name: 'محول طاقة لاب توب Platinum AC/DC',
+  subcategory: "محول طاقة",
   englishName: 'Platinum AC/DC Notebook Power Adapter',
   description: 'محول طاقة Platinum AC/DC عالي الجودة مصمم لأجهزة اللاب توب، يتميز بجودة ممتازة وقد اجتاز فحص حماية البيئة واختبار تقادم الحمل بنسبة 100%. يوفر هذا المحول حماية من التيار الزائد، حماية من قصر الدائرة، وحماية من درجات الحرارة العالية، بالإضافة إلى كونه فعالاً ويوفر الطاقة. يدعم دخل تيار متردد 100-240 فولت ويخرج تيار مستمر 20 فولت 3.25 أمبير مع موصل USB.',
   price: 450, // Price in EGP
@@ -3172,6 +3252,7 @@ export const products: Product[] = [
 {
   id: '127',
   name: 'محول تيار متردد للاب توب Crash لأجهزة DELL',
+  subcategory: "محول طاقة",
   englishName: 'Crash Laptop AC Adapter for DELL',
   description: 'محول تيار متردد عالي الجودة من Crash مصمم خصيصًا لأجهزة الكمبيوتر المحمولة DELL بقوة 65 واط. يوفر خرج 19.5 فولت و 3.33 أمبير مع موصل 4.5*3.0 مم. يتميز بتصميم متين ويخضع لمراقبة جودة جيدة لضمان التوافق بنسبة 100% مع أجهزة الكمبيوتر المحمولة المتوافقة.',
   price: 450, // Price in EGP
@@ -3202,6 +3283,7 @@ export const products: Product[] = [
 {
   id: '126',
   name: 'محول تيار متردد للاب توب Crash لأجهزة HP',
+  subcategory: "محول طاقة",
   englishName: 'Crash Laptop AC Adapter for HP',
   description: 'محول تيار متردد عالي الجودة من Crash مصمم خصيصًا لأجهزة الكمبيوتر المحمولة HP بقوة 65 واط. يوفر خرج 18.5 فولت و 3.5 أمبير مع موصل 4.8*1.7 مم. يتميز بتصميم متين ويخضع لمراقبة جودة جيدة لضمان التوافق بنسبة 100% مع أجهزة الكمبيوتر المحمولة المتوافقة.',
   price: 430, // Price in EGP
@@ -3232,6 +3314,7 @@ export const products: Product[] = [
 {
   id: '125',
   name: 'كابل شحن JOYROOM S-A29 USB-C إلى Lightning',
+  subcategory: "شواحن",
   englishName: 'JOYROOM S-A29 USB-C to Lightning Charging Cable',
   description: 'كابل شحن سريع JOYROOM S-A29 من النوع USB-C إلى Lightning يدعم 30 واط PD (توصيل الطاقة). يتميز بمادة السيليكون السائل المقاومة للأوساخ والتي يسهل تنظيفها وتحافظ على لونها. الكابل متين وقوي، مصمم ليتحمل درجات حرارة قصوى واختبارات انحناء مكثفة، مما يجعله أكثر مرونة ومقاومًا للتشابك. يوفر تنظيمًا تلقائيًا للجهد/التيار لشحن آمن وسريع.',
   price: 320, // Price in EGP
@@ -3265,6 +3348,7 @@ export const products: Product[] = [
 {
   id: '124',
   name: 'كابل شحن JOYROOM S-A14 لايتنينج',
+  subcategory: "شواحن",
   englishName: 'JOYROOM S-A14 Lightning Charging Cable',
   description: 'كابل شحن JOYROOM S-A14 لايتنينج عالي الجودة يوفر شحنًا سريعًا وآمنًا ونقل بيانات فعال لأجهزة آبل. يتميز بقلب نحاسي سميك لشحن أسرع 3 مرات، وطرف مضاد للأكسدة يدوم لأكثر من 10000 عملية توصيل، ويدعم حتى 7 كجم. مصنوع من مادة مقاومة للهب من الدرجة V1 لشحن أكثر أمانًا. يدعم الجهد/التيار التلقائي ويولد حرارة أقل، ويدعم مزامنة البيانات حتى 480 ميجابت في الثانية، مما يسمح بنقل ملف بحجم 1 جيجابايت في 25 ثانية.',
   price: 170, // Price in EGP
@@ -3298,6 +3382,7 @@ export const products: Product[] = [
 {
   id: '123',
   name: 'سماعات أذن Blue Spectrum D42',
+  subcategory: "سماعات",
   englishName: 'Blue Spectrum D42 Earphones',
   description: 'سماعات أذن Blue Spectrum D42 توفر صوتًا ستريو ديناميكيًا ومناسبة للهواتف الذكية ذات واجهة 3.5 ملم. تتميز بميكروفون مدمج لإجراء المكالمات بدون استخدام اليدين. تأتي السماعات بسلك بطول 135 سم وتوفر جودة صوت واضحة مع نطاق تردد واسع.',
   price: 65, // Price in EGP
@@ -3330,6 +3415,7 @@ export const products: Product[] = [
 {
   id: '122',
   name: 'سماعات أذن VIDVIE HS660',
+  subcategory: "سماعات",
   englishName: 'VIDVIE HS660 Earphones',
   description: 'سماعات أذن VIDVIE HS660 عالية الجودة مصممة لتقليل الضوضاء في الأذن، مما يوفر تجربة صوتية غامرة. تتميز بتصميم مريح يجعلها سهلة الحمل ومناسبة لمختلف المناسبات، سواء للعب الألعاب أو الاستماع إلى الموسيقى.',
   price: 75, // Price in EGP
@@ -3360,6 +3446,7 @@ export const products: Product[] = [
 {
   id: '121',
   name: 'محول طاقة SPIDER عالي الجودة',
+  subcategory: "شواحن",
   englishName: 'SPIDER High Quality Adapter',
   description: 'محول طاقة SPIDER عالي الجودة بتصميم جديد وخفيف الوزن، يوفر شحنًا سريعًا ومستقرًا. يعمل بتيار متردد 220 فولت ويوفر خرج تيار مستمر 5.3 فولت و2200 مللي أمبير كحد أقصى. مناسب لشحن الهواتف المحمولة والألعاب وأجهزة iPod و MP3/MP4/MP5 وبعض الأجهزة الإلكترونية الأخرى. يتميز بجودة النواة الداخلية للسلك لتحسين استقرار الشحن.',
   price: 90, // Price in EGP
@@ -3389,13 +3476,14 @@ export const products: Product[] = [
 {
   id: '120',
   name: 'شاحن سيارة VIDIVE بمنفذي USB',
+  subcategory: "اجهزة توصيل عن بعد",
   englishName: 'VIDIVE Dual USB Car Charger',
   description: 'شاحن سيارة ذكي وقوي من VIDIVE، يتميز بمنفذي USB ويوفر شحنًا فائق السرعة. مصمم ليكون آمنًا وموثوقًا، ويدعم مدخلات تيار مستمر 12-24 فولت. يوفر خرجًا يبلغ 5 فولت - 2.1 أمبير (كحد أقصى) لكل منفذ، مما يجعله مثاليًا لشحن الأجهزة أثناء القيادة. يأتي مع كابلات توصيل USB المقابلة.',
   price: 250, // Price in EGP
   images: [
     vidive_usp_car, // Placeholder for actual image variable
   ],
-  categories: ['إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "شاحن سيارة ذكي بمنفذ USB",
     "شحن USB فائق السرعة",
@@ -3421,6 +3509,7 @@ export const products: Product[] = [
 {
   id: '119',
   name: 'محول Joyroom Micro USB ذكر إلى USB أنثى (OTG)',
+  subcategory: "شواحن",
   englishName: 'Joyroom Micro Male to USB Female Adapter (OTG)',
   description: 'محول Joyroom S-H153 Micro USB ذكر إلى USB أنثى يسمح لك بتوصيل مجموعة متنوعة من أجهزة USB بمنفذ Micro USB الموجود على هاتفك أو جهازك اللوحي. يمكن استخدامه لتوصيل قارئ USB، لوحة مفاتيح، ماوس، وحدات تحكم ألعاب، أو كابلات أخرى. يدعم هذا المحول وظائف الشحن ونقل البيانات بسرعات USB 3.0، وهو مصنوع من سبيكة الزنك المتينة.',
   price: 50, // Price in EGP
@@ -3453,6 +3542,7 @@ export const products: Product[] = [
 {
   id: '118',
   name: 'أغطية أصابع WASP Feelers للألعاب المحمولة',
+  subcategory: " ",
   englishName: 'WASP Feelers Mobile Gaming Finger Sleeve',
   description: 'أغطية أصابع WASP Feelers مصممة خصيصًا للاعبي الألعاب المحمولة. تساعد هذه الأكمام على التخلص من التعرق والانزلاق، مما يوفر قبضة أفضل وتحكمًا أدق أثناء اللعب. كما أنها تحمي أطراف أصابعك من الاحتكاك والتآكل أثناء جلسات اللعب الطويلة.',
   price: 10, // Price in EGP
@@ -3479,6 +3569,7 @@ export const products: Product[] = [
 {
   id: '117',
   name: 'قارئ بطاقات متعدد الوظائف 32G',
+  subcategory: " ",
   englishName: 'Multi-functional Card Reader 32G',
   description: 'قارئ بطاقات متعدد الوظائف يدعم ما يصل إلى 32 جيجابايت، متوافق مع مواصفات USB 2.0. يدعم هذا القارئ مجموعة واسعة من بطاقات الذاكرة بما في ذلك SD/MMC و Micro SD و MiniSD و MMC Plus و SDHC وغيرها. لا يتطلب طاقة خارجية حيث يسحب الطاقة مباشرة من منفذ USB. يتميز بمؤشر LED لمراقبة نشاط الناقل ويسمح بعرض وتحرير البيانات مباشرة على القارئ، بالإضافة إلى سحب وإفلات الملفات بين البطاقات. متوافق مع أنظمة التشغيل Windows 98/Win7/2000/XP/Vista.',
   price: 30, // Price in EGP
@@ -3511,6 +3602,7 @@ export const products: Product[] = [
 {
   id: '116',
   name: 'حامل دراجة نارية/دراجة هوائية JNUOBI C-02',
+  subcategory: "حوامل وستاندات",
   englishName: 'JNUOBI Motorcycle/Bicycle Bracket C-02',
   description: 'حامل JNUOBI C-02 هو حامل متعدد الاستخدامات مصمم لتثبيت الهواتف الذكية على الدراجات النارية والدراجات الهوائية. يتميز بدوران 360 درجة، مما يتيح لك ضبط زاوية الرؤية بسهولة. يوفر تثبيتًا آمنًا لهاتفك أثناء القيادة.',
   price: 270, // Price in EGP
@@ -3538,6 +3630,7 @@ export const products: Product[] = [
 {
   id: '115',
   name: 'حامل JNUOBI CC-04 بقفل أوتوماتيكي ومشبك تلقائي',
+  subcategory: "حوامل وستاندات",
   englishName: 'JNUOBI HOLDER AUTOMATIC LOCK CC-04',
   description: 'حامل JNUOBI CC-04 هو حامل للهواتف الذكية يتميز بآلية قفل أوتوماتيكية ومشبك تلقائي (Auto Clamp) لتثبيت الهاتف بإحكام. يتميز بتصميم ثابت بفضل الحامل السفلي وذراع المشبك المثلثين المصنوعين من السيليكون غير القابل للانزلاق، مما يضمن ثبات الهاتف حتى على الطرق الوعرة. مناسب للاستخدام مع الهواتف الذكية.',
   price: 200, // Price in EGP
@@ -3570,6 +3663,7 @@ export const products: Product[] = [
 {
   id: '114',
   name: 'حامل JNUOBI CC-03 بقفل أوتوماتيكي',
+  subcategory: "حوامل وستاندات",
   englishName: 'JNUOBI HOLDER AUTOMATIC LOCK CC-03',
   description: 'حامل JNUOBI CC-03 هو حامل للهاتف يتميز بآلية قفل أوتوماتيكية لتثبيت هاتفك بأمان. مناسب للاستخدام في السيارة أو على المكتب، ويوفر سهولة في وضع الهاتف وإزالته.',
   price: 170, // Price in EGP
@@ -3596,6 +3690,7 @@ export const products: Product[] = [
 {
   id: '113',
   name: 'بطارية ليثيوم أيون 3.7 فولت',
+  subcategory: "شواحن",
   englishName: '3.7V Li-ion Battery',
   description: 'بطارية ليثيوم أيون 3.7 فولت، مناسبة لمجموعة متنوعة من الأجهزة الإلكترونية. توفر طاقة موثوقة ويمكن إعادة شحنها. تتضمن تحذيرات أمان مهمة لضمان الاستخدام الصحيح والآمن.',
   price: 85, // Price in EGP
@@ -3623,6 +3718,7 @@ export const products: Product[] = [
 {
   id: '112',
   name: 'محول JH-002 POP-UP WINDOW 8 PIN لسماعة الرأس',
+  subcategory: "سماعات",
   englishName: 'JH-002 POP-UP WINDOW 8 PIN TO HEADPHONE JACK ADAPTER',
   description: 'محول JH-002 هو محول من 8 سنون (Lightning) إلى مقبس سماعة رأس، مصمم خصيصًا لأجهزة iPhone 7/8/X/Xs/Xr/11/11 Pro Max/12/12 Pro Max. يتميز بخاصية "نافذة منبثقة" لسهولة الاتصال والاستخدام، مما يتيح لك توصيل سماعات الرأس التقليدية بأجهزة iPhone التي لا تحتوي على مقبس سماعة رأس 3.5 ملم.',
   price: 50, // Price in EGP
@@ -3652,6 +3748,7 @@ export const products: Product[] = [
 {
   id: '111',
   name: 'محول طاقة USB-C بقوة 25 واط',
+  subcategory: "شواحن",
   englishName: 'USB-C 25W Power Adapter',
   description: 'محول طاقة USB-C بقوة 25 واط، يوفر شحنًا سريعًا وفعالًا للأجهزة المتوافقة مع منفذ USB-C. يتميز بتصميم مدمج ومناسب للسفر، وهو مثالي لشحن الهواتف الذكية والأجهزة اللوحية وغيرها من الأجهزة التي تدعم الشحن عبر USB-C.',
   price: 150, // Price in EGP
@@ -3679,13 +3776,14 @@ export const products: Product[] = [
 {
   id: '110',
   name: 'مشغل MP3 للسيارة متعدد الوظائف HZ H38A',
+  subcategory: "اجهزة توصيل عن بعد",
   englishName: 'HZ H38A MULTIFUNCTION CAR MP3 PLAYER',
   description: 'مشغل MP3 للسيارة HZ H38A هو جهاز متعدد الوظائف يتيح لك الاستماع إلى الموسيقى وإجراء المكالمات بسهولة في السيارة. يتميز بمنفذين USB بقدرة إخراج 2.1 أمبير، مما يتيح لك شحن جهازين في وقت واحد. يأتي مع جهاز تحكم عن بعد لسهولة التشغيل ويدعم مدخلات 12-24 فولت، مما يجعله متوافقًا مع معظم السيارات.',
   price: 300, // Price in EGP
   images: [
     HZ_h38a, // Placeholder for actual image variable
   ],
-  categories: ['إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "منفذين USB",
     "تيار إخراج 2.1 أمبير",
@@ -3712,6 +3810,7 @@ export const products: Product[] = [
 {
   id: '109',
   name: 'شاحن سيارة BIBOSHI B03-119',
+  subcategory: "شواحن",
   englishName: 'BIBOSHI B03-119 Car Charger',
   description: 'شاحن سيارة BIBOSHI B03-119 هو شاحن سيارة بمنفذي USB يوفر شحنًا آمنًا وفعالًا أثناء التنقل. يتميز بمخرج طاقة تكيفي مخصص يبلغ 3.1 أمبير لكل منفذ USB، مما يسمح بشحن جهازين في وقت واحد بأقصى سرعة. يتضمن الشاحن حماية متعددة مثل الحماية من الطاقة الزائدة، حماية من درجة الحرارة الزائدة (OVM)، وحماية من الدائرة القصيرة لضمان سلامة أجهزتك.',
   price: 150, // Price in EGP
@@ -3745,6 +3844,7 @@ export const products: Product[] = [
 {
   id: '108',
   name: 'محول طاقة SAMSUNG USB-C 25W PD',
+  subcategory: "شواحن",
   englishName: 'SAMSUNG USB-C 25W PD ADAPTOR',
   description: 'محول طاقة SAMSUNG USB-C 25W PD هو شاحن سفر يدعم الشحن فائق السرعة بتقنية PD 3.0 PPS وبحد أقصى 25 واط. متوافق مع أجهزة Android و iPhone، مما يجعله حلاً متعدد الاستخدامات لاحتياجات الشحن الخاصة بك. تشمل محتويات العبوة محول السفر وكتيبًا، مع ملاحظة أن الكابل غير متضمن.',
   price: 195, // Price in EGP
@@ -3773,6 +3873,7 @@ export const products: Product[] = [
 {
   id: '107',
   name: 'كابل Energizer Micro USB معدني مقوى',
+  subcategory: "شواحن",
   englishName: 'Energizer Resistant Metallic Micro USB Cable',
   description: 'كابل Energizer Micro USB هو كابل شحن ومزامنة بيانات متين وعالي القوة، مصمم للاستخدام مع الهواتف المحمولة المزودة بمنفذ Micro USB. يبلغ طوله 1.2 متر (4 أقدام)، وهو مصنوع من مادة معدنية مقاومة للتشابك لضمان المتانة وطول العمر. يوفر الكابل نقل بيانات سريع وشحن فعال.',
   price: 250, // Price in EGP
@@ -3803,6 +3904,7 @@ export const products: Product[] = [
 {
   id: '106',
   name: 'محول طاقة GERLAX A10L',
+  subcategory: "شواحن",
   englishName: 'GERLAX POWER ADAPTER A10L',
   description: 'محول طاقة GERLAX A10L هو شاحن سفر يدعم الشحن السريع بقدرة 15 واط وتيار 3 أمبير. يتميز بتقنية AUTO-ID التي تتعرف تلقائيًا على الجهاز المتصل لتوفير الشحن الأمثل. هذا الشاحن مصمم خصيصًا لأجهزة iOS/5G، ويوفر دعمًا آمنًا وفعالًا لشحن الهواتف المحمولة.',
   price: 120, // Price in EGP
@@ -3836,6 +3938,7 @@ export const products: Product[] = [
 {
   id: '105',
   name: 'كابل شحن BIBOSHI A02',
+  subcategory: "شواحن",
   englishName: 'BIBOSHI A02 Charging Cable',
   description: 'كابل شحن BIBOSHI A02 هو كابل شحن سريع ومتين، يدعم تيارًا يصل إلى 6 أمبير. يتميز هذا الكابل بأنه مصنوع من مادة TPE عالية الجودة، مما يجعله أكثر متانة وقوة من كابلات الشحن العادية. كما أنه مرن وخالي من التشابك لسهولة الاستخدام والتخزين.',
   price: 85, // Price in EGP
@@ -3867,6 +3970,7 @@ export const products: Product[] = [
 {
   id: '104',
   name: 'محول طاقة OPPO GAN',
+  subcategory: "شواحن",
   englishName: 'OPPO GAN POWER ADAPTER',
   description: 'محول طاقة OPPO GAN هو شاحن قوي وعالي الأداء يدعم الشحن السريع للغاية، بحد أقصى 65 واط. يتميز هذا المحول بتقنية GaN لتوفير كفاءة عالية وتصميم مدمج. يوفر مخارج متعددة للشحن السريع بمستويات جهد وتيار مختلفة، مما يجعله متوافقًا مع مجموعة واسعة من الأجهزة.',
   price: 400, // Price in EGP
@@ -3898,6 +4002,7 @@ export const products: Product[] = [
 {
   id: '1033',
   name: 'شاحن TEMAX 0112 المحمول مع كابل Micro',
+  subcategory: "شواحن",
   englishName: 'TEMAX 0112 Portable Charger & Micro Cable',
   description: 'شاحن TEMAX 0112 هو شاحن محمول يجمع بين الشحن السريع وحماية متقدمة. يتميز بتقنية Power IQ لتعزيز الجهد وضمان أسرع شحن ممكن. يوفر مخرجًا بقوة 5 فولت - 2.4 أمبير، مما يجعله مناسبًا لأجهزة iPhone وiPad وأجهزة Android والأجهزة الأخرى المشحونة عبر USB. يأتي الشاحن مع كابل Micro USB بالداخل، ويوفر حماية متقدمة لضمان سلامتك وسلامة أجهزتك. كما يتميز بضمان لمدة 18 شهرًا.',
   price: 150, // Price in EGP
@@ -3932,6 +4037,7 @@ export const products: Product[] = [
 {
   id: '103',
   name: 'شاحن حائط MASA MA-555 USP-micro',
+  subcategory: "شواحن",
   englishName: 'MASA MA-555 Type-C Wall Charger',
   description: 'شاحن حائط MASA MA-555 هو شاحن سفر بقابس الاتحاد الأوروبي، يوفر شحنًا فعالًا وموثوقًا به. يتميز بمخرج 2.1 أمبير عند 5 فولت تيار مستمر، مما يجعله مناسبًا لشحن مجموعة واسعة من الأجهزة. مصنوع من مادة ABS المتينة، ويحتوي على كابل Micro USB مدمج بطول 1000 مم. يدعم الشحن السريع ونقل البيانات عالي السرعة، مع تصميم متين وتوافق عالٍ وموصل نحاسي فائق النقاء لضمان جودة ممتازة.',
   price: 100, // Price in EGP
@@ -3969,6 +4075,7 @@ export const products: Product[] = [
 {
   id: '102',
   name: 'شاحن حائط MASA MA-555 Type-C',
+  subcategory: "شواحن",
   englishName: 'MASA MA-555 Type-C Wall Charger',
   description: 'شاحن حائط MASA MA-555 هو شاحن سفر بقابس الاتحاد الأوروبي، يوفر شحنًا فعالًا وموثوقًا به. يتميز بمخرج 2.1 أمبير عند 5 فولت تيار مستمر، مما يجعله مناسبًا لشحن مجموعة واسعة من الأجهزة. مصنوع من مادة ABS المتينة، ويحتوي على كابل Micro USB مدمج بطول 1000 مم. يدعم الشحن السريع ونقل البيانات عالي السرعة، مع تصميم متين وتوافق عالٍ وموصل نحاسي فائق النقاء لضمان جودة ممتازة.',
   price: 100, // Price in EGP
@@ -4006,6 +4113,7 @@ export const products: Product[] = [
 {
   id: '101',
   name: 'شاحن BIBOSHI MINI PORTABLE B03-175',
+  subcategory: "شواحن",
   englishName: 'BIBOSHI MINI PORTABLE CHARGER B03-175',
   description: 'شاحن BIBOSHI MINI PORTABLE B03-175 هو شاحن محمول وصغير الحجم يوفر شحنًا آمنًا وفعالًا. يتميز بمخرج 12 واط و2.4 أمبير، مع شريحة طاقة ذكية مدمجة للتعرف التلقائي على الجهاز وإيقاف الشحن عند الامتلاء. هيكل الشاحن مصنوع من مادة ABS+PC المقاومة للهب والصديقة للبيئة، مما يمنع التلف العرضي. يوفر الشاحن شحنًا صامتًا مع جهد وتيار ثابتين، ويحتوي على حماية متعددة ضد الجهد الزائد، التيار الزائد، التفريغ الزائد، درجة الحرارة الزائدة، الشحن الزائد، وقصر الدائرة.',
   price: 175, // Price in EGP (from the model number)
@@ -4040,6 +4148,7 @@ export const products: Product[] = [
 {
   id: '1000',
   name: 'شاحن BIBOSHI QUICK CHARGE C78',
+  subcategory: "شواحن",
   englishName: 'BIBOSHI QUICK CHARGE C78',
   description: 'شاحن BIBOSHI QUICK CHARGE C78 هو شاحن سفر USB ثنائي المنفذ يدعم الشحن السريع. يوفر تيارًا يصل إلى 3 أمبير، مما يسمح بشحن الأجهزة بكفاءة عالية. يتميز بتقنية AUTO-ID للتعرف الذكي على الجهاز وتوفير الشحن الأمثل. إنه حل مثالي لاحتياجات الشحن السريعة والمتعددة.',
   price: 160, // Price in EGP
@@ -4070,6 +4179,7 @@ export const products: Product[] = [
 {
   id: '99',
   name: 'شاحن حائط BIBOSHI C06 ثنائي المنفذ USB',
+  subcategory: "شواحن",
   englishName: 'BIBOSHI C06 Dual USB European Wall Charger',
   description: 'شاحن حائط BIBOSHI C06 هو محول طاقة أوروبي مزود بمنفذين USB، مصمم لشحن الهواتف الذكية والأجهزة اللوحية بكفاءة. يوفر مخرجًا يصل إلى 2.1 أمبير/5 فولت، مما يتيح لك شحن جهازين في وقت واحد بأقصى سرعة. يتميز بتصميم مدمج وموثوق به للاستخدام اليومي.',
   price: 150, // Price in EGP
@@ -4102,6 +4212,7 @@ export const products: Product[] = [
 {
   id: '98',
   name: 'كابل صوت JNUOBI AUX PURE AUDIO YP-171',
+  subcategory: "شواحن",
   englishName: 'JNUOBI AUX CABLE PURE AUDIO YP-171',
   description: 'كابل صوت JNUOBI AUX PURE AUDIO YP-171 هو كابل صوت عالي الجودة مصمم لتقديم تجربة صوتية نقية. بطول 1 متر، يوفر الكابل مرونة كافية للاستخدامات المختلفة. يتميز بخصائص مقاومة التشابك والالتواء لضمان المتانة وسهولة الاستخدام.',
   price: 65, // Price in EGP
@@ -4130,6 +4241,7 @@ export const products: Product[] = [
 {
   id: '97',
   name: 'كابل LDNIO PVC LS841 للشحن والمزامنة',
+  subcategory: "شواحن",
   englishName: 'LDNIO PVC LS841 Charge & Sync Cable',
   description: 'كابل LDNIO PVC LS841 هو كابل شحن ومزامنة بيانات متين وعالي الجودة، مصمم لتوفير شحن سريع وآمن. يدعم الكابل طاقة تصل إلى 25 واط، مما يجعله مناسبًا للشحن السريع. يتميز بحماية أمان متعددة ويقاوم التلف الناتج عن الانحناء المتكرر بفضل واجهته المُحسّنة. مصنوع من مواد PVC صديقة للبيئة وناعمة ومرنة ومضادة للسحب والانحناء. بفضل تقنية "TURBO" الذكية، يتعرف الكابل على جميع الأجهزة ويوفر التوافق الكامل مع الهواتف المختلفة، مما يضمن مزامنة سريعة للبيانات في الوقت الفعلي.',
   price: 70, // Price in EGP
@@ -4163,6 +4275,7 @@ export const products: Product[] = [
 {
   id: '96',
   name: 'كابل شحن EHP FAST CABLE',
+  subcategory: "شواحن",
   englishName: 'EHP FAST CABLE',
   description: 'كابل شحن EHP FAST CABLE هو كابل بيانات وشحن عالي الأداء مصمم لتوفير شحن آمن وسريع بالإضافة إلى نقل بيانات عالي السرعة. يدعم الكابل تيارًا يصل إلى 2.4 أمبير، ويتميز بتصميم متين يقاوم الضغط العالي. يحتوي على موصل نحاسي فائق النقاء لضمان جودة عالية، وهو مضاد للتداخل ومتوافق مع أي إصدار من USB. يوفر الكابل حلاً موثوقًا وفعالًا لشحن ومزامنة الهواتف المحمولة والأجهزة اللوحية.',
   price: 95, // Price in EGP
@@ -4198,6 +4311,7 @@ export const products: Product[] = [
 {
   id: '95',
   name: 'كابل شحن JNUOBI FAST CHARGE ZS-13 3 في 1',
+  subcategory: "شواحن",
   englishName: 'JNUOBI FAST CHARGE ZS-13 3 IN 1 CABLE',
   description: 'كابل شحن JNUOBI FAST CHARGE ZS-13 هو كابل شحن سريع ومتعدد الاستخدامات بتصميم 3 في 1. يدعم الكابل تيار شحن قوي يصل إلى 6 أمبير، مما يجعله مثاليًا لشحن الأجهزة المختلفة بسرعة وكفاءة. يجمع الكابل بين أنواع موصلات متعددة (على الأرجح Lightning، Micro USB، و Type-C) في كابل واحد، مما يوفر راحة كبيرة للمستخدمين الذين يمتلكون أجهزة متنوعة.',
   price: 225, // Price in EGP
@@ -4228,6 +4342,7 @@ export const products: Product[] = [
 {
   id: '94',
   name: 'كابل شحن GX Type-C إلى Type-C',
+  subcategory: "شواحن",
   englishName: 'GX Type-C to Type-C Charging Cable',
   description: 'كابل شحن GX Type-C إلى Type-C هو كابل عالي الجودة مصمم لتوفير شحن عالي السرعة لهاتفك المحمول. يتميز بتصميم مريح مع أخدود فريد لبصمة الإصبع لسهولة التركيب. يوفر أمانًا وسرعة فائقة مع تصميم أنيق وموجز. متوافق بنسبة 99% مع الهواتف المحمولة، مما يعزز حياتك الذكية.',
   price: 85, // Price in EGP
@@ -4259,6 +4374,7 @@ export const products: Product[] = [
 {
   id: '93',
   name: 'كابل شحن JNUOBI S-1 Lightning',
+  subcategory: "شواحن",
   englishName: 'JNUOBI S-1 Lightning Charge Cable',
   description: 'كابل شحن JNUOBI S-1 Lightning هو كابل شحن سريع مصمم خصيصًا لأجهزة Apple التي تستخدم منفذ Lightning. يدعم الكابل تيار شحن قوي يصل إلى 6 أمبير، مما يضمن شحنًا فائق السرعة لجهازك. يتميز بتصميم متين ومواد عالية الجودة لضمان الأداء الأمثل وعمر افتراضي طويل.',
   price: 75, // Price in EGP
@@ -4289,6 +4405,7 @@ export const products: Product[] = [
 {
   id: '92',
   name: 'كابل شحن MASA SUPER FAST CHARGING MA70',
+  subcategory: "شواحن",
   englishName: 'MASA SUPER FAST CHARGING CABLE MA70',
   description: 'كابل MASA SUPER FAST CHARGING MA70 هو كابل شحن بيانات عالي الأداء مصمم للشحن السريع والفعال. يتميز هذا الكابل بموصلات عالية الجودة وكابل ناعم ومرن مع أداء طي جيد. يدعم شحنًا سريعًا للهواتف والأجهزة اللوحية بتيار أقصى يبلغ 6 أمبير. يوفر مقاومة عالية للتداخل ونقل بيانات عالي السرعة. الكابل مصنوع من خط TPE عالي المرونة والخالي من الهالوجين، مما يزيد من عمر خدمته ويجعله صديقًا للبيئة.',
   price: 90, // Price in EGP
@@ -4321,6 +4438,7 @@ export const products: Product[] = [
 {
   id: '91',
   name: 'كابل بيانات MASA FLAT MA-60 Micro',
+  subcategory: "شواحن",
   englishName: 'MASA FLAT DATA CABLE MA-60 Micro',
   description: 'كابل بيانات MASA FLAT MA-60 Micro هو كابل شحن ونقل بيانات عالي الأداء، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يتميز هذا الكابل بتيار خرج يصل إلى 5 أمبير، مما يجعله مثاليًا للشحن السريع. بطول 1000 مم، يوفر مرونة كافية للاستخدام اليومي. يتمتع بتصميم متين ومقاوم للضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية وأداء مستقر. يجمع الكابل بين وظيفتي نقل البيانات والشحن، وهو مضاد للتداخل ومتوافق مع أي إصدار من USB.',
   price: 80, // Price in EGP
@@ -4355,6 +4473,7 @@ export const products: Product[] = [
 {
   id: '90',
   name: 'كابل بيانات MIC USB UC04',
+  subcategory: "شواحن",
   englishName: 'MIC USB Data Cable UC04',
   description: 'كابل بيانات MIC USB UC04 هو كابل شحن ونقل بيانات مصمم ليكون متوافقًا على نطاق واسع مع مختلف الأجهزة. يدعم الكابل تيارًا يصل إلى 2.4 أمبير، ويجمع بين وظائف نقل البيانات والشحن. يتميز بتصميم ممتاز يقاوم الضغط العالي ومضاد للتداخل، مما يضمن جودة عالية وأداء موثوقًا به. كما أنه متوافق مع أي إصدار من USB، مما يجعله حلاً متعدد الاستخدامات للهواتف المحمولة والأجهزة اللوحية وسماعات الرأس/المكبرات الصوتية التي تعمل بتقنية البلوتوث ومشغلات MP3 والأجهزة الرقمية المختلفة.',
   price: 85, // Price in EGP
@@ -4388,6 +4507,7 @@ export const products: Product[] = [
 {
   id: '89',
   name: 'كابل بيانات JOYROOM 3 في 1',
+  subcategory: "شواحن",
   englishName: 'JOYROOM 3 IN 1 DATA CABLE',
   description: 'كابل بيانات JOYROOM 3 في 1 هو كابل متعدد الوظائف يجمع بين الشحن ونقل البيانات لأجهزتك المحمولة. يدعم تيارًا يصل إلى 3.0 أمبير لشحن آمن وعالي السرعة. يتميز بتصميم متين يقاوم الضغط العالي وموصل نحاسي فائق النقاء لضمان جودة عالية. كما أنه مضاد للتداخل ومتوافق مع أي إصدار من USB، مما يجعله حلاً عمليًا وفعالًا لمختلف الأجهزة.',
   price: 95, // Price in EGP
@@ -4420,6 +4540,7 @@ export const products: Product[] = [
 {
   id: '88',
   name: 'كابل LDNIO TPE للشحن والمزامنة LS441',
+  subcategory: "شواحن",
   englishName: 'LDNIO TPE Charge & Sync Cable LS441',
   description: 'كابل LDNIO TPE LS441 هو كابل شحن ومزامنة بيانات عالي الجودة ومتين، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يدعم تيارًا يصل إلى 2.4 أمبير، مما يجعله مناسبًا للشحن اليومي السريع. يتميز بحماية أمان متعددة ويقاوم الانحناء والكسر بفضل واجهته المُحسّنة. مصنوع من مواد TPE صديقة للبيئة ومرنة ومضادة للسحب والانحناء. يتعرف الكابل بذكاء على جميع الأجهزة ليكون متوافقًا تمامًا مع الهواتف المختلفة.',
   price: 100, // Price in EGP
@@ -4454,6 +4575,7 @@ export const products: Product[] = [
 {
   id: '87',
   name: 'كابل بيانات MASA MA-15 للشحن السريع',
+  subcategory: "شواحن",
   englishName: 'MASA MA-15 Fast Charging Data Cable',
   description: 'كابل بيانات MASA MA-15 هو كابل شحن ونقل بيانات مصمم للشحن السريع، ويدعم تيار يصل إلى 5 أمبير. يوفر هذا الكابل الشحن فائق السرعة ونقل البيانات، مما يجعله خيارًا فعالًا لاحتياجات الشحن اليومية.',
   price: 50, // Price in EGP
@@ -4483,6 +4605,7 @@ export const products: Product[] = [
 {
   id: '86',
   name: 'سماعات أذن Heatz HE04 داخل الأذن',
+  subcategory: "سماعات",
   englishName: 'Heatz HE04 In-Ear Earphones',
   description: 'سماعات أذن Heatz HE04 هي سماعات داخل الأذن مصممة لتقديم صوت نقي وواضح مع عزل فعال للضوضاء الخارجية. تتميز بتصميم متين بفضل مادة ABS التي تحمي السماعات من التلف الخارجي. تأتي بموصل Type-C، مما يجعلها متوافقة على نطاق واسع مع الهواتف المحمولة وأجهزة الكمبيوتر التي تدعم هذا النوع من الموصلات. تحتوي على ميكروفون مدمج ومفتاح تحكم بزر واحد لسهولة الاستخدام.',
   price: 220, // Price in EGP
@@ -4525,6 +4648,7 @@ export const products: Product[] = [
 {
   id: '85',
   name: 'كابل LDNIO LS881 للشحن والمزامنة السريعة',
+  subcategory: "شواحن",
   englishName: 'LDNIO LS881 Fast Charge & Sync Cable',
   description: 'كابل LDNIO LS881 هو كابل شحن ومزامنة بيانات عالي الجودة ومتين، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يدعم الكابل خرج طاقة يصل إلى 30 واط، مما يجعله مثاليًا للشحن السريع. يتميز بحماية أمان متعددة ويقاوم الانحناء والكسر بفضل واجهته المُحسّنة. مصنوع من مواد صديقة للبيئة ومرنة ومضادة للسحب. بفضل الشريحة الذكية المدمجة، يتعرف الكابل على أجهزة الشحن المختلفة ويوفر الشحن الأمثل للهواتف والأجهزة اللوحية وغيرها.',
   price: 240, // Price in EGP
@@ -4558,6 +4682,7 @@ export const products: Product[] = [
 {
   id: '84',
   name: 'مجموعة محول طاقة JNUOBI JC-120A بقوة 120 واط',
+  subcategory: "شواحن",
   englishName: 'JNUOBI JC-120A 120W Power Adapter Suit',
   description: 'مجموعة محول طاقة JNUOBI JC-120A هي شاحن قوي وعالي الكفاءة بقدرة 120 واط، مصمم لتوفير شحن سريع وموثوق لمجموعة واسعة من الأجهزة. مصنوع من مادة البولي كربونات المتينة، ويدعم مدخلات جهد عالمية. يوفر هذا المحول مخرجات متعددة للجهد والتيار لتلبية احتياجات الشحن المختلفة، مما يجعله حل شحن متعدد الاستخدامات.',
   price: 450, // Price in EGP
@@ -4590,6 +4715,7 @@ export const products: Product[] = [
 {
   id: '83',
   name: 'شاحن حائط LDNIO سريع 32 واط',
+  subcategory: "شواحن",
   englishName: 'LDNIO 32W Fast Wall Charger',
   description: 'شاحن حائط LDNIO بقوة 32 واط هو شاحن سريع ومدمج، مصمم لتوفير شحن عالي الكفاءة لأجهزتك. يتميز بحجم صغير يسهل حمله، ويدعم نطاق جهد عالمي (100-240 فولت) مما يجعله مناسبًا للاستخدام في بلدان ومناطق مختلفة. يشتمل الشاحن على نظام تبريد متقدم من صفائح الألومنيوم والنحاس لضمان عمر خدمة طويل وكفاءة عالية في تبديد الحرارة. اجتاز معايير السلامة لمنع الحوادث مثل قصر الدائرة والتسرب والجهد الزائد. يوفر مخرج Type-C بقدرة 20 واط ومخرج تعريف تلقائي بقدرة 12 واط، ليبلغ إجمالي المخرج 32 واط.',
   price: 570, // Price in EGP
@@ -4625,6 +4751,7 @@ export const products: Product[] = [
 {
   id: '82',
   name: 'كابل بيانات LENYES LC502 TC-1 (Type-C إلى Lightning)',
+  subcategory: "شواحن",
   englishName: 'LENYES LC502 TC-1 Data Cable (Type-C to Lightning)',
   description: 'كابل بيانات LENYES LC502 TC-1 هو كابل شحن ونقل بيانات عالي الأداء، مصمم خصيصًا للأجهزة التي تستخدم منافذ Type-C وLightning. يدعم الكابل سرعة شحن تصل إلى 30 واط، مما يجعله مثاليًا للشحن السريع. يتميز بتصميم متين مصنوع من الأكريليك المنسوج الشفاف، مما يوفر مرونة ومقاومة. بطول 1000 مم، يوفر هذا الكابل مدى مناسبًا للاستخدام اليومي. يأتي مع تحذير بضرورة استخدام موصلات التحويل الصحيحة لتوافقه مع أنواع مختلفة من الأجهزة المحمولة.',
   price: 320, // Price in EGP
@@ -4658,6 +4785,7 @@ export const products: Product[] = [
 {
   id: '81',
   name: 'محول سماعة رأس Samsung USB-C',
+  subcategory: "سماعات",
   englishName: 'Samsung USB-C Headset Jack Adapter',
   description: 'محول مقبس سماعة رأس Samsung USB-C هو محول صوت فائق الجودة يحول منفذ USB-C إلى مقبس صوت 3.5 ملم. يتيح لك هذا المحول استخدام سماعات الرأس السلكية التقليدية مع الأجهزة التي لا تحتوي على مقبس سماعة رأس 3.5 ملم مخصص، مثل الهواتف الذكية الحديثة والأجهزة اللوحية.',
   price: 50, // Price in EGP
@@ -4687,6 +4815,7 @@ export const products: Product[] = [
 {
   id: '80',
   name: 'سماعات EarPods مع موصل Lightning',
+  subcategory: "سماعات",
   englishName: 'EarPods with Lightning Connector',
   description: 'سماعات EarPods مع موصل Lightning توفر تجربة صوتية ممتازة ومريحة. تم تصميمها خصيصًا للأجهزة التي تحتوي على منفذ Lightning، مما يضمن توافقًا سلسًا وجودة صوت واضحة.',
   price: 245, // Price in EGP
@@ -4715,6 +4844,7 @@ export const products: Product[] = [
 {
   id: '79',
   name: 'حامل الهاتف المحمول',
+  subcategory: "حوامل وستاندات",
   englishName: 'Mobile Phone Holder',
   description: 'حامل الهاتف المحمول هذا مصمم خصيصًا للحمل الشاق، مما يجعله مثاليًا لتثبيت هاتفك في مجموعة متنوعة من البيئات. بفضل تصميمه القوي، يعد هذا الحامل مناسبًا للاستخدام في غرفة الاجتماعات، الكنيسة، أو أي مكان عام آخر حيث تحتاج إلى وضع ثابت وآمن لهاتفك.',
   price: 50, // Price in EGP
@@ -4742,6 +4872,7 @@ export const products: Product[] = [
 {
   id: '78',
   name: 'ميكروفون K9 اللاسلكي',
+  subcategory: 'ميكروفون',
   englishName: 'K9 Wireless Microphone',
   description: 'ميكروفون K9 اللاسلكي هو حل صوتي مدمج وسهل الاستخدام، يتميز بتقنية التوصيل والتشغيل لسهولة الإعداد الفوري. يوفر استقبالًا خاليًا من العوائق لمسافة تصل إلى 20 مترًا، مما يمنحك حرية الحركة أثناء التسجيل أو البث. يتميز هذا الميكروفون بقدرة التقاط صوت دقيقة، وراديو واضح، وصوت جرس واضح، وحساسية عالية، مما يضمن جودة صوت ممتازة. كما أنه متوافق على نطاق واسع مع مختلف الأجهزة.',
   price: 390, // Price in EGP
@@ -4774,6 +4905,7 @@ export const products: Product[] = [
 {
   id: '77',
   name: 'بطاقة ذاكرة Kingston 8GB',
+  subcategory: " ",
   englishName: 'KINGSTON MEMORY CARD 8GB',
   description: 'بطاقة ذاكرة Kingston بسعة 8 جيجابايت توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية، مما يجعلها مثالية لتخزين الصور ومقاطع الفيديو والملفات الأخرى ونقلها بسرعة. تعتبر هذه البطاقة حلاً موثوقًا لتوسيع مساحة التخزين للأجهزة المتوافقة مثل الهواتف الذكية والأجهزة اللوحية والكاميرات.',
   price: 155, // Price in EGP
@@ -4804,6 +4936,7 @@ export const products: Product[] = [
 {
   id: '76',
   name: 'جهاز بث تلفزيون CHROMECAST من Google',
+  subcategory: 'أجهزة منزلية ذكية',
   englishName: 'CHROMECAST TV STREAMING DEVICE BY GOOGLE',
   description: 'جهاز Chromecast من Google هو جهاز بث تلفزيوني يتيح لك بث الفيديو عالي الدقة (HD) بدقة 1080 بكسل مباشرةً من السحابة إلى التلفزيون الخاص بك. يدعم الجهاز شبكة Wi-Fi مزدوجة النطاق (2.4/5 جيجاهرتز) مع نظام هوائي متكيف لضمان اتصال مستقر وقوي. كما يوفر دعمًا للصوت المحيطي وميزة انعكاس الشاشة من أجهزة Android وأجهزة الكمبيوتر المحمولة. متوافق مع مجموعة واسعة من الأجهزة بما في ذلك Android، iPhone، iPad، Mac، Windows، و Chromebook، مما يجعله حلًا متعدد الاستخدامات للترفيه المنزلي.',
   price: 485, // Price in EGP
@@ -4835,6 +4968,7 @@ export const products: Product[] = [
 {
   id: '75',
   name: 'كابل LDNIO LC651i USB-C إلى Lightning للشحن السريع',
+  subcategory: "شواحن",
   englishName: 'LDNIO LC651i USB-C to Lightning Fast Charging Cable',
   description: 'كابل LDNIO LC651i هو كابل شحن ومزامنة بيانات عالي الأداء مصمم خصيصًا لأجهزة iPhone والأجهزة المتوافقة مع منفذ Lightning. يدعم الشحن السريع Power Delivery (PD) بقدرة 30 واط لأجهزة iPhone 8 والإصدارات الأحدث، مما يضمن شحنًا سريعًا وآمنًا. يتميز الكابل بتصميم متين مع واجهة مُعززة لمقاومة الانحناء والكسر، ومصنوع من مواد صديقة للبيئة. تضمن شريحة بروتوكول PD المدمجة شحنًا ذكيًا ومتوافقًا تمامًا مع نظام iOS.',
   price: 220, // Price in EGP
@@ -4870,6 +5004,7 @@ export const products: Product[] = [
 {
   id: '74',
   name: ' 4S Plus كابل بيانات',
+  subcategory: "شواحن",
   englishName: '4S Plus Data Cable',
   description: 'يُعد كابل البيانات 4S Plus حلاً موثوقًا وعالي الأداء لمزامنة البيانات وشحن الأجهزة المحمولة. مصمم ليوفر شحنًا آمنًا وسريعًا للهواتف المحمولة والأجهزة اللوحية، مع الحفاظ على سرعة نقل بيانات عالية. يتميز بتصميم متين يقاوم الضغط العالي وموصل نحاسي فائق النقاء لضمان جودة عالية. متوافق مع أي إصدار من USB ومضاد للتداخل، مما يجعله كابلًا عمليًا ومتعدد الاستخدامات لاحتياجات الشحن ونقل البيانات اليومية.',
   price: 100, // Price in EGP
@@ -4905,6 +5040,7 @@ export const products: Product[] = [
 {
   id: '73',
   name: 'لوحة مفاتيح Point PT-200 اللاسلكية ذات الوضع المزدوج (Mini)',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Point PT-200 Wireless Dual-Mode Mini Keyboard',
   description: 'لوحة مفاتيح Point PT-200 هي لوحة مفاتيح صغيرة لاسلكية ومتعددة الاستخدامات، تتميز بوضع اتصال مزدوج (2.4 جيجاهرتز وبلوتوث) لمرونة الاتصال مع مجموعة واسعة من الأجهزة. تحتوي على 92 مفتاحًا ولوحة لمس مدمجة مع إمكانية تعديل الحساسية. تتميز بإضاءة خلفية بثلاثة ألوان قابلة للتغيير أو الإيقاف. تصميمها المحمول والبطارية القابلة لإعادة الشحن يجعلها مثالية للاستخدام مع أجهزة التلفزيون الذكية، أجهزة الألعاب، صناديق التلفزيون، أجهزة الكمبيوتر الشخصية، الأجهزة اللوحية، وأجهزة الكمبيوتر المحمولة. كما أنها تشتمل على وظيفة توفير الطاقة مع وضع السكون التلقائي.',
   price: 325, // Price in EGP
@@ -4948,6 +5084,7 @@ export const products: Product[] = [
 {
   id: '72',
   name: 'لوحة مفاتيح Point PT-800 Mini Notebook',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Point PT-800 Mini Notebook Keyboard',
   description: 'لوحة مفاتيح Point PT-800 Mini Notebook هي لوحة مفاتيح صغيرة الحجم وخفيفة الوزن، مصممة خصيصًا لتوفير سهولة الحمل والراحة في الاستخدام. تتميز بأحرف مقاومة للتآكل تظل واضحة حتى بعد الاستخدام المتكرر. توفر المفاتيح مدى طويلاً لتجربة كتابة مريحة تقلل الإجهاد. تتصل عبر البلوتوث، مما يوفر مرونة في الاستخدام مع مجموعة واسعة من الأجهزة.',
   price: 580, // Price in EGP
@@ -4986,6 +5123,7 @@ export const products: Product[] = [
 {
   id: '71',
   name: 'لوحة مفاتيح Banda K1000 Mini',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Banda K1000 Mini Keyboard',
   description: 'لوحة مفاتيح Banda K1000 Mini الأنيقة ورفيعة للغاية هي الرفيق المثالي لأجهزة الكمبيوتر المحمولة والأجهزة المكتبية التي تتطلب توفير المساحة. تتميز بتصميم مدمج ذو 95 مفتاحًا وتوفر اتصالاً سلكيًا موثوقًا عبر USB 2.0. متوفرة باللونين الأسود والأبيض، وهي متوافقة مع أجهزة الكمبيوتر الشخصية وأجهزة Mac. تصميمها المريح والأنيق يجعلها خيارًا ممتازًا للاستخدام اليومي والمهني.',
   price: 230, // Price in EGP
@@ -5024,6 +5162,7 @@ export const products: Product[] = [
 {
   id: '70',
   name: 'ماوس MARGO MR-302 اللاسلكي 2.4 جيجاهرتز',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'MARGO MR-302 2.4GHZ Wireless Office Mouse',
   description: 'صُمم ماوس MARGO MR-302 اللاسلكي 2.4 جيجاهرتز خصيصًا للمحترفين وبيئات المكاتب. يتميز بتصميم مريح وملمس ناعم، مما يجعله مريحًا للاستخدام لفترات طويلة ومقاومًا للانزلاق والعرق. يوفر الماوس دقة 1000 نقطة في البوصة (DPI) لحركة مؤشر سلسة ودقيقة، ويتصل لاسلكيًا عبر تقنية 2.4 جيجاهرتز لتوصيل موثوق به. مع عمر مفتاح يصل إلى 3 ملايين نقرة، يضمن هذا الماوس جودة عالية ومتانة للاستخدام المتكرر. يعمل ببطاريتي AAA لسهولة التشغيل.',
   price: 150, // Price in EGP
@@ -5061,6 +5200,7 @@ export const products: Product[] = [
 {
   id: '69',
   name: 'ماوس HAVIT HM-MS753 البصري بتصميم صغير وأنيق',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'HAVIT HM-MS753 Small and Exquisite Design Optical Mouse',
   description: 'يجمع ماوس HAVIT HM-MS753 البصري بين التصميم الصغير والأنيق والأداء المريح، مما يجعله مثاليًا للاستخدام اليومي وأثناء التنقل. بفضل تصميمه المريح الذي يناسب كلتا اليدين، يوفر هذا الماوس راحة فائقة حتى مع الاستخدام المطول. تتميز الأزرار وعجلة التمرير بالمرونة والمتانة، مع عمر افتراضي يزيد عن 3 ملايين نقرة. متوافق على نطاق واسع مع أنظمة تشغيل Windows و Linux و Mac، مما يضمن حرية العمل على أي جهاز كمبيوتر.',
   price: 200, // Price in EGP
@@ -5097,6 +5237,7 @@ export const products: Product[] = [
 {
   id: '68',
   name: 'ماوس Goldenking G10 اللاسلكي',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'Goldenking G10 Wireless Mouse',
   description: 'استمتع بالحرية والدقة مع ماوس Goldenking G10 اللاسلكي. يتميز هذا الماوس بتصميم مريح لقبضة مريحة ودقيقة، ويعمل بتقنية لاسلكية متقدمة 2.4 جيجاهرتز لتوفير مسافة استقبال طويلة تصل إلى 10 أمتار (تقديري بناءً على التقنية). يوفر دقة عالية تبلغ 1200 نقطة في البوصة (DPI) لحركة مؤشر سلسة وسريعة. كما يتميز بوضع الاستعداد الموفر للطاقة لعمر بطارية طويل، وجهاز استقبال صغير للغاية. متوافق على نطاق واسع مع أنظمة تشغيل Windows و Mac OS و Linux، وهو جاهز للعمل بمجرد توصيله.',
   price: 180, // Price in EGP
@@ -5138,6 +5279,7 @@ export const products: Product[] = [
 {
   id: '67',
   name: 'ماوس GIGAMAX G-1600 اللاسلكي',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'GIGAMAX G-1600 Rechargeable Wireless Mouse',
   description: 'احصل على دقة ومرونة في عملك اليومي مع ماوس GIGAMAX G-1600 اللاسلكي القابل لإعادة الشحن. يتميز هذا الماوس بالاتصال المزدوج عبر تقنية 2.4 جيجاهرتز والبلوتوث 5.1، مما يضمن توافقًا واسعًا مع مختلف الأجهزة. يوفر دقة قابلة للتعديل تصل إلى 1600 نقطة في البوصة (DPI) لتلبية احتياجاتك، وتصميمًا مريحًا وخفيف الوزن لتقليل إجهاد اليد. مع 4 أزرار، ومسافة لاسلكية تصل إلى 10 أمتار، وبطارية مدمجة قابلة لإعادة الشحن عبر منفذ USB-C، يعد هذا الماوس خيارًا عمليًا ومناسبًا للاستخدام اليومي.',
   price: 340, // Price in EGP
@@ -5179,6 +5321,7 @@ export const products: Product[] = [
 {
   id: '66',
   name: 'ماوس P-tec P-11 البصري للمكتب',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'P-tec P-11 Optical Office Mouse',
   description: 'احصل على دقة وراحة في عملك المكتبي مع ماوس P-tec P-11 البصري. يتميز هذا الماوس بتصميم مريح وأنيق يناسب الاستخدام باليد اليمنى، مما يقلل من التعب حتى بعد الاستخدام لفترات طويلة. يوفر الماوس دقة قابلة للتعديل في الوقت الفعلي تصل إلى 1600 نقطة في البوصة (DPI)، مما يجعله مناسبًا لمهام متنوعة. كما يتميز بعمر افتراضي طويل للأزرار والأسطوانة، ويدعم زرين إضافيين (للأمام/للخلف) لزيادة الإنتاجية. بفضل توافقه الواسع مع أنظمة تشغيل Windows وكابل USB بطول 1.5 متر، يعد هذا الماوس خيارًا عمليًا وموثوقًا به للمكتب.',
   price: 60, // Price in EGP
@@ -5220,6 +5363,7 @@ export const products: Product[] = [
 {
   id: '65',
   name: 'ماوس HP Laverock 2.4G اللاسلكي البصري',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'HP Laverock 2.4G Wireless Optical Mouse',
   description: 'استمتع بالتحكم الدقيق والمريح مع ماوس HP Laverock 2.4G اللاسلكي البصري. يتميز هذا الماوس بتصميم مريح يناسب اليد اليمنى، مع مكان مخصص للإبهام لراحة إضافية. يضم 5 أزرار، بما في ذلك أزرار التقدم/الرجوع، وعجلة مطاطية ناعمة لسهولة التمرير. يمكنك التبديل بين دقات 800 و1000 DPI لتناسب تفضيلاتك. يتميز الماوس بجهاز استقبال لاسلكي صغير يمكن تخزينه مغناطيسيًا في الجزء السفلي، ويعمل بتقنية 2.4 جيجاهرتز لتوصيل موثوق به مع 16 قناة وقفز تلقائي للتردد لمقاومة التداخل. كما أنه موفر للطاقة، حيث يدخل تلقائيًا في وضع الخمول.',
   price: 200, // Price in EGP
@@ -5259,6 +5403,7 @@ export const products: Product[] = [
 {
   id: '64',
   name: 'سماعات رأس Crash X50',
+  subcategory: "سماعات",
   englishName: 'Crash X50 Stereo On-Ear Headphones',
   description: 'استمتع بتجربة صوتية واضحة وقوية مع سماعات الرأس Crash X50. تتميز هذه السماعات بتصميم فوق الأذن يوفر راحة جيدة، بالإضافة إلى صوت جهير ديناميكي. مع استجابة تردد واسعة وكابل بطول 2.0 متر، تعد هذه السماعات خيارًا عمليًا للاستخدام اليومي للاستمتاع بالموسيقى أو مقاطع الفيديو.',
   price: 180, // Price in EGP
@@ -5294,6 +5439,7 @@ export const products: Product[] = [
 {
   id: '63',
   name: 'سماعة رأس للألعاب RAMKO GAMING RH-112',
+  subcategory: "سماعات",
   englishName: 'RAMKO GAMING RH-112 Computer Headset',
   description: 'استمتع بتجربة صوتية غامرة في ألعابك مع سماعة الرأس RAMKO GAMING RH-112. تتميز بمكبرات صوت كبيرة بحجم 40 مم لتوفير صوت واضح وقوي، وميكروفون مدمج عالي الحساسية لضمان تواصل فعال مع فريقك. يوفر التصميم المريح راحة طويلة الأمد أثناء جلسات اللعب الممتدة، وتضمن استجابة التردد الواسعة نطاقاً كاملاً من الأصوات، من الجهير العميق إلى النغمات العالية الواضحة. مع كابل طويل ومتين، تعد هذه السماعة خياراً ممتازاً للاعبين.',
   price: 450, // Price in EGP
@@ -5331,6 +5477,7 @@ export const products: Product[] = [
 {
   id: '62',
   name: 'سماعات رأس JBL Tune 760BT اللاسلكية',
+  subcategory: "سماعات",
   englishName: 'JBL Tune 760BT Pure Bass Wireless Headphones',
   description: 'انغمس في عالم من الصوت القوي مع سماعات الرأس اللاسلكية JBL Tune 760BT Pure Bass. تتميز هذه السماعات بتصميم خفيف الوزن وقابل للطي، مما يجعلها الرفيق المثالي للاستماع أثناء التنقل. استمتع بصوت جهير نقي وقوي يميز تجربة الاستماع من JBL. بفضل اتصالها اللاسلكي عبر البلوتوث وتصميمها المريح، توفر هذه السماعات حرية الحركة وراحة لا مثيل لها للاستخدام اليومي.',
   price: 450, // Price in EGP
@@ -5366,6 +5513,7 @@ export const products: Product[] = [
 {
   id: '61',
   name: 'محول Wi-Fi لافا MTK7601 CHIPSET',
+  subcategory: " ",
   englishName: 'Lava Wi-Fi Adapter MTK7601 Chipset',
   description: 'احصل على اتصال إنترنت لاسلكي سريع وموثوق لجهاز الكمبيوتر الخاص بك أو جهاز استقبال الأقمار الصناعية مع محول Wi-Fi Lava MTK7601. يتميز هذا المحول بسرعات تصل إلى 300 ميجابت في الثانية بمعيار 802.11n، مما يجعله مثالياً للتصفح، البث، والألعاب الخفيفة. يدعم المحول نطاقاً واسعاً من أنظمة التشغيل بما في ذلك Windows و Mac OS X و Linux. كما أنه متوافق بشكل خاص مع أجهزة استقبال الأقمار الصناعية التي تدعم شريحة MTK. بفضل الهوائي القابل للدوران وواجهة USB 2.0، يوفر هذا المحول اتصالاً سهلاً ومرونة في الاستخدام.',
   price: 250, // Price in EGP
@@ -5405,6 +5553,7 @@ export const products: Product[] = [
 {
   id: '60',
   name: 'لوحة مفاتيح ألعاب MJK K1 بإضاءة خلفية',
+  subcategory: "لوحات مفاتيح",
   englishName: 'MJK K1 Gaming Backlighting Keyboard',
   description: 'ارتقِ بتجربة الألعاب الخاصة بك مع لوحة مفاتيح الألعاب MJK K1 Backlighting. تتميز هذه اللوحة بإضاءة قوس قزح ديناميكية على المفاتيح وإضاءة جانبية تضيف أجواءً رائعة إلى إعداداتك. بتصميمها المدمج وأبعادها العملية (409.35 × 148.3 × 35.45 مم)، توفر مساحة على مكتبك مع الحفاظ على جميع الوظائف الأساسية. تضمن أحرف المفاتيح المطبوعة بالشاشة وضوحًا يدوم طويلاً، بينما توفر وظائف الوسائط المتعددة التي يمكن الوصول إليها عبر مفتاح Fn تحكماً سهلاً. متوافقة مع مجموعة واسعة من أنظمة التشغيل بما في ذلك Windows و Android، مما يجعلها خيارًا متعدد الاستخدامات للاعبين.',
   price: 810, // Price in EGP
@@ -5446,6 +5595,7 @@ export const products: Product[] = [
 {
   id: '59',
   name: 'ماوس HP بلوتوث ولاسلكي مزدوج الوضع W10',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'HP W10 Bluetooth & Wireless Dual Mode Mouse',
   description: 'استمتع بالحرية والمرونة مع ماوس HP W10 اللاسلكي مزدوج الوضع (بلوتوث ولاسلكي 2.4GHz). يتميز هذا الماوس بدقة عالية تصل إلى 1600 DPI وتقنية BlueTrack® المتقدمة التي تضمن تتبعًا دقيقًا على أسطح متنوعة. بفضل عمر البطارية الطويل الذي يصل إلى 6 أشهر ووضع السكون التلقائي، يمكنك العمل لفترات طويلة دون قلق. توفر الأزرار المتينة المصنفة لـ 3 ملايين نقرة أداءً موثوقًا، بينما يضمن التصميم المريح والمتماثل راحة الاستخدام لكلتا اليدين. أضف لمسة من الأناقة مع إضاءة RGB المدمجة، واستمتع بمدى لاسلكي يصل إلى 10 أمتار لتجربة سلسة وفعالة.',
   price: 230, // Price in EGP
@@ -5487,6 +5637,7 @@ export const products: Product[] = [
 {
   id: '58',
   name: 'لوحة مفاتيح ألعاب Point PT-950',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Point PT-950 Gaming Keyboard',
   description: 'عزز إعدادات الألعاب الخاصة بك مع لوحة المفاتيح Point PT-950 Gaming Keyboard. تتميز هذه اللوحة بإضاءة خلفية Rainbow ساحرة تضيف لمسة جمالية إلى مكتبك. بفضل مفاتيحها الغشائية (Membrane) التي توفر استجابة هادئة ومريحة وعمر افتراضي يصل إلى 80 مليون ضغطة، تضمن الأداء الموثوق به لجلسات اللعب الطويلة أو المهام اليومية. مع تصميمها القياسي الذي يضم 104-107 مفتاحاً وتوصيل USB سلكي، توفر لوحة المفاتيح PT-950 تجربة كتابة ولعب سلسة وممتعة.',
   price: 550, // Price in EGP
@@ -5525,6 +5676,7 @@ export const products: Product[] = [
 {
   id: '57',
   name: 'طقم لوحة مفاتيح وماوس AI TNT X200 بتصميم Rainbow',
+  subcategory: "لوحات مفاتيح",
   englishName: 'AI TNT X200 Rainbow Design Wired Keyboard & Mouse Combo',
   description: 'ارتقِ بإعداداتك المكتبية أو لألعابك مع طقم لوحة المفاتيح والماوس AI TNT X200 بتصميم Rainbow. تتميز لوحة المفاتيح بتصميم مريح مع سطح مجمد لتجربة كتابة مريحة، كما أن مفاتيحها مطبوعة بتقنية متينة لضمان وضوح الكتابة على المدى الطويل. لا داعي للقلق بشأن الانسكابات بفضل فتحات التصريف المدمجة. أما الماوس، فيأتي بتصميم متماثل ومريح يناسب كلا اليدين، ويستخدم شريحة Agilent المخصصة للألعاب لتقديم استجابة سريعة وعمر أزرار يصل إلى 5 ملايين نقرة. يضيء كلا الجهازين بإضاءة Rainbow LED جذابة، مما يضيف لمسة جمالية لإعداداتك. هذا الطقم سهل التوصيل والتشغيل، ولا يتطلب أي برامج إضافية، مما يوفر لك الوقت والطاقة.',
   price: 580, // Price in EGP
@@ -5568,6 +5720,7 @@ export const products: Product[] = [
 {
   id: '56',
   name: 'سماعة ألعاب Point PT-09',
+  subcategory: "سماعات",
   englishName: 'Point PT-09 Gaming Headphones',
   description: 'استمتع بتجربة لعب غامرة وتواصل واضح مع سماعة الألعاب Point PT-09. تتميز هذه السماعة بتصميم خفيف الوزن ومريح، مما يجعلها مثالية لجلسات اللعب الطويلة. توفر صوتاً واضحاً بفضل حساسيتها العالية واستجابة التردد الواسعة، ويضمن الميكروفون المدمج التواصل الواضح مع زملائك في الفريق. تضفي إضاءة RGB الملونة على سماعات الأذن لمسة جمالية عصرية، بينما يضمن كابلها الطويل والمتين المتصل بمنفذ 3.5 مم توافقاً واسعاً مع معظم أجهزة الألعاب وأجهزة الكمبيوتر والموبايل.',
   price: 980, // Price in EGP
@@ -5611,6 +5764,7 @@ export const products: Product[] = [
 {
   id: '55',
   name: 'سماعة بلوتوث JNUOBI GN-04',
+  subcategory: "سماعات",
   englishName: 'JNUOBI GN-04 Portable Bluetooth Speaker',
   description: 'استمتع بتجربة صوتية وبصرية لا مثيل لها مع سماعة بلوتوث JNUOBI GN-04 المحمولة. تتميز هذه السماعة بتصميم أنيق ومكبر صوت كبير بحجم 8 بوصات يوفر طاقة خرج قوية تبلغ 10 واط، لضمان صوت غني وواضح. انغمس في عالم من الألوان مع عرض إضاءة RGB كامل الشاشة، والذي يضيف أجواءً احتفالية إلى أي مكان. بفضل بطارية الليثيوم عالية السعة ووظائف USB/TF، يمكنك تشغيل موسيقاك المفضلة من مصادر متعددة، مع سهولة الحمل بفضل تصميمها المدروس. إنها الاندماج المثالي للصوت والإضاءة.',
   price: 1100, // Price in EGP
@@ -5649,6 +5803,7 @@ export const products: Product[] = [
 {
   id: '54',
   name: 'سماعة بلوتوث BTD AN 4200',
+  subcategory: "سماعات",
   englishName: 'BDT AN-4200 Bluetooth Speaker',
   description: 'استمتع بتجربة صوتية غامرة ومبهرة مع سماعة بلوتوث BDT AN-4200 المحمولة. تتميز هذه السماعة بقوة 10 واط RMS وتصميم يضم سماعتين بحجم 4 بوصات، مما يوفر صوتاً قوياً وواضحاً. تضفي الإضاءة LED الملونة الساطعة لمسة جمالية رائعة وتجعلها مثالية للحفلات أو التجمعات. توفر السماعة خيارات مرنة لمصدر الطاقة عبر USB أو تيار مستمر 12 فولت، وتدعم الاتصال اللاسلكي عبر البلوتوث لتوصيل سهل بالهواتف الذكية والأجهزة اللوحية، مما يجعلها رفيقك المثالي في أي مكان.',
   price: 650, // Price in EGP
@@ -5686,6 +5841,7 @@ export const products: Product[] = [
 {
   id: '53',
   name: 'ماوس ألعاب تنافسي Cool Game Mouse',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'Competitive Cool Game Mouse',
   description: 'ارتقِ بتجربتك في الألعاب والعمل مع ماوس الألعاب التنافسي Cool Game Mouse. يتميز هذا الماوس بتصميم 6D متعدد الأزرار وزر DPI مخصص يتيح لك التبديل بين مستويات دقة 800/1200/1600/2400 لتناسب مختلف المهام. يوفر إضاءة LED رائعة بتأثير التنفس تضفي سحراً خاصاً على مساحة عملك أو لعبك، خاصة في الليل. مع بكرة ذكية مضادة للانزلاق تضمن التقاطاً دقيقاً واستجابة سريعة، وتصميم مريح يناسب كلا اليدين، يعد هذا الماوس خياراً مثالياً للاعبين المبتدئين وكذلك للاستخدام المكتبي العصري.',
   price: 250, // Estimated price in EGP for a wired gaming mouse with these features
@@ -5725,6 +5881,7 @@ export const products: Product[] = [
 {
   id: '52',
   name: 'ماوس مكتب كراش W500',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'Crash Office Mouse W500',
   description: 'ماوس كراش W500 اللاسلكي يوفر تجربة استخدام هادئة ومريحة بفضل أزراره الصامتة. يتميز بتقنية بصرية دقيقة للضوء الأحمر لتحديد المواقع بدقة، وتصميم مريح يناسب كلا اليدين. يمكنك تعديل حساسية الماوس بسهولة مع مستويات DPI قابلة للتعديل (800، 1200، 1600). يأتي مع مستقبل نانو مدمج لسهولة التوصيل والحمل، مما يجعله الخيار الأمثل للاستخدام المكتبي واليومي.',
   price: 190, // Price in EGP
@@ -5765,6 +5922,7 @@ export const products: Product[] = [
 {
   id: '51',
   name: 'ماوس مكتب فاشون AI TNT OIEM',
+  subcategory: "ماوس وأجهزة تأشير",
   englishName: 'AI TNT OIEM Fashion Office Mouse',
   description: 'استمتع بتجربة عمل سلسة ودقيقة مع ماوس AI TNT Fashion Office Mouse. يتميز هذا الماوس بتصميم هندسي دقيق وحرفية رائدة، مما يضمن أداءً موثوقًا ومتانة فائقة. تم اختبار الأزرار لأكثر من 10 ملايين نقرة، مما يجعله رفيقًا مثاليًا للاستخدام اليومي والمكثف في المكتب. سهل الاستخدام ومتوافق مع أنظمة تشغيل متعددة.',
   price: 100, // Price in EGP
@@ -5799,6 +5957,7 @@ export const products: Product[] = [
 {
   id: '50',
   name: 'قاعدة تبريد لابتوب N191',
+  subcategory: 'حوامل + اجهزة تبريد',
   englishName: 'N191 Notebook Cooling Pad',
   description: 'قاعدة تبريد N191 بتصميم أنيق وفريد يوفر شعورًا مريحًا ويحافظ على جهاز الكمبيوتر المحمول الخاص بك في وضع آمن ومريح. يتميز بتصميم خاص لمنفذ تدفق الهواء الذي يحافظ على برودة دفتر ملاحظاتك أثناء الاستخدام، ويمكن وضعه على حجرك أو على السرير. السطح الشبكي الكبير المزود بمروحة واحدة صامتة بقطر 140 مم يضمن تبديدًا مثاليًا للحرارة. كما أن الأقدام القابلة للتعديل توفر تعديلًا متعدد الزوايا للارتفاع، مما يتيح لك الحصول على زاوية كتابة وعرض مثالية. متوافق مع معظم أجهزة الكمبيوتر المحمولة ويأتي مع مصابيح LED.',
   price: 360, // Price provided in the prompt
@@ -5840,6 +5999,7 @@ export const products: Product[] = [
 {
   id: '45',
   name: 'قاعدة تبريد لابتوب N99',
+  subcategory: 'حوامل + اجهزة تبريد',
   englishName: 'N99 Notebook Cooling Pad',
   description: 'حافظ على برودة جهاز الكمبيوتر المحمول الخاص بك مع قاعدة التبريد N99. تتميز بتصميم أنيق وفريد يوفر وضعًا آمنًا ومريحًا لجهازك. تحتوي على مروحتين كبيرتين بحجم 140 مم لتبديد الحرارة بكفاءة وصوت هادئ، مما يجعلها مثالية للاستخدام على الأرجل أو السرير. توفر الأقدام القابلة للتعديل زوايا رؤية وكتابة مثالية، ومصابيح LED تضفي لمسة جمالية. متوافقة مع معظم أجهزة الكمبيوتر المحمولة حتى 17 بوصة.',
   price: 620, // Price provided in the prompt
@@ -5882,6 +6042,7 @@ export const products: Product[] = [
 {
   id: '44',
   name: 'سماعة ألعاب AI TNT X Series',
+  subcategory: "سماعات",
   englishName: 'AI TNT X Series Gaming Headset with RGB Light',
   description: 'انغمس في عالم الألعاب مع سماعة الألعاب AI TNT X Series.مصممة خصيصًا لتجربة لعب غامرة، تتميز هذه السماعة بميكروفون متعدد الاتجاهات يوفر وضوحًا فائقًا في الصوت. توفر وسادات الأذن المريحة وصوت الستريو جودة صوت ممتازة للعب والموسيقى. مع تصميم متين وكابل طويل، تعد هذه السماعة خيارًا رائعًا للاعبين الذين يبحثون عن أداء موثوق به.',
   price: 350, // Price provided in the prompt
@@ -5922,6 +6083,7 @@ export const products: Product[] = [
 {
   id: '43',
   name: 'سماعة Hummer HM6000 ساوند سيستم لاسلكية',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Hummer HM6000 Wireless Audio Subwoofer',
   description: 'استمتع بصوت قوي وواضح مع سماعة Hummer HM6000 اللاسلكية. تأتي هذه السماعة بتصميم أسطواني مميز، وتدعم الاتصال اللاسلكي عبر البلوتوث لتوفير تجربة صوتية غامرة في المنزل أو السيارة. بفضل استجابتها الواسعة للتردد وحساسيتها العالية، تقدم جودة صوت ممتازة. كما تتميز بهيكل متين وخفيف نسبياً مما يجعلها سهلة النقل والاستخدام اليومي.',
   price: 595,
@@ -5970,6 +6132,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '100',
   name: 'سماعات أذن Samsung AKG Type-C',
+  subcategory: "سماعات",
   englishName: 'Samsung AKG Type-C Earphones',
   description: 'استمتع بتجربة صوتية غامرة مع سماعات أذن Samsung AKG Type-C. تم ضبط هذه السماعات بواسطة AKG لتقديم جودة صوت استثنائية، مع صوت واضح وجهير غني. تتميز بتصميم داخل الأذن مريح وتأتي مع سدادات أذن بثلاثة أحجام مختلفة لضمان ملاءمة مثالية. تتصل عبر منفذ Type-C، مما يجعلها متوافقة مع أحدث أجهزة سامسونج والأجهزة الأخرى المزودة بمنفذ Type-C للصوت. مثالية للاستماع إلى الموسيقى وإجراء المكالمات بوضوح.',
   price: 270, // Price provided in the prompt
@@ -6006,6 +6169,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '1',
   name: 'لوحة مفاتيح Sirwa',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Sirwa Keyboard',
   description: 'لوحة مفاتيح بإضاءة خلفية ثلاثية الألوان، تصميم معدني أنيق مع غطاء معلق وأغطية مفاتيح مقعرة لراحة أكبر. مقاومة للتناثر وتضم مفتاح مسافة كبير لكتابة أكثر سلاسة.',
   price: 1050,
@@ -6053,6 +6217,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '2',
   name: 'لوحة مفاتيح Retro Limeute',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Retro Limeute Keyboard',
   description: 'لوحة مفاتيح بتصميم كلاسيكي مستوحى من الآلة الكاتبة، مزودة بإضاءة خلفية RGB ملونة وتصميم أنيق مع مفاتيح دائرية مريحة للكتابة.',
   price: 520,
@@ -6093,6 +6258,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '3',
   name: 'لوحة مفاتيح Point PT-360',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Point PT-360 Keyboard',
   description: 'لوحة مفاتيح متعددة الوسائط بتصميم مريح وأزرار بلونين للتمييز البصري. مزودة بمفاتيح وسائط للتحكم السريع، واتصال سلكي عبر USB، ومناسبة للمستخدمين من جميع الفئات.',
   price: 250,
@@ -6132,6 +6298,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '4',
   name: 'لوحة مفاتيح Smile KB-2406',
+  subcategory: "لوحات مفاتيح",
   englishName: 'Smile KB-2406 Full-Size Keyboard',
   description: 'لوحة مفاتيح كاملة بتصميم عصري تضم 104 مفتاحًا. مناسبة للاستخدام المكتبي، الألعاب، والأزياء الحديثة. تتميز بمقاومة رذاذ الماء، أزرار لمس ناعمة، وجودة عالية بعمر استخدام يصل إلى 10 ملايين ضغطة.',
   price: 180,
@@ -6174,6 +6341,7 @@ Hummer_3 // Placeholder image variable
 {
    id: '5', // تم تحديثه ليعكس رقم الطراز كمعرف فريد
    name: 'لوحة مفاتيح سمايل KB 2508 سلكية', // تم تحديث الاسم العربي
+  subcategory: "لوحات مفاتيح",
    englishName: 'Smile KB 2508 Wired Keyboard', // تم تحديث الاسم الإنجليزي
    description: 'لوحة مفاتيح سمايل KB 2508 هي لوحة مفاتيح سلكية موثوقة ومريحة بمنفذ USB، مصممة للاستخدام السلس مع أجهزة الكمبيوتر المكتبية والمحمولة. تتميز بتصميم نحيف ومقاوم للتناثر مع 124 مفتاحًا، بما في ذلك مفاتيح الوسائط المتعددة ومفاتيح الاختصار متعددة الوظائف، مما يوفر تجربة كتابة هادئة وناعمة الملمس. يضيف تصميمها ثنائي اللغة الإنجليزية والعربية قيمة كبيرة، مما يجعلها خيارًا متعدد الاستخدامات وعمليًا لمجموعة واسعة من المستخدمين.', // تم توليد الوصف بناءً على الميزات
    price: 200, // تم تحديث السعر بناءً على بيانات السوق الحالية (بالجنيه المصري)
@@ -6216,6 +6384,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '6',
   name: 'مكبر صوت Crash M4 محمول',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Crash M4 Portable Speaker',
   description: 'مكبر الصوت المحمول Crash M4 Bass Voice يوفر تجربة صوت احترافية 2.0 متعددة الوسائط. يتميز بإضاءة RGB جذابة ومتزامنة مع الموسيقى، ويوفر صوتًا عاليًا وجهيرًا قويًا. يدعم الاتصال عبر البلوتوث، وUSB، وبطاقة TF، ومخرج AUX، بالإضافة إلى راديو FM ووظيفة TWS (True Wireless Stereo) لربط مكبر صوتين معًا. مثالي للحفلات الصغيرة، الاستخدام المنزلي، أو في الهواء الطلق بفضل تصميمه المدمج وسهل الحمل.',
   price: 360, // Based on common market prices for similar portable speakers in Egypt. Actual price may vary.
@@ -6257,6 +6426,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '7',
   name: 'مكبر صوت BDT BD6601 احترافي محمول',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'BDT BD6601 Professional Portable Speaker',
   description: 'استمتع بتجربة صوت قوية ومحمولة مع مكبر الصوت BDT BD6601 الاحترافي. يتميز هذا المكبر بصب ووفر بحجم 6.5 بوصة لتقديم صوت جهير عميق، مع إضاءة LED ديناميكية لإضفاء جو احتفالي. يدعم الاتصال اللاسلكي عبر البلوتوث، بالإضافة إلى منافذ USB وبطاقة TF لتشغيل ملفاتك الصوتية المفضلة. كما يحتوي على مدخل AUX وراديو FM، ووظيفة كاريوكي مع مدخل ميكروفون. بفضل بطاريته المدمجة القابلة لإعادة الشحن، يمكنك اصطحابه معك أينما ذهبت للحفلات والتجمعات.',
   price: 550, // Based on Amazon.eg current listing
@@ -6299,13 +6469,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '8',
   name: 'مكبر صوت KTS GTS-1360 محمول',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'KTS GTS-1360 Portable Speaker',
   description: 'استمتع بالصوت النقي والقوي مع مكبر الصوت المحمول KTS GTS-1360. يتميز هذا المكبر بحجم صغير وتصميم سهل الحمل مع مقبض مدمج، مما يجعله مثاليًا للسفر والاستخدام في أي مكان. يوفر صوتًا واضحًا وجهيرًا بفضل مكبر الصوت الداخلي بحجم 3 بوصات، ويحتوي على إضاءة LED ملونة ديناميكية تتراقص مع الموسيقى. يدعم الاتصال اللاسلكي عبر البلوتوث، وتشغيل الموسيقى مباشرة من USB وبطاقات TF، بالإضافة إلى راديو FM ومدخل AUX. يتميز ببطارية مدمجة قابلة لإعادة الشحن لمتعة موسيقية متواصلة.',
   price: 180, // Estimated average price in EGP
   images: [
     speakergts1360 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "صوت نقي وقوي",
     "إضاءة LED ملونة ديناميكية (RGB)",
@@ -6344,13 +6515,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '9',
   name: 'مكبرات صوت Point PT-122 متعددة الوسائط USB 2.0',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Point PT-122 Multimedia USB 2.0 Speakers',
   description: 'استمتع بتجربة صوت ستريو غامرة مع مكبرات الصوت Point PT-122 USB 2.0. مصممة لتكون الرفيق المثالي لسطح المكتب واللاب توب، توفر هذه السماعات صوتًا واضحًا بقوة 3 واط لكل مكبر، مع إضاءة RGB ديناميكية تضيف لمسة جمالية إلى مساحتك. تعمل السماعات مباشرة عبر منفذ USB، مما يجعلها سهلة التوصيل والتشغيل دون الحاجة لمحول طاقة إضافي. تصميمها المدمج يجعلها مناسبة لأي إعداد.',
   price: 490, // Estimated average price in EGP
   images: [
     speakerpointpt122 // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "نظام صوت ستريو 2.0",
     "إضاءة RGB ديناميكية وملونة",
@@ -6384,13 +6556,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '10',
   name: 'مكبر صوت بلوتوث صغير A012',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Mini A012 Bluetooth Speaker',
   description: 'مكبر الصوت البلوتوث الصغير A012 هو رفيقك المثالي للاستمتاع بالموسيقى في أي مكان. يتميز بتصميم مدمج ومحمول مع إضاءة RGB ملونة تضفي جوًا حيويًا. يدعم الاتصال اللاسلكي عبر البلوتوث، بالإضافة إلى إمكانية تشغيل الموسيقى مباشرة من بطاقات USB و TF. كما يشتمل على راديو FM مدمج ووظيفة الرد على المكالمات بفضل الميكروفون المدمج. يعمل ببطارية قابلة لإعادة الشحن، مما يضمن ساعات من الاستماع المتواصل.',
   price: 165, // Estimated average price in EGP
   images: [
     speakera012    // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "إضاءة RGB LED ملونة",
     "دعم البلوتوث اللاسلكي",
@@ -6428,6 +6601,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '11', // ID changed to 11 as requested
   name: 'مكبر صوت بلوتوث Crash M3 محمول',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Crash M3 Portable Bluetooth Speaker',
   description: 'استمتع بتجربة صوت احترافية مع مكبر الصوت Crash M3 المحمول. يتميز هذا المكبر بتصميم صغير ومضغوط يسهل حمله بفضل المقبض المدمج، ويوفر صوتًا جهيرًا قويًا مع وحدة مكبر صوت كاملة التردد بحجم 3 بوصات. يضفي عليه إضاءة RGB LED ديناميكية جوًا بصريًا جذابًا يتزامن مع الموسيقى. يدعم الاتصال اللاسلكي عبر البلوتوث 5.0+EDR، وتشغيل الملفات من بطاقة TF ومنفذ USB، بالإضافة إلى راديو FM. يعمل ببطارية مدمجة قابلة لإعادة الشحن، مما يجعله مثاليًا للحفلات الصغيرة أو الاستخدام الشخصي في أي مكان.',
   price: 240, // Estimated average price in EGP
@@ -6477,13 +6651,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '12', // ID starts from 12
   name: 'مكبر صوت بلوتوث صغير مع كاريوكي وإضاءة LED',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Mini Portable Bluetooth Speaker with Karaoke & LED Light',
   description: 'انغمس في عالم الموسيقى والترفيه مع مكبر الصوت المحمول الصغير هذا، الذي يجمع بين الصوت القوي والإضاءة LED الملونة الجذابة. بفضل حجم مكبر الصوت 2 بوصة وطاقة الخرج 5 واط، يقدم هذا الجهاز تجربة صوتية ممتازة أثناء التنقل. يدعم تشغيل الموسيقى من بطاقات الذاكرة (TF) ومنفذ USB، ويتميز بمدخل AUX، بالإضافة إلى راديو FM. الأبرز هو دعمه لوظيفة الكاريوكي مع مدخل ميكروفون، مما يجعله مثاليًا للتجمعات الممتعة. بطاريته المدمجة القابلة لإعادة الشحن توفر ما يصل إلى 5 ساعات من وقت التشغيل.',
   price: 290, // Estimated price in EGP
   images: [
     speakermininbox // Placeholder for actual image variable (box)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "إضاءة LED ملونة ديناميكية",
     "دعم البلوتوث اللاسلكي",
@@ -6520,6 +6695,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '13', // ID starts from 13
   name: 'مكبرات صوت Kisonli K100 للوسائط المتعددة 2.0',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Kisonli K100 Multimedia 2.0 Speakers',
   description: 'استمتع بصوت ستريو واضح وموثوق به مع مكبرات صوت Kisonli K100 المدمجة. صممت هذه السماعات بنظام 2.0 قناة لتوفير تجربة صوتية أساسية وفعالة لأجهزة الكمبيوتر المكتبية والمحمولة. تعمل بالطاقة مباشرة عبر منفذ USB وتتصل بمنفذ الصوت 3.5 ملم، مما يجعلها سهلة التوصيل والتشغيل. بفضل تصميمها الصغير والموفر للمساحة، تعد Kisonli K100 خيارًا مثاليًا للاستخدام اليومي في المنزل أو المكتب.',
   price: 350, // Estimated average price in EGP
@@ -6561,6 +6737,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '14', // ID starts from 14
   name: 'مكبرات صوت GoldenKing G06 للوسائط المتعددة',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'GoldenKing G06 Multimedia Speaker System',
   description: 'نظام مكبرات صوت GoldenKing G06 هو رفيقك المثالي لجهاز الكمبيوتر واللاب توب، مصمم لتقديم تجربة صوتية ناعمة وواضحة. يتميز هذا النظام الصغير والمحمول بقدرة إخراج 2.5 واط لكل مكبر، ويحتوي على مضخم صوت نشط مدمج يوفر جودة صوت نقية وأنيقة. يعمل مباشرة عبر منفذ USB 5 فولت، مما يجعله سهل التوصيل والاستخدام مع أي جهاز يدعم USB. تصميمها العصري والديناميكي بألوان جريئة يجعلها إضافة جمالية لمكتبك.',
   price: 190, // Estimated average price in EGP
@@ -6601,6 +6778,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '15', // ID starts from 15
   name: 'مكبر صوت بلوتوث GoldenKing G-418 محمول',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'GoldenKing G-418 Portable Bluetooth Speaker',
   description: 'استمتع بالصوت القوي والمحمول مع مكبر الصوت GoldenKing G-418. يتميز هذا المكبر بوحدة مكبر صوت بحجم 4 بوصات وخرج طاقة 3 واط، مما يوفر صوتًا واضحًا وعالي الجودة. يدعم الاتصال اللاسلكي عبر البلوتوث بمدى فعال يصل إلى 10 أمتار، بالإضافة إلى خيارات تشغيل متعددة تشمل بطاقات TF وأقراص U (USB) ومدخل AUX. تضفي إضاءة LED الملونة على الواجهة الأمامية لمسة جمالية، كما يجعله تصميمه المزود بمقبض سهل الحمل مثاليًا للاستخدام في أي مكان. يعمل ببطارية مدمجة قابلة لإعادة الشحن ويتم شحنه بجهد 5 فولت تيار مستمر.',
   price: 280, // Estimated average price in EGP
@@ -6648,13 +6826,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '16', // ID starts from 16
   name: 'مكبر صوت بلوتوث محمول Mini Speaker M1 Bass',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Mini Speaker M1 Bass Portable Bluetooth Speaker',
   description: 'استمتع بتجربة صوت جهير قوية مع مكبر الصوت Mini Speaker M1 المحمول. يتميز هذا المكبر بتصميم أسطواني أنيق ومدمج يسهل حمله في أي مكان. يشتمل على وحدة مكبر صوت بحجم 3 بوصات وقوة خرج 5 واط لتوفير صوت واضح وعميق. بفضل بطارية الليثيوم عالية السعة المدمجة بقوة 400 مللي أمبير/ساعة، يمكنك الاستمتاع بساعات من الموسيقى المتواصلة. يدعم المكبر الاتصال اللاسلكي عبر البلوتوث، بالإضافة إلى تشغيل الملفات من بطاقات TF ومحركات أقراص USB، ومدخل AUX وراديو FM، مما يجعله جهازًا متعدد الاستخدامات.',
   price: 160, // Estimated average price in EGP
   images: [
     minibassm1 // Placeholder for actual image variable (black speaker)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "تصميم أنيق ومحمول",
     "بطارية ليثيوم عالية السعة (400 مللي أمبير/ساعة)",
@@ -6694,6 +6873,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '17', // ID starts from 17
   name: 'مكبر صوت بلوتوث محمول BDT AN22 مع كاريوكي',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'BDT AN22 Portable Bluetooth Speaker with Karaoke',
   description: 'استمتع بالترفيه أينما كنت مع مكبر الصوت المحمول BDT AN22. يتميز هذا المكبر بتصميم مدمج وأنيق مع شبكة على شكل قرص العسل، ويوفر خرج صوت بقوة 3 واط. يدعم الجهاز تشغيل الموسيقى من منافذ USB وبطاقات TF، ويحتوي على وظيفة الكاريوكي مع مدخل للميكروفون، مما يجعله مثاليًا للتجمعات الصغيرة. يعمل ببطارية مدمجة قابلة لإعادة الشحن من نوع 14500 (3.7 فولت)، ويتم شحنه بسهولة عبر منفذ تيار مستمر 5 فولت.',
   price: 235, // Estimated average price in EGP
@@ -6701,7 +6881,7 @@ Hummer_3 // Placeholder image variable
     bdtan22 // Placeholder for actual image variable (green speaker)
 
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "منافذ USB و TF لتشغيل الموسيقى",
     "وظيفة الكاريوكي مع مدخل ميكروفون",
@@ -6735,13 +6915,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '18', // ID starts from 18
   name: 'مكبر صوت بلوتوث BDT AN18 محمول مع حامل هاتف',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'BDT AN18 Portable Bluetooth Speaker with Phone Holder',
   description: 'استمتع بتجربة صوتية متعددة الاستخدامات مع مكبر الصوت BDT AN18 المحمول. يتميز هذا المكبر بتصميم عصري ومدمج يضم حاملًا عمليًا للهاتف، مما يجعله مثاليًا لمشاهدة الفيديوهات أو المكالمات أثناء الاستماع إلى الموسيقى. يوفر المكبر صوتًا واضحًا بقوة 5 واط، ويدعم مجموعة واسعة من خيارات التشغيل بما في ذلك البلوتوث اللاسلكي، ومنافذ USB وبطاقة TF، بالإضافة إلى مدخل AUX وراديو FM مدمج. تضفي إضاءة LED الملونة على الواجهة الأمامية أجواءً حيوية، وتضمن بطاريته المدمجة القابلة لإعادة الشحن ساعات من الاستخدام المتواصل.',
   price: 220, // Estimated average price in EGP
   images: [
     bdtan18 // Placeholder for actual image variable (black speaker)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "دعم البلوتوث اللاسلكي", // Inferred and confirmed by box icons
     "تشغيل الموسيقى من USB", // Confirmed by box icon
@@ -6779,6 +6960,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '19', // ID starts from 19
   name: 'مكبرات صوت LAVA ST-40 رقمية صغيرة بمنفذ USB',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'LAVA ST-40 Mini Digital USB Speakers',
   description: 'ارتقِ بتجربتك الصوتية مع مكبرات صوت LAVA ST-40 الرقمية الصغيرة، المصممة خصيصًا لتوفير صوت واضح وعالي الجودة لأجهزة الكمبيوتر، اللاب توب، والهواتف المحمولة. تتميز هذه المكبرات بتصميم أنيق ومدمج لا يشغل مساحة كبيرة على مكتبك، وتعمل بالطاقة عبر منفذ USB، مما يجعلها سهلة التوصيل والتشغيل. بفضل طاقة الخرج 6 واط (3 واط لكل مكبر) ونسبة إشارة إلى الضوضاء تبلغ 70 ديسيبل، ستحصل على صوت نقي وفعال لاستخدامك اليومي. كما أنها تأتي مزودة بإضاءة لتضيف لمسة جمالية إلى إعدادك.',
   price: 130, // Estimated average price in EGP
@@ -6818,6 +7000,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '20', // ID continues from the last processed product (19)
   name: 'مكبرات صوت Kisonli S444 للوسائط المتعددة 2.0 بمنفذ USB',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Kisonli S444 Multimedia 2.0 USB Speakers',
   description: 'مكبرات صوت Kisonli S444 هي نظام صوت ستريو 2.0 مدمج وعصري، مصمم ليوفر تجربة صوتية واضحة وموثوقة لأجهزة الكمبيوتر المكتبية والمحمولة. تعمل هذه السماعات بالطاقة مباشرة عبر منفذ USB وتتصل بمنفذ الصوت 3.5 ملم، مما يجعلها سهلة الاستخدام والتشغيل. بفضل تصميمها الأنيق والجودة الاحترافية، تعد Kisonli S444 خيارًا عمليًا وموفرًا للمساحة للاستخدام اليومي في المنزل أو المكتب.',
   price: 250, // Estimated average price in EGP
@@ -6858,6 +7041,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '21',
   name: 'مكبر صوت بلوتوث محمول P222',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'P222 Portable Bluetooth Speaker',
   description: 'استمتع بالصوت أينما ذهبت مع مكبر الصوت P222 المحمول الذي يجمع بين التصميم المدمج والأداء الفعال. يتميز هذا المكبر بتقنية بلوتوث V5.0 لضمان اتصال لاسلكي مستقر بمدى يصل إلى 15 مترًا. بوزن صافي يبلغ 290 جرامًا وأبعاد 89×79×167 مم، يعتبر مثاليًا للحمل السهل. توفر بطارية الليثيوم المدمجة بسعة 800 مللي أمبير/ساعة وقت تشغيل يتراوح بين 3-4 ساعات، مع إمكانية الشحن السريع خلال 2-3 ساعات. يدعم المكبر أيضًا خيارات تشغيل متعددة مثل بطاقات TF، وUSB، ومدخل AUX، وراديو FM، مما يجعله رفيقًا صوتيًا متعدد الاستخدامات.',
   price: 150, // Estimated average price in EGP
@@ -6904,13 +7088,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '22',
   name: 'مكبرات صوت Crash X4 للوسائط المتعددة 2.0',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Crash X4 Multimedia 2.0 Speakers',
   description: 'ارتقِ بتجربتك الصوتية مع مكبرات صوت Crash X4 للوسائط المتعددة، المصممة لتوفير صوت واضح ومحيطي لأجهزة الكمبيوتر والمزيد. تعمل هذه السماعات بنظام ستريو 2.0، وتتميز بوحدة مكبر صوت بغشاء ألومنيوم 4 أوم مضاد للمغناطيسية للحصول على أداء صوتي ممتاز. يتم تزويدها بالطاقة عبر منفذ USB 5 فولت وتتصل بجهازك عن طريق قابس 3.5 ملم، مما يضمن سهولة التوصيل والتشغيل. بتصميمها الأنيق وميزاتها الصوتية المتقدمة، تعد Crash X4 إضافة رائعة لأي إعداد مكتبي أو ترفيهي.',
   price: 360, // Estimated average price in EGP
   images: [
     crashx4 // Placeholder for actual image variable (speakers out of box)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "نظام مكبر صوت ستريو 2.0",
     "صوت محيطي (Virtual Surround)",
@@ -6947,13 +7132,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '23',
   name: 'مكبرات صوت Crash X9 للوسائط المتعددة 2.0 بمنفذ USB',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Crash X9 Multimedia 2.0 USB Speakers',
   description: 'مكبرات صوت Crash X9 هي نظام صوتي مدمج وأنيق 2.0، مثالي لتحسين تجربتك الصوتية على الكمبيوتر المكتبي أو المحمول. تعمل هذه السماعات بالطاقة عبر منفذ USB 5 فولت وتتصل بمنفذ الصوت القياسي 3.5 ملم. على الرغم من حجمها الصغير، توفر هذه المكبرات صوتًا واضحًا بقوة إجمالية 0.6 واط (RMS)، مع استجابة تردد واسعة ونسبة إشارة إلى ضوضاء تبلغ 65 ديسيبل، مما يضمن تجربة استماع مرضية للموسيقى والأفلام والألعاب. يبرز التصميم الأنيق وجودة التصنيع من البلاستيك المتين.',
   price: 380, // Estimated average price in EGP
   images: [
     crashx9 // Placeholder for actual image variable (speakers out of box)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الكمبيوتر'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "نظام مكبر صوت ستريو 2.0",
     "صوت محيطي (Virtual Surround)",
@@ -6989,6 +7175,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '24',
   name: 'مكبر صوت بلوتوث محمول KT-125 مع حامل هاتف',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'KT-125 Portable Bluetooth Speaker with Phone Holder',
   description: 'استمتع بموسيقاك المفضلة أينما ذهبت مع مكبر الصوت KT-125 المحمول متعدد الاستخدامات. يتميز هذا المكبر بتصميم أسطواني أنيق يضم حاملًا مدمجًا للهاتف، مما يجعله مثاليًا لمشاهدة الفيديوهات أو إجراء مكالمات الفيديو أثناء الاستماع. يدعم KT-125 تشغيل الموسيقى لاسلكيًا عبر البلوتوث، بالإضافة إلى إمكانية تشغيل الملفات من أجهزة تخزين USB وبطاقات TF. بفضل بطاريته المدمجة، يوفر وقت تشغيل يصل إلى 3-4 ساعات، كما أنه مقاوم للرذاذ، مما يجعله رفيقًا مثاليًا للرحلات الخارجية أو الاستخدام اليومي.',
   price: 185, // Estimated average price in EGP
@@ -6996,7 +7183,7 @@ Hummer_3 // Placeholder image variable
     kt_125,
     kt125 // Placeholder for actual image variable (speaker with phone)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "اتصال بلوتوث لاسلكي",
     "حامل هاتف مدمج",
@@ -7033,6 +7220,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '25',
   name: 'مكبر صوت بلوتوث محمول 1201 بإضاءة LED',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'Speaker 1201 Portable Bluetooth Speaker with LED Light',
   description: 'أضف لمسة من الألوان والصوت إلى أي مكان مع مكبر الصوت 1201 المحمول. يتميز هذا المكبر بإضاءة LED ديناميكية ومجموعة كاملة من خيارات التشغيل، بما في ذلك البلوتوث، ومنفذ USB، وقارئ بطاقة TF لدعم ملفات MP3 و WAV. بفضل تصميمه الأسطواني الأنيق وأزرار التحكم سهلة الاستخدام على الجزء العلوي، يمكنك إدارة الموسيقى ومستوى الصوت والإضاءة بكل سهولة. يعمل المكبر ببطارية مدمجة قابلة لإعادة الشحن عبر منفذ USB 5 فولت، مما يجعله مثاليًا للاستخدام أثناء التنقل.',
   price: 150, // Estimated average price in EGP
@@ -7040,7 +7228,7 @@ Hummer_3 // Placeholder image variable
     speaker1201_1, // Placeholder for actual image variable (speaker with LED lights)
     speaker1201_2
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "إضاءة LED ملونة قابلة للتحكم",
     "دعم تشغيل الموسيقى عبر بلوتوث وUSB وبطاقة TF",
@@ -7073,6 +7261,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '26',
   name: 'سماعة رأس سلكية CRASH X40 مع ميكروفون',
+  subcategory: "سماعات",
   englishName: 'CRASH X40 Wired Headphone with Microphone',
   description: 'سماعة رأس سلكية CRASH X40 توفر تجربة صوت ستريو مذهلة مع ميكروفون مدمج بخاصية تقليل الضوضاء، مثالية للاستخدام مع أجهزة الكمبيوتر. تتميز بتصميم مريح ومقبس 3.5 مم متعدد الاستخدامات.',
   price: 250,
@@ -7122,6 +7311,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '27',
   name: 'سماعة رأس Oraimo OR-P9 لاسلكية مع ميكروفون',
+  subcategory: "سماعات",
   englishName: 'Oraimo OR-P9 Wireless Headphone with Microphone',
   description: 'سماعة رأس لاسلكية من Oraimo طراز OR-P9 توفر تجربة صوت غامرة مع ميكروفون مدمج. تتميز بالاتصال اللاسلكي عبر البلوتوث وإمكانية الاتصال السلكي عبر مقبس 3.5 مم، مما يجعلها مثالية للاستخدام اليومي والمكالمات. تصميم فوق الأذن يوفر راحة أثناء الارتداء الطويل.',
   price: 270,
@@ -7173,6 +7363,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '28',
   name: 'سماعة ألعاب Marvo Scorpion H8311 بمنفذ 3.5 مم',
+  subcategory: "سماعات",
   englishName: 'Marvo Scorpion H8311 3.5mm Gaming Headset',
   description: 'انغمس في عالم الألعاب مع سماعة Marvo Scorpion H8311 المصممة خصيصًا للاعبين. تتميز هذه السماعة بصوت ستريو عالي الجودة بفضل محركات الصوت الكبيرة مقاس 40 ملم، وتوفر استجابة تردد واسعة من 20 هرتز إلى 20 كيلوهرتز لالتقاط أدق التفاصيل الصوتية في ألعابك. الميكروفون متعدد الاتجاهات قابل للتعديل يضمن تواصلًا واضحًا مع زملائك في الفريق. مع كابل بطول 2.1 متر وموصلات 3.5 ملم منفصلة للصوت والميكروفون، توفر هذه السماعة الراحة والمرونة اللازمة لجلسات اللعب الطويلة على الكمبيوتر.',
   price: 490, // Estimated average price in EGP
@@ -7215,6 +7406,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '29',
   name: 'سماعة أذن لاسلكية P47M على شكل أذن قطة مع إضاءة LED',
+  subcategory: "سماعات",
   englishName: 'P47M Cat Ear Wireless Headphone with LED Light',
   description: 'تجربة استماع فريدة ومرحة مع سماعة الرأس اللاسلكية P47M بتصميم أذن القطة الأنيق والمضيء بتقنية LED. تتميز هذه السماعة بتصميم مريح يضمن سهولة الارتداء لفترات طويلة، وتوفر صوتًا نقيًا بفضل تصميم التجويف المستقل. بفضل تقنية البلوتوث المتقدمة ووحدة الطاقة الذكية، يمكنك الاستمتاع بما يصل إلى 14 ساعة من التشغيل المتواصل. مثالية للمحبي الموسيقى والألعاب ومكالمات الفيديو، وتعد إضافة عصرية وممتعة لمجموعتك التقنية.',
   price: 250, // Estimated average price in EGP
@@ -7261,6 +7453,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '30',
   name: 'سماعة بلوتوث لاسلكية P39',
+  subcategory: "سماعات",
   englishName: 'P39 Wireless Bluetooth Headphone',
   description: 'استمتع بحرية الصوت اللاسلكي مع سماعة البلوتوث P39 خفيفة الوزن وعالية الأداء. توفر هذه السماعة اتصالاً مستقرًا عبر البلوتوث 5.0 بمدى يصل إلى 10 أمتار، وتدعم بروتوكولات الصوت الشهيرة لضمان جودة استماع ممتازة. بوزن 155 جرام فقط، يمكنك ارتداؤها لساعات طويلة دون إجهاد. بطاريتها المدمجة توفر أكثر من 10 ساعات من تشغيل الموسيقى المتواصل، وتستغرق حوالي 3 ساعات فقط لإعادة الشحن بالكامل عبر منفذ DC 5V. مثالية للاستخدام اليومي، السفر، أو ممارسة الرياضة.',
   price: 340, // Estimated average price in EGP
@@ -7307,6 +7500,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '31',
   name: 'سماعة رأس لاسلكية مارشال ميجور 703 بإضاءة RGB',
+  subcategory: "سماعات",
   englishName: 'Marshall Major 703 RGB Wireless Headphone',
   description: 'انغمس في عالم الموسيقى مع سماعة الرأس اللاسلكية Marshall Major 703، التي تجمع بين الأداء الصوتي وإضاءة RGB الجذابة. تتميز هذه السماعة بتصميم عصري مع أضواء LED ملونة على الأذنين، مما يضيف لمسة فريدة لتجربتك الصوتية. توفر اتصالاً لاسلكيًا عبر البلوتوث وتجربة استماع ستريو واضحة. كما أنها متعددة الوظائف، وغالبًا ما تدعم تشغيل راديو FM وبطاقات Micro SD، بالإضافة إلى ميكروفون مدمج للمكالمات.',
   price: 590, // Estimated average price in EGP
@@ -7351,6 +7545,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '32',
   name: 'سماعة رأس لاسلكية مارشال ميجور 908 بإضاءة RGB',
+  subcategory: "سماعات",
   englishName: 'Marshall Major 908 RGB Wireless Headphone',
   description: 'انغمس في عالم الموسيقى والألوان مع سماعة الرأس اللاسلكية Marshall Major 908. تتميز هذه السماعة بتصميمها الأنيق وإضاءة RGB الجذابة على الأذنين، مما يضيف لمسة عصرية ومميزة. توفر اتصالاً لاسلكيًا سلسًا عبر البلوتوث، وتجربة استماع ستريو غامرة. مع قدرتها على تشغيل الموسيقى من مصادر متعددة مثل بطاقات Micro SD وراديو FM، بالإضافة إلى ميكروفون مدمج للمكالمات، تعد هذه السماعة خيارًا متعدد الاستخدامات للاستخدام اليومي والترفيه.',
   price: 650, // Estimated average price in EGP
@@ -7394,6 +7589,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '33',
   name: 'سماعة رأس بلوتوث لاسلكية Ovleng MX666 ستريو',
+  subcategory: "سماعات",
   englishName: 'Ovleng MX666 Wireless Bluetooth Stereo Headset',
   description: 'استمتع بتجربة صوتية لاسلكية متعددة الاستخدامات مع سماعة الرأس Ovleng MX666. صُممت هذه السماعة لتوفر صوت ستريو غني، وهي مثالية للمكالمات الهاتفية، الاستماع إلى الموسيقى، ومشاهدة الأفلام. بفضل اتصال البلوتوث الموثوق به، يمكنك التحرك بحرية دون قيود الكابلات. تتميز بتصميم مريح مع وسائد أذن ناعمة وعصابة رأس قابلة للتعديل، مما يضمن الراحة حتى أثناء الاستخدام لفترات طويلة. كما تحتوي على ميكروفون مدمج لإجراء مكالمات واضحة.',
   price: 770, // Estimated average price in EGP
@@ -7437,6 +7633,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '34',
   name: 'سماعة رأس بلوتوث لاسلكية P9 ستريو',
+  subcategory: "سماعات",
   englishName: 'P9 Wireless Bluetooth Stereo Headset',
   description: 'استمتع بتجربة صوتية ممتازة وتصميم أنيق مع سماعة الرأس اللاسلكية P9. صُممت هذه السماعة لتوفير صوت ستريو غامر ومناسب للألعاب والموسيقى والرياضة، وهي مثالية للاستخدام اليومي. توفر اتصالاً لاسلكيًا مريحًا عبر البلوتوث، وتتميز ببطارية تدوم لساعات طويلة من التشغيل. تصميمها المريح، المشابه لسماعات الرأس الفاخرة، يضمن الراحة حتى خلال فترات الاستخدام الطويلة، وتتضمن ميكروفونًا مدمجًا لإجراء المكالمات بوضوح.',
   price: 250, // Estimated average price in EGP
@@ -7483,6 +7680,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '35',
   name: 'سماعة رأس لاسلكية P47 بلوتوث 5.0+EDR',
+  subcategory: "سماعات",
   englishName: 'P47 Wireless Bluetooth 5.0+EDR Headphone',
   description: 'استمتع بحرية الصوت اللاسلكي مع سماعة الرأس P47، المزودة بتقنية البلوتوث 5.0+EDR لاتصال مستقر وفعال. توفر هذه السماعة صوت ستريو واضح ومناسب للاستماع إلى الموسيقى، إجراء المكالمات، ومشاهدة الأفلام. يتميز تصميمها بالراحة، مع إمكانية الطي لسهولة الحمل والتخزين. بالإضافة إلى الاتصال اللاسلكي، تدعم السماعة تشغيل الموسيقى عبر بطاقة Micro SD، وميزة راديو FM، ومدخل AUX لتوصيل الأجهزة السلكية، مما يجعلها خيارًا متعدد الاستخدامات لاحتياجاتك الصوتية.',
   price: 185, // Estimated average price in EGP
@@ -7531,13 +7729,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '36',
   name: 'ميكروفون كاريوكي لاسلكي بلوتوث WS-858 مع سماعة مدمجة',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'WS-858 Bluetooth Wireless Karaoke Microphone with Built-in Speaker',
   description: 'حوّل أي تجمع إلى حفلة كاريوكي مع ميكروفون WS-858 اللاسلكي متعدد الإمكانات. يدمج هذا الميكروفون المبتكر ميكروفونًا عالي الجودة وسماعة بلوتوث ومضخم صوت في جهاز واحد، مما يتيح لك الغناء مع موسيقاك المفضلة في أي مكان. يتميز بوظائف تشغيل الموسيقى، تسجيل الصوت، والتحكم في مستوى الصوت، بالإضافة إلى تأثير صدى الصوت (Remix) لتعزيز الأداء الصوتي. متوفر بلون وردي جذاب ومثالي للحفلات، التجمعات العائلية، أو مجرد الترفيه الشخصي.',
   price: 200, // Estimated average price in EGP
   images: [
     mic_B // Placeholder for actual image variable (pink microphone)
   ],
-  categories: ['إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "ميكروفون وسماعة بلوتوث في جهاز واحد",
     "اتصال لاسلكي بالبلوتوث",
@@ -7577,6 +7776,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '37',
   name: 'مروحة صغيرة محمولة قابلة لإعادة الشحن مع إضاءة LED',
+  subcategory: 'أجهزة منزلية ذكية',
   englishName: 'Portable Rechargeable Mini Fan with LED Light',
   description: 'ابقَ منتعشًا في أي مكان مع المروحة الصغيرة المحمولة والقابلة لإعادة الشحن. تتميز هذه المروحة بتصميم مدمج وأنيق مع محرك قوي عديم المسفرات بحجم 6 بوصات يوفر تدفق هواء كبير. مثالية للمكتب، المنزل، أو أثناء التنقل. تشتمل على إضاءة LED مدمجة في القاعدة يمكن استخدامها كإضاءة ليلية أو لإضفاء جو مريح. قابلة لإعادة الشحن عبر USB، وتتوفر بألوان متعددة لتناسب ذوقك.',
   price: 335, // Estimated average price in EGP
@@ -7619,6 +7819,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '38',
   name: 'مصباح ليلي ذكي BDT AN2304 Mini مع شاحن لاسلكي وسماعة',
+  subcategory: 'أجهزة منزلية ذكية',
   englishName: 'BDT AN2304 Mini Smart Night Light with Wireless Charger and Speaker',
   description: 'جهاز BDT AN2304 Mini هو حل متعدد الإمكانات يجمع بين الإضاءة المحيطة، وشاحن لاسلكي سريع، وسماعة بلوتوث، وساعة رقمية أنيقة. يتميز بتصميم عصري مع إضاءة LED ملونة قابلة للتعديل لخلق جو مثالي، وشاشة عرض رقمية للوقت. ضع هاتفك الذكي المتوافق على قاعدة الشحن اللاسلكي لشحنه بسهولة. يمكنك أيضًا الاستماع إلى الموسيقى المفضلة لديك عبر مكبر الصوت المدمج المتصل بالبلوتوث. مثالي لغرف النوم، المكاتب، أو أي مكان يحتاج إلى لمسة من التكنولوجيا العصرية والوظائف المتعددة.',
   price: 335, // Estimated average price in EGP
@@ -7660,6 +7861,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '39',
   name: 'مصباح ليلي ذكي BDT AN2304 مع شاحن لاسلكي وسماعة وإضاءة RGB',
+  subcategory: "'أجهزة منزلية ذكية'",
   englishName: 'BDT AN2304 Smart Night Light with Wireless Charger, Speaker & RGB Lights',
   description: 'ارتقِ بتجربتك الصوتية والضوئية مع جهاز BDT AN2304 المتعدد الوظائف. يجمع هذا الجهاز المبتكر بين مصباح طاولة بإضاءة RGB ديناميكية، وشاحن لاسلكي سريع لهاتفك الذكي، وسماعة بلوتوث عالية الجودة، وساعة رقمية أنيقة. يتميز بتصميم عصري يضيف لمسة جمالية لأي غرفة، ويوفر تحكمًا سهلاً في جميع وظائفه عبر الأزرار المدمجة. مثالي لغرف النوم، المكاتب، أو كقطعة مركزية ذكية تجمع بين الترفيه والعملية.',
   price: 495, // Estimated average price in EGP
@@ -7701,13 +7903,14 @@ Hummer_3 // Placeholder image variable
 {
   id: '40',
   name: 'سماعة بلوتوث صغيرة محمولة M3 Mini',
+  subcategory: "أجهزة الصوت والموسيقى",
   englishName: 'M3 Mini Portable Bluetooth Speaker',
   description: 'استمتع بموسيقاك المفضلة في أي مكان مع سماعة البلوتوث M3 Mini المحمولة فائقة الصغر. تتميز هذه السماعة بتصميم مدمج وخفيف الوزن، مما يجعلها الرفيق المثالي للسفر أو الاستخدام اليومي. توفر اتصالاً لاسلكيًا سهلاً عبر البلوتوث مع هاتفك الذكي أو جهازك اللوحي. بالإضافة إلى ذلك، تدعم تشغيل الموسيقى مباشرة من بطاقة TF (Micro SD)، وتأتي ببطارية مدمجة قابلة لإعادة الشحن. متوفرة بألوان جذابة، وهي خيار مثالي لمن يبحث عن جودة صوت جيدة في حجم صغير.',
   price: 240, // Estimated average price in EGP
   images: [
     jpl_m3_mini, // Placeholder for actual image variable (silver speaker)
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "تصميم صغير جداً ومحمول",
     "اتصال بلوتوث لاسلكي",
@@ -7744,6 +7947,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '41',
   name: 'Infinix Xpower 20',
+  subcategory: "شواحن",
   englishName: 'Infinix Xpower 20 Power Bank',
   description: 'بنك طاقة Infinix Xpower 20 يوفر حلاً قويًا وموثوقًا لشحن أجهزتك أثناء التنقل. بسعة بطارية ضخمة تبلغ 20000 مللي أمبير/ساعة، يضمن لك شحنًا متعددًا لهاتفك الذكي والأجهزة الأخرى. يتميز بمنافذ إدخال وإخراج متعددة بما في ذلك Type-C و USB A و USB B، مما يوفر مرونة عالية في الشحن. تصميم مدمج ومحمول، مثالي للحفاظ على أجهزتك مشحونة في أي وقت وفي أي مكان.',
   price: 900, // Price provided in the prompt
@@ -7782,6 +7986,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '42',
   name: 'شاحن لاسلكي مغناطيسي فائق النحافة Hoco Q26A',
+  subcategory: "شواحن",
   englishName: 'Hoco Q26A Magnetic Wireless Charger Ultra-Slim Power Bank',
   description: 'باور بانك Hoco Q26A فائق النحافة مع شحن لاسلكي مغناطيسي يوفر حلاً متعدد الاستخدامات ومريحًا لشحن أجهزتك أثناء التنقل. يتميز بسعة 10000 مللي أمبير/ساعة مع دعم الشحن السريع PD بقوة 20 واط و QC3.0 عبر منفذ Type-C. بالإضافة إلى ذلك، يوفر شحنًا لاسلكيًا مغناطيسيًا يصل إلى 15 واط. مصنوع من سبائك الألومنيوم لمتانة فائقة، ويأتي بتصميم أنيق ونحيف يسهل حمله في أي مكان. مثالي لمستخدمي الهواتف الذكية التي تدعم الشحن اللاسلكي المغناطيسي.',
   price: 1850, // Price provided in the prompt

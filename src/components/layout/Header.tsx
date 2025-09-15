@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Search, ShoppingBag,ShoppingCart, Menu, X, User, Globe } from 'lucide-react';
+import { Search, Menu, X, User, Globe } from 'lucide-react';
 import { useBudget } from '../../context/BudgetContext';
 import { categories } from '../../data/categories';
 import { FaShoppingCart } from 'react-icons/fa'; // Font Awesome
-import { MdShoppingCart } from 'react-icons/md'; // Material Design
-import { BsCart } from 'react-icons/bs';         // Bootstrap
 
 
 const Header: React.FC = () => {

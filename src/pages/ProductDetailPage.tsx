@@ -3,12 +3,13 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Star, ShoppingBag, ChevronRight, Check, Plus } from 'lucide-react';
-import { getProductById, getRelatedProducts } from '../data/products';
+import { getProductById, products } from '../data/products';
 import { useBudget } from '../context/BudgetContext';
 import ProductImageGallery from '../components/products/ProductImageGallery';
 import ProductCard from '../components/products/ProductCard';
 import ProductRating from '../components/products/ProductRating';
 import emailjs from '@emailjs/browser';
+import { useRelatedProducts } from '../hooks/useRelatedProducts';
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -26,7 +27,7 @@ const ProductDetailPage: React.FC = () => {
   const [isPhoneValid, setIsPhoneValid] = useState(true); // New state for phone validation
 
   const product = getProductById(id || '');
-  const relatedProducts = product ? getRelatedProducts(product) : [];
+  const relatedProducts = product ? useRelatedProducts(product, products) : [];
 
   if (!product) {
     return (

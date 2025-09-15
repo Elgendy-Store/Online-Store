@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Filter, X } from 'lucide-react';
+import { Filter } from 'lucide-react';
 import { getCategoryById } from '../data/categories';
 import { getProductsByCategory } from '../data/products';
 import ProductCard from '../components/products/ProductCard';
@@ -20,17 +20,27 @@ const CategoryPage: React.FC = () => {
   const [sortOption, setSortOption] = useState('newest');
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
   const [showDiscountedOnly, setShowDiscountedOnly] = useState(false);
+  const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
 
   useEffect(() => {
     if (category) {
       filterAndSortProducts();
     }
-  }, [category, minPrice, maxPrice, sortOption, showDiscountedOnly]);
+  }, [category, minPrice, maxPrice, sortOption, showDiscountedOnly, selectedSubcategory]);
 
   const filterAndSortProducts = () => {
     let filtered = allCategoryProducts.filter(
       (product) => product.price >= minPrice && product.price <= maxPrice
     );
+
+    // Filter by subcategory if selected
+    if (selectedSubcategory && selectedSubcategory !== 'all') {
+      filtered = filtered.filter((product) => {
+        // Check if product subcategory matches or if it's in the selected subcategory's category
+        return product.subcategory === selectedSubcategory || 
+               product.categories.includes(selectedSubcategory);
+      });
+    }
 
     if (showDiscountedOnly) {
       filtered = filtered.filter((product) => product.isPromotion === true);
@@ -69,6 +79,10 @@ const CategoryPage: React.FC = () => {
 
   const handleDiscountFilterChange = (showDiscounted: boolean) => {
     setShowDiscountedOnly(showDiscounted);
+  };
+
+  const handleSubcategoryChange = (subcategoryId: string | null) => {
+    setSelectedSubcategory(subcategoryId);
   };
 
   const toggleMobileFilter = () => {
@@ -112,6 +126,37 @@ const CategoryPage: React.FC = () => {
             {t('filter')}
           </button>
         </div>
+
+        {/* Subcategories Section */}
+        {category?.subcategories && category.subcategories.length > 0 && (
+          <div className="mb-6">
+            <div className="flex flex-wrap items-center gap-3 overflow-x-auto">
+              <button
+                onClick={() => handleSubcategoryChange(null)}
+                className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
+                  selectedSubcategory === null
+                    ? 'bg-primary-600 text-white shadow-md'
+                    : 'bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50'
+                }`}
+              >
+                الكل
+              </button>
+              {category.subcategories.map((subcategory) => (
+                <button
+                  key={subcategory.id}
+                  onClick={() => handleSubcategoryChange(subcategory.name)}
+                  className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
+                    selectedSubcategory === subcategory.name
+                      ? 'bg-primary-600 text-white shadow-md'
+                      : 'bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50'
+                  }`}
+                >
+                  {subcategory.name}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-1/4 lg:w-1/5">
