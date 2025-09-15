@@ -1,5 +1,5 @@
 import { Category } from '../types/types';
-import mobcategoryimg from '../assets/jpg/Mobile Accessories cover image.webp';
+import mobcategoryimg from '../assets/jpg/Mobile_Accessories_cover_image.webp';
 import comcategoryimg from '../assets/jpg/Computer_Accessories_cover_image.jpg';
 import homcategoryimg from '../assets/jpg/Small Home Electronics cover image.jpg';
 
