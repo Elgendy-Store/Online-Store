@@ -1,10 +1,10 @@
 import { Category } from '../types/types';
-import mobcategoryimg from '../assets/Mobile Accessories cover image.webp';
-import comcategoryimg from '../assets/Computer Accessories cover image.jpeg';
-import homcategoryimg from '../assets/Small Home Electronics cover image.jpg';
+import mobcategoryimg from '../assets/jpg/Mobile Accessories cover image.webp';
+import comcategoryimg from '../assets/jpg/Computer_Accessories_cover_image.jpg';
+import homcategoryimg from '../assets/jpg/Small Home Electronics cover image.jpg';
 
 export const categories: Category[] = [
-  {
+  { 
     id: '1',
     name: 'إكسسوارات الموبايل',
     englishName: 'Mobile Accessories',
