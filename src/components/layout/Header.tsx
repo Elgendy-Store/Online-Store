@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Search, Menu, X, User, Globe } from 'lucide-react';
+import { SearchBar } from '../SearchBar';
 import { useBudget } from '../../context/BudgetContext';
 import { categories } from '../../data/categories';
 import { FaShoppingCart } from 'react-icons/fa'; // Font Awesome
@@ -16,6 +17,7 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [isMobileSearchOpen, setIsMobileSearchOpen] = useState(false);
 
   const languages = [
     { code: 'ar', name: 'العربية' },
@@ -56,8 +58,23 @@ const Header: React.FC = () => {
 
   return (
     <>
+      {/* Mobile Search Overlay */}
+      {isMobileSearchOpen && (
+        <div className="fixed inset-x-0 top-0 z-50 bg-white shadow-lg flex items-center px-4 py-3 md:hidden transition-all duration-300">
+          <div className="flex-1">
+            <SearchBar className="w-full" />
+          </div>
+          <button
+            className="ml-2 p-2 text-neutral-700 hover:text-primary-700"
+            onClick={() => setIsMobileSearchOpen(false)}
+            aria-label={t('close')}
+          >
+            <X size={24} />
+          </button>
+        </div>
+      )}
       <header
-        className={`sticky top-0 z-50 transition-all duration-300 ${
+        className={`sticky top-0 z-40 transition-all duration-300 ${
           isScrolled || !showDiscountBanner ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
         }`}
       >
@@ -128,6 +145,14 @@ const Header: React.FC = () => {
 
             {/* Search, Budget, Language and Menu buttons */}
             <div className="flex items-center space-x-2 space-x-reverse">
+              {/* Mobile Search Icon */}
+              <button
+                className="md:hidden p-2 text-neutral-700 hover:text-primary-700 transition-colors"
+                onClick={() => setIsMobileSearchOpen(true)}
+                aria-label={t('search')}
+              >
+                <Search size={22} />
+              </button>
               <form
                 onSubmit={handleSearchSubmit}
                 className="hidden md:flex items-center border border-neutral-300 bg-white rounded-full px-3 py-1 focus-within:border-primary-500"
