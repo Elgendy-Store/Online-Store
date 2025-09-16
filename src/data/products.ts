@@ -8058,13 +8058,48 @@ export const getRelatedProducts = (product: Product) => {
     .slice(0, 4);
 };
 
+import { categories } from './categories';
+
+function normalizeArabic(text: string): string {
+  return text
+    .replace(/[إأآا]/g, 'ا')
+    .replace(/ى/g, 'ي')
+    .replace(/ؤ/g, 'و')
+    .replace(/ئ/g, 'ي')
+    .replace(/ة/g, 'ه')
+    .replace(/\s+/g, '')
+    .toLowerCase();
+}
+
 export const searchProducts = (query: string) => {
-  const lowercaseQuery = query.toLowerCase();
-  return products.filter(
-    product => 
-      product.name.toLowerCase().includes(lowercaseQuery) || 
-      (product.englishName && product.englishName.toLowerCase().includes(lowercaseQuery)) ||
-      product.description.toLowerCase().includes(lowercaseQuery) ||
-      product.categories.some(cat => cat.toLowerCase().includes(lowercaseQuery))
+  if (!query) return products;
+  const normQuery = normalizeArabic(query);
+
+  // Check for category match
+  const category = categories.find(cat => normalizeArabic(cat.name) === normQuery);
+  if (category) {
+    return products.filter(product => product.categories.some(catName => normalizeArabic(catName) === normQuery));
+  }
+
+  // Check for subcategory match
+  for (const cat of categories) {
+    if (cat.subcategories) {
+      const subcat = cat.subcategories.find(sub => normalizeArabic(sub.name) === normQuery);
+      if (subcat) {
+        return products.filter(product => product.subcategory && normalizeArabic(product.subcategory) === normQuery);
+      }
+    }
+  }
+
+  // Product name match
+  const nameMatched = products.filter(product => normalizeArabic(product.name).includes(normQuery));
+  if (nameMatched.length > 0) return nameMatched;
+
+  // Fallback: fuzzy search (name, englishName, description, categories)
+  return products.filter(product =>
+    normalizeArabic(product.name).includes(normQuery) ||
+    (product.englishName && product.englishName.toLowerCase().includes(query.toLowerCase())) ||
+    normalizeArabic(product.description).includes(normQuery) ||
+    product.categories.some(cat => normalizeArabic(cat).includes(normQuery))
   );
 };

@@ -12,8 +12,8 @@ const SearchResultsPage: React.FC = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const query = searchParams.get('q') || '';
   
+  // Smarter search: searchProducts now handles product, category, and subcategory
   const allSearchResults = searchProducts(query);
-  
   const [filteredProducts, setFilteredProducts] = useState<Product[]>(allSearchResults);
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(10000);

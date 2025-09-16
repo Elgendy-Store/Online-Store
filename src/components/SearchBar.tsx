@@ -1,19 +1,19 @@
 import React, { useState, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Search, X } from 'lucide-react';
 import { useSearch } from '../hooks/useSearch';
 import { SearchItem } from '../types/types';
 
 interface SearchBarProps {
-  onItemSelect?: (item: SearchItem) => void;
   placeholder?: string;
   className?: string;
 }
 
 export const SearchBar: React.FC<SearchBarProps> = ({
-  onItemSelect,
   placeholder = "البحث عن المنتجات، الفئات، والفئات الفرعية...",
   className = "",
 }) => {
+  const navigate = useNavigate();
   const { query, searchResults, updateQuery, clearSearch, isSearching } = useSearch();
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(-1);
@@ -33,13 +33,23 @@ export const SearchBar: React.FC<SearchBarProps> = ({
     updateQuery(item.name);
     setIsOpen(false);
     setSelectedIndex(-1);
-    onItemSelect?.(item);
+    navigate(`/search?q=${encodeURIComponent(item.name)}`);
   };
 
   // Handle keyboard navigation
   const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      if (isOpen && selectedIndex >= 0 && selectedIndex < searchResults.length) {
+        handleItemSelect(searchResults[selectedIndex]);
+      } else if (query.trim()) {
+        setIsOpen(false);
+        setSelectedIndex(-1);
+        navigate(`/search?q=${encodeURIComponent(query)}`);
+      }
+      return;
+    }
     if (!isOpen || searchResults.length === 0) return;
-
     switch (e.key) {
       case 'ArrowDown':
         e.preventDefault();
@@ -53,12 +63,6 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           prev > 0 ? prev - 1 : searchResults.length - 1
         );
         break;
-      case 'Enter':
-        e.preventDefault();
-        if (selectedIndex >= 0 && selectedIndex < searchResults.length) {
-          handleItemSelect(searchResults[selectedIndex]);
-        }
-        break;
       case 'Escape':
         setIsOpen(false);
         setSelectedIndex(-1);
@@ -66,6 +70,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
         break;
     }
   };
+
 
   // Handle clear search
   const handleClear = () => {

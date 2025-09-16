@@ -153,21 +153,10 @@ const Header: React.FC = () => {
               >
                 <Search size={22} />
               </button>
-              <form
-                onSubmit={handleSearchSubmit}
-                className="hidden md:flex items-center border border-neutral-300 bg-white rounded-full px-3 py-1 focus-within:border-primary-500"
-              >
-                <input
-                  type="text"
-                  placeholder={t('search')}
-                  className="bg-transparent outline-none border-none text-sm w-36 lg:w-48"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                />
-                <button type="submit" className="text-neutral-500 hover:text-primary-700">
-                  <Search size={18} />
-                </button>
-              </form>
+              {/* Primary Search Bar (desktop/tablet) */}
+              <div className="hidden md:block w-64 lg:w-80">
+                <SearchBar />
+              </div>
 
               {/* Language Selector */}
               <div className="relative">
