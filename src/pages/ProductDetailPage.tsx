@@ -3,13 +3,12 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Star, ShoppingBag, ChevronRight, Check, Plus } from 'lucide-react';
-import { getProductById, products } from '../data/products';
+import { getProductById } from '../data/products';
 import { useBudget } from '../context/BudgetContext';
 import ProductImageGallery from '../components/products/ProductImageGallery';
-import ProductCard from '../components/products/ProductCard';
 import ProductRating from '../components/products/ProductRating';
 import emailjs from '@emailjs/browser';
-import { useRelatedProducts } from '../hooks/useRelatedProducts';
+import RelatedProductsCarousel from '../components/products/RelatedProductsCarousel';
 
 const ProductDetailPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -27,7 +26,6 @@ const ProductDetailPage: React.FC = () => {
   const [isPhoneValid, setIsPhoneValid] = useState(true); // New state for phone validation
 
   const product = getProductById(id || '');
-  const relatedProducts = product ? useRelatedProducts(product, products) : [];
 
   if (!product) {
     return (
@@ -368,16 +366,9 @@ const ProductDetailPage: React.FC = () => {
         </div>
 
         {/* Related Products */}
-        {relatedProducts.length > 0 && (
-          <section className="mt-16">
-            <h2 className="text-2xl font-bold mb-6">{t('relatedProducts')}</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {relatedProducts.map((relatedProduct) => (
-                <ProductCard key={relatedProduct.id} product={relatedProduct} />
-              ))}
-            </div>
-          </section>
-        )}
+        <div className="mt-16">
+          <RelatedProductsCarousel product={product} />
+        </div>
 
         {isModalOpen && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">

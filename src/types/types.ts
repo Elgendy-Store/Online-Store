@@ -80,10 +80,16 @@ export interface StoreInfo {
   workingHours: {
     days: string;
     hours: string;
-  }[];
-  socialMedia: {
-    facebook?: string;
-    instagram?: string;
-    whatsapp?: string;
   };
+}
+
+export interface SearchItem {
+  id: string;
+  name: string;
+  englishName?: string;
+  type: 'product' | 'category' | 'subcategory';
+  categoryId?: string;
+  subcategoryId?: string;
+  priority: number; // For sorting: subcategory (3) > category (2) > product (1)
+  highlightIndices?: number[][]; // For highlighting matches
 }

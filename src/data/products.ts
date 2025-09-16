@@ -274,7 +274,7 @@ import kingston_8G_flash_se9 from '../assets/jpg/kingston 8G flash se9.jpg';
 import kingston_64G_flash_se9 from '../assets/jpg/kingston 64G flash se9.jpg';
 
 // Sample products data (will be expanded in a real implementation)
-export const products: Product[] = [
+export const products: Product[] = [ // main products array
 
 
 
@@ -8027,6 +8027,7 @@ Hummer_3 // Placeholder image variable
 }
 ];
 
+export const getAllProducts = () => products;
 // Filter helper functions
 export const getNewArrivals = () => {
   return products.filter(product => product.isNew);

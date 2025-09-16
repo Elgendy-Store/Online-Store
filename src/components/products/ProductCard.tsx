@@ -127,7 +127,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <img
           src={product.images[0]}
           alt={product.name}
-          className="w-[250px] h-[250px] object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-[160px] md:h-[180px] object-cover transition-transform duration-300 hover:scale-105"
         />
         {product.isNew && (
           <span className="absolute top-2 right-2 bg-accent-500 text-white text-xs px-2 py-1 rounded-full">
@@ -157,27 +157,13 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </button>
       </Link>
       
-      <div className="p-4 flex-grow flex flex-col">
+      <div className="p-3 md:p-4 flex-grow flex flex-col">
         <Link to={`/products/${product.id}`} className="block">
-          <h3 className="font-semibold text-lg mb-1 hover:text-primary-600 transition-colors">
+          <h3 className="font-semibold text-base md:text-lg mb-1 hover:text-primary-600 transition-colors">
             {product.name}
           </h3>
-          {product.englishName && (
-            <p className="text-neutral-500 text-sm mb-2">{product.englishName}</p>
-          )}
+          
         </Link>
-        
-        <div className="flex items-center mb-2">
-          <div className="flex items-center text-secondary-500">
-            <Star size={16} fill="currentColor" />
-            <span className="mr-1 text-sm">{product.rating}</span>
-          </div>
-          <span className="text-neutral-500 text-sm mr-2">({product.reviewCount} تقييم)</span>
-        </div>
-        
-        <p className="text-neutral-600 text-sm mb-4 line-clamp-2">
-          {product.description.substring(0, 80)}...
-        </p>
         
         <div className="mt-auto flex items-center justify-between">
           <div className="text-right">
