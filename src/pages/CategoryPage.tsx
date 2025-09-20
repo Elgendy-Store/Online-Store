@@ -7,10 +7,11 @@ import { getProductsByCategory } from '../data/products';
 import ProductCard from '../components/products/ProductCard';
 import ProductFilter from '../components/products/ProductFilter';
 import { Product } from '../types/types';
+import '../styles/subcategory-btn.css';
 
 const CategoryPage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const category = getCategoryById(id || '');
   const allCategoryProducts = getProductsByCategory(category?.name || '');
   
@@ -36,9 +37,9 @@ const CategoryPage: React.FC = () => {
     // Filter by subcategory if selected
     if (selectedSubcategory && selectedSubcategory !== 'all') {
       filtered = filtered.filter((product) => {
-        // Check if product subcategory matches or if it's in the selected subcategory's category
-        return product.subcategory === selectedSubcategory || 
-               product.categories.includes(selectedSubcategory);
+        if (!product.subcategory) return false;
+        // Always match against Arabic subcategory name
+        return product.subcategory.trim() === selectedSubcategory;
       });
     }
 
@@ -81,9 +82,14 @@ const CategoryPage: React.FC = () => {
     setShowDiscountedOnly(showDiscounted);
   };
 
-  const handleSubcategoryChange = (subcategoryId: string | null) => {
-    setSelectedSubcategory(subcategoryId);
+  const handleSubcategoryChange = (subcategoryArabicName: string | null) => {
+    setSelectedSubcategory(subcategoryArabicName);
   };
+
+  // Helper to get the correct subcategory value for filtering
+  const getSubcategoryLabel = (subcategory: any) =>
+    i18n.language === 'ar' ? subcategory.name : subcategory.englishName;
+
 
   const toggleMobileFilter = () => {
     setIsMobileFilterOpen(!isMobileFilterOpen);
@@ -141,19 +147,23 @@ const CategoryPage: React.FC = () => {
               >
                 الكل
               </button>
-              {category.subcategories.map((subcategory) => (
-                <button
-                  key={subcategory.id}
-                  onClick={() => handleSubcategoryChange(subcategory.name)}
-                  className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
-                    selectedSubcategory === subcategory.name
-                      ? 'bg-primary-600 text-white shadow-md'
-                      : 'bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50'
-                  }`}
-                >
-                  {subcategory.name}
-                </button>
-              ))}
+              {category.subcategories.map((subcategory) => {
+                const label = getSubcategoryLabel(subcategory);
+                const arabicName = subcategory.name;
+                return (
+                  <button
+                    key={subcategory.id}
+                    onClick={() => handleSubcategoryChange(arabicName)}
+                    className={`subcategory-btn
+                    ${selectedSubcategory === arabicName
+                      ? 'bg-primary-600 text-white shadow-lg'
+                      : 'bg-primary-50 text-primary-800 border border-primary-200 hover:bg-primary-100'}
+                    `}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}

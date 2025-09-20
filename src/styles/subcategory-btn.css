@@ -1,0 +1,42 @@
+.subcategory-btn {
+  display: inline-block;
+  min-width: 110px;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.08rem;
+  font-weight: 700;
+  border-radius: 2rem;
+  box-shadow: 0 2px 8px 0 rgba(80, 80, 100, 0.08);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s, border 0.2s;
+  cursor: pointer;
+  outline: none;
+}
+
+.subcategory-btn:active {
+  box-shadow: 0 4px 16px 0 rgba(80, 80, 100, 0.16);
+}
+
+@media (max-width: 640px) {
+  .subcategory-btn {
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 0.75rem;
+    font-size: 1.13rem;
+    padding: 1rem 1.5rem;
+    display: block;
+  }
+  .subcategory-btn + .subcategory-btn {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 641px) {
+  .subcategory-btn {
+    width: auto;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.08rem;
+    display: inline-block;
+  }
+}

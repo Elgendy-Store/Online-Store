@@ -7,6 +7,7 @@ import CategoryPage from './pages/CategoryPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import BudgetPage from './pages/BudgetPage';
 import AboutPage from './pages/AboutPage';
+import CompareProducts from './pages/CompareProducts';
 import ContactPage from './pages/ContactPage';
 import FAQPage from './pages/FAQPage';
 import SearchResultsPage from './pages/SearchResultsPage';
@@ -23,6 +24,8 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/categories/:id" element={<CategoryPage />} />
             <Route path="/products/:id" element={<ProductDetailPage />} />
+            <Route path="/compare/:productId1" element={<CompareProducts />} />
+            <Route path="/compare/:productId1/:productId2" element={<CompareProducts />} />
             <Route path="/budget" element={<BudgetPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />

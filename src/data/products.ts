@@ -49,8 +49,8 @@ import marshal_major903 from '../assets/jpg/marshall major 908.jpg';
 import marshal_major903_2 from '../assets/jpg/marshall major 908.2.jpg';
 import mx666 from '../assets/jpg/mx666.jpg';
 import mx666_2 from '../assets/jpg/mx666.2.jpg';
-import p9 from '../assets/jpg/p39.jpg';
-import p9_2 from '../assets/jpg/p39.2.jpg';
+import p9 from '../assets/jpg/p9.jpg';
+import p9_2 from '../assets/jpg/p9.2.jpg';
 import p9_3 from '../assets/jpg/p9.3.jpg';
 import mic_B from '../assets/jpg/mic bluetooth.jpg';
 import mini_fan from '../assets/jpg/fan.jpg';
@@ -301,7 +301,6 @@ export const products: Product[] = [ // main products array
     kingston_64G_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الكمبيوتر',
 'إكسسوارات الموبايل'
   ],
   features: [
@@ -333,7 +332,6 @@ export const products: Product[] = [ // main products array
     kingston_8G_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الكمبيوتر',
 'إكسسوارات الموبايل'
   ],
   features: [
@@ -365,7 +363,6 @@ export const products: Product[] = [ // main products array
     kingston_4G_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الكمبيوتر',
 'إكسسوارات الموبايل'
   ],
   features: [
@@ -397,7 +394,6 @@ export const products: Product[] = [ // main products array
     kingston_128G_card // Variable for the image
   ],
   categories: [
-'إكسسوارات الكمبيوتر',
 'إكسسوارات الموبايل'
   ],
   features: [
@@ -431,7 +427,6 @@ export const products: Product[] = [ // main products array
     kingston_8G_card // Variable for the image
   ],
   categories: [
-'إكسسوارات الكمبيوتر',
 'إكسسوارات الموبايل'
   ],
   features: [
@@ -465,7 +460,6 @@ export const products: Product[] = [ // main products array
     kingston_128_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الكمبيوتر',
 'إكسسوارات الموبايل'
   ],
   features: [
@@ -497,7 +491,6 @@ export const products: Product[] = [ // main products array
     kingston_64G_card // Variable for the image
   ],
   categories: [
-    'إكسسوارات الكمبيوتر',
     'إكسسوارات الموبايل'
   ],
   features: [
@@ -775,7 +768,7 @@ export const products: Product[] = [ // main products array
 {
   id: '196',
   name: 'كابل شحن مغناطيسي',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Magnetic Charging Cable',
   description: 'كابل شحن مغناطيسي بطول 1 متر، مصمم لتوفير شحن سهل ومريح. يتميز بتصميم مغناطيسي يسهل توصيل وفصل الكابل من الجهاز.',
   price: 145,
@@ -868,7 +861,7 @@ export const products: Product[] = [ // main products array
 {
   id: '193',
   name: 'كابل بيانات Gemax Type-C',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Gemax Type-C Data Cable',
   description: 'كابل بيانات Gemax Type-C بطول 120 سم، مصمم للشحن ونقل البيانات بسرعة وأمان. يتميز بسلك مانع للتجمد ومقاوم للكسر، مع قدرة تحمل عالية تصل إلى 10000 مرة من الانحناء. يدعم تيار 3 أمبير لشحن فائق السرعة بفضل قلب نحاسي نقي عالي الجودة. متوافق مع جميع المنتجات الإلكترونية ذات واجهة Type-C.',
   price: 95,
@@ -1317,7 +1310,7 @@ export const products: Product[] = [ // main products array
 {
   id: '180',
   name: 'كابل شحن سريع ANKER USB-C إلى Lightning',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'ANKER Lightning Fast Charging USB-C to Lightning Cable',
   description: 'كابل شحن سريع ومتين من ANKER، بطول 1 متر (3.3 قدم)، مصمم لأجهزة Apple المزودة بمنفذ Lightning. يدعم تقنية Power Delivery (PD) للشحن فائق السرعة، حيث يمكنه شحن iPhone X حتى 50% في 30 دقيقة. يتميز بتصميم PowerLine Select+ مع كابل نايلون مضفر وأطراف موصل معززة، مما يجعله يتحمل أكثر من 15000 انحناء لمتانة فائقة. معتمد رسميًا لضمان التوافق الكامل مع جميع أجهزة Lightning.',
   price: 160,
@@ -1353,7 +1346,7 @@ export const products: Product[] = [ // main products array
 {
   id: '179',
   name: 'كابل بيانات 4S-15 Type-C',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: '4S-15 Type-C Data Cable',
   description: 'كابل بيانات 4S-15 Type-C يوفر تيار شحن 5 أمبير وطول 1 متر. مصمم لمزامنة البيانات وشحن هاتفك من جهاز الكمبيوتر أو شاحن USB. يجمع بين وظيفتي نقل البيانات والشحن بأمان وسرعة عالية. يتميز بتصميم متين يقاوم الضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية. الكابل متوافق مع جميع إصدارات USB ومضاد للتداخل.',
   price: 130,
@@ -1393,7 +1386,7 @@ export const products: Product[] = [ // main products array
 {
   id: '178',
   name: 'كابل بيانات 4S-13 مايكرو USB',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: '4S-13 Micro USB Data Cable',
   description: 'كابل بيانات 4S-13 Micro USB يوفر تيار شحن 2.4 أمبير، مصمم لمزامنة البيانات وشحن هاتفك من جهاز الكمبيوتر أو شاحن USB. يجمع بين وظيفتي نقل البيانات والشحن بأمان وسرعة عالية. يتميز بتصميم متين يقاوم الضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية. الكابل متوافق مع جميع إصدارات USB ومضاد للتداخل.',
   price: 80,
@@ -1431,7 +1424,7 @@ export const products: Product[] = [ // main products array
 {
   id: '177',
   name: 'كابل بيانات GEMAX HY-C39 (مايكرو USB)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'GEMAX HY-C39 Data Cable (Micro USB)',
   description: 'كابل بيانات GEMAX HY-C39 Micro USB بطول 2 متر، مصمم لحل مشكلة نقل البيانات والشحن معًا بكفاءة. يتميز بتصميم خاص يتحمل درجات الحرارة العالية وأطراف مطلية بالذهب للحفاظ على أفضل اتصال. متوافق مع جميع إصدارات USB (2.0/3.0).',
   price: 100,
@@ -1466,7 +1459,7 @@ export const products: Product[] = [ // main products array
 {
   id: '176',
   name: 'كابل بيانات FOX 4 في 1 للشحن السريع',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'FOX 4-in-1 Fast Charging Data Cable',
   description: 'كابل بيانات وشحن سريع FOX متعدد الوظائف بتصميم 4 في 1، مناسب لمختلف الأجهزة التي تستخدم منافذ USB، Type-C، وLightning. بطول 1 متر، يوفر شحنًا سريعًا ونقل بيانات فعالًا. يتميز بتصميم أصلي منحني و"NOODLE LINE" لمقاومة التشابك. مصنوع من موصل نحاسي فائق النقاء لضمان جودة عالية، ومقاوم للضغط العالي والتداخل. يجمع بين وظيفتي نقل البيانات والشحن بأمان.',
   price: 120,
@@ -1503,7 +1496,7 @@ export const products: Product[] = [ // main products array
 {
   id: '175',
   name: 'كابل بيانات 4S-05 (مايكرو USB)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: '4S-05 Data Cable (Micro USB)',
   description: 'كابل بيانات 4S-05 مصمم لأجهزة Micro USB. يوفر تيار شحن يصل إلى 2.4 أمبير ويبلغ طوله 1 متر. مثالي للشحن السريع ونقل البيانات بشكل آمن وموثوق.',
   price: 70,
@@ -1536,7 +1529,7 @@ export const products: Product[] = [ // main products array
 {
   id: '174',
   name: 'كابل بيانات وشحن سريع AORAX MY-10 (مايكرو USB)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'AORAX MY-10 Fast Charge Data Cable (Micro USB)',
   description: 'كابل بيانات وشحن سريع من AORAX، موديل MY-10، مصمم لتوفير شحن سريع وصحيح لأجهزتك بقوة 20 واط و5 أمبير. يتميز بلون وتصميم كلاسيكي بجودة عالية، ومقاوم للتداخل بفضل تصميمه الممتاز وموصله النحاسي فائق النقاء. يتيح لك شحن ومزامنة أجهزتك مع أي مقابس أو منافذ USB في جهاز الكمبيوتر الخاص بك. متوافق مع جميع إصدارات USB. صنع في الصين.',
   price: 110,
@@ -1924,7 +1917,7 @@ export const products: Product[] = [ // main products array
 {
   id: '164',
   name: 'موزع USB KINOKEN 3 منافذ',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'KINOKEN 3-Port USB Hub',
   description: 'موزع USB KINOKEN بـ 3 منافذ، يتميز بكونه متوافقًا مع أنظمة ويندوز وماك، ويوفر 3 منافذ USB 2.0 عالية السرعة. مصمم للعمل مع مجموعة واسعة من أجهزة USB مثل أجهزة الكمبيوتر المحمولة، الهواتف المحمولة، أجهزة المساعد الرقمي الشخصي، الفئران، لوحات المفاتيح، الطابعات، والكاميرات الرقمية. يوفر أقصى معدل نقل بيانات يبلغ 480 ميجابايت في الثانية.',
   price: 65,
@@ -1960,7 +1953,7 @@ export const products: Product[] = [ // main products array
 {
   id: '163',
   name: 'موزع USB CMS 4 منافذ',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'CMS 4-Port USB Hub',
   description: 'موزع USB CMS بـ 4 منافذ بتصميم فريد، يتيح لك شحن ومزامنة جهاز iPod Shuffle، ويوفر سهولة الوصول من خلال منفذ USB علوي. متوافق تمامًا مع مواصفات USB 2.0 و 1.1، ويوفر معدل نقل بيانات يصل إلى 480 ميجابت في الثانية. يدعم توصيل ما يصل إلى جهازين بدون الحاجة لمحول طاقة، ويوفر حماية من التيار الزائد لكل منفذ. يتميز بخاصية التوصيل والتشغيل ولا يتطلب تثبيت برامج تشغيل، مع مؤشر LED واحد للطاقة.',
   price: 65,
@@ -2002,7 +1995,7 @@ export const products: Product[] = [ // main products array
 {
   id: '162',
   name: 'موزع USB Crash 4 منافذ',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Crash 4-Port USB Hub',
   description: 'موزع USB Crash بـ 4 منافذ، يتميز بمفتاح أمان لكل مدخل، وتصميم شبه شفاف مع مصباح LED أزرق للطاقة. متوافق تمامًا مع مواصفات USB الإصدار 2.0 ويدعم خاصية Hot Plug & Play. يوفر معدل نقل بيانات يصل إلى 480 ميجابت في الثانية وحماية لتيار حد طاقة الحافلة 500 مللي أمبير. يمكنه دعم محركات أقراص صلبة تصل إلى 500 جيجابايت.',
   price: 90,
@@ -2011,7 +2004,6 @@ export const products: Product[] = [ // main products array
   ],
   categories: [
     'إكسسوارات الموبايل',
-    'إكسسوارات الكمبيوتر'
   ],
   features: [
     "4 منافذ USB مع مفتاح أمان لكل مدخل",
@@ -2039,7 +2031,7 @@ export const products: Product[] = [ // main products array
 {
   id: '161',
   name: 'كابل HDTV 2.0 عالي السرعة (4K، 1.5 متر)',
-  subcategory: "شواحن",
+  subcategory: "كابلات",
   englishName: 'HDTV 2.0 High-Speed Cable (4K, 1.5m)',
   description: 'كابل HDTV 2.0 عالي السرعة بطول 1.5 متر يدعم دقة 4K ونقل البيانات بسرعة 10/100 ميجابت في الثانية عبر الإيثرنت. متوافق مع متطلبات HDTV 2.0 ويعتمد معيار النحاس الخام 19+1 بالإضافة إلى سلك أرضي لضمان جودة الإشارة. يدعم عرض الشاشة المزدوجة، 4 تدفقات إشارة صوتية، Doldy True-HD، DTS-HD Master audio، وما يصل إلى 32 قناة صوتية. مزود بموصل مطلي بالذهب عيار 24 قيراطًا وغطاء من سبائك الألومنيوم لمتانة فائقة ودقة إشارة.',
   price: 110,
@@ -2077,7 +2069,7 @@ export const products: Product[] = [ // main products array
 {
   id: '160',
   name: 'كابل شحن Heatz ZC33 Lightning سريع (3 أمبير)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Heatz ZC33 Lightning Fast Charge Cable (3A)',
   description: 'كابل شحن Heatz ZC33 Lightning سريع بقوة 3 أمبير، مصمم لمتانة فائقة وأداء موثوق به. يتميز بهيكل من الألومنيوم فائق الجودة وغلاف من النايلون المنسوج، مما يجعله مرنًا ومقاومًا للالتفاف والانحناء (أكثر من 20,000 درجة). مصنوع من مادة نحاسية عالية الجودة لضمان الشحن السريع والآمن، ويدعم أيضًا نقل البيانات المستقر. تصميمه يجعله سهل الحمل ومناسبًا للاستخدام في المنزل، المكتب، السيارة، والسفر.',
   price: 170,
@@ -2119,7 +2111,7 @@ export const products: Product[] = [ // main products array
 {
   id: '159',
   name: 'كابل شحن Heatz ZC46 (USB-C إلى USB-C)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Heatz ZC46 Charging Cable (USB-C to USB-C)',
   description: 'كابل شحن Heatz ZC46 من نوع USB-C إلى USB-C يدعم الشحن السريع بقوة 60 واط. مصنوع من كابل سيليكون سائل أصلي برأس معدني، مما يجعله متينًا ومقاومًا للأوساخ والالتفاف. يضمن هذا الكابل شحنًا آمنًا وسريعًا ونقل بيانات مستقرًا وموثوقًا به، وذلك بفضل استخدامه لسلك نحاسي عالي الجودة يتوافق مع المتطلبات الصارمة.',
   price: 200,
@@ -2343,7 +2335,7 @@ export const products: Product[] = [ // main products array
 {
   id: '153',
   name: 'كابل شحن Dolphin D-160 USB إلى Micro',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Dolphin D-160 USB to Micro Charge Cable',
   description: 'كابل شحن Dolphin D-160 USB إلى Micro بطول 1 متر، مصمم للشحن الآمن والسريع ونقل البيانات عالي السرعة لأجهزة Micro USB. مصنوع من مادة TPE والنحاس، ويتميز بتصميم مقاوم للضغط العالي وموصل نحاسي فائق النقاء لضمان الجودة. يدعم تيار أقصى 2.4 أمبير وهو مضاد للتداخل ومتوافق مع أي إصدار USB.',
   price: 30,
@@ -2382,7 +2374,7 @@ export const products: Product[] = [ // main products array
 {
   id: '152',
   name: 'كابل بيانات WUW X195 Type-C',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'WUW X195 Type-C Data Cable',
   description: 'كابل بيانات WUW X195 Type-C بطول 1 متر، يوفر مخرج 2.4 أمبير لشحن سريع ونقل بيانات عالي السرعة. يتميز بسلك PVC صديق للبيئة ناعم ومرن ومقاوم للشد والانحناء، وتصميم مسطح يمنع التشابك. مزود بتركيبات عالية الجودة ومقبس مقاوم للصدأ، ويدعم الشحن السريع ونقل البيانات المتزامن، ومتوافق مع معظم أجهزة USB في السوق.',
   price: 35,
@@ -2423,7 +2415,7 @@ export const products: Product[] = [ // main products array
 {
   id: '151',
   name: 'كابل بيانات ANKER AK-2 Type-C',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'ANKER AK-2 Type-C Data Cable',
   description: 'كابل بيانات ANKER AK-2 Type-C بطول 1 متر، يوفر مخرج 2.4 أمبير لشحن آمن وموثوق. يتميز بسلك PVC صديق للبيئة ناعم ومرن ومقاوم للشد والانحناء، وتصميم مسطح يمنع التشابك. مزود بتركيبات عالية الجودة ومقبس مقاوم للصدأ، ويوفر خرج طاقة ثابتًا لنقل مثالي للطاقة وأداء فائق مع الأجهزة المتوافقة.',
   price: 55,
@@ -2461,7 +2453,7 @@ export const products: Product[] = [ // main products array
 {
   id: '150',
   name: 'كابل Dolphin D-162 USB إلى لايتنينج',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Dolphin D-162 USB to Lightning Cable',
   description: 'كابل Dolphin D-162 USB إلى لايتنينج بطول 1 متر، مصمم للشحن الآمن والسريع ونقل البيانات عالي السرعة لأجهزة آبل. مصنوع من مادة TPE والنحاس، ويتميز بتصميم مقاوم للضغط العالي وموصل نحاسي فائق النقاء لضمان الجودة. يدعم تيار أقصى 2.4 أمبير وهو مضاد للتداخل ومتوافق مع أي إصدار USB.',
   price: 40,
@@ -2500,7 +2492,7 @@ export const products: Product[] = [ // main products array
 {
   id: '149',
   name: 'كابل بيانات JNUOBI S-2 (Micro USB)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'JNUOBI S-2 Data Cable (Micro USB)',
   description: 'كابل بيانات JNUOBI S-2 بطول 1 متر، مصمم للشحن السريع بتيار 6 أمبير، ومجهز بدعم خاص لتخفيف الضغط لضمان المتانة. يتوافق هذا الكابل مع أجهزة Micro USB ويوفر شحنًا عالي السرعة.',
   price: 50,
@@ -2532,7 +2524,7 @@ export const products: Product[] = [ // main products array
 {
   id: '148',
   name: 'كابل بيانات ONE DEPOT S01T Type-C',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'ONE DEPOT S01T Type-C Data Cable',
   description: 'كابل بيانات ONE DEPOT S01T Type-C بطول 1 متر، مصمم لدعم الشحن والمزامنة بحد أقصى للتيار يبلغ 2.4 أمبير. يتميز بسطح موصل من PVC وسلك أساسي متين، مما يضمن نقل بيانات عالي الجودة وشحن فعال.',
   price: 35,
@@ -2568,7 +2560,7 @@ export const products: Product[] = [ // main products array
 {
   id: '147',
   name: 'كابل بيانات BIBOSHI B01-03',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'BIBOSHI B01-03 Data Cable',
   description: 'كابل بيانات BIBOSHI B01-03 مصمم للشحن ونقل البيانات عالي السرعة، ويتميز بنواة من أفضل الأنواع ومادة TPE عالية الجودة. يوفر ميزات ذكية لإدارة الطاقة، مثل إيقاف التشغيل الذكي والشحن البطيء لحماية البطارية. مع 160 نواة نحاسية نقية سميكة، يضمن تجربة شحن فائقة، كما أن تصميمه المقوى يجعله مقاومًا للانحناء والتشقق.',
   price: 60,
@@ -2603,7 +2595,7 @@ export const products: Product[] = [ // main products array
 {
   id: '146',
   name: 'كابل بيانات EHP Type-C موديل C1',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'EHP Type-C Data Cable Model C1',
   description: 'كابل بيانات EHP Type-C موديل C1 بطول 1 متر، مصمم لتوفير شحن آمن وسريع ونقل بيانات عالي السرعة لهاتفك المحمول أو التابلت. يتميز بتصميم مقاوم للضغط العالي، وموصل نحاسي فائق النقاء لضمان الجودة، وهو متوافق مع أي إصدار USB ومضاد للتداخل.',
   price: 60,
@@ -2873,7 +2865,7 @@ export const products: Product[] = [ // main products array
 {
   id: '138',
   name: 'كابل بيانات Type-C إلى Type-C',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Type-C to Type-C Data Cable',
   description: 'كابل بيانات Type-C إلى Type-C قياسي، مصمم لتوصيل الأجهزة المزودة بمنافذ Type-C ببعضها البعض. يدعم الشحن ونقل البيانات، مما يوفر اتصالاً متعدد الاستخدامات لأجهزتك الحديثة.',
   price: 60,
@@ -2901,7 +2893,7 @@ export const products: Product[] = [ // main products array
 {
   id: '137',
   name: 'كابل بيانات Anker USB-C إلى لايتنينج (LDO)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Anker USB-C to Lightning Data Cable (LDO)',
   description: 'كابل بيانات Anker LDO بطول 1 متر، مصمم للتوصيل بين أجهزة USB-C وأجهزة لايتنينج. يدعم تقنية الشحن السريع Power Delivery (PD) بقوة 20 واط، مما يضمن شحنًا فعالًا وسريعًا لأجهزة آبل المتوافقة.',
   price: 60,
@@ -2932,7 +2924,7 @@ export const products: Product[] = [ // main products array
 {
   id: '136',
   name: 'كابل JNUOBI X-120 لايتنينج OD6.0',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'JNUOBI X-120 OD6.0 Lightning Cable',
   description: 'كابل JNUOBI X-120 لايتنينج فائق السُمك (OD6.0) مصمم للشحن فائق السرعة، حيث يدعم طاقة تصل إلى 120 واط. بطول 1 متر، يضمن هذا الكابل شحنًا ومزامنة بيانات فعالة لأجهزة آبل المتوافقة. يتميز بتصميم متين لضمان عمر افتراضي طويل.',
   price: 155,
@@ -2966,7 +2958,7 @@ export const products: Product[] = [ // main products array
 {
   id: '135',
   name: 'كابل بيانات GEMAX Type-C HY-C610',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'GEMAX Type-C Data Cable HY-C610',
   description: 'كابل بيانات GEMAX HY-C610 Type-C مصمم للشحن السريع للغاية، حيث يدعم قوة تصل إلى 120 واط. يتميز بسطح سميك (OD6.0) وسلك فائق السُمك لضمان المتانة والأداء الأمثل. يوفر تيار 3 أمبير لشحن فعال وسريع لأجهزتك المزودة بمنفذ Type-C.',
   price: 220,
@@ -3001,7 +2993,7 @@ export const products: Product[] = [ // main products array
 {
   id: '134',
   name: 'كابل بيانات LDNIO بزاوية 90 درجة (طول 2 متر)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LDNIO 90° Angle Data Cable (2M Length)',
   description: 'كابل بيانات LDNIO متين بطول 2 متر، يتميز بتصميم بزاوية 90 درجة لسهولة الاستخدام وحماية معززة. يدعم الشحن عالي التيار ونقل البيانات السريع، ومزود بحماية أمنية متعددة لضمان شحن آمن ومزامنة بيانات فورية. الواجهة المصنوعة من أنبوب فولاذي غير ملحوم تتحمل الانحناء المتكرر وتوفر توصيلاً فائقًا. كما أن الكابل مصنوع من مواد صديقة للبيئة، ناعمة، مرنة، ومضادة للتشابك والسحب.',
   price: 180,
@@ -3036,7 +3028,7 @@ export const products: Product[] = [ // main products array
 {
   id: '133',
   name: 'كابل بيانات وشحن LDNIO LS641 من الألومنيوم',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LDNIO LS641 Aluminium Charging Data Cable',
   description: 'كابل بيانات وشحن LDNIO LS641 مصنوع من سبائك الألومنيوم بطول 1 متر، مصمم للشحن السريع ونقل البيانات الفوري. يتميز بحماية أمان متعددة لضمان شحن آمن وغير ضار لأجهزتك. الواجهة معززة لتحمل الانحناء المتكرر، والمادة المصنوعة منها صديقة للبيئة ومرنة ومقاومة للسحب والالتواء.',
   price: 150,
@@ -3105,7 +3097,7 @@ export const products: Product[] = [ // main products array
 {
   id: '131',
   name: 'كابل بيانات LDNIO بزاوية 90 درجة لايتنينج',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LDNIO 90° Angle Lightning Data Cable',
   description: 'كابل بيانات LDNIO Lightning بطول 1 متر بتصميم فريد بزاوية 90 درجة لسهولة الاستخدام. يدعم الشحن عالي التيار ونقل البيانات السريع، ومصمم بحماية أمنية متعددة لشحن آمن ومزامنة بيانات سريعة. الواجهة مُحسّنة ومُعززة لتحمل الانحناء المتكرر، ومصنوعة من مواد صديقة للبيئة ومرنة ومضادة للتشابك.',
   price: 165,
@@ -3314,7 +3306,7 @@ export const products: Product[] = [ // main products array
 {
   id: '125',
   name: 'كابل شحن JOYROOM S-A29 USB-C إلى Lightning',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'JOYROOM S-A29 USB-C to Lightning Charging Cable',
   description: 'كابل شحن سريع JOYROOM S-A29 من النوع USB-C إلى Lightning يدعم 30 واط PD (توصيل الطاقة). يتميز بمادة السيليكون السائل المقاومة للأوساخ والتي يسهل تنظيفها وتحافظ على لونها. الكابل متين وقوي، مصمم ليتحمل درجات حرارة قصوى واختبارات انحناء مكثفة، مما يجعله أكثر مرونة ومقاومًا للتشابك. يوفر تنظيمًا تلقائيًا للجهد/التيار لشحن آمن وسريع.',
   price: 320, // Price in EGP
@@ -3348,7 +3340,7 @@ export const products: Product[] = [ // main products array
 {
   id: '124',
   name: 'كابل شحن JOYROOM S-A14 لايتنينج',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'JOYROOM S-A14 Lightning Charging Cable',
   description: 'كابل شحن JOYROOM S-A14 لايتنينج عالي الجودة يوفر شحنًا سريعًا وآمنًا ونقل بيانات فعال لأجهزة آبل. يتميز بقلب نحاسي سميك لشحن أسرع 3 مرات، وطرف مضاد للأكسدة يدوم لأكثر من 10000 عملية توصيل، ويدعم حتى 7 كجم. مصنوع من مادة مقاومة للهب من الدرجة V1 لشحن أكثر أمانًا. يدعم الجهد/التيار التلقائي ويولد حرارة أقل، ويدعم مزامنة البيانات حتى 480 ميجابت في الثانية، مما يسمح بنقل ملف بحجم 1 جيجابايت في 25 ثانية.',
   price: 170, // Price in EGP
@@ -3478,7 +3470,7 @@ export const products: Product[] = [ // main products array
   name: 'شاحن سيارة VIDIVE بمنفذي USB',
   subcategory: "اجهزة توصيل عن بعد",
   englishName: 'VIDIVE Dual USB Car Charger',
-  description: 'شاحن سيارة ذكي وقوي من VIDIVE، يتميز بمنفذي USB ويوفر شحنًا فائق السرعة. مصمم ليكون آمنًا وموثوقًا، ويدعم مدخلات تيار مستمر 12-24 فولت. يوفر خرجًا يبلغ 5 فولت - 2.1 أمبير (كحد أقصى) لكل منفذ، مما يجعله مثاليًا لشحن الأجهزة أثناء القيادة. يأتي مع كابلات توصيل USB المقابلة.',
+  description: 'شاحن سيارة ذكي وقوي من VIDIVE، يتميز بمنفذي USB ويوفر شحنًا فائق السرعة. مصمم ليكون آمنًا وموثوقًا، ويدعم مدخلات تيار مستمر 12-24 فولت. يوفر خرجًا يبلغ 5 فولت - 2.1 أمبير (كحد أقصى) لكل منفذ، مما يجعله مثاليًا لشحن الأجهزة أثناء القيادة. يأتي مع شواحن توصيل USB المقابلة.',
   price: 250, // Price in EGP
   images: [
     vidive_usp_car, // Placeholder for actual image variable
@@ -3489,7 +3481,7 @@ export const products: Product[] = [ // main products array
     "شحن USB فائق السرعة",
     "كفاءة عالية",
     "آمن وموثوق",
-    "مع كابلات توصيل USB المقابلة"
+    "مع شواحن توصيل USB المقابلة"
   ],
   specifications: {
     'الإدخال': 'تيار مستمر 12-24 فولت',
@@ -3509,9 +3501,9 @@ export const products: Product[] = [ // main products array
 {
   id: '119',
   name: 'محول Joyroom Micro USB ذكر إلى USB أنثى (OTG)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Joyroom Micro Male to USB Female Adapter (OTG)',
-  description: 'محول Joyroom S-H153 Micro USB ذكر إلى USB أنثى يسمح لك بتوصيل مجموعة متنوعة من أجهزة USB بمنفذ Micro USB الموجود على هاتفك أو جهازك اللوحي. يمكن استخدامه لتوصيل قارئ USB، لوحة مفاتيح، ماوس، وحدات تحكم ألعاب، أو كابلات أخرى. يدعم هذا المحول وظائف الشحن ونقل البيانات بسرعات USB 3.0، وهو مصنوع من سبيكة الزنك المتينة.',
+  description: 'محول Joyroom S-H153 Micro USB ذكر إلى USB أنثى يسمح لك بتوصيل مجموعة متنوعة من أجهزة USB بمنفذ Micro USB الموجود على هاتفك أو جهازك اللوحي. يمكن استخدامه لتوصيل قارئ USB، لوحة مفاتيح، ماوس، وحدات تحكم ألعاب، أو شواحن أخرى. يدعم هذا المحول وظائف الشحن ونقل البيانات بسرعات USB 3.0، وهو مصنوع من سبيكة الزنك المتينة.',
   price: 50, // Price in EGP
   images: [
     joyroom_miro_male_to_usp, // Placeholder for actual image variable
@@ -3873,7 +3865,7 @@ export const products: Product[] = [ // main products array
 {
   id: '107',
   name: 'كابل Energizer Micro USB معدني مقوى',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'Energizer Resistant Metallic Micro USB Cable',
   description: 'كابل Energizer Micro USB هو كابل شحن ومزامنة بيانات متين وعالي القوة، مصمم للاستخدام مع الهواتف المحمولة المزودة بمنفذ Micro USB. يبلغ طوله 1.2 متر (4 أقدام)، وهو مصنوع من مادة معدنية مقاومة للتشابك لضمان المتانة وطول العمر. يوفر الكابل نقل بيانات سريع وشحن فعال.',
   price: 250, // Price in EGP
@@ -3938,9 +3930,9 @@ export const products: Product[] = [ // main products array
 {
   id: '105',
   name: 'كابل شحن BIBOSHI A02',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'BIBOSHI A02 Charging Cable',
-  description: 'كابل شحن BIBOSHI A02 هو كابل شحن سريع ومتين، يدعم تيارًا يصل إلى 6 أمبير. يتميز هذا الكابل بأنه مصنوع من مادة TPE عالية الجودة، مما يجعله أكثر متانة وقوة من كابلات الشحن العادية. كما أنه مرن وخالي من التشابك لسهولة الاستخدام والتخزين.',
+  description: 'كابل شحن BIBOSHI A02 هو كابل شحن سريع ومتين، يدعم تيارًا يصل إلى 6 أمبير. يتميز هذا الكابل بأنه مصنوع من مادة TPE عالية الجودة، مما يجعله أكثر متانة وقوة من شواحن الشحن العادية. كما أنه مرن وخالي من التشابك لسهولة الاستخدام والتخزين.',
   price: 85, // Price in EGP
   images: [
     biboshi_a02, // Placeholder for actual image variable
@@ -4212,7 +4204,7 @@ export const products: Product[] = [ // main products array
 {
   id: '98',
   name: 'كابل صوت JNUOBI AUX PURE AUDIO YP-171',
-  subcategory: "شواحن",
+  subcategory: "سماعات",
   englishName: 'JNUOBI AUX CABLE PURE AUDIO YP-171',
   description: 'كابل صوت JNUOBI AUX PURE AUDIO YP-171 هو كابل صوت عالي الجودة مصمم لتقديم تجربة صوتية نقية. بطول 1 متر، يوفر الكابل مرونة كافية للاستخدامات المختلفة. يتميز بخصائص مقاومة التشابك والالتواء لضمان المتانة وسهولة الاستخدام.',
   price: 65, // Price in EGP
@@ -4241,7 +4233,7 @@ export const products: Product[] = [ // main products array
 {
   id: '97',
   name: 'كابل LDNIO PVC LS841 للشحن والمزامنة',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LDNIO PVC LS841 Charge & Sync Cable',
   description: 'كابل LDNIO PVC LS841 هو كابل شحن ومزامنة بيانات متين وعالي الجودة، مصمم لتوفير شحن سريع وآمن. يدعم الكابل طاقة تصل إلى 25 واط، مما يجعله مناسبًا للشحن السريع. يتميز بحماية أمان متعددة ويقاوم التلف الناتج عن الانحناء المتكرر بفضل واجهته المُحسّنة. مصنوع من مواد PVC صديقة للبيئة وناعمة ومرنة ومضادة للسحب والانحناء. بفضل تقنية "TURBO" الذكية، يتعرف الكابل على جميع الأجهزة ويوفر التوافق الكامل مع الهواتف المختلفة، مما يضمن مزامنة سريعة للبيانات في الوقت الفعلي.',
   price: 70, // Price in EGP
@@ -4275,7 +4267,7 @@ export const products: Product[] = [ // main products array
 {
   id: '96',
   name: 'كابل شحن EHP FAST CABLE',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'EHP FAST CABLE',
   description: 'كابل شحن EHP FAST CABLE هو كابل بيانات وشحن عالي الأداء مصمم لتوفير شحن آمن وسريع بالإضافة إلى نقل بيانات عالي السرعة. يدعم الكابل تيارًا يصل إلى 2.4 أمبير، ويتميز بتصميم متين يقاوم الضغط العالي. يحتوي على موصل نحاسي فائق النقاء لضمان جودة عالية، وهو مضاد للتداخل ومتوافق مع أي إصدار من USB. يوفر الكابل حلاً موثوقًا وفعالًا لشحن ومزامنة الهواتف المحمولة والأجهزة اللوحية.',
   price: 95, // Price in EGP
@@ -4311,7 +4303,7 @@ export const products: Product[] = [ // main products array
 {
   id: '95',
   name: 'كابل شحن JNUOBI FAST CHARGE ZS-13 3 في 1',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'JNUOBI FAST CHARGE ZS-13 3 IN 1 CABLE',
   description: 'كابل شحن JNUOBI FAST CHARGE ZS-13 هو كابل شحن سريع ومتعدد الاستخدامات بتصميم 3 في 1. يدعم الكابل تيار شحن قوي يصل إلى 6 أمبير، مما يجعله مثاليًا لشحن الأجهزة المختلفة بسرعة وكفاءة. يجمع الكابل بين أنواع موصلات متعددة (على الأرجح Lightning، Micro USB، و Type-C) في كابل واحد، مما يوفر راحة كبيرة للمستخدمين الذين يمتلكون أجهزة متنوعة.',
   price: 225, // Price in EGP
@@ -4342,7 +4334,7 @@ export const products: Product[] = [ // main products array
 {
   id: '94',
   name: 'كابل شحن GX Type-C إلى Type-C',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'GX Type-C to Type-C Charging Cable',
   description: 'كابل شحن GX Type-C إلى Type-C هو كابل عالي الجودة مصمم لتوفير شحن عالي السرعة لهاتفك المحمول. يتميز بتصميم مريح مع أخدود فريد لبصمة الإصبع لسهولة التركيب. يوفر أمانًا وسرعة فائقة مع تصميم أنيق وموجز. متوافق بنسبة 99% مع الهواتف المحمولة، مما يعزز حياتك الذكية.',
   price: 85, // Price in EGP
@@ -4374,7 +4366,7 @@ export const products: Product[] = [ // main products array
 {
   id: '93',
   name: 'كابل شحن JNUOBI S-1 Lightning',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'JNUOBI S-1 Lightning Charge Cable',
   description: 'كابل شحن JNUOBI S-1 Lightning هو كابل شحن سريع مصمم خصيصًا لأجهزة Apple التي تستخدم منفذ Lightning. يدعم الكابل تيار شحن قوي يصل إلى 6 أمبير، مما يضمن شحنًا فائق السرعة لجهازك. يتميز بتصميم متين ومواد عالية الجودة لضمان الأداء الأمثل وعمر افتراضي طويل.',
   price: 75, // Price in EGP
@@ -4405,7 +4397,7 @@ export const products: Product[] = [ // main products array
 {
   id: '92',
   name: 'كابل شحن MASA SUPER FAST CHARGING MA70',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'MASA SUPER FAST CHARGING CABLE MA70',
   description: 'كابل MASA SUPER FAST CHARGING MA70 هو كابل شحن بيانات عالي الأداء مصمم للشحن السريع والفعال. يتميز هذا الكابل بموصلات عالية الجودة وكابل ناعم ومرن مع أداء طي جيد. يدعم شحنًا سريعًا للهواتف والأجهزة اللوحية بتيار أقصى يبلغ 6 أمبير. يوفر مقاومة عالية للتداخل ونقل بيانات عالي السرعة. الكابل مصنوع من خط TPE عالي المرونة والخالي من الهالوجين، مما يزيد من عمر خدمته ويجعله صديقًا للبيئة.',
   price: 90, // Price in EGP
@@ -4438,7 +4430,7 @@ export const products: Product[] = [ // main products array
 {
   id: '91',
   name: 'كابل بيانات MASA FLAT MA-60 Micro',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'MASA FLAT DATA CABLE MA-60 Micro',
   description: 'كابل بيانات MASA FLAT MA-60 Micro هو كابل شحن ونقل بيانات عالي الأداء، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يتميز هذا الكابل بتيار خرج يصل إلى 5 أمبير، مما يجعله مثاليًا للشحن السريع. بطول 1000 مم، يوفر مرونة كافية للاستخدام اليومي. يتمتع بتصميم متين ومقاوم للضغط العالي، وموصل نحاسي فائق النقاء لضمان جودة عالية وأداء مستقر. يجمع الكابل بين وظيفتي نقل البيانات والشحن، وهو مضاد للتداخل ومتوافق مع أي إصدار من USB.',
   price: 80, // Price in EGP
@@ -4473,7 +4465,7 @@ export const products: Product[] = [ // main products array
 {
   id: '90',
   name: 'كابل بيانات MIC USB UC04',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'MIC USB Data Cable UC04',
   description: 'كابل بيانات MIC USB UC04 هو كابل شحن ونقل بيانات مصمم ليكون متوافقًا على نطاق واسع مع مختلف الأجهزة. يدعم الكابل تيارًا يصل إلى 2.4 أمبير، ويجمع بين وظائف نقل البيانات والشحن. يتميز بتصميم ممتاز يقاوم الضغط العالي ومضاد للتداخل، مما يضمن جودة عالية وأداء موثوقًا به. كما أنه متوافق مع أي إصدار من USB، مما يجعله حلاً متعدد الاستخدامات للهواتف المحمولة والأجهزة اللوحية وسماعات الرأس/المكبرات الصوتية التي تعمل بتقنية البلوتوث ومشغلات MP3 والأجهزة الرقمية المختلفة.',
   price: 85, // Price in EGP
@@ -4507,7 +4499,7 @@ export const products: Product[] = [ // main products array
 {
   id: '89',
   name: 'كابل بيانات JOYROOM 3 في 1',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'JOYROOM 3 IN 1 DATA CABLE',
   description: 'كابل بيانات JOYROOM 3 في 1 هو كابل متعدد الوظائف يجمع بين الشحن ونقل البيانات لأجهزتك المحمولة. يدعم تيارًا يصل إلى 3.0 أمبير لشحن آمن وعالي السرعة. يتميز بتصميم متين يقاوم الضغط العالي وموصل نحاسي فائق النقاء لضمان جودة عالية. كما أنه مضاد للتداخل ومتوافق مع أي إصدار من USB، مما يجعله حلاً عمليًا وفعالًا لمختلف الأجهزة.',
   price: 95, // Price in EGP
@@ -4540,7 +4532,7 @@ export const products: Product[] = [ // main products array
 {
   id: '88',
   name: 'كابل LDNIO TPE للشحن والمزامنة LS441',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LDNIO TPE Charge & Sync Cable LS441',
   description: 'كابل LDNIO TPE LS441 هو كابل شحن ومزامنة بيانات عالي الجودة ومتين، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يدعم تيارًا يصل إلى 2.4 أمبير، مما يجعله مناسبًا للشحن اليومي السريع. يتميز بحماية أمان متعددة ويقاوم الانحناء والكسر بفضل واجهته المُحسّنة. مصنوع من مواد TPE صديقة للبيئة ومرنة ومضادة للسحب والانحناء. يتعرف الكابل بذكاء على جميع الأجهزة ليكون متوافقًا تمامًا مع الهواتف المختلفة.',
   price: 100, // Price in EGP
@@ -4575,7 +4567,7 @@ export const products: Product[] = [ // main products array
 {
   id: '87',
   name: 'كابل بيانات MASA MA-15 للشحن السريع',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'MASA MA-15 Fast Charging Data Cable',
   description: 'كابل بيانات MASA MA-15 هو كابل شحن ونقل بيانات مصمم للشحن السريع، ويدعم تيار يصل إلى 5 أمبير. يوفر هذا الكابل الشحن فائق السرعة ونقل البيانات، مما يجعله خيارًا فعالًا لاحتياجات الشحن اليومية.',
   price: 50, // Price in EGP
@@ -4648,7 +4640,7 @@ export const products: Product[] = [ // main products array
 {
   id: '85',
   name: 'كابل LDNIO LS881 للشحن والمزامنة السريعة',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LDNIO LS881 Fast Charge & Sync Cable',
   description: 'كابل LDNIO LS881 هو كابل شحن ومزامنة بيانات عالي الجودة ومتين، مصمم لتوفير شحن سريع وآمن للعديد من الأجهزة. يدعم الكابل خرج طاقة يصل إلى 30 واط، مما يجعله مثاليًا للشحن السريع. يتميز بحماية أمان متعددة ويقاوم الانحناء والكسر بفضل واجهته المُحسّنة. مصنوع من مواد صديقة للبيئة ومرنة ومضادة للسحب. بفضل الشريحة الذكية المدمجة، يتعرف الكابل على أجهزة الشحن المختلفة ويوفر الشحن الأمثل للهواتف والأجهزة اللوحية وغيرها.',
   price: 240, // Price in EGP
@@ -4751,7 +4743,7 @@ export const products: Product[] = [ // main products array
 {
   id: '82',
   name: 'كابل بيانات LENYES LC502 TC-1 (Type-C إلى Lightning)',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LENYES LC502 TC-1 Data Cable (Type-C to Lightning)',
   description: 'كابل بيانات LENYES LC502 TC-1 هو كابل شحن ونقل بيانات عالي الأداء، مصمم خصيصًا للأجهزة التي تستخدم منافذ Type-C وLightning. يدعم الكابل سرعة شحن تصل إلى 30 واط، مما يجعله مثاليًا للشحن السريع. يتميز بتصميم متين مصنوع من الأكريليك المنسوج الشفاف، مما يوفر مرونة ومقاومة. بطول 1000 مم، يوفر هذا الكابل مدى مناسبًا للاستخدام اليومي. يأتي مع تحذير بضرورة استخدام موصلات التحويل الصحيحة لتوافقه مع أنواع مختلفة من الأجهزة المحمولة.',
   price: 320, // Price in EGP
@@ -4912,7 +4904,7 @@ export const products: Product[] = [ // main products array
   images: [
     kingston_8G, // Placeholder for actual image variable
   ],
-  categories: ['إكسسوارات الكمبيوتر',
+  categories: [
         'إكسسوارات الموبايل'],
   features: [
     "سعة تخزين 8 جيجابايت",
@@ -4968,7 +4960,7 @@ export const products: Product[] = [ // main products array
 {
   id: '75',
   name: 'كابل LDNIO LC651i USB-C إلى Lightning للشحن السريع',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: 'LDNIO LC651i USB-C to Lightning Fast Charging Cable',
   description: 'كابل LDNIO LC651i هو كابل شحن ومزامنة بيانات عالي الأداء مصمم خصيصًا لأجهزة iPhone والأجهزة المتوافقة مع منفذ Lightning. يدعم الشحن السريع Power Delivery (PD) بقدرة 30 واط لأجهزة iPhone 8 والإصدارات الأحدث، مما يضمن شحنًا سريعًا وآمنًا. يتميز الكابل بتصميم متين مع واجهة مُعززة لمقاومة الانحناء والكسر، ومصنوع من مواد صديقة للبيئة. تضمن شريحة بروتوكول PD المدمجة شحنًا ذكيًا ومتوافقًا تمامًا مع نظام iOS.',
   price: 220, // Price in EGP
@@ -5004,7 +4996,7 @@ export const products: Product[] = [ // main products array
 {
   id: '74',
   name: ' 4S Plus كابل بيانات',
-  subcategory: "شواحن",
+  subcategory: "كابلات/وصلات",
   englishName: '4S Plus Data Cable',
   description: 'يُعد كابل البيانات 4S Plus حلاً موثوقًا وعالي الأداء لمزامنة البيانات وشحن الأجهزة المحمولة. مصمم ليوفر شحنًا آمنًا وسريعًا للهواتف المحمولة والأجهزة اللوحية، مع الحفاظ على سرعة نقل بيانات عالية. يتميز بتصميم متين يقاوم الضغط العالي وموصل نحاسي فائق النقاء لضمان جودة عالية. متوافق مع أي إصدار من USB ومضاد للتداخل، مما يجعله كابلًا عمليًا ومتعدد الاستخدامات لاحتياجات الشحن ونقل البيانات اليومية.',
   price: 100, // Price in EGP
@@ -5439,7 +5431,7 @@ export const products: Product[] = [ // main products array
 {
   id: '63',
   name: 'سماعة رأس للألعاب RAMKO GAMING RH-112',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'RAMKO GAMING RH-112 Computer Headset',
   description: 'استمتع بتجربة صوتية غامرة في ألعابك مع سماعة الرأس RAMKO GAMING RH-112. تتميز بمكبرات صوت كبيرة بحجم 40 مم لتوفير صوت واضح وقوي، وميكروفون مدمج عالي الحساسية لضمان تواصل فعال مع فريقك. يوفر التصميم المريح راحة طويلة الأمد أثناء جلسات اللعب الممتدة، وتضمن استجابة التردد الواسعة نطاقاً كاملاً من الأصوات، من الجهير العميق إلى النغمات العالية الواضحة. مع كابل طويل ومتين، تعد هذه السماعة خياراً ممتازاً للاعبين.',
   price: 450, // Price in EGP
@@ -5720,7 +5712,7 @@ export const products: Product[] = [ // main products array
 {
   id: '56',
   name: 'سماعة ألعاب Point PT-09',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'Point PT-09 Gaming Headphones',
   description: 'استمتع بتجربة لعب غامرة وتواصل واضح مع سماعة الألعاب Point PT-09. تتميز هذه السماعة بتصميم خفيف الوزن ومريح، مما يجعلها مثالية لجلسات اللعب الطويلة. توفر صوتاً واضحاً بفضل حساسيتها العالية واستجابة التردد الواسعة، ويضمن الميكروفون المدمج التواصل الواضح مع زملائك في الفريق. تضفي إضاءة RGB الملونة على سماعات الأذن لمسة جمالية عصرية، بينما يضمن كابلها الطويل والمتين المتصل بمنفذ 3.5 مم توافقاً واسعاً مع معظم أجهزة الألعاب وأجهزة الكمبيوتر والموبايل.',
   price: 980, // Price in EGP
@@ -6042,7 +6034,7 @@ export const products: Product[] = [ // main products array
 {
   id: '44',
   name: 'سماعة ألعاب AI TNT X Series',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'AI TNT X Series Gaming Headset with RGB Light',
   description: 'انغمس في عالم الألعاب مع سماعة الألعاب AI TNT X Series.مصممة خصيصًا لتجربة لعب غامرة، تتميز هذه السماعة بميكروفون متعدد الاتجاهات يوفر وضوحًا فائقًا في الصوت. توفر وسادات الأذن المريحة وصوت الستريو جودة صوت ممتازة للعب والموسيقى. مع تصميم متين وكابل طويل، تعد هذه السماعة خيارًا رائعًا للاعبين الذين يبحثون عن أداء موثوق به.',
   price: 350, // Price provided in the prompt
@@ -7261,7 +7253,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '26',
   name: 'سماعة رأس سلكية CRASH X40 مع ميكروفون',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'CRASH X40 Wired Headphone with Microphone',
   description: 'سماعة رأس سلكية CRASH X40 توفر تجربة صوت ستريو مذهلة مع ميكروفون مدمج بخاصية تقليل الضوضاء، مثالية للاستخدام مع أجهزة الكمبيوتر. تتميز بتصميم مريح ومقبس 3.5 مم متعدد الاستخدامات.',
   price: 250,
@@ -7311,7 +7303,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '27',
   name: 'سماعة رأس Oraimo OR-P9 لاسلكية مع ميكروفون',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'Oraimo OR-P9 Wireless Headphone with Microphone',
   description: 'سماعة رأس لاسلكية من Oraimo طراز OR-P9 توفر تجربة صوت غامرة مع ميكروفون مدمج. تتميز بالاتصال اللاسلكي عبر البلوتوث وإمكانية الاتصال السلكي عبر مقبس 3.5 مم، مما يجعلها مثالية للاستخدام اليومي والمكالمات. تصميم فوق الأذن يوفر راحة أثناء الارتداء الطويل.',
   price: 270,
@@ -7363,7 +7355,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '28',
   name: 'سماعة ألعاب Marvo Scorpion H8311 بمنفذ 3.5 مم',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'Marvo Scorpion H8311 3.5mm Gaming Headset',
   description: 'انغمس في عالم الألعاب مع سماعة Marvo Scorpion H8311 المصممة خصيصًا للاعبين. تتميز هذه السماعة بصوت ستريو عالي الجودة بفضل محركات الصوت الكبيرة مقاس 40 ملم، وتوفر استجابة تردد واسعة من 20 هرتز إلى 20 كيلوهرتز لالتقاط أدق التفاصيل الصوتية في ألعابك. الميكروفون متعدد الاتجاهات قابل للتعديل يضمن تواصلًا واضحًا مع زملائك في الفريق. مع كابل بطول 2.1 متر وموصلات 3.5 ملم منفصلة للصوت والميكروفون، توفر هذه السماعة الراحة والمرونة اللازمة لجلسات اللعب الطويلة على الكمبيوتر.',
   price: 490, // Estimated average price in EGP
@@ -7406,7 +7398,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '29',
   name: 'سماعة أذن لاسلكية P47M على شكل أذن قطة مع إضاءة LED',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'P47M Cat Ear Wireless Headphone with LED Light',
   description: 'تجربة استماع فريدة ومرحة مع سماعة الرأس اللاسلكية P47M بتصميم أذن القطة الأنيق والمضيء بتقنية LED. تتميز هذه السماعة بتصميم مريح يضمن سهولة الارتداء لفترات طويلة، وتوفر صوتًا نقيًا بفضل تصميم التجويف المستقل. بفضل تقنية البلوتوث المتقدمة ووحدة الطاقة الذكية، يمكنك الاستمتاع بما يصل إلى 14 ساعة من التشغيل المتواصل. مثالية للمحبي الموسيقى والألعاب ومكالمات الفيديو، وتعد إضافة عصرية وممتعة لمجموعتك التقنية.',
   price: 250, // Estimated average price in EGP
@@ -7453,7 +7445,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '30',
   name: 'سماعة بلوتوث لاسلكية P39',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'P39 Wireless Bluetooth Headphone',
   description: 'استمتع بحرية الصوت اللاسلكي مع سماعة البلوتوث P39 خفيفة الوزن وعالية الأداء. توفر هذه السماعة اتصالاً مستقرًا عبر البلوتوث 5.0 بمدى يصل إلى 10 أمتار، وتدعم بروتوكولات الصوت الشهيرة لضمان جودة استماع ممتازة. بوزن 155 جرام فقط، يمكنك ارتداؤها لساعات طويلة دون إجهاد. بطاريتها المدمجة توفر أكثر من 10 ساعات من تشغيل الموسيقى المتواصل، وتستغرق حوالي 3 ساعات فقط لإعادة الشحن بالكامل عبر منفذ DC 5V. مثالية للاستخدام اليومي، السفر، أو ممارسة الرياضة.',
   price: 340, // Estimated average price in EGP
@@ -7500,7 +7492,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '31',
   name: 'سماعة رأس لاسلكية مارشال ميجور 703 بإضاءة RGB',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'Marshall Major 703 RGB Wireless Headphone',
   description: 'انغمس في عالم الموسيقى مع سماعة الرأس اللاسلكية Marshall Major 703، التي تجمع بين الأداء الصوتي وإضاءة RGB الجذابة. تتميز هذه السماعة بتصميم عصري مع أضواء LED ملونة على الأذنين، مما يضيف لمسة فريدة لتجربتك الصوتية. توفر اتصالاً لاسلكيًا عبر البلوتوث وتجربة استماع ستريو واضحة. كما أنها متعددة الوظائف، وغالبًا ما تدعم تشغيل راديو FM وبطاقات Micro SD، بالإضافة إلى ميكروفون مدمج للمكالمات.',
   price: 590, // Estimated average price in EGP
@@ -7545,7 +7537,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '32',
   name: 'سماعة رأس لاسلكية مارشال ميجور 908 بإضاءة RGB',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'Marshall Major 908 RGB Wireless Headphone',
   description: 'انغمس في عالم الموسيقى والألوان مع سماعة الرأس اللاسلكية Marshall Major 908. تتميز هذه السماعة بتصميمها الأنيق وإضاءة RGB الجذابة على الأذنين، مما يضيف لمسة عصرية ومميزة. توفر اتصالاً لاسلكيًا سلسًا عبر البلوتوث، وتجربة استماع ستريو غامرة. مع قدرتها على تشغيل الموسيقى من مصادر متعددة مثل بطاقات Micro SD وراديو FM، بالإضافة إلى ميكروفون مدمج للمكالمات، تعد هذه السماعة خيارًا متعدد الاستخدامات للاستخدام اليومي والترفيه.',
   price: 650, // Estimated average price in EGP
@@ -7589,7 +7581,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '33',
   name: 'سماعة رأس بلوتوث لاسلكية Ovleng MX666 ستريو',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'Ovleng MX666 Wireless Bluetooth Stereo Headset',
   description: 'استمتع بتجربة صوتية لاسلكية متعددة الاستخدامات مع سماعة الرأس Ovleng MX666. صُممت هذه السماعة لتوفر صوت ستريو غني، وهي مثالية للمكالمات الهاتفية، الاستماع إلى الموسيقى، ومشاهدة الأفلام. بفضل اتصال البلوتوث الموثوق به، يمكنك التحرك بحرية دون قيود الكابلات. تتميز بتصميم مريح مع وسائد أذن ناعمة وعصابة رأس قابلة للتعديل، مما يضمن الراحة حتى أثناء الاستخدام لفترات طويلة. كما تحتوي على ميكروفون مدمج لإجراء مكالمات واضحة.',
   price: 770, // Estimated average price in EGP
@@ -7633,7 +7625,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '34',
   name: 'سماعة رأس بلوتوث لاسلكية P9 ستريو',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'P9 Wireless Bluetooth Stereo Headset',
   description: 'استمتع بتجربة صوتية ممتازة وتصميم أنيق مع سماعة الرأس اللاسلكية P9. صُممت هذه السماعة لتوفير صوت ستريو غامر ومناسب للألعاب والموسيقى والرياضة، وهي مثالية للاستخدام اليومي. توفر اتصالاً لاسلكيًا مريحًا عبر البلوتوث، وتتميز ببطارية تدوم لساعات طويلة من التشغيل. تصميمها المريح، المشابه لسماعات الرأس الفاخرة، يضمن الراحة حتى خلال فترات الاستخدام الطويلة، وتتضمن ميكروفونًا مدمجًا لإجراء المكالمات بوضوح.',
   price: 250, // Estimated average price in EGP
@@ -7680,7 +7672,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '35',
   name: 'سماعة رأس لاسلكية P47 بلوتوث 5.0+EDR',
-  subcategory: "سماعات",
+  subcategory: "سماعات رأس",
   englishName: 'P47 Wireless Bluetooth 5.0+EDR Headphone',
   description: 'استمتع بحرية الصوت اللاسلكي مع سماعة الرأس P47، المزودة بتقنية البلوتوث 5.0+EDR لاتصال مستقر وفعال. توفر هذه السماعة صوت ستريو واضح ومناسب للاستماع إلى الموسيقى، إجراء المكالمات، ومشاهدة الأفلام. يتميز تصميمها بالراحة، مع إمكانية الطي لسهولة الحمل والتخزين. بالإضافة إلى الاتصال اللاسلكي، تدعم السماعة تشغيل الموسيقى عبر بطاقة Micro SD، وميزة راديو FM، ومدخل AUX لتوصيل الأجهزة السلكية، مما يجعلها خيارًا متعدد الاستخدامات لاحتياجاتك الصوتية.',
   price: 185, // Estimated average price in EGP
@@ -8043,6 +8035,12 @@ export const getBundles = () => {
 
 export const getProductsByCategory = (category: string) => {
   return products.filter(product => product.categories.includes(category));
+};
+
+export const getProductsBySubcategory = (subcategory: string) => {
+  return products.filter(
+    product => (product.subcategory || '').trim().toLowerCase() === (subcategory || '').trim().toLowerCase()
+  );
 };
 
 export const getProductById = (id: string) => {

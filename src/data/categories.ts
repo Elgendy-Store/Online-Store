@@ -21,6 +21,11 @@ export const categories: Category[] = [
         englishName: 'Chargers',
       },
       {
+        id: '1-6',
+        name: 'كابلات/وصلات',
+        englishName: 'Cables & Connectors',
+      },
+      {
         id: '1-3',
         name: 'حافظات وأغطية',
         englishName: 'Cases and Covers',
@@ -55,8 +60,13 @@ export const categories: Category[] = [
       },
       {
         id: '2-3',
-        name: 'سماعات',
+        name: 'سماعات رأس',
         englishName: 'Headsets',
+      },
+      {
+        id: '2-8',
+        name: 'كابلات',
+        englishName: 'Cables',
       },
       {
         id: '2-5',

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Star, ShoppingBag, ChevronRight, Check, Plus } from 'lucide-react';
@@ -26,6 +26,7 @@ const ProductDetailPage: React.FC = () => {
   const [isPhoneValid, setIsPhoneValid] = useState(true); // New state for phone validation
 
   const product = getProductById(id || '');
+  const navigate = useNavigate();
 
   if (!product) {
     return (
@@ -175,6 +176,15 @@ const ProductDetailPage: React.FC = () => {
                 {product.englishName && (
                   <p className="text-neutral-600">{product.englishName}</p>
                 )}
+                {/* Compare with another product button */}
+                <button
+                  onClick={() => navigate(`/compare/${product.id}`)}
+                  className="w-full md:w-auto mt-4 mb-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-semibold rounded-lg shadow transition-colors flex items-center justify-center text-base focus:outline-none focus:ring-2 focus:ring-primary-400 focus:ring-offset-2"
+                  aria-label="Compare with another product"
+                >
+                  <span className="mr-2" role="img" aria-label="compare">🔄</span>
+                  قارن مع منتج آخر
+                </button>
               </div>
 
               {/* Rating Section */}

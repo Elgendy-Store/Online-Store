@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { categories } from '../../data/categories';
 
 const CategorySection: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -57,7 +57,7 @@ const CategorySection: React.FC = () => {
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                      <h3 className="text-white text-2xl font-bold">{category.name}</h3>
+                      <h3 className="text-white text-2xl font-bold">{i18n.language === 'ar' ? category.name : category.englishName}</h3>
                     </div>
                   </div>
                   
@@ -69,7 +69,7 @@ const CategorySection: React.FC = () => {
                             key={subcategory.id}
                             className="bg-primary-50 text-primary-700 px-3 py-1 rounded-full text-sm"
                           >
-                            {subcategory.name}
+                            {i18n.language === 'ar' ? subcategory.name : subcategory.englishName}
                           </li>
                         ))}
                         {category.subcategories.length > 3 && (
