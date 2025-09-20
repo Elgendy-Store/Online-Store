@@ -1,0 +1,29 @@
+.compare-btn {
+  background: #274fdede; /* primary-600 */
+  color: #fff;
+  font-weight: 700;
+  border-radius: 0.75rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px 0 rgba(80, 80, 100, 0.08);
+  transition: background 0.18s, box-shadow 0.18s, color 0.18s;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+.compare-btn:hover, .compare-btn:focus {
+  background: #1d4ed8; /* primary-700 */
+  box-shadow: 0 4px 16px 0 rgba(80, 80, 100, 0.12);
+}
+.compare-btn:active {
+  background: #1e40af; /* primary-800 */
+}
+@media (max-width: 640px) {
+  .compare-btn {
+    width: 100%;
+    font-size: 1.08rem;
+    padding: 0.9rem 1.5rem;
+    margin-top: 0.5rem;
+  }
+}

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { getProductById, getProductsBySubcategory } from '../data/products';
 import ComparisonTable from '../components/ComparisonTable';
+import '../styles/compare-btn.css';
 
 const TABS = [
   { key: 'overview', labelKey: 'details' },
@@ -105,7 +106,7 @@ const CompareProducts: React.FC = () => {
                         <div className="font-bold text-base mb-1 text-center">{p.name}</div>
                         <div className="text-primary-700 font-semibold mb-1">{p.price} {t('egp', 'EGP')}</div>
                         <button
-                          className="subcategory-btn w-full mt-2"
+                          className="compare-btn mt-2 w-full sm:w-auto"
                           onClick={() => handleSelectProductB(p.id)}
                         >
                           {t('compareWithThisProduct', 'Compare with this product')}
