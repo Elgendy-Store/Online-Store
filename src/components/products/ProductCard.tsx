@@ -127,7 +127,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <img
           src={product.images[0]}
           alt={product.name}
-          className="w-full h-[160px] md:h-[180px] object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full aspect-[4/3] max-h-[210px] object-cover rounded-t-lg transition-transform duration-300 hover:scale-105"
         />
         {product.isNew && (
           <span className="absolute top-2 right-2 bg-accent-500 text-white text-xs px-2 py-1 rounded-full">

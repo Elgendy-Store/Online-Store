@@ -4,6 +4,16 @@ import { SearchItem } from '../types/types';
 import { getAllCategories } from '../data/categories';
 import { getAllProducts } from '../data/products';
 
+import i18n from '../i18n/i18n';
+
+// Arabic keyword mapping for colloquial/alternative terms
+const arabicKeywordMap: Record<string, string> = {
+  'كيبورد': 'لوحات مفاتيح',
+  'صب': 'أجهزة الصوت والموسيقى',
+  'ماوس': 'ماوس وأجهزة تأشير',
+  // Add more mappings as needed
+};
+
 export const useSearch = () => {
   const [query, setQuery] = useState('');
 
@@ -23,7 +33,8 @@ export const useSearch = () => {
         categoryId: product.categories[0], // Use first category
         subcategoryId: product.subcategory,
         priority: 1, // Highest relevance
-      });
+        image: product.images && product.images.length > 0 ? product.images[0] : undefined,
+      } as any);
     });
 
     // Add categories
@@ -34,7 +45,8 @@ export const useSearch = () => {
         englishName: category.englishName,
         type: 'category',
         priority: 2, // Medium relevance
-      });
+        image: category.image,
+      } as any);
 
       // Add subcategories
       category.subcategories?.forEach(subcategory => {
@@ -45,36 +57,50 @@ export const useSearch = () => {
           type: 'subcategory',
           categoryId: category.id,
           priority: 3, // Lower relevance
-        });
+        } as any);
       });
     });
 
     return searchItems;
   }, []);
 
+  // Detect current language
+  const language = i18n.language || 'ar';
+
   // Fuse.js configuration
   const fuse = useMemo(() => {
+    // Dynamically set keys based on language
+    const keys = language === 'ar'
+      ? [{ name: 'name', weight: 1 }]
+      : [{ name: 'englishName', weight: 1 }];
+    // Always fallback to both for broad matching
+    if (language === 'ar') keys.push({ name: 'englishName', weight: 0.3 });
+    else keys.push({ name: 'name', weight: 0.3 });
     return new Fuse(searchIndex, {
-      keys: [
-        { name: 'name', weight: 0.7 },
-        { name: 'englishName', weight: 0.3 },
-      ],
+      keys,
       threshold: 0.4, // More lenient matching
       includeMatches: true,
       includeScore: true,
       useExtendedSearch: true,
     });
-  }, [searchIndex]);
+  }, [searchIndex, language]);
 
   // Search function
   const search = useCallback((searchQuery: string): SearchItem[] => {
     if (!searchQuery.trim()) return [];
 
-    const results = fuse.search(searchQuery);
+    let queryToSearch = searchQuery;
+    // Arabic keyword mapping
+    if (language === 'ar') {
+      const mapped = arabicKeywordMap[searchQuery.trim()];
+      if (mapped) queryToSearch = mapped;
+    }
+
+    const results = fuse.search(queryToSearch);
 
     // Transform results to include highlight information
     const transformedResults = results.map(result => {
-      const item = result.item as SearchItem;
+      const item = result.item as any;
       const matches = result.matches || [];
 
       // Extract highlight indices from matches
@@ -102,7 +128,7 @@ export const useSearch = () => {
         return (aResult?.score || 1) - (bResult?.score || 1);
       })
       .slice(0, 10); // Limit to 10 results
-  }, [fuse]);
+  }, [fuse, language]);
 
   // Get current search results
   const searchResults = useMemo(() => {

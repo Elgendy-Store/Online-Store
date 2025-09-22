@@ -83,6 +83,11 @@ export const categories: Category[] = [
         name: 'حوامل + اجهزة تبريد',
         englishName: 'Stands + Cooling Devices',
       },
+      {
+        id: '2-9',
+        name: 'فلاشة تخزين',
+        englishName: 'Flash Drive',
+      },
     ],
   },
   {
@@ -108,8 +113,8 @@ export const categories: Category[] = [
       },
       {
         id: '3-5',
-        name: 'اجهزة توصيل عن بعد',
-        englishName: 'Remote Control',
+        name: "ساعة ذكية",
+        englishName: 'Smart Watch',
       },
     ],
   },

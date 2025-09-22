@@ -197,11 +197,22 @@ export const SearchBar: React.FC<SearchBarProps> = ({
             >
               <div className="flex items-center justify-between">
                 <div className="flex-1 min-w-0">
-                  <div className="text-sm font-medium text-gray-900 truncate">
-                    {item.highlightIndices && item.highlightIndices.length > 0
-                      ? highlightText(item.name, item.highlightIndices)
-                      : item.name
-                    }
+                  <div className="flex items-center gap-2">
+                    {/* Product thumbnail if available */}
+                    {item.image && (
+                      <img
+                        src={item.image}
+                        alt={item.name}
+                        className="w-10 h-10 rounded object-cover border border-gray-200 mr-2 flex-shrink-0"
+                        style={{ minWidth: 40, minHeight: 40 }}
+                      />
+                    )}
+                    <div className="text-sm font-medium text-gray-900 truncate">
+                      {item.highlightIndices && item.highlightIndices.length > 0
+                        ? highlightText(item.name, item.highlightIndices)
+                        : item.name
+                      }
+                    </div>
                   </div>
                   {item.englishName && (
                     <div className="text-xs text-gray-500 truncate">

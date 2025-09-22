@@ -293,7 +293,7 @@ export const products: Product[] = [ // main products array
 {
   id: '210',
   name: 'ذاكرة فلاش Kingston DataTraveler SE9 64GB',
-  subcategory: "",
+  subcategory: "فلاشة تخزين",
   englishName: 'Kingston DataTraveler SE9 64GB Flash Drive',
   description: 'ذاكرة فلاش Kingston DataTraveler SE9 بسعة 64 جيجابايت مع واجهة USB 3.0/2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
   price: 265,
@@ -301,7 +301,7 @@ export const products: Product[] = [ // main products array
     kingston_64G_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الموبايل'
+'إكسسوارات الكمبيوتر'
   ],
   features: [
     "سعة 64 جيجابايت",
@@ -324,7 +324,7 @@ export const products: Product[] = [ // main products array
 {
   id: '209',
   name: 'ذاكرة فلاشة Kingston DataTraveler SE9 8GB',
-  subcategory: "",
+  subcategory: "فلاشة تخزين",
   englishName: 'Kingston DataTraveler SE9 8GB Flash Drive',
   description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 8 جيجابايت مع واجهة USB 3.0/2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات.',
   price: 155,
@@ -332,7 +332,7 @@ export const products: Product[] = [ // main products array
     kingston_8G_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الموبايل'
+'إكسسوارات الكمبيوتر'
   ],
   features: [
     "سعة 8 جيجابايت",
@@ -355,7 +355,7 @@ export const products: Product[] = [ // main products array
 {
   id: '208',
   name: 'ذاكرة فلاشة Kingston DataTraveler SE9 4GB',
-  subcategory: "",
+  subcategory: "فلاشة تخزين",
   englishName: 'Kingston DataTraveler SE9 4GB Flash Drive',
   description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 4 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات.',
   price: 125,
@@ -363,7 +363,7 @@ export const products: Product[] = [ // main products array
     kingston_4G_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الموبايل'
+'إكسسوارات الكمبيوتر'
   ],
   features: [
     "سعة 4 جيجابايت",
@@ -452,7 +452,7 @@ export const products: Product[] = [ // main products array
 {
   id: '205',
   name: 'ذاكرة فلاشة Kingston DataTraveler SE9 128GB',
-  subcategory: " ",
+  subcategory: "فلاشة تخزين",
   englishName: 'Kingston DataTraveler SE9 128GB Flash Drive',
   description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 128 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
   price: 350,
@@ -460,7 +460,7 @@ export const products: Product[] = [ // main products array
     kingston_128_flash_se9 // Variable for the image
   ],
   categories: [
-'إكسسوارات الموبايل'
+'إكسسوارات الكمبيوتر'
   ],
   features: [
     "سعة 128 جيجابايت",
@@ -591,7 +591,6 @@ export const products: Product[] = [ // main products array
   ],
   categories: [
     'إكسسوارات الموبايل',
-    'إلكترونيات منزلية صغيرة'
   ],
   features: [
     "ميكروفون عالي الجودة",
@@ -797,7 +796,7 @@ export const products: Product[] = [ // main products array
 {
   id: '195',
   name: 'ساعة T8000 Ultra 3 الذكية',
-  subcategory: "ساعات ذكية",
+  subcategory: "ساعة ذكية",
   englishName: 'T8000 Ultra 3 Smart Watch',
   description: 'ساعة T8000 Ultra 3 الذكية ذات استهلاك فائق الانخفاض للطاقة. تتميز بشاشة 2.20 بوصة وتدعم الشحن اللاسلكي. تشمل العبوة الساعة الذكية، سوار، كابل شحن، ودليل المستخدم.',
   price: 385,
@@ -829,7 +828,7 @@ export const products: Product[] = [ // main products array
 {
   id: '194',
   name: 'ساعة T800 Ultra 2-Plus الذكية',
-  subcategory: "ساعات ذكية",
+  subcategory: "ساعة ذكية",
   englishName: 'T800 Ultra 2-Plus Smart Watch',
   description: 'ساعة T800 Ultra 2-Plus الذكية مع تحكم بالإصبع وشحن لاسلكي. تأتي مع زوج واحد من السوار وكابل شحن ودليل المستخدم.',
   price: 450,
@@ -3468,14 +3467,14 @@ export const products: Product[] = [ // main products array
 {
   id: '120',
   name: 'شاحن سيارة VIDIVE بمنفذي USB',
-  subcategory: "اجهزة توصيل عن بعد",
+  subcategory: "شواحن",
   englishName: 'VIDIVE Dual USB Car Charger',
   description: 'شاحن سيارة ذكي وقوي من VIDIVE، يتميز بمنفذي USB ويوفر شحنًا فائق السرعة. مصمم ليكون آمنًا وموثوقًا، ويدعم مدخلات تيار مستمر 12-24 فولت. يوفر خرجًا يبلغ 5 فولت - 2.1 أمبير (كحد أقصى) لكل منفذ، مما يجعله مثاليًا لشحن الأجهزة أثناء القيادة. يأتي مع شواحن توصيل USB المقابلة.',
   price: 250, // Price in EGP
   images: [
     vidive_usp_car, // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة'],
+  categories: ['إكسسوارات الموبايل'],
   features: [
     "شاحن سيارة ذكي بمنفذ USB",
     "شحن USB فائق السرعة",
@@ -3768,14 +3767,14 @@ export const products: Product[] = [ // main products array
 {
   id: '110',
   name: 'مشغل MP3 للسيارة متعدد الوظائف HZ H38A',
-  subcategory: "اجهزة توصيل عن بعد",
+  subcategory: "شواحن",
   englishName: 'HZ H38A MULTIFUNCTION CAR MP3 PLAYER',
   description: 'مشغل MP3 للسيارة HZ H38A هو جهاز متعدد الوظائف يتيح لك الاستماع إلى الموسيقى وإجراء المكالمات بسهولة في السيارة. يتميز بمنفذين USB بقدرة إخراج 2.1 أمبير، مما يتيح لك شحن جهازين في وقت واحد. يأتي مع جهاز تحكم عن بعد لسهولة التشغيل ويدعم مدخلات 12-24 فولت، مما يجعله متوافقًا مع معظم السيارات.',
   price: 300, // Price in EGP
   images: [
     HZ_h38a, // Placeholder for actual image variable
   ],
-  categories: ['إلكترونيات منزلية صغيرة'],
+  categories: ['إكسسوارات الموبايل'],
   features: [
     "منفذين USB",
     "تيار إخراج 2.1 أمبير",
@@ -6601,7 +6600,7 @@ Hummer_3 // Placeholder image variable
     crashspeakerm3 // Placeholder for actual image variable (pink)
 
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "صوت جهير احترافي وقوي",
     "إضاءة RGB LED ديناميكية",
@@ -7041,7 +7040,7 @@ Hummer_3 // Placeholder image variable
     p222, // Placeholder for actual image variable (orange speaker)
     p222_2
   ],
-  categories: ['إلكترونيات منزلية صغيرة','إكسسوارات الموبايل'],
+  categories: ['إلكترونيات منزلية صغيرة'],
   features: [
     "إصدار بلوتوث V5.0 لاتصال لاسلكي مستقر",
     "مسافة إرسال تصل إلى 15 مترًا",
@@ -7853,7 +7852,7 @@ Hummer_3 // Placeholder image variable
 {
   id: '39',
   name: 'مصباح ليلي ذكي BDT AN2304 مع شاحن لاسلكي وسماعة وإضاءة RGB',
-  subcategory: "'أجهزة منزلية ذكية'",
+  subcategory: "أجهزة منزلية ذكية",
   englishName: 'BDT AN2304 Smart Night Light with Wireless Charger, Speaker & RGB Lights',
   description: 'ارتقِ بتجربتك الصوتية والضوئية مع جهاز BDT AN2304 المتعدد الوظائف. يجمع هذا الجهاز المبتكر بين مصباح طاولة بإضاءة RGB ديناميكية، وشاحن لاسلكي سريع لهاتفك الذكي، وسماعة بلوتوث عالية الجودة، وساعة رقمية أنيقة. يتميز بتصميم عصري يضيف لمسة جمالية لأي غرفة، ويوفر تحكمًا سهلاً في جميع وظائفه عبر الأزرار المدمجة. مثالي لغرف النوم، المكاتب، أو كقطعة مركزية ذكية تجمع بين الترفيه والعملية.',
   price: 495, // Estimated average price in EGP

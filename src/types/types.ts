@@ -92,4 +92,5 @@ export interface SearchItem {
   subcategoryId?: string;
   priority: number; // For sorting: subcategory (3) > category (2) > product (1)
   highlightIndices?: number[][]; // For highlighting matches
+  image?: string; // Optional image for product/category thumbnails
 }

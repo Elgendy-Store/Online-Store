@@ -5,7 +5,7 @@ import { getNewArrivals, getPromotionalItems, getBundles } from '../../data/prod
 import ProductCard from '../products/ProductCard';
 import Carousel from '../Carousel';
 
-const FeaturedProducts: React.FC<{autoplay?: boolean; autoplayInterval?: number}> = ({ autoplay = true, autoplayInterval = 2000 }) => {
+const FeaturedProducts: React.FC<{autoplay?: boolean; autoplayInterval?: number}> = ({ autoplay = true, autoplayInterval = 100000 }) => {
   const { t } = useTranslation();
   useBudget(); // ProductCard uses context directly
 
@@ -32,12 +32,8 @@ const FeaturedProducts: React.FC<{autoplay?: boolean; autoplayInterval?: number}
               product={product}
             />
           )}
-          autoplay={autoplay}
-          autoplayInterval={autoplayInterval}
-          pauseOnHover={true}
-          visibleSlides={{ mobile: 2, tablet: 3, desktop: 5 }}
-          ariaLabel={t('featuredProducts')}
-          className=""
+          autoScroll={autoplay}
+          interval={autoplayInterval}
         />
       </div>
     </section>
