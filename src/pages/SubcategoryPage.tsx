@@ -1,52 +1,38 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Filter } from 'lucide-react';
-import { getCategoryById } from '../data/categories';
-import { getProductsByCategory } from '../data/products';
+import { getProductsBySubcategory } from '../data/products';
 import ProductCard from '../components/products/ProductCard';
 import ProductFilter from '../components/products/ProductFilter';
 import { Product } from '../types/types';
 import '../styles/subcategory-btn.css';
 
-const CategoryPage: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
-  const { t, i18n } = useTranslation();
-  const category = getCategoryById(id || '');
-  const allCategoryProducts = getProductsByCategory(category?.name || '');
-  
-  const [filteredProducts, setFilteredProducts] = useState<Product[]>(allCategoryProducts);
+const SubcategoryPage: React.FC = () => {
+  const { subcategoryName } = useParams<{ subcategoryName: string }>();
+  const { t } = useTranslation();
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [minPrice, setMinPrice] = useState(0);
   const [maxPrice, setMaxPrice] = useState(10000);
   const [sortOption, setSortOption] = useState('newest');
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
   const [showDiscountedOnly, setShowDiscountedOnly] = useState(false);
-  const [selectedSubcategory, setSelectedSubcategory] = useState<string | null>(null);
 
   useEffect(() => {
-    if (category) {
+    if (subcategoryName) {
       filterAndSortProducts();
     }
-  }, [category, minPrice, maxPrice, sortOption, showDiscountedOnly, selectedSubcategory]);
+    // eslint-disable-next-line
+  }, [subcategoryName, minPrice, maxPrice, sortOption, showDiscountedOnly]);
 
   const filterAndSortProducts = () => {
-    let filtered = allCategoryProducts.filter(
+    let products = getProductsBySubcategory(subcategoryName || '');
+    let filtered = products.filter(
       (product) => product.price >= minPrice && product.price <= maxPrice
     );
-
-    // Filter by subcategory if selected
-    if (selectedSubcategory && selectedSubcategory !== 'all') {
-      filtered = filtered.filter((product) => {
-        if (!product.subcategory) return false;
-        // Always match against Arabic subcategory name
-        return product.subcategory.trim() === selectedSubcategory;
-      });
-    }
-
     if (showDiscountedOnly) {
       filtered = filtered.filter((product) => product.isPromotion === true);
     }
-
     switch (sortOption) {
       case 'newest':
         filtered = [...filtered].sort(
@@ -65,7 +51,6 @@ const CategoryPage: React.FC = () => {
       default:
         break;
     }
-
     setFilteredProducts(filtered);
   };
 
@@ -82,47 +67,21 @@ const CategoryPage: React.FC = () => {
     setShowDiscountedOnly(showDiscounted);
   };
 
-  const handleSubcategoryChange = (subcategoryArabicName: string | null) => {
-    setSelectedSubcategory(subcategoryArabicName);
-  };
-
-  // Helper to get the correct subcategory value for filtering
-  const getSubcategoryLabel = (subcategory: any) =>
-    i18n.language === 'ar' ? subcategory.name : subcategory.englishName;
-
-
   const toggleMobileFilter = () => {
     setIsMobileFilterOpen(!isMobileFilterOpen);
   };
-
-  if (!category) {
-    return (
-      <div className="container mx-auto px-4 py-16 text-center">
-        <h1 className="text-2xl font-bold mb-4">القسم غير موجود</h1>
-        <p>عذراً، القسم الذي تبحث عنه غير موجود.</p>
-      </div>
-    );
-  }
 
   return (
     <main className="bg-neutral-50 py-8">
       <div className="container mx-auto px-4">
         <div className="relative overflow-hidden rounded-xl mb-8 bg-gradient-to-r from-primary-900 to-primary-700 h-48 flex items-center">
           <div className="absolute inset-0">
-            <img
-              src={category.image}
-              alt={category.name}
-              className="w-full h-full object-cover mix-blend-overlay opacity-30"
-            />
+            {/* Optionally, show a subcategory image if available */}
           </div>
           <div className="relative z-10 text-white text-center w-full">
-            <h1 className="text-3xl md:text-4xl font-bold mb-2">{category.name}</h1>
-            {category.englishName && (
-              <p className="text-primary-200">{category.englishName}</p>
-            )}
+            <h1 className="text-3xl md:text-4xl font-bold mb-2">{subcategoryName}</h1>
           </div>
         </div>
-
         <div className="md:hidden mb-4">
           <button
             onClick={toggleMobileFilter}
@@ -132,37 +91,6 @@ const CategoryPage: React.FC = () => {
             {t('filter')}
           </button>
         </div>
-
-        {/* Subcategories Section */}
-        {category?.subcategories && category.subcategories.length > 0 && (
-          <div className="mb-6">
-            <div className="flex flex-wrap items-center gap-3 overflow-x-auto">
-              <button
-                onClick={() => handleSubcategoryChange(null)}
-                className={`whitespace-nowrap px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
-                  selectedSubcategory === null
-                    ? 'bg-primary-600 text-white shadow-md'
-                    : 'bg-white text-neutral-700 border border-neutral-300 hover:bg-neutral-50'
-                }`}
-              >
-                الكل
-              </button>
-              {category.subcategories.map((subcategory) => {
-                const label = getSubcategoryLabel(subcategory);
-                return (
-                  <Link
-                    key={subcategory.id}
-                    to={`/subcategory/${subcategory.name}`}
-                    className={"subcategory-btn bg-primary-50 text-primary-800 border border-primary-200 hover:bg-primary-100 flex items-center justify-center"}
-                  >
-                    {label}
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
         <div className="flex flex-col md:flex-row gap-6">
           <div className="md:w-1/4 lg:w-1/5">
             {isMobileFilterOpen && (
@@ -180,7 +108,6 @@ const CategoryPage: React.FC = () => {
                 </div>
               </div>
             )}
-            
             <div className="hidden md:block">
               <ProductFilter
                 minPrice={minPrice}
@@ -191,7 +118,6 @@ const CategoryPage: React.FC = () => {
               />
             </div>
           </div>
-
           <div className="md:w-3/4 lg:w-4/5">
             {filteredProducts.length > 0 ? (
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5 md:gap-6">
@@ -214,4 +140,4 @@ const CategoryPage: React.FC = () => {
   );
 };
 
-export default CategoryPage;
+export default SubcategoryPage;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Star, Check, Heart, ShoppingBag, ShoppingCart, Plus } from 'lucide-react';
+import { Check, Heart, ShoppingCart, Plus } from 'lucide-react';
 import { Product } from '../../types/types';
 import { useBudget } from '../../context/BudgetContext';
 import emailjs from '@emailjs/browser';
@@ -12,7 +12,7 @@ interface ProductCardProps {
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const { t } = useTranslation();
-  const { addToBudget, isInBudget } = useBudget();
+  const { addToBudget } = useBudget();
   const [isAddedToBudget, setIsAddedToBudget] = useState(false);
   const [isLiked, setIsLiked] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,12 +24,16 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const [isPhoneValid, setIsPhoneValid] = useState(true);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
+  const discountedPrice = product.isPromotion && product.discount_value
+    ? product.price - (product.price * (product.discount_value / 100))
+    : null;
+
   const handleAddToBudget = (e: React.MouseEvent) => {
     e.preventDefault();
     if (!isAddedToBudget) {
       addToBudget(product);
       setIsAddedToBudget(true);
-      setShowSuccessMessage(true); // Show the success message
+      setShowSuccessMessage(true);
     }
   };
 
@@ -38,13 +42,19 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     setIsLiked(!isLiked);
   };
 
-  const discountedPrice = product.isPromotion && product.discount_value
-    ? product.price - (product.price * (product.discount_value / 100))
-    : null;
-
   const handleBuyNow = (e: React.MouseEvent) => {
     e.preventDefault();
     setIsModalOpen(true);
+  };
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const newPhone = e.target.value;
+    setPhone(newPhone);
+    const phoneRegex = /^[0-9]{11}$/;
+    setIsPhoneValid(phoneRegex.test(newPhone.trim()));
+    if (!isPhoneValid && phoneRegex.test(newPhone.trim())) {
+      setError(null);
+    }
   };
 
   const sendEmail = (e: React.FormEvent) => {
@@ -63,6 +73,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     const orderId = `ORDER-${Date.now()}`;
     const baseUrl = 'https://elgendy-store.github.io/Online-Store';
     const productLink = `${baseUrl}/products/${product.id}`;
+
     const templateParams = {
       name,
       phone,
@@ -70,8 +81,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       product_price: discountedPrice?.toFixed(2) || product.price.toString(),
       product_link: productLink,
       order_id: orderId,
-      // Add recipient email here - please provide the store owner's email
-      // e.g., email: 'storeowner@example.com'
     };
 
     emailjs
@@ -96,17 +105,6 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       );
   };
 
-  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const newPhone = e.target.value;
-    setPhone(newPhone);
-    const phoneRegex = /^[0-9]{11}$/;
-    setIsPhoneValid(phoneRegex.test(newPhone.trim()));
-    if (!isPhoneValid && phoneRegex.test(newPhone.trim())) {
-      setError(null);
-    }
-  };
-
-  // Hide success message after 3 seconds
   useEffect(() => {
     if (showSuccessMessage) {
       const timer = setTimeout(() => {
@@ -123,6 +121,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           تمت الإضافة إلى السلة بنجاح
         </div>
       )}
+
+      {/* صورة المنتج */}
       <Link to={`/products/${product.id}`} className="block overflow-hidden relative">
         <img
           src={product.images[0]}
@@ -147,8 +147,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         <button
           onClick={handleLike}
           className={`absolute top-2 left-2 p-2 rounded-full transition-colors ${
-            isLiked 
-              ? 'bg-error-100 text-error-600' 
+            isLiked
+              ? 'bg-error-100 text-error-600'
               : 'bg-white/80 text-neutral-400 hover:text-error-600'
           }`}
           aria-label={isLiked ? 'إزالة من المفضلة' : 'إضافة إلى المفضلة'}
@@ -156,17 +156,27 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <Heart size={20} fill={isLiked ? 'currentColor' : 'none'} />
         </button>
       </Link>
-      
+
+      {/* تفاصيل المنتج */}
       <div className="p-3 md:p-4 flex-grow flex flex-col">
         <Link to={`/products/${product.id}`} className="block">
-          <h3 className="font-semibold text-base md:text-lg mb-1 hover:text-primary-600 transition-colors">
-            {product.name}
-          </h3>
-          
+        <h3 className="font-semibold text-base md:text-lg mb-1 hover:text-primary-600 transition-colors md:line-clamp-none">
+          {/* Mobile: custom substring */}
+          <span className="block md:hidden">
+            {product.name.length > 50
+              ? `${product.name.substring(0, Math.floor(product.name.length * 0.6))}... عرض المزيد`
+              : product.name}
+          </span>
+          {/* Desktop: full name */}
+          <span className="hidden md:block">{product.name}</span>
+        </h3>
+
         </Link>
-        
-        <div className="mt-auto flex items-center justify-between">
-          <div className="text-right">
+
+        {/* السعر + الأزرار */}
+        <div className="mt-auto">
+          {/* السعر */}
+          <div className="text-right mb-2 md:mb-0">
             {product.isPromotion && product.discount_value && (
               <span className="block mb-1 bg-secondary-500 text-secondary-1000 text-base font-medium px-2 py-1 rounded-full">
                 Sale -{product.discount_value}%
@@ -182,11 +192,14 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
                 </span>
               </div>
             ) : (
-              <span className="font-bold text-lg">{product.price} {t('egp')}</span>
+            <span className="font-bold text-lg text-sky-500">
+              {product.price} {t('egp')}
+            </span>
             )}
           </div>
-          
-          <div className="flex space-x-2 space-x-reverse">
+
+          {/* الأزرار */}
+          <div className="flex space-x-2 space-x-reverse mt-2 md:mt-0 md:justify-end">
             <button
               onClick={handleAddToBudget}
               disabled={isAddedToBudget}
@@ -210,6 +223,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           </div>
         </div>
 
+        {/* المودال */}
         {isModalOpen && (
           <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
             <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">

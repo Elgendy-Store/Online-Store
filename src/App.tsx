@@ -9,6 +9,7 @@ import BudgetPage from './pages/BudgetPage';
 import AboutPage from './pages/AboutPage';
 import CompareProducts from './pages/CompareProducts';
 import ContactPage from './pages/ContactPage';
+import SubcategoryPage from './pages/SubcategoryPage';
 import FAQPage from './pages/FAQPage';
 import SearchResultsPage from './pages/SearchResultsPage';
 import ScrollToTop from './components/ScrollToTop'; //asharmota!!
@@ -31,6 +32,7 @@ function App() {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/search" element={<SearchResultsPage />} />
+            <Route path="/subcategory/:subcategoryName" element={<SubcategoryPage />} />
             <Route path="/Online-Store" element={<Navigate to="/" replace />} />
             <Route path="*" element={<HomePage />} />
           </Routes>
