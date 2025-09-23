@@ -99,7 +99,7 @@ const SearchResultsPage: React.FC = () => {
         <div className="md:hidden mb-4">
           <button
             onClick={toggleMobileFilter}
-            className="w-full bg-white rounded-lg shadow-md p-3 flex items-center justify-center text-primary-700 font-medium"
+            className="w-full md:w-auto bg-primary-600 md:bg-white text-white md:text-primary-700 rounded-full md:rounded-lg shadow-lg md:shadow-md px-6 py-3 md:p-3 flex items-center justify-center font-bold md:font-medium text-base md:text-primary-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-400"
           >
             <Filter size={20} className="ml-2" />
             {t('filter')}

@@ -33,6 +33,7 @@ export interface Subcategory {
   id: string;
   name: string;
   englishName?: string;
+  image?: string;
 }
 
 export interface Review {

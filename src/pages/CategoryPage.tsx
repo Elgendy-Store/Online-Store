@@ -126,7 +126,7 @@ const CategoryPage: React.FC = () => {
         <div className="md:hidden mb-4">
           <button
             onClick={toggleMobileFilter}
-            className="w-full bg-white rounded-lg shadow-md p-3 flex items-center justify-center text-primary-700 font-medium"
+            className="w-full md:w-auto bg-primary-600 md:bg-white text-white md:text-primary-700 rounded-full md:rounded-lg shadow-lg md:shadow-md px-6 py-3 md:p-3 flex items-center justify-center font-bold md:font-medium text-base md:text-primary-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary-400"
           >
             <Filter size={20} className="ml-2" />
             {t('filter')}
@@ -155,7 +155,10 @@ const CategoryPage: React.FC = () => {
                     to={`/subcategory/${subcategory.name}`}
                     className={"subcategory-btn bg-primary-50 text-primary-800 border border-primary-200 hover:bg-primary-100 flex items-center justify-center"}
                   >
-                    {label}
+                    {subcategory.image && (
+                      <img src={subcategory.image} alt={label} className="w-10 h-10 mb-1 object-contain rounded-full bg-white border" />
+                    )}
+                    <span>{label}</span>
                   </Link>
                 );
               })}
