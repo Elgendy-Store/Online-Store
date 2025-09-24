@@ -1,19 +1,23 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useBudget } from '../../context/BudgetContext';
-import { getNewArrivals, getPromotionalItems, getBundles } from '../../data/products';
+import { getAllProducts } from '../../data/products'; // لازم يكون عندك فانكشن ترجع كل المنتجات
 import ProductCard from '../products/ProductCard';
 import Carousel from '../Carousel';
 
-const FeaturedProducts: React.FC<{autoplay?: boolean; autoplayInterval?: number}> = ({ autoplay = true, autoplayInterval = 100000 }) => {
+const FeaturedProducts: React.FC<{ autoplay?: boolean; autoplayInterval?: number }> = ({ 
+  autoplay = true, 
+  autoplayInterval = 100000 
+}) => {
   const { t } = useTranslation();
   useBudget(); // ProductCard uses context directly
 
-  const featuredProducts = getNewArrivals()
-    .concat(getPromotionalItems())
-    .concat(getBundles())
-    .filter((item, idx, arr) => arr.findIndex(p => p.id === item.id) === idx)
-    .slice(0, 10);
+  // 🟢 IDs اللي انت عايز تثبتها
+  const featuredProductIds = ['58','57','167','154','155','56','45','55','43','54','194','195','41','42']; 
+
+  // 🟢 فلترة المنتجات الثابتة بالـ IDs
+  const allProducts = getAllProducts();
+  const featuredProducts = allProducts.filter((p) => featuredProductIds.includes(p.id));
 
   return (
     <section id="featured-products" className="py-16 bg-white">
