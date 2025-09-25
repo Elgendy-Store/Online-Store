@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useBudget } from '../context/BudgetContext';
 import { Plus, Minus, Trash2 } from 'lucide-react';
 import { BudgetItem } from '../types/types';
+import './BudgetPage.mobile.css';
 
 const BudgetPage: React.FC = () => {
   const { t } = useTranslation();
@@ -36,13 +37,13 @@ const BudgetPage: React.FC = () => {
           return (
             <div
               key={item.product.id}
-              className="flex items-center justify-between py-6 border-b border-neutral-200 last:border-b-0"
+              className="flex items-center justify-between py-6 border-b border-neutral-200 last:border-b-0 cart-mobile-item"
             >
-              <div className="flex items-center space-x-6">
+              <div className="flex items-center space-x-6 cart-mobile-details">
                 <img
                   src={item.product.images[0]}
                   alt={item.product.name}
-                  className="w-20 h-20 object-cover rounded-lg border border-neutral-200"
+                  className="w-20 h-20 object-cover rounded-lg border border-neutral-200 cart-mobile-img"
                 />
                 <div>
                   <Link
@@ -68,11 +69,11 @@ const BudgetPage: React.FC = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-4">
-                <div className="flex items-center bg-neutral-100 rounded-full p-1">
+                <div className="flex items-center bg-neutral-100 rounded-full p-1 cart-mobile-qty-row">
                   <button
                     onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
                     disabled={item.quantity <= 1}
-                    className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
+                    className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 cart-mobile-qty-btns"
                     aria-label={t('decreaseQuantity')}
                   >
                     <Minus size={18} />
@@ -80,7 +81,7 @@ const BudgetPage: React.FC = () => {
                   <span className="w-12 text-center font-medium text-neutral-800">{item.quantity}</span>
                   <button
                     onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                    className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 transition-colors duration-200"
+                    className="w-10 h-10 flex items-center justify-center rounded-full text-neutral-600 hover:bg-neutral-200 transition-colors duration-200 cart-mobile-qty-btns"
                     aria-label={t('increaseQuantity')}
                   >
                     <Plus size={18} />
@@ -97,7 +98,7 @@ const BudgetPage: React.FC = () => {
             </div>
           );
         })}
-        <div className="mt-8">
+        <div className="mt-8 cart-mobile-totals-card">
           <p className="text-xl font-semibold text-neutral-800">
             {t('totalBudget')}: {getTotalBudget().toFixed(2)} {t('egp')}
           </p>
@@ -111,7 +112,7 @@ const BudgetPage: React.FC = () => {
             </button>
             <Link
               to="/contact"
-              className="bg-primary-600 text-white px-8 py-3 rounded-full font-medium hover:bg-primary-700 transition-colors duration-200 text-center"
+              className="bg-primary-600 text-white px-8 py-3 rounded-full font-medium hover:bg-primary-700 transition-colors duration-200 text-center cart-mobile-checkout-btn"
             >
               {t('contactToPurchase')}
             </Link>

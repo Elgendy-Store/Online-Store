@@ -4,6 +4,7 @@ import CategorySection from '../components/home/CategorySection';
 import FeaturedProducts from '../components/home/FeaturedProducts';
 import FeaturedSubcategoriesSection from '../components/home/FeaturedSubcategoriesSection';
 import BrandsSection from '../components/home/BrandsSection';
+import StorageDevicesSection from '../components/home/StorageDevicesSection';
 
 const HomePage: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage: React.FC = () => {
       {/* <Hero /> */}
       <CategorySection />
       <BrandsSection />
+      <StorageDevicesSection />
       <FeaturedSubcategoriesSection />
       <FeaturedProducts />
     </main>

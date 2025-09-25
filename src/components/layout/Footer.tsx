@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">{t('workingHours')}</h3>
             <ul className="space-y-3">
-              {storeInfo.workingHours.map((schedule, index) => (
+              {storeInfo.workingHours.map((schedule: { days: string; hours: string }, index: number) => (
                 <li key={index} className="flex items-start">
                   <Clock size={18} className="text-primary-400 ml-2 mt-1" />
                   <div>
@@ -87,9 +87,9 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">{t('followUs')}</h3>
             <div className="flex space-x-4 space-x-reverse mb-6">
-              {storeInfo.socialMedia.facebook && (
+              {storeInfo.socialMedia?.facebook && (
                 <a
-                  href={storeInfo.socialMedia.facebook}
+                  href={storeInfo.socialMedia?.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors"
@@ -97,9 +97,9 @@ const Footer: React.FC = () => {
                   <Facebook size={20} />
                 </a>
               )}
-              {storeInfo.socialMedia.instagram && (
+              {storeInfo.socialMedia?.instagram && (
                 <a
-                  href={storeInfo.socialMedia.instagram}
+                  href={storeInfo.socialMedia?.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-pink-600 text-white p-2 rounded-full hover:bg-pink-700 transition-colors"
@@ -107,9 +107,9 @@ const Footer: React.FC = () => {
                   <Instagram size={20} />
                 </a>
               )}
-              {storeInfo.socialMedia.whatsapp && (
+              {storeInfo.socialMedia?.whatsapp && (
                 <a
-                  href={storeInfo.socialMedia.whatsapp}
+                  href={storeInfo.socialMedia?.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-600 text-white p-2 rounded-full hover:bg-green-700 transition-colors"

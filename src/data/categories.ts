@@ -17,6 +17,7 @@ import laptop_charge from '../assets/laptop charger image.jpg';
 import speakers from '../assets/speakers image.jpg';
 import mostarak from '../assets/moshtarak.jpg';
 import smartwatch from '../assets/smart watch.webp';
+import memory_cards from '../assets/memory_cards.jpg';
 
 
 
@@ -62,6 +63,12 @@ export const categories: Category[] = [
         name: 'ميكروفون',
         englishName: 'Microphone',
         image: microphone,
+      },
+      {
+        id: '1-7',
+        name: 'كروت تخزين',
+        englishName: 'Memory Cards',
+        image: memory_cards,
       },
     ],
   },

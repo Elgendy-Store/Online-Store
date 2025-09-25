@@ -22,7 +22,7 @@ const featuredSubcategories = featuredSubcategoriesNames
 
 const FeaturedSubcategoriesSection: React.FC = () => {
   return (
-    <section className="py-8 px-4 md:px-8 lg:px-16 bg-white">
+    <section className="py-8 px-4 md:px-8 lg:px-16 bg-neutral-50">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-xl md:text-2xl font-bold mb-6 text-primary-700 text-center">اكتشف أقسامنا المميزة</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 md:gap-6 justify-items-center">

@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <div className="bg-gradient-to-r from-primary-900 to-primary-700 text-white py-16 md:py-24 px-4 overflow-hidden">
+    <div className="bg-white text-white py-16 md:py-24 px-4 overflow-hidden">
       <div className="container mx-auto relative">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <motion.div

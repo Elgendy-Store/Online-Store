@@ -1,7 +1,7 @@
 // src/data/brands.ts
 // Config file for brands section
 import anker from '../assets/anker-vector-logo.png';
-import jnuobi from '../assets/jnuobi_logo.jpeg';
+import jnuobi from '../assets/jnuobi_logo.png';
 import ldnio from '../assets/ldnio_logo.png';
 import point from '../assets/point_logo.png';
 import marshall from '../assets/Marshall-Logo.jpg';

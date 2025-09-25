@@ -1,277 +1,277 @@
 import { Product } from '../types/types';
-import sirwakeyboard from '../assets/jpg/sirwa keyboard.jpg';
-import sirwakeyboard1 from '../assets/jpg/sirwa keyboard1.jpg';
-import limidekeyboard from '../assets/jpg/Limeide keyboard.jpg';
-import limidekeyboard1 from '../assets/jpg/limidekeyboard1.jpg';
-import pointKeyboard1 from '../assets/jpg/pointkye.jpg';
-import smileKeyboard1 from '../assets/jpg/smile 2406.jpg';
-import largesmileKeyboard from '../assets/jpg/smile 2408.jpg';
-import crashspeakerm4 from '../assets/jpg/crash speaker m4.jpg';
-import speakerbdt6601 from '../assets/jpg/speakerbdt6601.jpg';
-import speakergts1360 from '../assets/jpg/speakergts1360.jpg';
-import speakerpointpt122 from '../assets/jpg/point pt122.jpg';
-import speakera012 from '../assets/jpg/speakera012.jpg';
-import crashspeakerm3 from '../assets/jpg/crash speaker m3.jpg';
-import speakermininbox from '../assets/jpg/speaker mini box.jpg';
-import kisonlik100 from '../assets/jpg/kisonli k100.jpg';
-import goldenkingg06 from '../assets/jpg/golden king speaker g06.jpg';
-import goldenkingg418 from '../assets/jpg/goldenking speaker g418.jpg';
-import bdtan18 from '../assets/jpg/bdt speaker an18.jpg';
-import minibassm1 from '../assets/jpg/mini speaker bass m1.jpg';
-import bdtan22 from '../assets/jpg/speaker bdt an22.jpg';
-import lavast40 from '../assets/jpg/speaker lava st-40.jpg';
-import kisonlis444 from '../assets/jpg/kisonli speaker s444.jpg';
-import p222 from '../assets/jpg/speakerp222.jpg';
-import p222_2 from '../assets/jpg/speakerp222.1.jpg';
-import crashx4 from '../assets/jpg/crashspeakerx4.jpg';
-import crashx9 from '../assets/jpg/crashspeakerx9.jpg';
-import speaker1201_1 from '../assets/jpg/speaker 1201.1.jpg';
-import speaker1201_2 from '../assets/jpg/speaker 1201.2.jpg';
-import kt125 from '../assets/jpg/kt125.jpg';
-import crashx40 from '../assets/jpg/crash x40.jpg';
-import crashx40_2 from '../assets/jpg/crash x40.2.jpg';
-import araimo from '../assets/jpg/araimo.jpg';
-import scorpion2 from '../assets/jpg/scorpion marvo.2.jpg';
-import scorpion from '../assets/jpg/scorpion marvo.2.jpg';
-import scorpion3 from '../assets/jpg/scorpoin marvo.3.jpg';
-import catp47m from '../assets/jpg/cat p47m.jpg';
-import catp47m_2 from '../assets/jpg/cat p47m.2.jpg';
-import catp47m_3 from '../assets/jpg/cat p47m.3.jpg';
-import p47 from '../assets/jpg/p47.jpg';
-import p47_2 from '../assets/jpg/p47.2.jpg';
-import p39 from '../assets/jpg/p39.jpg';
-import p39_2 from '../assets/jpg/p39.2.jpg';
-import marshall_major703 from '../assets/jpg/marshall major 703.jpg';
-import marshall_major703_2 from '../assets/jpg/marshall major 703.2.jpg';
-import marshall_major703_3 from '../assets/jpg/marshall major 703.3.jpg';
-import marshall_major703_4 from '../assets/jpg/marshall major 703.4.jpg';
-import marshal_major903 from '../assets/jpg/marshall major 908.jpg';
-import marshal_major903_2 from '../assets/jpg/marshall major 908.2.jpg';
-import mx666 from '../assets/jpg/mx666.jpg';
-import mx666_2 from '../assets/jpg/mx666.2.jpg';
-import p9 from '../assets/jpg/p9.jpg';
-import p9_2 from '../assets/jpg/p9.2.jpg';
-import p9_3 from '../assets/jpg/p9.3.jpg';
-import mic_B from '../assets/jpg/mic bluetooth.jpg';
-import mini_fan from '../assets/jpg/fan.jpg';
-import mini_fanr from '../assets/jpg/mini fanr.jpeg';
-import mini_fang from '../assets/jpg/minin fang.jpeg';
-import mini_fanw from '../assets/jpg/mini fanw.jpeg';
-import bdt_an2304 from '../assets/jpg/btd an 2304.jpg';
-import bdt_an2304mini from '../assets/jpg/btd an 2304mini.jpg';
-import jpl_m3_mini from '../assets/jpg/jpl m3 mini.jpg';
-import infinixpower from '../assets/jpg/Infinix Xpower 20.jpg';
-import hocopower from '../assets/jpg/Hoco magnetic wireless charger ultra slim.jpg';
-import SamsungAKG from '../assets/jpg/Samsung AKG.jpg';
-import Hummer from '../assets/jpg/Hummer.jpg';
-import Hummer_2 from '../assets/jpg/Hummer_2.jpg';
-import Hummer_3 from '../assets/jpg/Hummer_3.jpg';
-import AITNT_XS from '../assets/jpg/AI TNT XSeries.jpg';
-import AITNT_XS_2 from '../assets/jpg/AI TNT XSeries_2.jpg';
-import AN99 from '../assets/jpg/AN99.jpg';
-import AN99_3 from '../assets/jpg/AN99_3.jpg';
-import AN99_2 from '../assets/jpg/AN99_2.jpg';
-import N191 from '../assets/jpg/AN191_2.jpg';
-import N191_2 from '../assets/jpg/N191.jpg';
-import AITNT_OEIM from '../assets/jpg/AI TNT OIEM.jpg';
-import AITNT_OEIM_2 from '../assets/jpg/AI TNT OIEM_2.jpg';
-import crashoffice from '../assets/jpg/Crash office mouse w500.jpg';
-import crashoffice_2 from '../assets/jpg/Crash office mouse w500_2.jpg';
-import commouse from '../assets/jpg/competetive cool game mouse.jpg';
-import commouse_2 from '../assets/jpg/competetive cool game mouse_2.jpg';
-import bdtan4200 from '../assets/jpg/BDT an-4200.jpg';
-import bdtan4200_2 from '../assets/jpg/BDT an-4200_2.jpg';
-import gnobign04 from '../assets/jpg/JNUOBI AN-04.jpg';
-import gnobign04_2 from '../assets/jpg/JNUOBI AN-04_2.jpg';
-import point_pt09 from '../assets/jpg/point pt-09.jpg';
-import point_pt09_2 from '../assets/jpg/point pt-09_2.jpg';
-import point_pt09_3 from '../assets/jpg/point pt-09_3.jpg';
-import AITNTx200 from '../assets/jpg/AI TNT x200.jpg';
-import AITNTx200_2 from '../assets/jpg/AI TNT x200_2.jpg';
-import AITNTx200_3 from '../assets/jpg/AI TNT x200_3.jpg';
-import AITNTx200_4 from '../assets/jpg/AI TNT x200_4.jpg';
-import pointpt950 from '../assets/jpg/point pt-950.jpg';
-import pointpt950_2 from '../assets/jpg/point pt-950_2.jpg';
-import hp210 from '../assets/jpg/HP mouse w10.jpg';
-import hp210_2 from '../assets/jpg/HP mouse w10_2.jpg';
-import MJK from '../assets/jpg/MJK K1gaming.jpg';
-import MJK2 from '../assets/jpg/MJK K1gaming_2.jpg';
-import lavaadaptor from '../assets/jpg/lava wifi adaptor.jpg';
-import jbltune760 from '../assets/jpg/JBL tune 760.jpg';
-import jbltune760_2 from '../assets/jpg/JBL tune 760_2.jpg';
-import jbltune760_3 from '../assets/jpg/JBL tune 760_3.jpg';
-import ramko from '../assets/jpg/Ramko RH-112.jpg';
-import ramko2 from '../assets/jpg/Ramko RH-112_2.jpg';
-import crashx50 from '../assets/jpg/crashx50.jpg';
-import crashx50_2 from '../assets/jpg/crashx50_2.jpg';
-import laverockhp from '../assets/jpg/HP Laverock 2.4G wireless optical mouse.jpg';
-import laverockhp2 from '../assets/jpg/HP Laverock 2.4G wireless optical mouse_2.jpg';
-import Ptechp11 from '../assets/jpg/p tech p11.jpg';
-import Ptechp11_2 from '../assets/jpg/p tech p11_2.jpg';
-import gigamax from '../assets/jpg/GIGAMAX G-1600 WIRELESS MOUSE.jpg';
-import gigamax2 from '../assets/jpg/GIGAMAX G-1600 WIRELESS MOUSE_2.jpg';
-import goldeng10 from '../assets/jpg/Goldenking G10 wireless mouse.jpg';
-import goldeng10_2 from '../assets/jpg/Goldenking G10 wireless mouse_2.jpg';
-import havit from '../assets/jpg/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE.jpg';
-import havit2 from '../assets/jpg/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE_2.jpg';
-import havit3 from '../assets/jpg/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE_3.jpg';
-import margo from '../assets/jpg/MARGO MR-302 2.4GHZ WIRELESS MOUSE.jpg';
-import margo2 from '../assets/jpg/MARGO MR-302 2.4GHZ WIRELESS MOUSE_2.jpg';
-import bandak from '../assets/jpg/banda k100.jpg';
-import bandak2 from '../assets/jpg/banda k100_2.jpg';
-import pointpt800 from '../assets/jpg/point pt800.jpg';
-import pointpt800_2 from '../assets/jpg/point pt800_2.jpg';
-import pointpt200 from '../assets/jpg/point wireless dual mode mini keyboard.jpg';
-import pointpt200_2 from '../assets/jpg/point wireless dual mode mini keyboard_2.jpg';
-import pointpt200_3 from '../assets/jpg/point wireless dual mode mini keyboard_3.jpg';
-import _4splus_cable from '../assets/jpg/4s pluse cable.jpg';
-import ldnio_ls from '../assets/jpg/LDNIO LC651i.jpg';
-import chrome_cast from '../assets/jpg/chrome cast.jpg';
-import kingston_8G from '../assets/jpg/kingston 8G.jpg';
-import microphone from '../assets/jpg/microphone.jpg';
-import mobile_stand from '../assets/jpg/mobile stand.jpg';
-import earpods_lighting from '../assets/jpg/earpods lighting.jpg';
-import samsung_usp_c_adaptor from '../assets/jpg/samsung usp-c adaptor.jpg';
-import lenyes_lc_502_tc_1_ from '../assets/jpg/lenyes lc 502 tc-1`.jpg';
-import ldnio_32w from '../assets/jpg/ldnio 32w.jpg';
-import Jnuobi_jc_120a from '../assets/jpg/Jnuobi jc 120a.jpg';
-import LdnioLS881 from '../assets/jpg/Ldnio.jpg';
-import heatz from '../assets/jpg/heatz.jpg';
-import masa_ma_15_cable from '../assets/jpg/masa ma 15 cable.jpg';
-import ldnio_tpe_cable from '../assets/jpg/ldnio tpe cable.jpg';
-import joyroom_3_in_1_cable from '../assets/jpg/joyroom 3 in 1 cable.jpg';
-import MIC_cable from '../assets/jpg/MIC cable.jpg';
-import masa_ma_60_cable from '../assets/jpg/masa ma 60 cable.jpg';
-import masa_ma_70_cable from '../assets/jpg/masa ma 70 cable.jpg';
-import jnuobi_s_1_lightning_cable from '../assets/jpg/jnuobi s-1 lightning cable.jpg';
-import gx_cable from '../assets/jpg/gx cable.jpg';
-import jnuobi_3_in_1_cable from '../assets/jpg/jnuobi 3 in 1 cable.jpg';
-import ehp_c_20_cable from '../assets/jpg/ehp c-20 cable.jpg';
-import ldnio_pvc_ls_841_cable from '../assets/jpg/ldnio pvc ls-841 cable.jpg';
-import jnuobi_yp_171_aux_cable from '../assets/jpg/jnuobi yp-171 aux  cable.jpg';
-import biboshi_c_06 from '../assets/jpg/biboshi c-06.jpg';
-import biboshi_c78 from '../assets/jpg/biboshi c78.jpg';
-import biboshi_b03_175 from '../assets/jpg/biboshi b03-175.jpg';
-import masa_ma_555 from '../assets/jpg/masa ma 555.jpg';
-import temax_0122 from '../assets/jpg/temax 0122.jpg';
-import oppo_gan from '../assets/jpg/oppo gan.jpg';
-import biboshi_a02 from '../assets/jpg/biboshi a02.jpg';
-import gerlax_a10l from '../assets/jpg/gerlax a10l.jpg';
-import energizer_cable from '../assets/jpg/energizer cable.jpg';
-import samsung_25w_pd_adaptor from '../assets/jpg/samsung 25w pd adaptor.jpg';
-import biboshi_b03_119 from '../assets/jpg/biboshi b03-119.jpg';
-import HZ_h38a from '../assets/jpg/HZ h38a.jpg';
-import usp_c_25w_power_adaptor from '../assets/jpg/usp-c 25w power adaptor.jpg';
-import JH_002 from '../assets/jpg/JH-002.jpg';
-import li_ion_battery from '../assets/jpg/li-ion battery.jpg';
-import jnuobi_cc_03 from '../assets/jpg/jnuobi cc-03.jpg';
-import jnuobi_cc_04 from '../assets/jpg/jnuobi cc-04.jpg';
-import jnuobi_bycicle____ from '../assets/jpg/jnuobi bycicle,,,,.jpg';
-import card_reader from '../assets/jpg/card reader.jpg';
-import pubg_fingers from '../assets/jpg/pubg fingers.jpg';
-import joyroom_miro_male_to_usp from '../assets/jpg/joyroom miro male to usp.jpg';
-import vidive_usp_car from '../assets/jpg/vidive usp car.jpg';
-import spieder_power_adaptor from '../assets/jpg/spieder power adaptor.jpg';
-import vidive_hs_660 from '../assets/jpg/vidive hs 660.jpg';
-import blue_spectrum_d42 from '../assets/jpg/blue spectrum d42.jpg';
-import JOYROOM_S_A14 from '../assets/jpg/JOYROOM S-A14.jpg';
-import JOYROOM_S_A29 from '../assets/jpg/JOYROOM S-A29.jpg';
-import crash_hp from '../assets/jpg/crash hp.jpg';
-import crash_dell from '../assets/jpg/crash dell.jpg';
-import platinum_le from '../assets/jpg/platinum le.jpg';
-import Platinume_AS from '../assets/jpg/Platinume AS.jpg';
-import platinum_TO_2 from '../assets/jpg/platinum TO_2.jpg';
-import platinum_TO from '../assets/jpg/platinum TO.jpg';
-import ldnio_ls421_1M_lenght from '../assets/jpg/ldnio ls421 1M lenght.jpg';
-import hoco_c101a from '../assets/jpg/hoco c101a.jpg';
-import LDNIO_LS641 from '../assets/jpg/LDNIO LS641.jpg';
-import ldnio_ls421_2M_lenth from '../assets/jpg/ldnio ls421 2M lenth.jpg';
-import gemax_hy_c610 from '../assets/jpg/gemax hy-c610.jpg';
-import jnuobi_x_120 from '../assets/jpg/jnuobi x-120.jpg';
-import anker_ldo_cable from '../assets/jpg/anker ldo cable.jpg';
-import type_c_to_type_c_cable from '../assets/jpg/type-c to type-c cable.jpg';
-import wuw_t_82 from '../assets/jpg/wuw t-82.jpg';
-import sky_dolphine_sc07v from '../assets/jpg/sky dolphine sc07v.jpg';
-import blue_specturm_d_43 from '../assets/jpg/blue specturm d-43.jpg';
-import vdenmenv_dr01 from '../assets/jpg/vdenmenv dr01.jpg';
-import ysion from '../assets/jpg/ysion.jpg';
-import unipha_u19 from '../assets/jpg/unipha u19.jpg';
-import duda_du_01 from '../assets/jpg/duda du-01.jpg';
-import ehp_c_1 from '../assets/jpg/ehp c-1.jpg';
-import biboshi_b01_03 from '../assets/jpg/biboshi b01-03.jpg';
-import one_depot_s01t from '../assets/jpg/one depot s01t.jpg';
-import jnuobi_s_2 from '../assets/jpg/jnuobi s-2.jpg';
-import dolphin_d_162 from '../assets/jpg/dolphin d-162.jpg';
-import anker_ak_2 from '../assets/jpg/anker ak-2.jpg';
-import wuw_x_195 from '../assets/jpg/wuw x-195.jpg';
-import dolphin_d_160 from '../assets/jpg/dolphin d-160.jpg';
-import grand_mouse_3 from '../assets/jpg/grand mouse_3.jpg';
-import grand_mouse_1 from '../assets/jpg/grand mouse.jpg';
-import grand_mouse_2 from '../assets/jpg/grand mouse_2.jpg';
-import grand_mouse_4 from '../assets/jpg/grand mouse_4.jpg';
-import spider_gaming_mouse_1 from '../assets/jpg/spider gamming mouse.webp';
-import spider_gaming_mouse_2 from '../assets/jpg/spider gaming mouse_2.webp';
-import lenovo_hanging_headphone_1 from '../assets/jpg/LENOVO HANGING HEADPHONE.jpg';
-import lenovo_hanging_headphone_2 from '../assets/jpg/LENOVO HANGING HEADPHONE_2.jpg';
-import usp_c_to_lighning_power_adaptor from '../assets/jpg/usp-c to lighning power adaptor.jpg';
-import heatz_zcc3 from '../assets/jpg/heatz zcc3.jpg';
-import heatz_zc46 from '../assets/jpg/heatz zc46.jpg';
-import heatz_zc33 from '../assets/jpg/heatz  zc33.jpg';
-import hdtv_premium from '../assets/jpg/hdtv premium.jpg';
-import crash_usp_hub from '../assets/jpg/crash usp hub.jpg';
-import cms_usp_hub from '../assets/jpg/cms usp hub.jpg';
-import kinoken_usp_hub from '../assets/jpg/kinoken usp hub.jpg';
-import Twins from '../assets/jpg/Twins.jpg';
-import GLX from '../assets/jpg/GLX.jpg';
-import lava_st_300_1 from '../assets/jpg/lava st-300.jpg';
-import lava_st_300_2 from '../assets/jpg/lava st-300_2.jpg';
-import lava_st_300_3 from '../assets/jpg/lava st-300_3.jpg';
-import crash_m400 from '../assets/jpg/crash m400.jpg';
-import jinheung from '../assets/jpg/jinheung.jpg';
-import crash_m300 from '../assets/jpg/crash m300.jpg';
-import anker_power_set_2 from '../assets/jpg/anker power set_2.jpg';
-import anker_power_set from '../assets/jpg/anker power set.jpg';
-import mi_67W from '../assets/jpg/mi 67W.jpg';
-import emy_port_charge from '../assets/jpg/emy port charge.jpg';
-import aorax_my_10 from '../assets/jpg/aorax my-10.jpg';
-import cable_4s_5 from '../assets/jpg/4s-5 data cable.jpg';
-import fox_data_cabel from '../assets/jpg/fox data cabel.jpg';
-import gemax_hy_c39 from '../assets/jpg/gemax hy-c39.jpg';
-import cable_4s_13 from '../assets/jpg/4s-13 data  cable.jpg';
-import cable_4s_15 from '../assets/jpg/4s-15 data cabel.jpg';
-import anker_iphone_cable from '../assets/jpg/anker iphone cable.jpg';
-import anker_iphone_earphone from '../assets/jpg/anker iphone earphone.jpg';
-import remax_earphone from '../assets/jpg/remax earphone.jpg';
-import ehp_earphone from '../assets/jpg/ehp earphone.jpg';
-import joyroom_jr_el120 from '../assets/jpg/joyroom jr-el120.jpg';
-import jnuobi_yx_02 from '../assets/jpg/jnuobi yx-02.jpg';
-import heatz_za68e from '../assets/jpg/heatz za68e.jpg';
-import airpods from '../assets/jpg/airpods.jpg';
-import xertmt_jl_1267 from '../assets/jpg/xertmt jl-1267.jpg';
-import ldnio_power_bank_pq19 from '../assets/jpg/ldnio power bank pq19.jpg';
-import jnuobi_power_bank_dy_25 from '../assets/jpg/jnuobi power bank dy-25.jpg';
-import jnuobi_power_bank_3c_06 from '../assets/jpg/jnuobi power bank 3c-06.jpg';
-import jnuobi_jc05 from '../assets/jpg/jnuobi jc05.jpg';
-import gemax_hy_c508 from '../assets/jpg/gemax hy-c508.jpg';
-import t800_ultra_2_plus from '../assets/jpg/t800 ultra 2 -plus.jpg';
-import t800_ultra_3 from '../assets/jpg/t800 ultra 3.jpg';
-import Magnetic_charging_cable from '../assets/jpg/Magnetic charging cable.jpg';
-import jbl_jl_324 from '../assets/jpg/jbl jl-324.jpg';
-import _35w_USP_C_power_adaptor_USP_C_TO_LIGHTNING_CABLE from '../assets/jpg/35w USP-C power adaptor USP-C TO LIGHTNING CABLE.jpg';
-import GT_122_SPEAKER from '../assets/jpg/GT-122 SPEAKER.jpg';
-import mini_speaker_ws_887 from '../assets/jpg/mini speaker ws-887.jpg';
-import video_making_kit from '../assets/jpg/video making kit.jpg';
-import video_making_kit_2 from '../assets/jpg/video making kit_2.jpg';
-import bt_wireless_earphone_m10 from '../assets/jpg/bt wireless earphone m10.jpg';
-import kt_125 from '../assets/jpg/kt-125.jpg';
-import mobile_water_cover from '../assets/jpg/mobile water cover.jpg';
-import kingston_64G_card from '../assets/jpg/kingston 64G card.jpg';
-import kingston_128_flash_se9 from '../assets/jpg/kingston 128 flash se9.jpg';
-import kingston_8G_card from '../assets/jpg/kingston 8G card.jpg';
-import kingston_128G_card from '../assets/jpg/kingston 128G card.jpg';
-import kingston_4G_flash_se9 from '../assets/jpg/kingston 4G flash se9.jpg';
-import kingston_8G_flash_se9 from '../assets/jpg/kingston 8G flash se9.jpg';
-import kingston_64G_flash_se9 from '../assets/jpg/kingston 64G flash se9.jpg';
+import sirwakeyboard from '../assets/webp/sirwa keyboard.webp';
+import sirwakeyboard1 from '../assets/webp/sirwa keyboard1.webp';
+import limidekeyboard from '../assets/webp/Limeide keyboard.webp';
+import limidekeyboard1 from '../assets/webp/limidekeyboard1.webp';
+import pointKeyboard1 from '../assets/webp/pointkye.webp';
+import smileKeyboard1 from '../assets/webp/smile 2406.webp';
+import largesmileKeyboard from '../assets/webp/smile 2408.webp';
+import crashspeakerm4 from '../assets/webp/crash speaker m4.webp';
+import speakerbdt6601 from '../assets/webp/speakerbdt6601.webp';
+import speakergts1360 from '../assets/webp/speakergts1360.webp';
+import speakerpointpt122 from '../assets/webp/point pt122.webp';
+import speakera012 from '../assets/webp/speakera012.webp';
+import crashspeakerm3 from '../assets/webp/crash speaker m3.webp';
+import speakermininbox from '../assets/webp/speaker mini box.webp';
+import kisonlik100 from '../assets/webp/kisonli k100.webp';
+import goldenkingg06 from '../assets/webp/golden king speaker g06.webp';
+import goldenkingg418 from '../assets/webp/goldenking speaker g418.webp';
+import bdtan18 from '../assets/webp/bdt speaker an18.webp';
+import minibassm1 from '../assets/webp/mini speaker bass m1.webp';
+import bdtan22 from '../assets/webp/speaker bdt an22.webp';
+import lavast40 from '../assets/webp/speaker lava st-40.webp';
+import kisonlis444 from '../assets/webp/kisonli speaker s444.webp';
+import p222 from '../assets/webp/speakerp222.webp';
+import p222_2 from '../assets/webp/speakerp222.1.webp';
+import crashx4 from '../assets/webp/crashspeakerx4.webp';
+import crashx9 from '../assets/webp/crashspeakerx9.webp';
+import speaker1201_1 from '../assets/webp/speaker 1201.1.webp';
+import speaker1201_2 from '../assets/webp/speaker 1201.2.webp';
+import kt125 from '../assets/webp/kt125.webp';
+import crashx40 from '../assets/webp/crash x40.webp';
+import crashx40_2 from '../assets/webp/crash x40.2.webp';
+import araimo from '../assets/webp/araimo.webp';
+import scorpion2 from '../assets/webp/scorpion marvo.2.webp';
+import scorpion from '../assets/webp/scorpion marvo.2.webp';
+import scorpion3 from '../assets/webp/scorpoin marvo.3.webp';
+import catp47m from '../assets/webp/cat p47m.webp';
+import catp47m_2 from '../assets/webp/cat p47m.2.webp';
+import catp47m_3 from '../assets/webp/cat p47m.3.webp';
+import p47 from '../assets/webp/p47.webp';
+import p47_2 from '../assets/webp/p47.2.webp';
+import p39 from '../assets/webp/p39.webp';
+import p39_2 from '../assets/webp/p39.2.webp';
+import marshall_major703 from '../assets/webp/marshall major 703.webp';
+import marshall_major703_2 from '../assets/webp/marshall major 703.2.webp';
+import marshall_major703_3 from '../assets/webp/marshall major 703.3.webp';
+import marshall_major703_4 from '../assets/webp/marshall major 703.4.webp';
+import marshal_major903 from '../assets/webp/marshall major 908.webp';
+import marshal_major903_2 from '../assets/webp/marshall major 908.2.webp';
+import mx666 from '../assets/webp/mx666.webp';
+import mx666_2 from '../assets/webp/mx666.2.webp';
+import p9 from '../assets/webp/p9.webp';
+import p9_2 from '../assets/webp/p9.2.webp';
+import p9_3 from '../assets/webp/p9.3.webp';
+import mic_B from '../assets/webp/mic bluetooth.webp';
+import mini_fan from '../assets/webp/fan.webp';
+import mini_fanr from '../assets/webp/mini fanr.jpeg';
+import mini_fang from '../assets/webp/minin fang.jpeg';
+import mini_fanw from '../assets/webp/mini fanw.jpeg';
+import bdt_an2304 from '../assets/webp/btd an 2304.webp';
+import bdt_an2304mini from '../assets/webp/btd an 2304mini.webp';
+import jpl_m3_mini from '../assets/webp/jpl m3 mini.webp';
+import infinixpower from '../assets/webp/Infinix Xpower 20.webp';
+import hocopower from '../assets/webp/Hoco magnetic wireless charger ultra slim.webp';
+import SamsungAKG from '../assets/webp/Samsung AKG.webp';
+import Hummer from '../assets/webp/Hummer.webp';
+import Hummer_2 from '../assets/webp/Hummer_2.webp';
+import Hummer_3 from '../assets/webp/Hummer_3.webp';
+import AITNT_XS from '../assets/webp/AI TNT XSeries.webp';
+import AITNT_XS_2 from '../assets/webp/AI TNT XSeries_2.webp';
+import AN99 from '../assets/webp/AN99.webp';
+import AN99_3 from '../assets/webp/AN99_3.webp';
+import AN99_2 from '../assets/webp/AN99_2.webp';
+import N191 from '../assets/webp/AN191_2.webp';
+import N191_2 from '../assets/webp/N191.webp';
+import AITNT_OEIM from '../assets/webp/AI TNT OIEM.webp';
+import AITNT_OEIM_2 from '../assets/webp/AI TNT OIEM_2.webp';
+import crashoffice from '../assets/webp/Crash office mouse w500.webp';
+import crashoffice_2 from '../assets/webp/Crash office mouse w500_2.webp';
+import commouse from '../assets/webp/competetive cool game mouse.webp';
+import commouse_2 from '../assets/webp/competetive cool game mouse_2.webp';
+import bdtan4200 from '../assets/webp/BDT an-4200.webp';
+import bdtan4200_2 from '../assets/webp/BDT an-4200_2.webp';
+import gnobign04 from '../assets/webp/JNUOBI AN-04.webp';
+import gnobign04_2 from '../assets/webp/JNUOBI AN-04_2.webp';
+import point_pt09 from '../assets/webp/point pt-09.webp';
+import point_pt09_2 from '../assets/webp/point pt-09_2.webp';
+import point_pt09_3 from '../assets/webp/point pt-09_3.webp';
+import AITNTx200 from '../assets/webp/AI TNT x200.webp';
+import AITNTx200_2 from '../assets/webp/AI TNT x200_2.webp';
+import AITNTx200_3 from '../assets/webp/AI TNT x200_3.webp';
+import AITNTx200_4 from '../assets/webp/AI TNT x200_4.webp';
+import pointpt950 from '../assets/webp/point pt-950.webp';
+import pointpt950_2 from '../assets/webp/point pt-950_2.webp';
+import hp210 from '../assets/webp/HP mouse w10.webp';
+import hp210_2 from '../assets/webp/HP mouse w10_2.webp';
+import MJK from '../assets/webp/MJK K1gaming.webp';
+import MJK2 from '../assets/webp/MJK K1gaming_2.webp';
+import lavaadaptor from '../assets/webp/lava wifi adaptor.webp';
+import jbltune760 from '../assets/webp/JBL tune 760.webp';
+import jbltune760_2 from '../assets/webp/JBL tune 760_2.webp';
+import jbltune760_3 from '../assets/webp/JBL tune 760_3.webp';
+import ramko from '../assets/webp/Ramko RH-112.webp';
+import ramko2 from '../assets/webp/Ramko RH-112_2.webp';
+import crashx50 from '../assets/webp/crashx50.webp';
+import crashx50_2 from '../assets/webp/crashx50_2.webp';
+import laverockhp from '../assets/webp/HP Laverock 2.4G wireless optical mouse.webp';
+import laverockhp2 from '../assets/webp/HP Laverock 2.4G wireless optical mouse_2.webp';
+import Ptechp11 from '../assets/webp/p tech p11.webp';
+import Ptechp11_2 from '../assets/webp/p tech p11_2.webp';
+import gigamax from '../assets/webp/GIGAMAX G-1600 WIRELESS MOUSE.webp';
+import gigamax2 from '../assets/webp/GIGAMAX G-1600 WIRELESS MOUSE_2.webp';
+import goldeng10 from '../assets/webp/Goldenking G10 wireless mouse.webp';
+import goldeng10_2 from '../assets/webp/Goldenking G10 wireless mouse_2.webp';
+import havit from '../assets/webp/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE.webp';
+import havit2 from '../assets/webp/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE_2.webp';
+import havit3 from '../assets/webp/HAVIT HM-MS753 SMALL AND EXQUISITE DESIGN OPTICAL MOUSE_3.webp';
+import margo from '../assets/webp/MARGO MR-302 2.4GHZ WIRELESS MOUSE.webp';
+import margo2 from '../assets/webp/MARGO MR-302 2.4GHZ WIRELESS MOUSE_2.webp';
+import bandak from '../assets/webp/banda k100.webp';
+import bandak2 from '../assets/webp/banda k100_2.webp';
+import pointpt800 from '../assets/webp/point pt800.webp';
+import pointpt800_2 from '../assets/webp/point pt800_2.webp';
+import pointpt200 from '../assets/webp/point wireless dual mode mini keyboard.webp';
+import pointpt200_2 from '../assets/webp/point wireless dual mode mini keyboard_2.webp';
+import pointpt200_3 from '../assets/webp/point wireless dual mode mini keyboard_3.webp';
+import _4splus_cable from '../assets/webp/4s pluse cable.webp';
+import ldnio_ls from '../assets/webp/LDNIO LC651i.webp';
+import chrome_cast from '../assets/webp/chrome cast.webp';
+import kingston_8G from '../assets/webp/kingston 8G.webp';
+import microphone from '../assets/webp/microphone.webp';
+import mobile_stand from '../assets/webp/mobile stand.webp';
+import earpods_lighting from '../assets/webp/earpods lighting.webp';
+import samsung_usp_c_adaptor from '../assets/webp/samsung usp-c adaptor.webp';
+import lenyes_lc_502_tc_1_ from '../assets/webp/lenyes lc 502 tc-1`.webp';
+import ldnio_32w from '../assets/webp/ldnio 32w.webp';
+import Jnuobi_jc_120a from '../assets/webp/Jnuobi jc 120a.webp';
+import LdnioLS881 from '../assets/webp/Ldnio.webp';
+import heatz from '../assets/webp/heatz.webp';
+import masa_ma_15_cable from '../assets/webp/masa ma 15 cable.webp';
+import ldnio_tpe_cable from '../assets/webp/ldnio tpe cable.webp';
+import joyroom_3_in_1_cable from '../assets/webp/joyroom 3 in 1 cable.webp';
+import MIC_cable from '../assets/webp/MIC cable.webp';
+import masa_ma_60_cable from '../assets/webp/masa ma 60 cable.webp';
+import masa_ma_70_cable from '../assets/webp/masa ma 70 cable.webp';
+import jnuobi_s_1_lightning_cable from '../assets/webp/jnuobi s-1 lightning cable.webp';
+import gx_cable from '../assets/webp/gx cable.webp';
+import jnuobi_3_in_1_cable from '../assets/webp/jnuobi 3 in 1 cable.webp';
+import ehp_c_20_cable from '../assets/webp/ehp c-20 cable.webp';
+import ldnio_pvc_ls_841_cable from '../assets/webp/ldnio pvc ls-841 cable.webp';
+import jnuobi_yp_171_aux_cable from '../assets/webp/jnuobi yp-171 aux  cable.webp';
+import biboshi_c_06 from '../assets/webp/biboshi c-06.webp';
+import biboshi_c78 from '../assets/webp/biboshi c78.webp';
+import biboshi_b03_175 from '../assets/webp/biboshi b03-175.webp';
+import masa_ma_555 from '../assets/webp/masa ma 555.webp';
+import temax_0122 from '../assets/webp/temax 0122.webp';
+import oppo_gan from '../assets/webp/oppo gan.webp';
+import biboshi_a02 from '../assets/webp/biboshi a02.webp';
+import gerlax_a10l from '../assets/webp/gerlax a10l.webp';
+import energizer_cable from '../assets/webp/energizer cable.webp';
+import samsung_25w_pd_adaptor from '../assets/webp/samsung 25w pd adaptor.webp';
+import biboshi_b03_119 from '../assets/webp/biboshi b03-119.webp';
+import HZ_h38a from '../assets/webp/HZ h38a.webp';
+import usp_c_25w_power_adaptor from '../assets/webp/usp-c 25w power adaptor.webp';
+import JH_002 from '../assets/webp/JH-002.webp';
+import li_ion_battery from '../assets/webp/li-ion battery.webp';
+import jnuobi_cc_03 from '../assets/webp/jnuobi cc-03.webp';
+import jnuobi_cc_04 from '../assets/webp/jnuobi cc-04.webp';
+import jnuobi_bycicle____ from '../assets/webp/jnuobi bycicle,,,,.webp';
+import card_reader from '../assets/webp/card reader.webp';
+import pubg_fingers from '../assets/webp/pubg fingers.webp';
+import joyroom_miro_male_to_usp from '../assets/webp/joyroom miro male to usp.webp';
+import vidive_usp_car from '../assets/webp/vidive usp car.webp';
+import spieder_power_adaptor from '../assets/webp/spieder power adaptor.webp';
+import vidive_hs_660 from '../assets/webp/vidive hs 660.webp';
+import blue_spectrum_d42 from '../assets/webp/blue spectrum d42.webp';
+import JOYROOM_S_A14 from '../assets/webp/JOYROOM S-A14.webp';
+import JOYROOM_S_A29 from '../assets/webp/JOYROOM S-A29.webp';
+import crash_hp from '../assets/webp/crash hp.webp';
+import crash_dell from '../assets/webp/crash dell.webp';
+import platinum_le from '../assets/webp/platinum le.webp';
+import Platinume_AS from '../assets/webp/Platinume AS.webp';
+import platinum_TO_2 from '../assets/webp/platinum TO_2.webp';
+import platinum_TO from '../assets/webp/platinum TO.webp';
+import ldnio_ls421_1M_lenght from '../assets/webp/ldnio ls421 1M lenght.webp';
+import hoco_c101a from '../assets/webp/hoco c101a.webp';
+import LDNIO_LS641 from '../assets/webp/LDNIO LS641.webp';
+import ldnio_ls421_2M_lenth from '../assets/webp/ldnio ls421 2M lenth.webp';
+import gemax_hy_c610 from '../assets/webp/gemax hy-c610.webp';
+import jnuobi_x_120 from '../assets/webp/jnuobi x-120.webp';
+import anker_ldo_cable from '../assets/webp/anker ldo cable.webp';
+import type_c_to_type_c_cable from '../assets/webp/type-c to type-c cable.webp';
+import wuw_t_82 from '../assets/webp/wuw t-82.webp';
+import sky_dolphine_sc07v from '../assets/webp/sky dolphine sc07v.webp';
+import blue_specturm_d_43 from '../assets/webp/blue specturm d-43.webp';
+import vdenmenv_dr01 from '../assets/webp/vdenmenv dr01.webp';
+import ysion from '../assets/webp/ysion.webp';
+import unipha_u19 from '../assets/webp/unipha u19.webp';
+import duda_du_01 from '../assets/webp/duda du-01.webp';
+import ehp_c_1 from '../assets/webp/ehp c-1.webp';
+import biboshi_b01_03 from '../assets/webp/biboshi b01-03.webp';
+import one_depot_s01t from '../assets/webp/one depot s01t.webp';
+import jnuobi_s_2 from '../assets/webp/jnuobi s-2.webp';
+import dolphin_d_162 from '../assets/webp/dolphin d-162.webp';
+import anker_ak_2 from '../assets/webp/anker ak-2.webp';
+import wuw_x_195 from '../assets/webp/wuw x-195.webp';
+import dolphin_d_160 from '../assets/webp/dolphin d-160.webp';
+import grand_mouse_3 from '../assets/webp/grand mouse_3.webp';
+import grand_mouse_1 from '../assets/webp/grand mouse.webp';
+import grand_mouse_2 from '../assets/webp/grand mouse_2.webp';
+import grand_mouse_4 from '../assets/webp/grand mouse_4.webp';
+import spider_gaming_mouse_1 from '../assets/webp/spider gamming mouse.webp';
+import spider_gaming_mouse_2 from '../assets/webp/spider gaming mouse_2.webp';
+import lenovo_hanging_headphone_1 from '../assets/webp/LENOVO HANGING HEADPHONE.webp';
+import lenovo_hanging_headphone_2 from '../assets/webp/LENOVO HANGING HEADPHONE_2.webp';
+import usp_c_to_lighning_power_adaptor from '../assets/webp/usp-c to lighning power adaptor.webp';
+import heatz_zcc3 from '../assets/webp/heatz zcc3.webp';
+import heatz_zc46 from '../assets/webp/heatz zc46.webp';
+import heatz_zc33 from '../assets/webp/heatz  zc33.webp';
+import hdtv_premium from '../assets/webp/hdtv premium.webp';
+import crash_usp_hub from '../assets/webp/crash usp hub.webp';
+import cms_usp_hub from '../assets/webp/cms usp hub.webp';
+import kinoken_usp_hub from '../assets/webp/kinoken usp hub.webp';
+import Twins from '../assets/webp/Twins.webp';
+import GLX from '../assets/webp/GLX.webp';
+import lava_st_300_1 from '../assets/webp/lava st-300.webp';
+import lava_st_300_2 from '../assets/webp/lava st-300_2.webp';
+import lava_st_300_3 from '../assets/webp/lava st-300_3.webp';
+import crash_m400 from '../assets/webp/crash m400.webp';
+import jinheung from '../assets/webp/jinheung.webp';
+import crash_m300 from '../assets/webp/crash m300.webp';
+import anker_power_set_2 from '../assets/webp/anker power set_2.webp';
+import anker_power_set from '../assets/webp/anker power set.webp';
+import mi_67W from '../assets/webp/mi 67W.webp';
+import emy_port_charge from '../assets/webp/emy port charge.webp';
+import aorax_my_10 from '../assets/webp/aorax my-10.webp';
+import cable_4s_5 from '../assets/webp/4s-5 data cable.webp';
+import fox_data_cabel from '../assets/webp/fox data cabel.webp';
+import gemax_hy_c39 from '../assets/webp/gemax hy-c39.webp';
+import cable_4s_13 from '../assets/webp/4s-13 data  cable.webp';
+import cable_4s_15 from '../assets/webp/4s-15 data cabel.webp';
+import anker_iphone_cable from '../assets/webp/anker iphone cable.webp';
+import anker_iphone_earphone from '../assets/webp/anker iphone earphone.webp';
+import remax_earphone from '../assets/webp/remax earphone.webp';
+import ehp_earphone from '../assets/webp/ehp earphone.webp';
+import joyroom_jr_el120 from '../assets/webp/joyroom jr-el120.webp';
+import jnuobi_yx_02 from '../assets/webp/jnuobi yx-02.webp';
+import heatz_za68e from '../assets/webp/heatz za68e.webp';
+import airpods from '../assets/webp/airpods.webp';
+import xertmt_jl_1267 from '../assets/webp/xertmt jl-1267.webp';
+import ldnio_power_bank_pq19 from '../assets/webp/ldnio power bank pq19.webp';
+import jnuobi_power_bank_dy_25 from '../assets/webp/jnuobi power bank dy-25.webp';
+import jnuobi_power_bank_3c_06 from '../assets/webp/jnuobi power bank 3c-06.webp';
+import jnuobi_jc05 from '../assets/webp/jnuobi jc05.webp';
+import gemax_hy_c508 from '../assets/webp/gemax hy-c508.webp';
+import t800_ultra_2_plus from '../assets/webp/t800 ultra 2 -plus.webp';
+import t800_ultra_3 from '../assets/webp/t800 ultra 3.webp';
+import Magnetic_charging_cable from '../assets/webp/Magnetic charging cable.webp';
+import jbl_jl_324 from '../assets/webp/jbl jl-324.webp';
+import _35w_USP_C_power_adaptor_USP_C_TO_LIGHTNING_CABLE from '../assets/webp/35w USP-C power adaptor USP-C TO LIGHTNING CABLE.webp';
+import GT_122_SPEAKER from '../assets/webp/GT-122 SPEAKER.webp';
+import mini_speaker_ws_887 from '../assets/webp/mini speaker ws-887.webp';
+import video_making_kit from '../assets/webp/video making kit.webp';
+import video_making_kit_2 from '../assets/webp/video making kit_2.webp';
+import bt_wireless_earphone_m10 from '../assets/webp/bt wireless earphone m10.webp';
+import kt_125 from '../assets/webp/kt-125.webp';
+import mobile_water_cover from '../assets/webp/mobile water cover.webp';
+import kingston_64G_card from '../assets/webp/kingston 64G card.webp';
+import kingston_128_flash_se9 from '../assets/webp/kingston 128 flash se9.webp';
+import kingston_8G_card from '../assets/webp/kingston 8G card.webp';
+import kingston_128G_card from '../assets/webp/kingston 128G card.webp';
+import kingston_4G_flash_se9 from '../assets/webp/kingston 4G flash se9.webp';
+import kingston_8G_flash_se9 from '../assets/webp/kingston 8G flash se9.webp';
+import kingston_64G_flash_se9 from '../assets/webp/kingston 64G flash se9.webp';
 
 // Sample products data (will be expanded in a real implementation)
 export const products: Product[] = [ // main products array
@@ -288,8 +288,136 @@ export const products: Product[] = [ // main products array
 
 
 
-
-
+{
+  id: '207',
+  name: 'بطاقة Kingston 128GB MicroSD Canvas Select Plus',
+  subcategory: 'كروت تخزين',
+  englishName: 'Kingston 128GB MicroSD Card Canvas Select Plus',
+  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 128 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
+  price: 350,
+  images: [
+    kingston_128G_card // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 128 جيجابايت",
+    "سرعة قراءة 100 ميجابايت/ثانية",
+    "تتضمن محول SD"
+  ],
+  specifications: {
+    'السعة': '128 جيجابايت',
+    'السرعة': '100 ميجابايت/ثانية',
+    'الفئة': 'Canvas Select Plus',
+    'النوع': 'MicroSDHC'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.9,
+  reviewCount: 18,
+  createdAt: new Date('2025-07-02T06:50:56.000Z')
+},
+{
+  id: '204',
+  name: 'بطاقة Kingston 64GB MicroSD Canvas Select Plus',
+  subcategory: 'كروت تخزين',
+  englishName: 'Kingston 64GB MicroSD Card Canvas Select Plus',
+  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 64 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
+  price: 265,
+  images: [
+    kingston_64G_card // Variable for the image
+  ],
+  categories: [
+    'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 64 جيجابايت",
+    "سرعة قراءة 100 ميجابايت/ثانية",
+    "تتضمن محول SD"
+  ],
+  specifications: {
+    'السعة': '64 جيجابايت',
+    'السرعة': '100 ميجابايت/ثانية',
+    'الفئة': 'Canvas Select Plus',
+    'النوع': 'MicroSDHC'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.8,
+  reviewCount: 15,
+  createdAt: new Date('2025-06-27T08:39:15.000Z')
+},
+{
+  id: '206',
+  name: 'بطاقة Kingston 8GB MicroSD Canvas Select Plus',
+  subcategory: 'كروت تخزين',
+  englishName: 'Kingston 8GB MicroSD Card Canvas Select Plus',
+  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 8 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
+  price: 155,
+  images: [
+    kingston_8G_card // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الموبايل'
+  ],
+  features: [
+    "سعة 8 جيجابايت",
+    "سرعة قراءة 100 ميجابايت/ثانية",
+    "تتضمن محول SD"
+  ],
+  specifications: {
+    'السعة': '8 جيجابايت',
+    'السرعة': '100 ميجابايت/ثانية',
+    'الفئة': 'Canvas Select Plus',
+    'النوع': 'MicroSDHC'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.7,
+  reviewCount: 9,
+  createdAt: new Date('2025-07-02T06:49:35.000Z')
+},
+{
+  id: '205',
+  name: 'ذاكرة فلاشة Kingston DataTraveler SE9 128GB',
+  subcategory: "فلاشة تخزين",
+  englishName: 'Kingston DataTraveler SE9 128GB Flash Drive',
+  description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 128 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
+  price: 350,
+  images: [
+    kingston_128_flash_se9 // Variable for the image
+  ],
+  categories: [
+'إكسسوارات الكمبيوتر'
+  ],
+  features: [
+    "سعة 128 جيجابايت",
+    "واجهة USB 2.0"
+  ],
+  specifications: {
+    'السعة': '128 جيجابايت',
+    'النوع': 'DataTraveler SE9',
+    'الواجهة': 'USB 2.0'
+  },
+  discount_value:5,
+  isAvailable: true,
+  isNew: true,
+  isPromotion: false,
+  isBundle: false,
+  rating: 4.5,
+  reviewCount: 10,
+  createdAt: new Date('2025-06-27T08:40:30.000Z')
+},
 {
   id: '210',
   name: 'ذاكرة فلاش Kingston DataTraveler SE9 64GB',
@@ -382,136 +510,6 @@ export const products: Product[] = [ // main products array
   rating: 4.3,
   reviewCount: 7,
   createdAt: new Date('2025-07-02T07:52:13.000Z')
-},
-{
-  id: '207',
-  name: 'بطاقة Kingston 128GB MicroSD Canvas Select Plus',
-  subcategory: "",
-  englishName: 'Kingston 128GB MicroSD Card Canvas Select Plus',
-  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 128 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
-  price: 350,
-  images: [
-    kingston_128G_card // Variable for the image
-  ],
-  categories: [
-'إكسسوارات الموبايل'
-  ],
-  features: [
-    "سعة 128 جيجابايت",
-    "سرعة قراءة 100 ميجابايت/ثانية",
-    "تتضمن محول SD"
-  ],
-  specifications: {
-    'السعة': '128 جيجابايت',
-    'السرعة': '100 ميجابايت/ثانية',
-    'الفئة': 'Canvas Select Plus',
-    'النوع': 'MicroSDHC'
-  },
-  discount_value:5,
-  isAvailable: true,
-  isNew: true,
-  isPromotion: false,
-  isBundle: false,
-  rating: 4.9,
-  reviewCount: 18,
-  createdAt: new Date('2025-07-02T06:50:56.000Z')
-},
-{
-  id: '206',
-  name: 'بطاقة Kingston 8GB MicroSD Canvas Select Plus',
-  subcategory: " ",
-  englishName: 'Kingston 8GB MicroSD Card Canvas Select Plus',
-  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 8 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
-  price: 155,
-  images: [
-    kingston_8G_card // Variable for the image
-  ],
-  categories: [
-'إكسسوارات الموبايل'
-  ],
-  features: [
-    "سعة 8 جيجابايت",
-    "سرعة قراءة 100 ميجابايت/ثانية",
-    "تتضمن محول SD"
-  ],
-  specifications: {
-    'السعة': '8 جيجابايت',
-    'السرعة': '100 ميجابايت/ثانية',
-    'الفئة': 'Canvas Select Plus',
-    'النوع': 'MicroSDHC'
-  },
-  discount_value:5,
-  isAvailable: true,
-  isNew: true,
-  isPromotion: false,
-  isBundle: false,
-  rating: 4.7,
-  reviewCount: 9,
-  createdAt: new Date('2025-07-02T06:49:35.000Z')
-},
-{
-  id: '205',
-  name: 'ذاكرة فلاشة Kingston DataTraveler SE9 128GB',
-  subcategory: "فلاشة تخزين",
-  englishName: 'Kingston DataTraveler SE9 128GB Flash Drive',
-  description: 'ذاكرة فلاشة Kingston DataTraveler SE9 بسعة 128 جيجابايت مع واجهة USB 2.0. تصميم أنيق ومتين، مثالي لتخزين ونقل الملفات الكبيرة.',
-  price: 350,
-  images: [
-    kingston_128_flash_se9 // Variable for the image
-  ],
-  categories: [
-'إكسسوارات الكمبيوتر'
-  ],
-  features: [
-    "سعة 128 جيجابايت",
-    "واجهة USB 2.0"
-  ],
-  specifications: {
-    'السعة': '128 جيجابايت',
-    'النوع': 'DataTraveler SE9',
-    'الواجهة': 'USB 2.0'
-  },
-  discount_value:5,
-  isAvailable: true,
-  isNew: true,
-  isPromotion: false,
-  isBundle: false,
-  rating: 4.5,
-  reviewCount: 10,
-  createdAt: new Date('2025-06-27T08:40:30.000Z')
-},
-{
-  id: '204',
-  name: 'بطاقة Kingston 64GB MicroSD Canvas Select Plus',
-  subcategory: " ",
-  englishName: 'Kingston 64GB MicroSD Card Canvas Select Plus',
-  description: 'بطاقة ذاكرة Kingston MicroSD بسعة 64 جيجابايت، من فئة Canvas Select Plus، توفر سرعة قراءة تصل إلى 100 ميجابايت/ثانية. مثالية للهواتف الذكية والأجهزة اللوحية والكاميرات، وتأتي مع محول SD.',
-  price: 265,
-  images: [
-    kingston_64G_card // Variable for the image
-  ],
-  categories: [
-    'إكسسوارات الموبايل'
-  ],
-  features: [
-    "سعة 64 جيجابايت",
-    "سرعة قراءة 100 ميجابايت/ثانية",
-    "تتضمن محول SD"
-  ],
-  specifications: {
-    'السعة': '64 جيجابايت',
-    'السرعة': '100 ميجابايت/ثانية',
-    'الفئة': 'Canvas Select Plus',
-    'النوع': 'MicroSDHC'
-  },
-  discount_value:5,
-  isAvailable: true,
-  isNew: true,
-  isPromotion: false,
-  isBundle: false,
-  rating: 4.8,
-  reviewCount: 15,
-  createdAt: new Date('2025-06-27T08:39:15.000Z')
 },
 {
   id: '203',

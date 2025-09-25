@@ -12,7 +12,10 @@ const BrandsSection: React.FC = () => {
   };
 
   return (
-    <section className="brands-section">
+    <section className="brands-section bg-white">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-bold text-neutral-900 mb-4">البراندات</h2>
+      </div>
       <div className="brands-grid">
         {brands.map((brand) => (
           <div

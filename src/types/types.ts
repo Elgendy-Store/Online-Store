@@ -81,7 +81,13 @@ export interface StoreInfo {
   workingHours: {
     days: string;
     hours: string;
+  }[];
+  socialMedia?: {
+    facebook?: string;
+    instagram?: string;
+    whatsapp?: string;
   };
+
 }
 
 export interface SearchItem {
